@@ -1,9 +1,10 @@
 
 .root-container {
     padding-top: 3%;
-    margin: auto 100px;
+    margin: auto;
     font-size: 1.3em;
-    max-width: 800px;
+    max-width: 1000px;
+    width: 70%;
 }
 .nav-link {
     font-size: 1.3em;
@@ -16,19 +17,53 @@
 }
 
 .brand {
-    color: rgb(227, 114, 99) !important;
-    font-weight: 600 !important;
-    font-size: 2em;
-    padding-right: 30px;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
 }
+
+.brand a {
+    text-decoration: none;
+    color: rgb(200, 50, 50) !important;
+    font-weight: 600 !important;
+    font-size: 5em;
+}
+
 .subbrand {
     font-weight: 600 !important;
     padding-left: 5px;
-    color: rgba(0,0,0,.5) !important;
+    color: rgba(0, 0, 0, 0.7) !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
     margin-bottom: 2%;
     color: rgba(0,0,0,.7) !important;
+}
+
+.work-list {
+    color: rgba(0, 0, 0, 0.7) !important;
+    margin: auto;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.5em;
+    width: 70%;
+}
+
+.work-list a {
+    color: rgba(0, 0, 0, 0.7) !important;
+    text-decoration: none !important;
+}
+
+.menu-item {
+    text-decoration: none;
+    padding-right: 1.5em;
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.menu-item:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6) !important;
 }
