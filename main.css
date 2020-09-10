@@ -1,15 +1,18 @@
 
 .root-container {
-    padding-top: 3%;
-    margin: auto;
+    margin-top: 1em;
     font-size: 1.3em;
-    max-width: 1000px;
-    width: 70%;
+    width:100%;
+    padding: 0;
 }
+
+.navbar {
+}
+
 .nav-link {
-    font-size: 1.3em;
-    font-weight: 600;
-    padding-right: 20px !important;
+    font-size: 1.1em;
+    font-weight: 450;
+    padding-right: 1em !important;
 }
 
 .active .nav-link {
@@ -17,16 +20,16 @@
 }
 
 .brand {
-    padding: 1em;
+    padding: 0.5em;
     margin: 0 auto;
-    text-align: center;
+    padding-right: 5%;
 }
 
 .brand a {
     text-decoration: none;
     color: rgb(200, 50, 50) !important;
     font-weight: 600 !important;
-    font-size: 5em;
+    font-size: 2em;
 }
 
 .subbrand {
@@ -37,33 +40,21 @@
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
-    margin-bottom: 2%;
-    color: rgba(0,0,0,.7) !important;
+    color:rgba(0, 0, 0, 0.8) !important;
 }
 
-.work-list {
-    color: rgba(0, 0, 0, 0.7) !important;
-    margin: auto;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 1.5em;
-    width: 70%;
+h2 {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
 }
 
-.work-list a {
-    color: rgba(0, 0, 0, 0.7) !important;
-    text-decoration: none !important;
+h5 {
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
 }
 
-.menu-item {
-    text-decoration: none;
-    padding-right: 1.5em;
-    color: rgba(0, 0, 0, 0.8) !important;
-    font-weight: 500;
-    font-size: 1.2em;
+.section {
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
-.menu-item:hover {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.6) !important;
-}
