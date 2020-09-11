@@ -2,7 +2,7 @@
 .root-container {
     margin-top: 1em;
     font-size: 1.3em;
-    width:100%;
+    width: 100%;
     padding: 0;
 }
 
@@ -13,12 +13,18 @@
 .nav-link {
     font-size: 1em;
     font-weight: 400;
-    padding-right: 1.5em !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
 }
 
 .active .nav-link {
     color: rgba(0,0,0,.8) !important;
 }
+
+.nav-link:hover {
+    color: rgba(0,0,0,.8) !important;
+}
+
 
 .brand {
     margin: 0 auto;
@@ -42,7 +48,7 @@
 h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
     color:rgba(0, 0, 0, 0.8) !important;
-}
+}  
 
 h2 {
     padding-top: 2em;
@@ -58,4 +64,3 @@ h5 {
     padding-left: 2em;
     padding-right: 2em;
 }
-
