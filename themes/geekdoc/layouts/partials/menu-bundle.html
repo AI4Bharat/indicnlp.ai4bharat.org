@@ -21,6 +21,7 @@
             <span class="flex">
                 {{ if $icon }}<svg class="icon {{ .icon }}"><use xlink:href="#{{ .icon }}"></use></svg>{{ end }}
                 <a href="{{ if .external }}{{ .ref }}{{ else }}{{ relref $current .ref }}{{ end }}"
+                    target="{{ if .new_tab }}_blank{{ end }}"
                     class="gdoc-nav__entry {{ if not .external }}{{ if eq $current $this }}is-active{{ end }}{{ end }}">
                     {{ .name }}
                 </a>
