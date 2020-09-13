@@ -1,69 +1,21 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+---
+title: "IndicNLP Corpora"
+weight: 10
+---
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+IndicNLP corpora has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months. It has been used to train our released models.
 
-        <link rel="stylesheet" href="main.css" type="text/css">
-        <title>indicnlp</title>
-    </head>
-
-
-    <body>
-
-        <div class="container root-container">
-
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow-sm">
-                <div class="navbar-brand brand"><a href="#">AI4Bharat <span class="subbrand">indicnlp</span></a></div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link active" href="corpus.html">Corpus</a>
-                        <a class="nav-item nav-link" href="ifasttext.html">iFastText</a>
-                        <a class="nav-item nav-link" href="indic-bert.html">Indic BERT</a>
-                    </div>
-                </div>
-            </nav>
-
-            <br><br>
-
-            <div class="section">
-                <div style="width: 50%; min-width: 500px; padding-top: 2em; padding-bottom: 2em; margin: 0 auto;">
-
-                    <div style="font-size: 3em; font-weight: 600; color: rgba(0, 0, 0, 0.7)">Indic Corpora</div>
-                    Large monolingual corpora covering 12 major Indian languages.
-                    <br>
-                    <a href="">Paper</a> | <a href="">Download</a>
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="section">
-                <h2>Monolingual Corpus</h2>
-
-                <p>
-                    <h5>The Dataset</h5>
-                    <p>Collected from various news sources</p>
-                    <h5>Dataset Format</h5>
-                    <p></p>One sentence per line</p>
-                    <h5>Download Links</h5>
-                    <table class="table">
-                        <tr>
-                            <td>Language</td>
-                            <td>Sentences</td>
-                            <td>Tokens</td>
-                            <td>Types</td>
-                            <td>Vocab Frequency</td>
-                            <td>Corpus</td>
-                        </tr>
+##### Download Links
+<div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <th>Language</th>
+                            <th>Sentences</th>
+                            <th>Tokens</th>
+                            <th>Types</th>
+                            <th>Vocab</th>
+                            <th>Corpus</th>
+                        </thead>
                         <tr>
                             <td>pa</td>
                             <td>6.5M</td>
@@ -145,16 +97,4 @@
                             <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/ta.txt.gz">link</a></td>
                         </tr>
                     </table>
-                </p>
-                <br/>
-            </div>
-        </div>
-
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
-</html>
+</div>

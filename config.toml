@@ -1,0 +1,28 @@
+baseURL = "http://localhost"
+title = "AI4Bharat IndicNLP"
+theme = "geekdoc"
+
+# Geekdoc required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+
+disablePathToLower = true
+enableGitInfo=true
+
+# Needed for mermaid shortcodes
+[markup]
+  [markup.goldmark.renderer]
+    # Needed for mermaid shortcode
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+
+[params]
+  # (Optional, default true) Enables search function with flexsearch.
+  # Index is built on the fly and might slowdown your website.
+  geekdocSearch = false
+
+  # (Optional, default true) Show a breadcrumb navigation bar at the top of each docs page.
+  # You can also specify this parameter per page in front matter.
+  geekdocBreadcrumb = false

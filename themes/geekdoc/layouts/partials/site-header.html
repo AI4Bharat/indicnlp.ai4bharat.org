@@ -1,0 +1,15 @@
+<header class="gdoc-header  bg-light shadow-sm">
+    <div class="container float-left">
+        {{ if .MenuEnabled }}
+        <label for="menu-control" class="gdoc-nav__control">
+            <svg class="icon menu"><use xlink:href="#menu"></use></svg>
+            <svg class="icon arrow-back"><use xlink:href="#arrow_back"></use></svg>
+        </label>
+        {{ end }}
+        <a class="gdoc-header__link" href="{{ .Root.Site.BaseURL }}">
+            <span class="gdoc-brand flex">
+                <div class="brand"><a href="#">AI4Bharat <span class="subbrand">indicnlp</span></a></div>
+            </span>
+        </a>
+    </div>
+</header>

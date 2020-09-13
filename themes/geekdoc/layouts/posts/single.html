@@ -1,0 +1,11 @@
+{{ define "main" }}
+    {{ $dateFormat := default "January 2, 2006" .Site.Params.GeekdocDateFormat }}
+    <article class="gdoc-markdown gdoc-post">
+      <header>
+        <h2 class="gdoc-post__title">{{ .Title }}</h2>
+      </header>
+      <div>
+        {{ partial "content" . }}
+      </div>
+    </article>
+{{ end }}

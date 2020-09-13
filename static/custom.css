@@ -1,0 +1,39 @@
+
+/* site header */
+.gdoc-header { border: none; margin-bottom: 1em;}
+.gdoc-nav__entry { font-size: 1.3em; }
+.gdoc-nav {padding: 2em; }
+.gdoc-markdown {font-size: 1.2em; }
+
+.brand {
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.gdoc-nav__control {
+    color: rgba(0, 0, 0, 0.7) !important;}
+
+.brand a {
+    text-decoration: none;
+    color: rgb(200, 50, 50) !important;
+    font-weight: 600 !important;
+    font-size: 2em;
+}
+
+.subbrand {
+    font-weight: 600 !important;
+    padding-left: 5px;
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.8) !important;
+} 
+
+h1 {
+    font-size: 1.5em !important;
+    font-weight: 500 !important;
+    padding-bottom: 0.5em;
+}
