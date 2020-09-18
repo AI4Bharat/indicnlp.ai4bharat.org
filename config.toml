@@ -16,8 +16,8 @@ publishDir = "docs"
     # Needed for mermaid shortcode
     unsafe = true
   [markup.tableOfContents]
-    startLevel = 1
-    endLevel = 9
+    startLevel = 4
+    endLevel = 5
 
 [params]
   # (Optional, default true) Enables search function with flexsearch.
@@ -27,3 +27,5 @@ publishDir = "docs"
   # (Optional, default true) Show a breadcrumb navigation bar at the top of each docs page.
   # You can also specify this parameter per page in front matter.
   geekdocBreadcrumb = false
+
+  geekdocLogo = "favicon.ico.jpeg"

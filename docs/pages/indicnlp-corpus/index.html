@@ -17,6 +17,28 @@
 
 <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
 
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        const id = entry.target.getAttribute('id');
+        if (entry.intersectionRatio > 0) {
+            document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('active');
+        } else {
+            document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('active');
+        }
+    });
+});
+
+
+document.querySelectorAll('section[id]').forEach((section) => {
+    observer.observe(section);
+});
+
+});
+</script>
 </head>
 
 <body>
@@ -126,8 +148,42 @@
             <li>
             
                 <span class="flex">
+                    <a href="/pages/indic-glue/" class="gdoc-nav__entry ">
+                        IndicGLUE
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
                     <a href="/pages/indic-bert/" class="gdoc-nav__entry ">
-                        Indic BERT
+                        IndicBERT
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/pages/indicnlp-resources/" class="gdoc-nav__entry ">
+                        IndicNLP Resources
                     </a>
                 </span>
             
@@ -213,10 +269,62 @@
 
             <span class="flex">
                 <svg class="icon github"><use xlink:href="#github"></use></svg>
+                <a href="https://github.com/AI4Bharat/indic-bert"
+                    target="_blank"
+                    class="gdoc-nav__entry ">
+                    IndicBERT Repo
+                </a>
+            </span>
+        
+
+        
+        
+    </li>
+
+
+    
+    
+
+    <li>
+        
+        
+            
+            
+            
+            
+
+            <span class="flex">
+                <svg class="icon github"><use xlink:href="#github"></use></svg>
                 <a href="https://github.com/AI4Bharat"
                     target="_blank"
                     class="gdoc-nav__entry ">
-                    AI4Bharat
+                    IndicNLP Catalog
+                </a>
+            </span>
+        
+
+        
+        
+    </li>
+
+
+    
+    
+
+    <li>
+        
+        
+            
+            
+            
+            
+
+            <span class="flex">
+                <svg class="icon github"><use xlink:href="#github"></use></svg>
+                <a href="https://github.com/AI4Bharat"
+                    target="_blank"
+                    class="gdoc-nav__entry ">
+                    AI4Bharat Org
                 </a>
             </span>
         
@@ -259,9 +367,16 @@
 </div>
 
 
-    <article class="gdoc-markdown">
-        <h1>IndicNLP Corpora</h1>
-        
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-9">
+
+            <article class="gdoc-markdown">
+                <h1>IndicNLP Corpora</h1>
+                <hr>
+                
 
 
 
@@ -364,7 +479,29 @@
 </div>
 
 
-    </article>
+
+            </article>
+
+            </div>
+
+            <div class="col-sm-3 d-none d-lg-block">
+
+                <nav class="section-nav">
+                    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#download-links">Download Links</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </nav>
+                 </div>
+
+        </div>
+
+    </div>
 
                 
 

@@ -28,11 +28,71 @@
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
-    color:rgba(0, 0, 0, 0.8) !important;
-} 
+    color:rgba(0, 0, 0, 0.7) !important;
+}
 
 h1 {
-    font-size: 1.5em !important;
-    font-weight: 500 !important;
-    padding-bottom: 0.5em;
+    font-size: 1.8em !important;
+    font-weight: 600 !important;
+    color:rgba(0, 0, 0, 0.7) !important;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.gdoc-page {
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 20em;*/
+    /*max-width: 100em;*/
+    /*width: 90%;*/
+    margin: 0 auto;
+}
+
+code {
+    white-space : pre-wrap !important;
+  }
+
+/* 2. Make nav sticky */
+.section-nav {
+    position: sticky;
+    top: 6rem;
+    align-self: start;
+}
+
+nav a, nav a:visited {
+    text-decoration: none !important;
+    display: block;
+    padding: .125rem 0;
+    color: rgb(158, 158, 158);
+    transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+    color: rgb(54, 54, 54);
+}
+
+.section-nav li.active > a {
+    color: #333;
+    font-weight: 500;
+}
+
+
+.section-nav li.active > a {
+    color: #333;
+    font-weight: 500;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+pre code {
+    overflow-x: scroll !important;
+}
+
+.container {
+    max-width: 1400px !important;
 }

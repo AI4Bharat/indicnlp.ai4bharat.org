@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="IndicNLP Resources">
+
+<title>IndicNLP Resources | AI4Bharat IndicNLP</title>
+
+<link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
+<link rel="stylesheet" href="/main.min.css" media="screen">
+<link rel="stylesheet" href="/custom.css" media="screen">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
+
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        const id = entry.target.getAttribute('id');
+        if (entry.intersectionRatio > 0) {
+            document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('active');
+        } else {
+            document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('active');
+        }
+    });
+});
+
+
+document.querySelectorAll('section[id]').forEach((section) => {
+    observer.observe(section);
+});
+
+});
+</script>
+</head>
+
+<body>
+    <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 24 24" id="arrow_back" xmlns="http://www.w3.org/2000/svg"><path d="M20.016 11.016v1.969H7.828l5.578 5.625L12 20.016 3.984 12 12 3.984l1.406 1.406-5.578 5.625h12.188z"/></symbol><symbol viewBox="0 0 24 24" id="arrow_left_alt" xmlns="http://www.w3.org/2000/svg"><path d="M7.969 11.016v-3L3.985 12l3.984 3.984v-3h12.047v-1.969H7.969z"/></symbol><symbol viewBox="0 0 24 24" id="arrow_right_alt" xmlns="http://www.w3.org/2000/svg"><path d="M16.031 11.016v-3L20.015 12l-3.984 3.984v-3H3.984v-1.969h12.047z"/></symbol><symbol viewBox="0 0 24 24" id="bookmark" xmlns="http://www.w3.org/2000/svg"><path d="M15 5.016q.797 0 1.406.586t.609 1.383v16.031l-7.031-3-6.984 3V6.985q0-.797.609-1.383t1.406-.586h9.984zM18.984 18V5.016q0-.797-.586-1.406t-1.383-.609H6.984q0-.797.609-1.406T8.999.986h9.984q.797 0 1.406.609t.609 1.406v15.984z"/></symbol><symbol viewBox="0 0 16 28" id="code" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 23a1.5 1.5 0 10-3.001.001A1.5 1.5 0 004.5 23zm0-18a1.5 1.5 0 10-3.001.001A1.5 1.5 0 004.5 5zm10 2a1.5 1.5 0 10-3.001.001A1.5 1.5 0 0014.5 7zM16 7a3.002 3.002 0 01-1.5 2.594c-.047 5.641-4.047 6.891-6.703 7.734C5.313 18.109 4.5 18.484 4.5 20v.406A3 3 0 016 23a3.001 3.001 0 01-6 0c0-1.109.609-2.078 1.5-2.594V7.594A3 3 0 010 5a3.001 3.001 0 016 0 3.002 3.002 0 01-1.5 2.594v7.766c.797-.391 1.641-.656 2.406-.891 2.906-.922 4.562-1.609 4.594-4.875A3 3 0 0110 7a3.001 3.001 0 016 0z"/></symbol><symbol viewBox="0 0 24 24" id="date" xmlns="http://www.w3.org/2000/svg"><path d="M18.984 20.016V9H5.015v11.016h13.969zm0-16.032q.797 0 1.406.609t.609 1.406v14.016q0 .797-.609 1.383t-1.406.586H5.015q-.844 0-1.43-.563t-.586-1.406V5.999q0-.797.586-1.406t1.43-.609h.984V2.015h2.016v1.969h7.969V2.015H18v1.969h.984zm-1.968 7.032v1.969H15v-1.969h2.016zm-4.032 0v1.969h-1.969v-1.969h1.969zm-3.984 0v1.969H6.984v-1.969H9z"/></symbol><symbol viewBox="0 0 24 24" id="download" xmlns="http://www.w3.org/2000/svg"><path d="M5.016 18h13.969v2.016H5.016V18zm13.968-9L12 15.984 5.016 9H9V3h6v6h3.984z"/></symbol><symbol viewBox="0 0 24 24" id="email" xmlns="http://www.w3.org/2000/svg"><path d="M20.016 8.016V6L12 11.016 3.984 6v2.016L12 12.985zm0-4.032q.797 0 1.383.609t.586 1.406v12q0 .797-.586 1.406t-1.383.609H3.985q-.797 0-1.383-.609t-.586-1.406v-12q0-.797.586-1.406t1.383-.609h16.031z"/></symbol><symbol viewBox="0 0 24 28" id="github" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-.609.109-.828-.266-.828-.578 0-.391.016-1.687.016-3.297 0-1.125-.375-1.844-.812-2.219 2.672-.297 5.484-1.313 5.484-5.922 0-1.313-.469-2.375-1.234-3.219.125-.313.531-1.531-.125-3.187-1-.313-3.297 1.234-3.297 1.234a11.28 11.28 0 00-6 0S6.704 6.656 5.704 6.969c-.656 1.656-.25 2.875-.125 3.187-.766.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-.344.313-.656.844-.766 1.609-.688.313-2.438.844-3.484-1-.656-1.141-1.844-1.234-1.844-1.234-1.172-.016-.078.734-.078.734.781.359 1.328 1.75 1.328 1.75.703 2.141 4.047 1.422 4.047 1.422 0 1 .016 1.937.016 2.234 0 .313-.219.688-.828.578C3.439 23.796.002 19.296.002 13.999c0-6.625 5.375-12 12-12zM4.547 19.234c.031-.063-.016-.141-.109-.187-.094-.031-.172-.016-.203.031-.031.063.016.141.109.187.078.047.172.031.203-.031zm.484.532c.063-.047.047-.156-.031-.25-.078-.078-.187-.109-.25-.047-.063.047-.047.156.031.25.078.078.187.109.25.047zm.469.703c.078-.063.078-.187 0-.297-.063-.109-.187-.156-.266-.094-.078.047-.078.172 0 .281s.203.156.266.109zm.656.656c.063-.063.031-.203-.063-.297-.109-.109-.25-.125-.313-.047-.078.063-.047.203.063.297.109.109.25.125.313.047zm.891.391c.031-.094-.063-.203-.203-.25-.125-.031-.266.016-.297.109s.063.203.203.234c.125.047.266 0 .297-.094zm.984.078c0-.109-.125-.187-.266-.172-.141 0-.25.078-.25.172 0 .109.109.187.266.172.141 0 .25-.078.25-.172zm.906-.156c-.016-.094-.141-.156-.281-.141-.141.031-.234.125-.219.234.016.094.141.156.281.125s.234-.125.219-.219z"/></symbol><symbol viewBox="0 0 28 28" id="heart" xmlns="http://www.w3.org/2000/svg"><path d="M14 26c-.25 0-.5-.094-.688-.281l-9.75-9.406c-.125-.109-3.563-3.25-3.563-7C-.001 4.735 2.796 2 7.468 2c2.734 0 5.297 2.156 6.531 3.375C15.233 4.156 17.796 2 20.53 2c4.672 0 7.469 2.734 7.469 7.313 0 3.75-3.437 6.891-3.578 7.031l-9.734 9.375a.972.972 0 01-.688.281z"/></symbol><symbol viewBox="0 0 24 24" id="link" xmlns="http://www.w3.org/2000/svg"><path d="M17.016 6.984q2.063 0 3.516 1.477T21.985 12t-1.453 3.539-3.516 1.477h-4.031v-1.922h4.031q1.266 0 2.18-.914T20.11 12t-.914-2.18-2.18-.914h-4.031V6.984h4.031zm-9 6v-1.969h7.969v1.969H8.016zM3.891 12q0 1.266.914 2.18t2.18.914h4.031v1.922H6.985q-2.063 0-3.516-1.477T2.016 12t1.453-3.539 3.516-1.477h4.031v1.922H6.985q-1.266 0-2.18.914T3.891 12z"/></symbol><symbol viewBox="0 0 24 24" id="menu" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2.016H3V6zm0 6.984v-1.969h18v1.969H3zM3 18v-2.016h18V18H3z"/></symbol><symbol viewBox="0 0 24 24" id="notification" xmlns="http://www.w3.org/2000/svg"><path d="M18 15.984L20.016 18v.984H3.985V18l2.016-2.016v-4.969q0-2.344 1.195-4.078t3.305-2.25v-.703q0-.609.422-1.055t1.078-.445 1.078.445.422 1.055v.703q2.109.516 3.305 2.25t1.195 4.078v4.969zm-6 6q-.844 0-1.43-.563t-.586-1.406h4.031q0 .797-.609 1.383T12 21.984z"/></symbol><symbol viewBox="0 0 24 24" id="path" xmlns="http://www.w3.org/2000/svg"><path d="M21.984 11.016H15v-3h-2.016v7.969H15v-3h6.984v8.016H15v-3h-3.984V8.017H9v3H2.016V3.001H9v3h6v-3h6.984v8.016z"/></symbol><symbol viewBox="0 0 24 24" id="person" xmlns="http://www.w3.org/2000/svg"><path d="M12 14.016q2.531 0 5.273 1.102t2.742 2.883v2.016H3.984v-2.016q0-1.781 2.742-2.883t5.273-1.102zM12 12q-1.641 0-2.813-1.172T8.015 8.015t1.172-2.836T12 3.984t2.813 1.195 1.172 2.836-1.172 2.813T12 12z"/></symbol><symbol viewBox="0 0 24 24" id="search" xmlns="http://www.w3.org/2000/svg"><path d="M9.516 14.016q1.875 0 3.188-1.313t1.313-3.188-1.313-3.188-3.188-1.313-3.188 1.313-1.313 3.188 1.313 3.188 3.188 1.313zm6 0l4.969 4.969-1.5 1.5-4.969-4.969v-.797l-.281-.281q-1.781 1.547-4.219 1.547-2.719 0-4.617-1.875T3.001 9.516t1.898-4.617 4.617-1.898 4.594 1.898 1.875 4.617q0 .984-.469 2.227t-1.078 1.992l.281.281h.797z"/></symbol><symbol viewBox="0 0 20 28" id="shield" xmlns="http://www.w3.org/2000/svg"><path d="M17 15V5h-7v17.766c.797-.422 2.078-1.156 3.328-2.141C15 19.312 17 17.266 17 15zm3-12v12c0 6.578-9.203 10.734-9.594 10.906-.125.063-.266.094-.406.094s-.281-.031-.406-.094C9.203 25.734 0 21.578 0 15V3c0-.547.453-1 1-1h18c.547 0 1 .453 1 1z"/></symbol><symbol viewBox="0 0 32 32" id="tags" xmlns="http://www.w3.org/2000/svg"><path d="M5 5c-1.104 0-2 .887-2 2v8l13.381 13.381c.716.716 1.838.78 2.62.191L5 14.5V5.007 5zm11-1l13.381 13.381c.783.783.787 2.051.008 2.831l-7.177 7.177a2.003 2.003 0 01-2.831-.008L6 14V6c0-1.112.895-2 2-2h8zm-4.5 7a1.5 1.5 0 10-.001-3.001A1.5 1.5 0 0011.5 11z"/></symbol><symbol viewBox="0 0 35 32" id="telescope" xmlns="http://www.w3.org/2000/svg"><path d="M27.464 2.314a.501.501 0 00-.698-.257L14.86 8.339a.499.499 0 00-.233.621l.245.641-6.873 3.769a.5.5 0 00-.222.63l.228.549-7.299 3.488a.5.5 0 00-.246.643l1.498 3.61a.5.5 0 00.629.28l7.625-2.701.228.549a.5.5 0 00.601.289l7.276-2.097.218.569a.497.497 0 00.612.299l13-4a.498.498 0 00.317-.663l-5-12.501zM2.7 21.469l-1.134-2.734 6.823-3.261 1.439 3.47L2.7 21.469zm8.491-1.846l-.238-.574-1.843-4.445-.238-.573 6.336-3.475 2.374 6.134.375.981-6.766 1.952zm8.109-1.238l-.203-.531c-.003-.011-.001-.024-.006-.035l-.618-1.597-2.754-7.206 11.023-5.815 4.592 11.48L19.3 18.385zM28.964.314a.5.5 0 00-.929.371l6 15a.502.502 0 00.651.279.501.501 0 00.279-.65l-6.001-15zM18 21h-3c-1.14 0-2 .86-2 2v1.315l-5.879 6.859a.5.5 0 10.758.651L13.73 25H16v6.5a.5.5 0 001 0V25h2.27l5.85 6.825a.497.497 0 00.705.054.5.5 0 00.054-.705L20 24.315v-1.24C20 21.912 19.122 21 18 21zm1 3h-5v-1c0-.589.411-1 1-1h3c.57 0 1 .462 1 1.075V24z"/></symbol></svg>
+
+    <div class="wrapper">
+        <input type="checkbox" class="hidden" id="menu-control" />
+        <header class="gdoc-header  bg-light shadow-sm">
+    <div class="container float-left">
+        
+        <label for="menu-control" class="gdoc-nav__control">
+            <svg class="icon menu"><use xlink:href="#menu"></use></svg>
+            <svg class="icon arrow-back"><use xlink:href="#arrow_back"></use></svg>
+        </label>
+        
+        <a class="gdoc-header__link" href="http://localhost">
+            <span class="gdoc-brand flex">
+                <div class="brand"><a href="#">AI4Bharat <span class="subbrand">indicnlp</span></a></div>
+            </span>
+        </a>
+    </div>
+</header>
+
+
+        <main class="container flex flex-even">
+            <aside class="gdoc-nav">
+                <nav>
+    
+
+
+    <section class="gdoc-nav--main">
+        
+            
+
+    
+
+    <ul class="gdoc-nav__list">
+
+        
+            
+            
+            <li>
+            
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/pages/home/" class="gdoc-nav__entry ">
+                        IndicNLP
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/pages/indicnlp-corpus/" class="gdoc-nav__entry ">
+                        IndicNLP Corpora
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/pages/fasttext/" class="gdoc-nav__entry ">
+                        fastText
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/pages/indic-glue/" class="gdoc-nav__entry ">
+                        IndicGLUE
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/pages/indic-bert/" class="gdoc-nav__entry ">
+                        IndicBERT
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/pages/indicnlp-resources/" class="gdoc-nav__entry is-active">
+                        IndicNLP Resources
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/pages/publications/" class="gdoc-nav__entry ">
+                        Publications
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/pages/about-us/" class="gdoc-nav__entry ">
+                        About Us
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+    </ul>
+
+
+
+
+
+        
+    </section>
+
+    <br>
+    
+    <section class="gdoc-nav--more">
+        
+            <b class="flex">More</b>
+            
+
+
+
+
+<ul class="gdoc-nav__list">
+
+    
+    
+
+    <li>
+        
+        
+            
+            
+            
+            
+
+            <span class="flex">
+                <svg class="icon github"><use xlink:href="#github"></use></svg>
+                <a href="https://github.com/AI4Bharat/indic-bert"
+                    target="_blank"
+                    class="gdoc-nav__entry ">
+                    IndicBERT Repo
+                </a>
+            </span>
+        
+
+        
+        
+    </li>
+
+
+    
+    
+
+    <li>
+        
+        
+            
+            
+            
+            
+
+            <span class="flex">
+                <svg class="icon github"><use xlink:href="#github"></use></svg>
+                <a href="https://github.com/AI4Bharat"
+                    target="_blank"
+                    class="gdoc-nav__entry ">
+                    IndicNLP Catalog
+                </a>
+            </span>
+        
+
+        
+        
+    </li>
+
+
+    
+    
+
+    <li>
+        
+        
+            
+            
+            
+            
+
+            <span class="flex">
+                <svg class="icon github"><use xlink:href="#github"></use></svg>
+                <a href="https://github.com/AI4Bharat"
+                    target="_blank"
+                    class="gdoc-nav__entry ">
+                    AI4Bharat Org
+                </a>
+            </span>
+        
+
+        
+        
+    </li>
+
+
+</ul>
+
+
+
+
+        
+    </section>
+</nav>
+
+            </aside>
+
+            <div class="gdoc-page">
+                
+    
+
+
+    
+
+
+
+
+
+
+<div class="gdoc-page__header flex flex-wrap justify-between hidden-mobile hidden " itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <span>
+        
+    </span>
+    <span>
+        
+    </span>
+</div>
+
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-9">
+
+            <article class="gdoc-markdown">
+                <h1>IndicNLP Resources</h1>
+                <hr>
+                
+
+
+
+    
+
+
+<p><em>Please suggest any other resources you may be aware of. Raise a pull request or an issue to add more resources to the catalog. Put the proposed entry in the following format:</em></p>
+<p>[Wikipedia Dumps](https://dumps.wikimedia.org/)</p>
+<p><em>Add a small, informative description of the dataset and provide links to any paper/article/site documenting the resource. Mention your name too. We would like to acknowlege your contribution to building this catalog in the <a href="CONTRIBUTORS.md">CONTRIBUTORS</a> list.</em></p>
+<p>:new: Added <em>Evaluation Benchmarks</em> sections</p>
+<p>:+1: <strong>Featured Resources</strong></p>
+<ul>
+<li><a href="http://www.cfilt.iitb.ac.in/iitb_parallel/">IIT Bombay English-Hindi Parallel Corpus</a>: Largest en-hi parallel corpora in public domain (about 1.5 million semgents)</li>
+<li><a href="http://preon.iiit.ac.in/~jerin/resources/datasets/pib-v0.tar">CVIT-IIITH PIB Multilingual Corpus</a>: Mined from Press Information Bureau for many Indian languages. Contains both English-IL and IL-IL corpora (IL=Indian language).</li>
+<li><a href="http://preon.iiit.ac.in/~jerin/resources/datasets/mkb-v0.tar">CVIT-IIITH Mann ki Baat Corpus</a>: Mined from Indian PM Narendra Modi&rsquo;s <em>Mann ki Baat</em> speeches.</li>
+<li><a href="https://github.com/ai4bharat/indicnlp_corpus">AI4Bharat IndicNLP Project</a>: Text corpora, word embeddings, text classification datasets for Indian languages.</li>
+<li><a href="https://github.com/goru001/inltk">iNLTK</a>: iNLTK aims to provide out of the box support for various NLP tasks that an application developer might need for Indic languages.</li>
+<li><a href="https://github.com/google-research-datasets/dakshina">Dakshina Dataset</a>: The Dakshina dataset is a collection of text in both Latin and native scripts for 12 South Asian languages. Contains an aggregate of around 300k word pairs and 120k sentence pairs. Useful for transliteration.</li>
+</ul>
+<p><strong>Browse the entire catalog&hellip;</strong></p>
+<p>:raising_hand:<strong>Note</strong>: Many known resources have not yet been classified into the catalog. They can be found as open issues in the repo.</p>
+<!-- vscode-markdown-toc -->
+<ul>
+<li><a href="#MajorIndicLanguageNLPRepositories">Major Indic Language NLP Repositories</a></li>
+<li><a href="#Libraries">Libraries</a></li>
+<li><a href="#Benchmarks">Evaluation Benchmarks</a></li>
+<li><a href="#Standards">Standards</a></li>
+<li><a href="#TextCorpora">Text Corpora</a>
+<ul>
+<li><a href="#UnicodeStandard">Unicode Standard</a></li>
+<li><a href="#MonolingualCorpus">Monolingual Corpus</a></li>
+<li><a href="#LanguageIdentification">Language Identification</a></li>
+<li><a href="#LexicalResources">Lexical Resources</a></li>
+<li><a href="#NERCorpora">NER Corpora</a></li>
+<li><a href="#ParallelTranslationCorpus">Parallel Translation Corpus</a></li>
+<li><a href="#ParallelTransliterationCorpus">Parallel Transliteration Corpus</a></li>
+<li><a href="#TextualClassification">Text Classification</a></li>
+<li><a href="#TextualEntailment">Textual Entailment</a></li>
+<li><a href="#Paraphrase">Paraphrase</a></li>
+<li><a href="#SentimentAnalysis">Sentiment, Sarcasm, Emotion  Analysis</a></li>
+<li><a href="#QuestionAnswering">Question Answering</a></li>
+<li><a href="#Dialog">Dialog</a></li>
+<li><a href="#Discourse">Discourse</a></li>
+<li><a href="#InformationExtraction">Information Extraction</a></li>
+<li><a href="#POSTaggedcorpus">POS Tagged corpus</a></li>
+<li><a href="#ChunkCorpus">Chunk Corpus</a></li>
+<li><a href="#DependencyParseCorpus">Dependency Parse Corpus</a></li>
+<li><a href="#CoreferenceCorpus">Co-reference Corpus</a></li>
+</ul>
+</li>
+<li><a href="#Models">Models</a>
+<ul>
+<li><a href="#WordEmbeddings">Word Embeddings</a></li>
+<li><a href="#SentenceEmbeddings">Sentence Embeddings</a></li>
+<li><a href="#MultilingualWordEmbeddings">Multilingual Word Embeddings</a></li>
+<li><a href="#Morphanalyzers">Morphanalyzers</a></li>
+<li><a href="#SMTModels">SMT Models</a></li>
+</ul>
+</li>
+<li><a href="#SpeechCorpora">Speech Corpora</a></li>
+<li><a href="#OCRCorpora">OCR Corpora</a></li>
+<li><a href="#MultimodalCorpora">Multimodal Corpora</a></li>
+<li><a href="#LanguageSpecificCatalogs">Language Specific Catalogs</a></li>
+</ul>
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+<div class="gdoc-page__anchorwrap"><h2 id="a-namemajorindiclanguagenlprepositoriesamajor-indic-language-nlp-repositories"><a name='MajorIndicLanguageNLPRepositories'></a>Major Indic Language NLP Repositories<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namemajorindiclanguagenlprepositoriesamajor-indic-language-nlp-repositories" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='MajorIndicLanguageNLPRepositories'></a>Major Indic Language NLP Repositories" href="#a-namemajorindiclanguagenlprepositoriesamajor-indic-language-nlp-repositories"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<ul>
+<li><a href="http://tdil-dc.in">Technology Development for Indian Languages (TDIL)</a></li>
+<li><a href="http://www.cfilt.iitb.ac.in/">Center for Indian Language Technology (CFILT)</a></li>
+<li><a href="https://ltrc.iiit.ac.in/download.php">Language Technologies Research Center (LTRC)</a></li>
+<li><a href="https://data.ldcil.org">Linguistic Data Consortium For Indian Languages (LDCIL)</a></li>
+<li><a href="http://sanskrit.uohyd.ac.in/scl">University of Hyderabad - Sanskrit NLP</a></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="a-namelibrariesalibraries"><a name='Libraries'></a>Libraries<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namelibrariesalibraries" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='Libraries'></a>Libraries" href="#a-namelibrariesalibraries"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<ul>
+<li><a href="https://github.com/anoopkunchukuttan/indic_nlp_library">Indic NLP Library</a>: Python Library for various Indian language NLP tasks like tokenization, sentece splitting, normalization, script conversion, transliteration, <em>etc</em></li>
+<li><a href="https://github.com/riteshpanjwani/pyiwn">pyiwn</a>: Python Interface to IndoWordNet</li>
+<li><a href="https://indic-ocr.github.io/">Indic-OCR</a> : OCR for Indic Scripts</li>
+<li><a href="https://github.com/cltk/cltk/tree/master/cltk">CLTK</a>: Toolkit for many of the world&rsquo;s classical languages. Support for Sanskrit. Some parts of the Sanskrit library are forked from the Indic NLP Library.</li>
+<li><a href="https://github.com/goru001/inltk">iNLTK</a>: iNLTK aims to provide out of the box support for various NLP tasks that an application developer might need for Indic languages.</li>
+<li><a href="https://github.com/sanskrit-coders/indic_transliteration">Sanskrit Coders Indic Transliteration</a>: Script conversion and ronaization for Indian languages.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="a-namebenchmarksaevaluation-benchmarks"><a name='Benchmarks'></a>Evaluation Benchmarks<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namebenchmarksaevaluation-benchmarks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='Benchmarks'></a>Evaluation Benchmarks" href="#a-namebenchmarksaevaluation-benchmarks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>Benchmarks spanning multiple tasks.</p>
+<ul>
+<li><a href="https://microsoft.github.io/GLUECoS">GLUECoS</a>: For Hindi-English code-mixed data containing the following tasks - Language Identification (LID), POS Tagging (POS), Named Entity Recognition (NER), Sentiment Analysis (SA), Question Answering (QA), Natural Language Inference (NLI).</li>
+<li><a href="https://github.com/ai4bharat/indicnlp_corpus#publicly-available-classification-datasets">AI4Bharat Text Classification</a>: A compilation of classification datasets for 10 languages.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="a-namestandardsastandards"><a name='Standards'></a>Standards<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namestandardsastandards" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='Standards'></a>Standards" href="#a-namestandardsastandards"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<ul>
+<li>Unicode Standard for Indic Scripts
+<ul>
+<li><a href="https://www.w3.org/2002/Talks/09-ri-indic/indic-paper.pdf">An Introduction to Indic Scripts</a></li>
+<li><a href="http://www.unicode.org/versions/Unicode12.1.0/ch12.pdf">Unicode Standard for South Asian Scripts</a></li>
+</ul>
+</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="a-nametextcorporaatext-corpora"><a name='TextCorpora'></a>Text Corpora<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-nametextcorporaatext-corpora" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='TextCorpora'></a>Text Corpora" href="#a-nametextcorporaatext-corpora"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namemonolingualcorpusamonolingual-corpus"><a name='MonolingualCorpus'></a>Monolingual Corpus<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namemonolingualcorpusamonolingual-corpus" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='MonolingualCorpus'></a>Monolingual Corpus" href="#a-namemonolingualcorpusamonolingual-corpus"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://dumps.wikimedia.org/">Wikipedia Dumps</a></li>
+<li>Common Crawl
+<ul>
+<li><a href="https://traces1.inria.fr/oscar">OSCAR Corpus</a>: Released in 2019, large-scaled processed CommonCrawl.</li>
+<li><a href="http://data.statmt.org/ngrams/raw">WMT Common Crawl Dumps</a>: Crawls between 2012 and 2016. Noisy text, needs to be filtered.</li>
+</ul>
+</li>
+<li><a href="http://data.statmt.org/news-crawl">WMT NEWS Crawl</a></li>
+<li><a href="https://data.ldcil.org">LDCIL Monolingual Corpus</a></li>
+<li><a href="https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0023-625F-0">Charles University Hindi Monolingual Corpus</a></li>
+<li><a href="https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0023-65A9-5">Charles University Urdu Monolingual Corpus</a></li>
+<li><a href="http://www.cfilt.iitb.ac.in/iitb_parallel/iitb_corpus_download/monolingual.hi.tgz">IIT Bombay Hindi Monolingual Corpus</a></li>
+<li><a href="https://www.lancaster.ac.uk/fass/projects/corpus/emille/">EMILLE Corpus (multiple Indian languages)</a></li>
+<li><a href="https://github.com/ABHISHEKVALSAN/Malayalam-Newspaper-Article-Dataset">Janmabhumi Malayalam Corpus</a></li>
+<li><a href="http://wortschatz.uni-leipzig.de/en/download/">Leipzig Corpus</a></li>
+<li><a href="http://sanskrit.uohyd.ac.in/Corpus/">Sanskrit Monolingual and Sandhi-split Corpus</a></li>
+<li><a href="https://github.com/bedapudi6788/LOIT">Lot Of Indic Tweets Corpus</a>: Large twitter datasets for telugu (7.9 million) and hindi (17.6 million) and fasttext skipgram and cbow word vectors for the same.</li>
+<li><a href="https://github.com/khyathiraghavi/multi_task_code_switched_language_modeling/tree/master/hinglishData">CMU Romanized Hinglish Corpus</a>: See <a href="https://www.aclweb.org/anthology/W18-3211.pdf">THIS PAPER</a> for details.</li>
+<li><a href="https://github.com/shashwatup9k/bho-resources/tree/master/mono-bho-corpus">JNU-BHLTR Bhojpuri Corpus</a>: Bhojpuri corpus of 45k sentences.</li>
+<li><a href="https://github.com/kmi-linguistics/magahi">KMI Magahi Corpus</a>:</li>
+<li><a href="https://github.com/kmi-linguistics/awadhi">KMI Awadhi Corpus</a>:</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namelanguageidentificationalanguage-identification"><a name='LanguageIdentification'></a>Language Identification<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namelanguageidentificationalanguage-identification" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='LanguageIdentification'></a>Language Identification" href="#a-namelanguageidentificationalanguage-identification"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://github.com/kmi-linguistics/vardial2018">VarDial 2018 Language Identification Dataset</a>: 5 languages - Hindi, Braj, Awadhi, Bhojpuri, Magahi.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namelexicalresourcesalexical-resources"><a name='LexicalResources'></a>Lexical Resources<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namelexicalresourcesalexical-resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='LexicalResources'></a>Lexical Resources" href="#a-namelexicalresourcesalexical-resources"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="http://www.cfilt.iitb.ac.in/indowordnet/">IndoWordNet</a></li>
+<li><a href="https://github.com/syedsarfarazakhtar/Word-Similarity-Datasets-for-Indian-Languages">IIIT-Hyderabad Word Similarity Database</a>: 7 Indian languages</li>
+<li><a href="https://dl.fbaipublicfiles.com/fasttext/word-analogies/questions-words-hi.txt">Facebook Hindi Analogy Dataset</a></li>
+<li><a href="https://github.com/rutrastone/MGAD">MGAD Hindi Analogy dataset</a></li>
+<li><a href="https://github.com/AI4Bharat/indicnlp_corpus#text-corpora">AI4Bharat Word Frequency Lists</a>: Tokens and their frequencies from the AI4Bharat corpus, a large monolingual corpus.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namenercorporaaner-corpora"><a name='NERCorpora'></a>NER Corpora<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namenercorporaaner-corpora" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='NERCorpora'></a>NER Corpora" href="#a-namenercorporaaner-corpora"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="http://au-kbc.org/nlp/NER-FIRE2013">FIRE 2013 AUKBC NER Corpus</a></li>
+<li><a href="http://www.au-kbc.org/nlp/NER-FIRE2014/">FIRE 2014 AUKBC NER Corpus</a></li>
+<li><a href="http://www.cfilt.iitb.ac.in/ner/download_data.html">IIT Bombay Marathi NER Corpus</a></li>
+<li><a href="https://elisa-ie.github.io/wikiann">WikiAnn NER Corpus</a> (<em>Noisy</em>)  <a href="https://drive.google.com/drive/folders/1Q-xdT99SeaCghihGa7nRkcXGwRGUIsKN?usp=sharing">DOWNLOAD</a>  (Old broken <a href="http://nlp.cs.rpi.edu">LINK</a>)</li>
+<li><a href="http://ltrc.iiit.ac.in/ner-ssea-08/index.cgi?topic=5">IJCNLP 200 NER Corpus</a>: NER corpora for hi, bn, or, te, ur.</li>
+<li><a href="https://github.com/a-mma/NER_Open_Data">a-mma NER data</a></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-nameparalleltranslationcorpusaparallel-translation-corpus"><a name='ParallelTranslationCorpus'></a>Parallel Translation Corpus<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-nameparalleltranslationcorpusaparallel-translation-corpus" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='ParallelTranslationCorpus'></a>Parallel Translation Corpus" href="#a-nameparalleltranslationcorpusaparallel-translation-corpus"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="http://www.cfilt.iitb.ac.in/iitb_parallel/">IIT Bombay English-Hindi Parallel Corpus</a>: Largest en-hi parallel corpora in public domain (about 1.5 million semgents)</li>
+<li><a href="http://preon.iiit.ac.in/~jerin/resources/datasets/pib-v0.tar">CVIT-IIITH PIB Multilingual Corpus</a>: Mined from Press Information Bureau for many Indian languages. Contains both English-IL and IL-IL corpora (IL=Indian language).</li>
+<li><a href="http://preon.iiit.ac.in/~jerin/resources/datasets/mkb-v0.tar">CVIT-IIITH Mann ki Baat Corpus</a>: Mined from Indian PM Narendra Modi&rsquo;s <em>Mann ki Baat</em> speeches.</li>
+<li><a href="http://data.statmt.org/pmindia">PMIndia</a>: Parallel corpus for En-Indian languages mined from <em>Mann ki Baat</em> speeches of the PM of India (<a href="https://arxiv.org/abs/2001.09907">paper</a>).</li>
+<li><a href="http://sanskrit.jnu.ac.in/ilci/index.jsp">Indian Language Corpora Initiative</a>: Available on TDIL portal on request</li>
+<li><a href="http://opus.nlpl.eu/">OPUS corpus</a></li>
+<li><a href="http://lotus.kuee.kyoto-u.ac.jp/WAT/indic-multilingual/index.html">WAT 2018 Parallel Corpus</a>: There may significant overlap between WAT and OPUS.</li>
+<li><a href="https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0001-BD17-1">Charles University English-Hindi Parallel Corpus</a>: This is included in the IITB parallel corpus.</li>
+<li><a href="http://ufal.mff.cuni.cz/~ramasamy/parallel/html/">Charles University English-Tamil Parallel Corpus</a></li>
+<li><a href="https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2879">Charles University English-Odia Parallel Corpus v1.0</a></li>
+<li><a href="https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3211">Charles University English-Odia Parallel Corpus v2.0</a></li>
+<li><a href="https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2582">Charles University English-Urdu Religious Parallel Corpus</a></li>
+<li><a href="https://github.com/anoopkunchukuttan/indowordnet_parallel">IndoWordnet Parallel Corpus</a>: Parallel corpora mined from IndoWordNet gloss and/or examples for Indian-Indian language corpora  (6.3 million segments, 18 languages).</li>
+<li><a href="https://github.com/joshua-decoder/indian-parallel-corpora">MTurk Indian Parallel Corpus</a></li>
+<li><a href="https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus">TED Parallel Corpus</a></li>
+<li><a href="http://opus.nlpl.eu/JW300.php">JW300 Corpus</a>: Parallel corpus mined from jw.org. Religious text from Jehovah&rsquo;s Witness.</li>
+<li><a href="http://www2.nict.go.jp/astrec-att/member/mutiyama/ALT">ALT Parallel Corpus</a>: 10k sentences for Bengali, Hindi in parallel with English and many East Asian languages.</li>
+<li><a href="https://github.com/facebookresearch/flores">FLORES dataset</a>: English-Sinhala and English-Nepali corpora</li>
+<li><a href="https://github.com/shahparth123/eng_guj_parallel_corpus">Uka Tarsadia University Corpus</a>: 65k English-Gujarati sentence pairs. Corpus is described in <a href="https://arxiv.org/abs/2002.02758">this paper</a></li>
+<li><a href="https://github.com/nlpc-uom/English-Tamil-Parallel-Corpus">NLPC-UoM English-Tamil Corpus</a>: 9k sentences, 24k glossary terms</li>
+<li>Wikititles: from statmt
+<ul>
+<li><a href="http://data.statmt.org/wikititles/v2/wikititles-v2.ta-en.tsv.gz">English-Tamil Wiki Titles</a></li>
+<li><a href="http://data.statmt.org/wikititles/v1/wikititles-v1.gu-en.tsv.gz">English-Gujarati Wiki Titles</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/shashwatup9k/bho-resources">JNU-BHLTR Bhojpuri Corpus</a>: English-Bhojpuri corpus of 65k sentences</li>
+<li><a href="http://tdil-dc.in/index.php?searchword=EILMT&amp;searchphrase=all&amp;option=com_search&amp;lang=en">EILMT Corpus</a></li>
+<li><a href="http://alt.qcri.org/resources/qedcorpus">QED Corpus</a>: English-Hindi corpus of 43k sentences from the educational domain.</li>
+<li><a href="https://ai.facebook.com/blog/wikimatrix">WikiMatrix Corpus</a>: Mined from Wikipedia, looks noisy.</li>
+<li><a href="https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix">CCMatrix</a>: Parallel corpus mined from CommonCrawl, looks noisy.</li>
+<li><a href="http://cgnetswara.org/hindi-gondi-corpus.html">CGNetSwara</a>: Hindi-Gondi parallel corpus (19k sentence pairs)</li>
+<li><a href="https://github.com/soumendrak/MTEnglish2Odia">MTEnglish2Odia</a>: English-Odia (42k pairs)</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-nameparalleltransliterationcorpusaparallel-transliteration-corpus"><a name='ParallelTransliterationCorpus'></a>Parallel Transliteration Corpus<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-nameparalleltransliterationcorpusaparallel-transliteration-corpus" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='ParallelTransliterationCorpus'></a>Parallel Transliteration Corpus" href="#a-nameparalleltransliterationcorpusaparallel-transliteration-corpus"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://github.com/google-research-datasets/dakshina">Dakshina Dataset</a>: The Dakshina dataset is a collection of text in both Latin and native scripts for 12 South Asian languages. Contains an aggregate of around 300k word pairs and 120k sentence pairs.</li>
+<li><a href="http://www.cfilt.iitb.ac.in/brahminet/static/download.html">BrahmiNet Corpus</a>: 110 language pairs mined from ILCI parallel corpus.</li>
+<li><a href="https://github.com/anoopkunchukuttan/crowd-indic-transliteration-data">Xlit-Crowd</a>: Hindi-English Transliteration Corpus created via crowdsourcing.</li>
+<li><a href="http://www.cfilt.iitb.ac.in/iitb_parallel/supplementary_resources/xlit-iitb-par.tgz">Xlit-IITB-Par</a>: Hindi-English Transliteration Corpus mined from parallel translation corpora.</li>
+<li><a href="https://cse.iitkgp.ac.in/resgrp/cnerg/qa/fire13translit/index.html">FIRE 2013 Track on Transliterated Search</a>: Transliteration dataset of native words in Hindi, Bengali and Gujarati.</li>
+<li><a href="http://workshop.colips.org/news2016/dataset.html">NEWS 2016 Shared Task dataset</a>: Transliteration datasets for Kannada, Tamil, Bengali and Hindi created by Microsoft Research India.</li>
+<li><a href="https://github.com/notAI-tech/Datasets/tree/master/En-Te_Transliteration">NotAI-tech English-Telugu</a>: Around 38k word pairs</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-nametextualclassificationatext-classification"><a name='TextualClassification'></a>Text Classification<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-nametextualclassificationatext-classification" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='TextualClassification'></a>Text Classification" href="#a-nametextualclassificationatext-classification"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1">BBC news articles classification dataset</a>: 14 class classification</li>
+<li><a href="https://github.com/goru001/inltk">iNLTK News Headlines classification</a>: Datasets for multiple Indian languages.</li>
+<li><a href="https://github.com/ai4bharat/indicnlp_corpus">AI4Bharat IndicNLP News Articles</a>: Word embeddings for 10 Indian languages.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-nametextualentailmentatextual-entailment"><a name='TextualEntailment'></a>Textual Entailment<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-nametextualentailmentatextual-entailment" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='TextualEntailment'></a>Textual Entailment" href="#a-nametextualentailmentatextual-entailment"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://github.com/facebookresearch/XNLI">XNLI corpus</a>: Hindi and Urdu test sets and machine translated training sets (from English MultiNLI).</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-nameparaphrasea-paraphrase"><a name='Paraphrase'></a> Paraphrase<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-nameparaphrasea-paraphrase" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='Paraphrase'></a> Paraphrase" href="#a-nameparaphrasea-paraphrase"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://nlp.amrita.edu/dpil_cen/index.html">Amrita University-DPIL Corpus</a>: Sentence level paraphrase identification for four Indian languages (Tamil, Malayalam, Hindi and Punjabi).</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namesentimentanalysisasentiment-sarcasm-emotion-analysis"><a name='SentimentAnalysis'></a>Sentiment, Sarcasm, Emotion Analysis<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namesentimentanalysisasentiment-sarcasm-emotion-analysis" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='SentimentAnalysis'></a>Sentiment, Sarcasm, Emotion Analysis" href="#a-namesentimentanalysisasentiment-sarcasm-emotion-analysis"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="http://www.cfilt.iitb.ac.in/Sentiment_Analysis_Resources.html">IIT Bombay movie review datasets for Hindi and Marathi</a></li>
+<li><a href="http://www.iitp.ac.in/~ai-nlp-ml/resources.html">IIT Patna movie review datasets for Hindi</a></li>
+<li><a href="https://ltrc.iiit.ac.in/showfile.php?filename=downloads/sentiraama/">IIIT-H LTRC Multi-domain dataset for Telugu</a></li>
+<li><a href="https://github.com/NirantK/bharatNLP/releases">ACTSA corpus for Telugu</a></li>
+<li><a href="https://github.com/midas-research/bhaav">BHAAV (भाव) Corpus</a>: A Text Corpus for Emotion Analysis from Hindi Stories</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namequestionansweringaquestion-answering"><a name='QuestionAnswering'></a>Question Answering<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namequestionansweringaquestion-answering" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='QuestionAnswering'></a>Question Answering" href="#a-namequestionansweringaquestion-answering"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://github.com/facebookresearch/MLQA">Facebook Multilingual QA datasets</a>: Contains dev and test sets for Hindi.</li>
+<li><a href="https://github.com/google-research-datasets/tydiqa">TyDi QA datasets</a>: QA dataset for Bengali and Telugu.</li>
+<li><a href="http://www.thespermwhale.com/jaseweston/babi/tasks_1-20_v1-2.tar.gz">bAbi 1.2 dataset</a>: Has Hindi version of bAbi tasks in romanized Hindi.</li>
+<li><a href="https://github.com/deepaknlp/MMQA">MMQA dataset</a>: Hindi QA dataset described in <a href="https://www.aclweb.org/anthology/L18-1440.pdf">this paper</a></li>
+<li><a href="https://github.com/deepmind/xquad">XQuAD</a>: testset for Hindi QA from human translation of subset of SQuAD v1.1. Described in <a href="https://arxiv.org/abs/1910.11856">this paper</a></li>
+<li><a href="http://github.com/thunlp/XQA">XQA</a>: testset for Tamil QA. Described in <a href="https://www.aclweb.org/anthology/P19-1227.pdf">this paper</a></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namedialogadialog"><a name='Dialog'></a>Dialog<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namedialogadialog" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='Dialog'></a>Dialog" href="#a-namedialogadialog"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://github.com/a-mma/indic_casual_dialogs_dataset">a-mma Indic Casual Dialogs Datasets</a></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namediscourseadiscourse"><a name='Discourse'></a>Discourse<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namediscourseadiscourse" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='Discourse'></a>Discourse" href="#a-namediscourseadiscourse"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://github.com/midas-research/hindi-discourse">MIDAS-Hindi Discourse Analysis</a></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-nameinformationextractionainformation-extraction"><a name='InformationExtraction'></a>Information Extraction<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-nameinformationextractionainformation-extraction" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='InformationExtraction'></a>Information Extraction" href="#a-nameinformationextractionainformation-extraction"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="http://78.46.86.133/EventXtractionIL-FIRE2018">EventXtract-IL</a>: Event extraction for Tamil and Hindi. Described in <a href="http://ceur-ws.org/Vol-2266/T5-1.pdf">this paper</a>.</li>
+<li>[EDNIL-FIRE2020]https://ednilfire.github.io/ednil/2020/index.html): Event extraction for Tamil, Hindi, Bengali, Marathi, English. Described in <a href="http://ceur-ws.org/Vol-2266/T5-1.pdf">this paper</a>.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namepostaggedcorpusapos-tagged-corpus"><a name='POSTaggedcorpus'></a>POS Tagged corpus<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namepostaggedcorpusapos-tagged-corpus" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='POSTaggedcorpus'></a>POS Tagged corpus" href="#a-namepostaggedcorpusapos-tagged-corpus"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="http://sanskrit.jnu.ac.in/ilci/index.jsp">Indian Language Corpora Initiative</a></li>
+<li><a href="https://universaldependencies.org/">Universal Dependencies</a></li>
+<li><a href="https://ltrc.iiit.ac.in/showfile.php?filename=downloads/kolhi">IIITH Paninian Treebank</a>: POS annotations for hi, bn, kn, ml and mr.</li>
+<li><a href="https://amitavadas.com/Code-Mixing.html">Code Mixed Dataset for Hindi, Bengali and Telugu, ICON 2016 shared task</a></li>
+<li><a href="https://github.com/shashwatup9k/bho-resources/tree/master/mono-bho-corpus">JNU-BHLTR Bhojpuri Corpus</a>: Bhojpuri corpus of 5000 sentences.</li>
+<li><a href="https://github.com/kmi-linguistics/magahi">KMI Magahi Corpus</a>:</li>
+<li><a href="https://github.com/kmi-linguistics/awadhi">KMI Awadhi Corpus</a>:</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namechunkcorpusachunk-corpus"><a name='ChunkCorpus'></a>Chunk Corpus<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namechunkcorpusachunk-corpus" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='ChunkCorpus'></a>Chunk Corpus" href="#a-namechunkcorpusachunk-corpus"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="http://sanskrit.jnu.ac.in/ilci/index.jsp">Indian Language Corpora Initiative</a></li>
+<li><a href="https://ltrc.iiit.ac.in/showfile.php?filename=downloads/kolhi">IIITH Paninian Treebank</a>: Chunk annotations for hi, bn, kn, ml and mr.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namedependencyparsecorpusadependency-parse-corpus"><a name='DependencyParseCorpus'></a>Dependency Parse Corpus<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namedependencyparsecorpusadependency-parse-corpus" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='DependencyParseCorpus'></a>Dependency Parse Corpus" href="#a-namedependencyparsecorpusadependency-parse-corpus"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="http://tdil-dc.in/index.php?option=com_download&amp;task=showresourceDetails&amp;toolid=1977&amp;lang=en">IIIT Hyderabad Hindi Treebank</a></li>
+<li><a href="https://universaldependencies.org/">Universal Dependencies</a></li>
+<li><a href="https://github.com/UniversalDependencies/UD_Hindi-HDTB">Universal Dependencies Hindi Treebank</a></li>
+<li><a href="https://github.com/UniversalDependencies/UD_Urdu-UDTB">Universal Dependencies Urdu Treebank</a></li>
+<li><a href="https://ltrc.iiit.ac.in/showfile.php?filename=downloads/kolhi">IIITH Paninian Treebank</a>: Paninian Grammar Framework annotations along with mappings to Stanford dependency annotations for hi, bn, kn, ml and mr.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namecoreferencecorpusacoreference-corpus"><a name='CoreferenceCorpus'></a>Coreference Corpus<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namecoreferencecorpusacoreference-corpus" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='CoreferenceCorpus'></a>Coreference Corpus" href="#a-namecoreferencecorpusacoreference-corpus"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://ltrc.iiit.ac.in/showfile.php?filename=downloads/kolhi">IIITH Coreference Anaphora Annotated Data</a>: Hindi</li>
+<li><a href="https://ltrc.iiit.ac.in/showfile.php?filename=downloads/kolhi">IIITH Coreference Annotated Data</a>: Hindi</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="a-namemodelsamodels"><a name='Models'></a>Models<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namemodelsamodels" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='Models'></a>Models" href="#a-namemodelsamodels"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namewordembeddingsaword-embeddings"><a name='WordEmbeddings'></a>Word Embeddings<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namewordembeddingsaword-embeddings" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='WordEmbeddings'></a>Word Embeddings" href="#a-namewordembeddingsaword-embeddings"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://fasttext.cc/docs/en/crawl-vectors.html">FastText CommonCrawl+Wikipedia</a></li>
+<li><a href="https://fasttext.cc/docs/en/pretrained-vectors.html">FastText Wikipedia</a></li>
+<li><a href="https://sites.google.com/site/rmyeid/projects/polyglot">Polyglot</a></li>
+<li><a href="https://github.com/ai4bharat/indicnlp_corpus">AI4Bharat IndicNLP Project</a>: Word embeddings for 10 Indian languages.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namesentenceembeddingsasentence-embeddings"><a name='SentenceEmbeddings'></a>Sentence Embeddings<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namesentenceembeddingsasentence-embeddings" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='SentenceEmbeddings'></a>Sentence Embeddings" href="#a-namesentenceembeddingsasentence-embeddings"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://github.com/google-research/bert">BERT Multilingual</a>: BERT model trained on Wikipedias of many languages (including major Indic languages).</li>
+<li><a href="https://github.com/goru001/inltk">iNLTK</a>: ULMFit and TransformerXL pre-trained embeddings for many languages trained on Wikipedia and some News articles.</li>
+<li><a href="https://huggingface.co/surajp/albert-base-sanskrit">albert-base-sanskrit</a>: ALBERT-based model trained on Sanskrit Wikipedia.</li>
+<li><a href="https://huggingface.co/surajp/RoBERTa-hindi-guj-san">RoBERTa-hindi-guj-san</a>: Multilingual RoBERTa like model trained on Hindi, Sanskrit and Gujarati.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namemultilingualwordembeddingsamultilingual-word-embeddings"><a name='MultilingualWordEmbeddings'></a>Multilingual Word Embeddings<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namemultilingualwordembeddingsamultilingual-word-embeddings" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='MultilingualWordEmbeddings'></a>Multilingual Word Embeddings" href="#a-namemultilingualwordembeddingsamultilingual-word-embeddings"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://github.com/anoopkunchukuttan/geomm">GeoMM</a></li>
+<li><a href="https://github.com/Babylonpartners/fastText_multilingual">Babylon Partners</a></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namemorphanalyzersamorphanalyzers"><a name='Morphanalyzers'></a>Morphanalyzers<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namemorphanalyzersamorphanalyzers" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='Morphanalyzers'></a>Morphanalyzers" href="#a-namemorphanalyzersamorphanalyzers"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="https://github.com/ai4bharat/indicnlp_corpus">AI4Bharat IndicNLP Project</a>: Unsupervised morphanalyzers for 10 Indian languages learnt using morfessor.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="a-namesmtmodelsasmt-models"><a name='SMTModels'></a>SMT Models<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namesmtmodelsasmt-models" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='SMTModels'></a>SMT Models" href="#a-namesmtmodelsasmt-models"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li><a href="http://www.cfilt.iitb.ac.in/~moses/shata_anuvaadak/">Shata-Anuvaadak</a>: 110 language pairs</li>
+<li><a href="https://ltrc.iiit.ac.in/downloads/tools/Vaanee.tgz">LTRC Vanee</a>: Dependency based Statistical MT system from English to Hindi</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="a-namespeechcorporaaspeech-corpora"><a name='SpeechCorpora'></a>Speech Corpora<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namespeechcorporaaspeech-corpora" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='SpeechCorpora'></a>Speech Corpora" href="#a-namespeechcorporaaspeech-corpora"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<ul>
+<li><a href="https://msropendata.com/datasets/7230b4b1-912d-400e-be58-f84e0512985e">Microsoft Speech Corpus</a>: Speech corpus for Telugu, Tamil and Gujarati.</li>
+<li><a href="https://www.cse.iitb.ac.in/~pjyothi/indiccorpora/#marathi">Microsoft-IITB Marathi Speech Corpus</a>: 109 hours of speech data collected via crowdsourcing.</li>
+<li><a href="https://accentdb.org/">AccentDB</a>: Database of Indian English accents from native speakers in Bangla, Malayalam, Telugu and Oriya.</li>
+<li><a href="https://www.iitm.ac.in/donlab/tts/index.php">IIT Madras TTS database</a></li>
+<li><a href="https://en.wikipedia.org/wiki/BABEL_Speech_Corpus">BABEL Speech Corpus</a>: includes some Indian languages</li>
+<li><a href="https://github.com/shashwatup9k/bho-resources">Pratham ASER dataset</a>: Dataset for research on reading level assessment.</li>
+<li><a href="https://pypi.org/project/wikipron/">WikiPron</a>: Words and their pronunciations in IPA mined from Wiktionary. Includes Indian languages. <a href="https://www.aclweb.org/anthology/2020.lrec-1.521">paper</a></li>
+<li><a href="http://cvit.iiit.ac.in/research/projects/cvit-projects/text-to-speech-dataset-for-indian-languages">CVIT IndicSpeech</a>: TTS data for 3 Indian languages: Malayalam, Bengali and Hindi (24 hours each).</li>
+<li><a href="https://github.com/facebookresearch/covost">CoVoST 2</a>: Tamil 2 hrs data</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="a-nameocrcorporaaocr-corpora"><a name='OCRCorpora'></a>OCR Corpora<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-nameocrcorporaaocr-corpora" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='OCRCorpora'></a>OCR Corpora" href="#a-nameocrcorporaaocr-corpora"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<ul>
+<li><a href="https://www.kaggle.com/higgstachyon/kannada-mnist">Kannada MNIST</a></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="a-namemultimodalcorporaamultimodal-corpora"><a name='MultimodalCorpora'></a>Multimodal Corpora<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namemultimodalcorporaamultimodal-corpora" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='MultimodalCorpora'></a>Multimodal Corpora" href="#a-namemultimodalcorporaamultimodal-corpora"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<ul>
+<li><a href="https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2997">English-Hindi Visual Genome</a>: Images captioned in both English and Hindi.</li>
+<li><a href="https://arxiv.org/pdf/2004.11954.pdf">English-Hindi Flickr 8k</a>: A subset of images from <a href="https://jair.org/index.php/jair/article/view/10833">Flickr8k</a> images captioned by native speakers in both English and Hindi. Code and data available <a href="https://github.com/madaan/PML4DC-Comparable-Data-Collection">here</a>.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="a-namelanguagespecificcatalogsalanguage-specific-catalogs"><a name='LanguageSpecificCatalogs'></a>Language Specific Catalogs<a data-clipboard-text="http://localhost/pages/indicnlp-resources/#a-namelanguagespecificcatalogsalanguage-specific-catalogs" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <a name='LanguageSpecificCatalogs'></a>Language Specific Catalogs" href="#a-namelanguagespecificcatalogsalanguage-specific-catalogs"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>Pointers to language-specific NLP resource catalogs</p>
+<ul>
+<li><a href="https://github.com/shantipriyap/Odia-NLP-Resource-Catalog">Odia</a></li>
+</ul>
+
+
+
+            </article>
+
+            </div>
+
+            <div class="col-sm-3 d-none d-lg-block">
+
+                <nav class="section-nav">
+                    <nav id="TableOfContents"></nav>
+                    </nav>
+                 </div>
+
+        </div>
+
+    </div>
+
+                
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<div class="gdoc-page__footer flex flex-wrap justify-between">
+    
+    
+</div>
+
+            </div>
+        </main>
+
+        <footer class="gdoc-footer">
+    <div class="container flex flex-wrap">
+        <span class="gdoc-footer__item">
+            Built with <a href="https://gohugo.io/" class="gdoc-footer__link">Hugo</a> and
+            <svg class="icon heart"><use xlink:href="#heart"></use></svg>
+        </span>
+        
+        
+    </div>
+</footer>
+
+    </div>
+
+    
+
+
+<script defer src="/js/clipboard.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        var clipboard = new ClipboardJS('.clip');
+    });
+</script>
+
+
+</body>
+</html>

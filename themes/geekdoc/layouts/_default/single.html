@@ -1,8 +1,29 @@
 {{ define "main" }}
     {{ partial "page-header" . }}
 
-    <article class="gdoc-markdown">
-        <h1>{{ partial "title" . }}</h1>
-        {{ partial "content" . }}
-    </article>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-9">
+
+            <article class="gdoc-markdown">
+                <h1>{{ partial "title" . }}</h1>
+                <hr>
+                {{ partial "content" . }}
+
+            </article>
+
+            </div>
+
+            <div class="col-sm-3 d-none d-lg-block">
+
+                <nav class="section-nav">
+                    {{ .TableOfContents }}
+                    </nav>
+                 </div>
+
+        </div>
+
+    </div>
 {{ end }}
