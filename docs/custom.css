@@ -106,3 +106,7 @@ svg.github {
 .gdoc-markdown {
     text-align: justify !important;
 }
+
+table {
+    text-align: left;
+}

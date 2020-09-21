@@ -366,7 +366,8 @@ document.querySelectorAll('section[id]').forEach((section) => {
     
 
 
-<p>IGLUE is a natural language understanding benchmark for Indian languages that we propose. While building this benchmark, our objective was also to cover most of the 11 Indian languages for each task. It consists of the following tasks:</p>
+<p>To thoroughly evaluate language models on Indian languages, we need a robust NLU benchmark consisting of a wide variety of tasks and covering all the Indian languages. IndicGLUE is a natural language understanding benchmark that we propose. It consists of 6 tasks which we describe in the next section.</p>
+<p>In addition, we also compile a list of additional evaluations which comprises of challenging public tasks, but cover only some of the Indian languages.</p>
 <div class="gdoc-page__anchorwrap"><h4 id="tasks">Tasks<a data-clipboard-text="http://localhost/indic-glue/#tasks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Tasks" href="#tasks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <div class="gdoc-page__anchorwrap"><h5 id="news-category-classification">News Category Classification<a data-clipboard-text="http://localhost/indic-glue/#news-category-classification" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor News Category Classification" href="#news-category-classification"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
 <p>Predict the genre of a given news article. The dataset contains around 125k news articles across 9 Indian languages. Example:</p>
@@ -439,7 +440,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li><em>Candidate 3:</em> નિર્માણ કંપન [<em>correct answer</em>]</li>
 <li><em>Candidate 4:</em> ઓસ્ટ્રેલિય</li>
 </ul>
-<div class="gdoc-page__anchorwrap"><h5 id="cloze-style-question-answering-wcqa">Cloze-style Question Answering (WCQA)<a data-clipboard-text="http://localhost/indic-glue/#cloze-style-question-answering-wcqa" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cloze-style Question Answering (WCQA)" href="#cloze-style-question-answering-wcqa"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<div class="gdoc-page__anchorwrap"><h5 id="cloze-style-question-answering">Cloze-style Question Answering<a data-clipboard-text="http://localhost/indic-glue/#cloze-style-question-answering" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cloze-style Question Answering" href="#cloze-style-question-answering"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
 <p>Given a text with an entity randomly masked, the task is to predict that masked entity from a list of 4 candidate entities. The dataset contains around 239k examples across 11 languages. Example:</p>
 <p><em>Text</em></p>
 <pre><code>ਹੋਮੀ ਭਾਬਾ ਦਾ ਜਨਮ 1949 ਈ ਨੂਂ ਮੁੰਬਈ ਵਿੱਚ ਪਾਰਸੀ ਪਰਿਵਾਰ ਵਿੱਚ ਹੋਇਆ । ਸੇਂਟ ਮੇਰੀ ਤੋਂ ਮੁਢਲੀ ਸਿਖਿਆ ਪ੍ਰਾਪਤ ਕਰਕੇ ਉਹ ਬੰਬੇ ਯੂਨੀਵਰਸਿਟੀ ਗ੍ਰੈਜੁਏਸ਼ਨ ਲਈ ਚਲਾ ਗਿਆ । ਇਸ ਤੋਂ ਬਾਅਦ ਉਹ ਉਚੇਰੀ ਸਿਖਿਆ ਲਈ &lt;MASK&gt; ਚਲਾ ਗਿਆ । ਉਸਨੇ ਓਥੇ ਆਕਸਫੋਰਡ ਯੂਨੀਵਰਸਿਟੀ ਤੋਂ ਐਮ.ਏ ਅਤੇ ਐਮ ਫਿਲ ਦੀਆਂ ਡਿਗਰੀਆਂ ਪ੍ਰਾਪਤ ਕੀਤੀਆਂ । ਤਕਰੀਬਨ ਦਸ ਸਾਲ ਤਕ ਉਸਨੇ ਸੁਸੈਕਸ ਯੂਨੀਵਰਸਿਟੀ ਦੇ ਅੰਗਰੇਜ਼ੀ ਵਿਭਾਗ ਵਿੱਚ ਬਤੌਰ ਲੈਕਚਰਾਰ ਕਾਰਜ ਨਿਭਾਇਆ । ਇਸਤੋਂ ਇਲਾਵਾ ਹੋਮੀ ਭਾਬਾ ਪੈਨਸੁਲਵੇਨਿਆ , ਸ਼ਿਕਾਗੋ ਅਤੇ ਅਮਰੀਕਾ ਦੀ ਹਾਰਵਰਡ ਯੂਨੀਵਰਸਿਟੀ ਵਿੱਚ ਵੀ ਪ੍ਰੋਫ਼ੇਸਰ ਦੇ ਆਹੁਦੇ ਤੇ ਰਿਹਾ ।
@@ -449,7 +450,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li><em>Candidate 3</em>: ਸ਼ਿਕਾਗੋ</li>
 <li><em>Candidate 4</em>: ਪਾਕਿਸਤਾਨ</li>
 </ul>
-<div class="gdoc-page__anchorwrap"><h5 id="cross-lingual-sentence-retrieval-xsr">Cross-lingual Sentence Retrieval (XSR)<a data-clipboard-text="http://localhost/indic-glue/#cross-lingual-sentence-retrieval-xsr" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cross-lingual Sentence Retrieval (XSR)" href="#cross-lingual-sentence-retrieval-xsr"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<div class="gdoc-page__anchorwrap"><h5 id="cross-lingual-sentence-retrieval">Cross-lingual Sentence Retrieval<a data-clipboard-text="http://localhost/indic-glue/#cross-lingual-sentence-retrieval" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cross-lingual Sentence Retrieval" href="#cross-lingual-sentence-retrieval"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
 <p>Given a sentence in language $L_1$ the task is to retrieve its translation from a set of candidate sentences in language $L_2$. The dataset contains around 39k parallel sentence pairs across 8 Indian languages. Example:</p>
 <p><em>Input Sentence</em></p>
 <pre><code>In the health sector the nation has now moved ahead from the conventional approach.
@@ -477,6 +478,13 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <ul>
 <li>MIDAS Discourse</li>
 </ul>
+<div class="gdoc-page__anchorwrap"><h5 id="paraphrase-detection">Paraphrase Detection<a data-clipboard-text="http://localhost/indic-glue/#paraphrase-detection" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Paraphrase Detection" href="#paraphrase-detection"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<ul>
+<li>Amrita Exact Paraphrase Detection</li>
+<li>Amrita Rough Paraphrase Detection</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h4 id="downloads">Downloads<a data-clipboard-text="http://localhost/indic-glue/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p><em>A script to download the dataset will soon be provided</em></p>
 
 
 
@@ -494,8 +502,8 @@ document.querySelectorAll('section[id]').forEach((section) => {
         <li><a href="#named-entity-recognition">Named Entity Recognition</a></li>
         <li><a href="#headline-prediction">Headline Prediction</a></li>
         <li><a href="#wikipedia-section-title-prediction">Wikipedia Section Title Prediction</a></li>
-        <li><a href="#cloze-style-question-answering-wcqa">Cloze-style Question Answering (WCQA)</a></li>
-        <li><a href="#cross-lingual-sentence-retrieval-xsr">Cross-lingual Sentence Retrieval (XSR)</a></li>
+        <li><a href="#cloze-style-question-answering">Cloze-style Question Answering</a></li>
+        <li><a href="#cross-lingual-sentence-retrieval">Cross-lingual Sentence Retrieval</a></li>
       </ul>
     </li>
     <li><a href="#additional-evaluation-tasks">Additional Evaluation Tasks</a>
@@ -504,8 +512,10 @@ document.querySelectorAll('section[id]').forEach((section) => {
         <li><a href="#sentiment-analysis">Sentiment Analysis</a></li>
         <li><a href="#genre-classification">Genre Classification</a></li>
         <li><a href="#discourse-analysis">Discourse Analysis</a></li>
+        <li><a href="#paraphrase-detection">Paraphrase Detection</a></li>
       </ul>
     </li>
+    <li><a href="#downloads">Downloads</a></li>
   </ul>
 </nav>
                 </nav>

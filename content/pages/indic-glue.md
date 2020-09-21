@@ -5,8 +5,9 @@ url: /indic-glue
 ---
 
 
+To thoroughly evaluate language models on Indian languages, we need a robust NLU benchmark consisting of a wide variety of tasks and covering all the Indian languages. IndicGLUE is a natural language understanding benchmark that we propose. It consists of 6 tasks which we describe in the next section.
 
-IGLUE is a natural language understanding benchmark for Indian languages that we propose. While building this benchmark, our objective was also to cover most of the 11 Indian languages for each task. It consists of the following tasks:
+In addition, we also compile a list of additional evaluations which comprises of challenging public tasks, but cover only some of the Indian languages.
 
 
 #### Tasks
@@ -71,7 +72,7 @@ Predict the correct title for a Wikipedia section from a given list of four cand
 
 
 
-##### Cloze-style Question Answering (WCQA)
+##### Cloze-style Question Answering
 
 Given a text with an entity randomly masked, the task is to predict that masked entity from a list of 4 candidate entities. The dataset contains around 239k examples across 11 languages. Example:
 
@@ -88,7 +89,7 @@ Given a text with an entity randomly masked, the task is to predict that masked 
 
 
 
-##### Cross-lingual Sentence Retrieval (XSR)
+##### Cross-lingual Sentence Retrieval
 
 Given a sentence in language $L_1$ the task is to retrieve its translation from a set of candidate sentences in language $L_2$. The dataset contains around 39k parallel sentence pairs across 8 Indian languages. Example:
 
@@ -128,3 +129,14 @@ In the health sector the nation has now moved ahead from the conventional approa
 ##### Discourse Analysis
 
 * MIDAS Discourse
+
+
+##### Paraphrase Detection
+
+* Amrita Exact Paraphrase Detection
+* Amrita Rough Paraphrase Detection
+
+
+#### Downloads
+
+*A script to download the dataset will soon be provided*

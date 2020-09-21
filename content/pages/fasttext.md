@@ -10,6 +10,22 @@ fastText is a subword-aware word embedding model. It is particularly well-suited
 Our fastText models are available for 11 Indian languages:  Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
 
 
+#### Usage
+
+To use our fastText models, first [download them](#downloads). Next, install the fastText library:
+```bash
+pip3 install fasttext
+```
+
+and then load the models like this:
+
+```python
+import fasttext
+model = fasttext.load_model(path_to_binary_file)
+```
+
+For tutorials on using this model, please refer to the official [fastText documentation](https://fasttext.cc/docs/en/support.html)
+
 
 #### Downloads
 
@@ -82,7 +98,7 @@ Our fastText models are available for 11 Indian languages:  Assamese, Bengali, E
 For a full result of evaluation, check our [paper](https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf). Here, we show some of the evaluations.
 
 
-###### Word Similarity
+##### Word Similarity
 
 
 Language | fastText wiki | fastText wiki+CC | Indic fastText

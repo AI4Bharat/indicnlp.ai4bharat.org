@@ -366,7 +366,9 @@ document.querySelectorAll('section[id]').forEach((section) => {
     
 
 
-<p>IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages.</p>
+<img alt="Doc" src="https://img.shields.io/static/v1?url=https%3A%2F%2Fhuggingface.co%2Fai4bharat%2Findic-bert&label=Huggingface&color=green&message=indic-bert&logo=huggingface">
+<br>
+<p>IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages: : Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. IndicBERT has much less parameters than other public models like mBERT and XLM-R while it still manages to give state of the art of performance on several tasks.</p>
 <div class="gdoc-page__anchorwrap"><h4 id="usage">Usage<a data-clipboard-text="http://localhost/indic-bert/#usage" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Usage" href="#usage"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <p>The easiest way to use Indic BERT is through the Huggingface transformers library. It can be simply loaded like this:</p>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">AutoModel</span><span class="p">,</span> <span class="n">AutoTokenizer</span>
@@ -379,7 +381,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li>General Finetuning <a href="https://colab.research.google.com/github/ai4bharat/indic-bert/blob/master/notebooks/finetuning.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></li>
 </ul>
 <div class="gdoc-page__anchorwrap"><h4 id="pretraining-details">Pretraining Details<a data-clipboard-text="http://localhost/indic-bert/#pretraining-details" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pretraining Details" href="#pretraining-details"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<p>IndicBERT is pre-trained with IndicNLP corpus which covers 12 Indian languages (including English): Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The amount of pretraining data for each language is listed below:</p>
+<p>IndicBERT is pre-trained with IndicNLP corpus which covers 12 Indian languages (including English) The amount of pretraining data for each language is listed below:</p>
 <table>
 <thead>
 <tr>
@@ -428,9 +430,164 @@ document.querySelectorAll('section[id]').forEach((section) => {
 </table>
 <p>In total, the pretraining corpus has a size of 120GB and contains 8.9B tokens.</p>
 <div class="gdoc-page__anchorwrap"><h4 id="evaluation">Evaluation<a data-clipboard-text="http://localhost/indic-bert/#evaluation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Evaluation" href="#evaluation"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>We evaluate IndicBERT model on a set of tasks as described in the <a href="/indic-glue">IndicGLUE page</a>. Here are the results that we obtain:</p>
+<div class="gdoc-page__anchorwrap"><h5 id="indicglue">IndicGLUE<a data-clipboard-text="http://localhost/indic-bert/#indicglue" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor IndicGLUE" href="#indicglue"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>mBERT</th>
+<th>XLM-R</th>
+<th>IndicBERT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>News Article Headline Prediction</td>
+<td>89.58</td>
+<td>95.52</td>
+<td><strong>95.87</strong></td>
+</tr>
+<tr>
+<td>Wikipedia Section Title Prediction</td>
+<td><strong>73.66</strong></td>
+<td>66.33</td>
+<td>73.31</td>
+</tr>
+<tr>
+<td>Cloze-style multiple-choice QA</td>
+<td>39.16</td>
+<td>27.98</td>
+<td><strong>41.87</strong></td>
+</tr>
+<tr>
+<td>Article Genre Classification</td>
+<td>90.63</td>
+<td>97.03</td>
+<td><strong>97.34</strong></td>
+</tr>
+<tr>
+<td>Named Entity Recognition (F1-score)</td>
+<td><strong>73.24</strong></td>
+<td>65.93</td>
+<td>64.47</td>
+</tr>
+<tr>
+<td>Cross-Lingual Sentence Retrieval Task</td>
+<td>21.46</td>
+<td>13.74</td>
+<td><strong>27.12</strong></td>
+</tr>
+<tr>
+<td>Average</td>
+<td>64.62</td>
+<td>61.09</td>
+<td><strong>66.66</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="gdoc-page__anchorwrap"><h5 id="additional-tasks">Additional Tasks<a data-clipboard-text="http://localhost/indic-bert/#additional-tasks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Additional Tasks" href="#additional-tasks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Task Type</th>
+<th>mBERT</th>
+<th>XLM-R</th>
+<th>IndicBERT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BBC News Classification</td>
+<td>Genre Classification</td>
+<td>60.55</td>
+<td><strong>75.52</strong></td>
+<td>74.60</td>
+</tr>
+<tr>
+<td>IIT Product Reviews</td>
+<td>Sentiment Analysis</td>
+<td>74.57</td>
+<td><strong>78.97</strong></td>
+<td>71.32</td>
+</tr>
+<tr>
+<td>IITP Movie Reviews</td>
+<td>Sentiment Analaysis</td>
+<td>56.77</td>
+<td><strong>61.61</strong></td>
+<td>59.03</td>
+</tr>
+<tr>
+<td>Soham News Article</td>
+<td>Genre Classification</td>
+<td>80.23</td>
+<td><strong>87.6</strong></td>
+<td>78.45</td>
+</tr>
+<tr>
+<td>Midas Discourse</td>
+<td>Discourse Analysis</td>
+<td>71.20</td>
+<td><strong>79.94</strong></td>
+<td>78.44</td>
+</tr>
+<tr>
+<td>iNLTK Headlines Classification</td>
+<td>Genre Classification</td>
+<td>87.95</td>
+<td>93.38</td>
+<td><strong>94.52</strong></td>
+</tr>
+<tr>
+<td>ACTSA Sentiment Analysis</td>
+<td>Sentiment Analysis</td>
+<td>48.53</td>
+<td>59.33</td>
+<td><strong>61.18</strong></td>
+</tr>
+<tr>
+<td>Winograd NLI</td>
+<td>Natural Language Inference</td>
+<td>56.34</td>
+<td>55.87</td>
+<td><strong>56.34</strong></td>
+</tr>
+<tr>
+<td>Choice of Plausible Alternative (COPA)</td>
+<td>Natural Language Inference</td>
+<td>54.92</td>
+<td>51.13</td>
+<td><strong>58.33</strong></td>
+</tr>
+<tr>
+<td>Amrita Exact Paraphrase</td>
+<td>Paraphrase Detection</td>
+<td><strong>93.81</strong></td>
+<td>93.02</td>
+<td>93.75</td>
+</tr>
+<tr>
+<td>Amrita Rough Paraphrase</td>
+<td>Paraphrase Detection</td>
+<td>83.38</td>
+<td>82.20</td>
+<td><strong>84.33</strong></td>
+</tr>
+<tr>
+<td>Average</td>
+<td></td>
+<td>69.84</td>
+<td><strong>74.42</strong></td>
+<td>73.66</td>
+</tr>
+</tbody>
+</table>
+<p>* Note: all models have been restricted to a max_seq_length of 128.</p>
 <div class="gdoc-page__anchorwrap"><h4 id="paper">Paper<a data-clipboard-text="http://localhost/indic-bert/#paper" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Paper" href="#paper"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <ul>
-<li>Kakwani, D., Kunchukuttan, A.,, Golla, S., N.C. G., Bhattacharyya, A., Khapra, M.M. and Kumar, P., 2020. IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages. <em>Accepted by Findings of EMNLP 2020</em> <a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf">pdf</a></li>
+<li>Kakwani, D., Kunchukuttan, A., Golla, S., N.C. G., Bhattacharyya, A., Khapra, M.M. and Kumar, P., 2020. IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages. <em>Accepted by Findings of EMNLP 2020</em> <a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf">pdf</a></li>
 </ul>
 <div class="gdoc-page__anchorwrap"><h4 id="downloads">Downloads<a data-clipboard-text="http://localhost/indic-bert/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <ul>
@@ -450,7 +607,12 @@ document.querySelectorAll('section[id]').forEach((section) => {
     <li><a href="#usage">Usage</a></li>
     <li><a href="#tutorials">Tutorials</a></li>
     <li><a href="#pretraining-details">Pretraining Details</a></li>
-    <li><a href="#evaluation">Evaluation</a></li>
+    <li><a href="#evaluation">Evaluation</a>
+      <ul>
+        <li><a href="#indicglue">IndicGLUE</a></li>
+        <li><a href="#additional-tasks">Additional Tasks</a></li>
+      </ul>
+    </li>
     <li><a href="#paper">Paper</a></li>
     <li><a href="#downloads">Downloads</a></li>
   </ul>
