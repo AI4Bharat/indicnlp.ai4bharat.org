@@ -3,41 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost/pages/indicnlp-corpus/</loc>
+    <loc>http://localhost/corpora/</loc>
     <lastmod>2020-09-13T17:17:08+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/pages/fasttext/</loc>
+    <loc>http://localhost/fasttext/</loc>
     <lastmod>2020-09-13T17:17:08+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/pages/indic-glue/</loc>
+    <loc>http://localhost/indic-glue/</loc>
+    <lastmod>2020-09-18T14:53:03+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/pages/indic-bert/</loc>
-    <lastmod>2020-09-13T17:17:08+05:30</lastmod>
+    <loc>http://localhost/indic-bert/</loc>
+    <lastmod>2020-09-18T14:53:03+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/pages/indicnlp-resources/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost/pages/publications/</loc>
+    <loc>http://localhost/publications/</loc>
     <lastmod>2020-09-17T16:42:42+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/pages/about-us/</loc>
+    <loc>http://localhost/aboutus/</loc>
     <lastmod>2020-09-15T19:13:31+05:30</lastmod>
   </url>
   
   <url>
     <loc>http://localhost/</loc>
-    <lastmod>2020-09-17T16:42:42+05:30</lastmod>
+    <lastmod>2020-09-18T14:53:03+05:30</lastmod>
   </url>
   
   <url>
@@ -45,13 +42,17 @@
   </url>
   
   <url>
-    <loc>http://localhost/pages/home/</loc>
+    <loc>http://localhost/home/</loc>
     <lastmod>2020-09-13T17:17:08+05:30</lastmod>
   </url>
   
   <url>
     <loc>http://localhost/pages/</loc>
-    <lastmod>2020-09-17T16:42:42+05:30</lastmod>
+    <lastmod>2020-09-18T14:53:03+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/resources/</loc>
   </url>
   
   <url>

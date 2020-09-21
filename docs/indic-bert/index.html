@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Pages">
+<meta name="description" content="IndicBERT">
 
-<title>Pages | AI4Bharat IndicNLP</title>
+<title>IndicBERT | AI4Bharat IndicNLP</title>
 
 <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 <link rel="stylesheet" href="/main.min.css" media="screen">
@@ -15,7 +15,6 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost/pages/index.xml" title="AI4Bharat IndicNLP" />
 <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
 
 
@@ -166,7 +165,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <li>
             
                 <span class="flex">
-                    <a href="/indic-bert/" class="gdoc-nav__entry ">
+                    <a href="/indic-bert/" class="gdoc-nav__entry is-active">
                         IndicBERT
                     </a>
                 </span>
@@ -350,18 +349,118 @@ document.querySelectorAll('section[id]').forEach((section) => {
     </span>
 </div>
 
-    <article class="gdoc-markdown">
-        <h2>Pages</h2>
-        
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-9">
+
+            <article class="gdoc-markdown">
+                <h1>IndicBERT</h1>
+                <hr>
+                
 
 
 
     
 
 
+<p>IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages.</p>
+<div class="gdoc-page__anchorwrap"><h4 id="usage">Usage<a data-clipboard-text="http://localhost/indic-bert/#usage" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Usage" href="#usage"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>The easiest way to use Indic BERT is through the Huggingface transformers library. It can be simply loaded like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">AutoModel</span><span class="p">,</span> <span class="n">AutoTokenizer</span>
+
+<span class="n">tokenizer</span> <span class="o">=</span> <span class="n">AutoTokenizer</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s1">&#39;ai4bharat/indic-bert&#39;</span><span class="p">)</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">AutoModel</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s1">&#39;ai4bharat/indic-bert&#39;</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap"><h4 id="tutorials">Tutorials<a data-clipboard-text="http://localhost/indic-bert/#tutorials" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Tutorials" href="#tutorials"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>If you want to quickly try experimenting with IndicBERT, we suggest checking out our tutorials and other fine-tuning notebooks that run on Google Colab:</p>
+<ul>
+<li>General Finetuning <a href="https://colab.research.google.com/github/ai4bharat/indic-bert/blob/master/notebooks/finetuning.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h4 id="pretraining-details">Pretraining Details<a data-clipboard-text="http://localhost/indic-bert/#pretraining-details" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pretraining Details" href="#pretraining-details"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>IndicBERT is pre-trained with IndicNLP corpus which covers 12 Indian languages (including English): Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The amount of pretraining data for each language is listed below:</p>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>as</th>
+<th>bn</th>
+<th>en</th>
+<th>gu</th>
+<th>hi</th>
+<th>kn</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>No. of Tokens</strong></td>
+<td>36.9M</td>
+<td>815M</td>
+<td>1.34B</td>
+<td>724M</td>
+<td>1.84B</td>
+<td>712M</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Language</strong></td>
+<td><strong>ml</strong></td>
+<td><strong>mr</strong></td>
+<td><strong>or</strong></td>
+<td><strong>pa</strong></td>
+<td><strong>ta</strong></td>
+<td><strong>te</strong></td>
+<td><strong>all</strong></td>
+</tr>
+<tr>
+<td><strong>No. of Tokens</strong></td>
+<td>767M</td>
+<td>560M</td>
+<td>104M</td>
+<td>814M</td>
+<td>549M</td>
+<td>671M</td>
+<td>8.9B</td>
+</tr>
+</tbody>
+</table>
+<p>In total, the pretraining corpus has a size of 120GB and contains 8.9B tokens.</p>
+<div class="gdoc-page__anchorwrap"><h4 id="evaluation">Evaluation<a data-clipboard-text="http://localhost/indic-bert/#evaluation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Evaluation" href="#evaluation"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<div class="gdoc-page__anchorwrap"><h4 id="paper">Paper<a data-clipboard-text="http://localhost/indic-bert/#paper" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Paper" href="#paper"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<ul>
+<li>Kakwani, D., Kunchukuttan, A.,, Golla, S., N.C. G., Bhattacharyya, A., Khapra, M.M. and Kumar, P., 2020. IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages. <em>Accepted by Findings of EMNLP 2020</em> <a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf">pdf</a></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h4 id="downloads">Downloads<a data-clipboard-text="http://localhost/indic-bert/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<ul>
+<li>IndicBERT zip</li>
+</ul>
 
 
-    </article>
+
+            </article>
+
+            </div>
+
+            <div class="col-sm-3 d-none d-lg-block" >
+                <nav class="section-nav">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#tutorials">Tutorials</a></li>
+    <li><a href="#pretraining-details">Pretraining Details</a></li>
+    <li><a href="#evaluation">Evaluation</a></li>
+    <li><a href="#paper">Paper</a></li>
+    <li><a href="#downloads">Downloads</a></li>
+  </ul>
+</nav>
+                </nav>
+            </div>
+
+        </div>
+
+    </div>
 
                 
 

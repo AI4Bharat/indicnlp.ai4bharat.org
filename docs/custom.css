@@ -96,3 +96,13 @@ pre code {
 .container {
     max-width: 1400px !important;
 }
+
+
+svg.github {
+    height: 2em;
+    width: 1.2em;
+}
+
+.gdoc-markdown {
+    text-align: justify !important;
+}

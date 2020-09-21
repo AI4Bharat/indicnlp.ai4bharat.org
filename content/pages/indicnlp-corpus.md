@@ -1,100 +1,30 @@
 ---
-title: "IndicNLP Corpora"
+title: "Corpora"
 weight: 10
+url: /corpora
 ---
 
 IndicNLP corpora has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months. It has been used to train our released models.
 
 ##### Download Links
-<div class="table-responsive">
-                    <table class="table table-striped">
-                        <thead>
-                            <th>Language</th>
-                            <th>Sentences</th>
-                            <th>Tokens</th>
-                            <th>Types</th>
-                            <th>Vocab</th>
-                            <th>Corpus</th>
-                        </thead>
-                        <tr>
-                            <td>pa</td>
-                            <td>6.5M</td>
-                            <td>179.4M</td>
-                            <td>0.5M</td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/pa.vocabfreq.tsv.gz">link</a></td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/pa.txt.gz">link</a></td>
-                        </tr>
-                        <tr>
-                            <td>hi</td>
-                            <td>62.9M</td>
-                            <td>1199.8M</td>
-                            <td>5.3M</td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/hi.vocabfreq.tsv.gz">link</a></td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/hi.txt.gz">link</a></td>
-                        </tr>
-                        <tr>
-                            <td>bn</td>
-                            <td>7.2M</td>
-                            <td>100.1M</td>
-                            <td>1.5M</td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/bn.vocabfreq.tsv.gz">link</a></td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/bn.txt.gz">link</a></td>
-                        </tr>
-                        <tr>
-                            <td>or</td>
-                            <td>3.5M</td>
-                            <td>51.5M</td>
-                            <td>0.7M</td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/or.vocabfreq.tsv.gz">link</a></td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/or.txt.gz">link</a></td>
-                        </tr>
-                        <tr>
-                            <td>gu</td>
-                            <td>7.8M</td>
-                            <td>129.7M</td>
-                            <td>2.4M</td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/gu.vocabfreq.tsv.gz">link</a></td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/gu.txt.gz">link</a></td>
-                        </tr>
-                        <tr>
-                            <td>mr</td>
-                            <td>9.9M</td>
-                            <td>142.4M</td>
-                            <td>2.6M</td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/mr.vocabfreq.tsv.gz">link</a></td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/mr.txt.gz">link</a></td>
-                        </tr>
-                        <tr>
-                            <td>kn</td>
-                            <td>14.7M</td>
-                            <td>174.9M</td>
-                            <td>3.0M</td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/kn.vocabfreq.tsv.gz">link</a></td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/kn.txt.gz">link</a></td>
-                        </tr>
-                        <tr>
-                            <td>te</td>
-                            <td>15.1M</td>
-                            <td>190.2M</td>
-                            <td>4.1M</td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/te.vocabfreq.tsv.gz">link</a></td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/te.txt.gz">link</a></td>
-                        </tr>
-                        <tr>
-                            <td>ml</td>
-                            <td>11.6M</td>
-                            <td>167.4M</td>
-                            <td>8.8M</td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/ml.vocabfreq.tsv.gz">link</a></td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/ml.txt.gz">link</a></td>
-                        </tr>
-                        <tr>
-                            <td>ta</td>
-                            <td>20.9M</td>
-                            <td>362.8M</td>
-                            <td>9.4M</td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/ta.vocabfreq.tsv.gz">link</a></td>
-                            <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/ta.txt.gz">link</a></td>
-                        </tr>
-                    </table>
-</div>
+
+Note: Stats are shown for the original file and the file obtained after deduplicating sentences.
+
+| Language | \# News Articles* | Sentences     | Tokens        | Link     |
+| -------- | ----------------- | ------------- | ------------- | -------- |
+| as       | 0.60M             | 6.3M / 1.0M   | 156M / 36.9M  | [link]() |
+| bn       | 3.83M             | 78.8M / 37.3M | 1.68B / 815M  | [link]() |
+| en       | 3.49M             | 59.9M / 47.3M | 1.65B / 1.34B | [link]() |
+| gu       | 2.63M             | 55.7M / 35.8M | 1.08B / 724M  | [link]() |
+| hi       | 4.95M             | 99.3M / 56.8M | 3.17B / 1.84B | [link]() |
+| kn       | 3.76M             | 74.6M / 46.3M | 1.10B / 712M  | [link]() |
+| ml       | 4.75M             | 83.2M / 50.6M | 1.20B / 767M  | [link]() |
+| mr       | 2.31M             | 68.6M / 30.8M | 1.17B / 560M  | [link]() |
+| or       | 0.69M             | 8.3M / 6.2M   | 139M / 104M   | [link]() |
+| pa       | 2.64M             | 62.9M / 24.2M | 2.42B / 814M  | [link]() |
+| ta       | 4.41M             | 112M / 29M    | 1.90B / 549M  | [link]() |
+| te       | 3.98M             | 80M / 43.3M   | 1.15B / 671M  | [link]() |
+
+
+
+\* Excluding articles obtained from the OSCAR corpus

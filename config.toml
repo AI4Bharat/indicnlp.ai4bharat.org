@@ -29,3 +29,6 @@ publishDir = "docs"
   geekdocBreadcrumb = false
 
   geekdocLogo = "favicon.ico.jpeg"
+
+[permalinks]
+  posts = "/:title"

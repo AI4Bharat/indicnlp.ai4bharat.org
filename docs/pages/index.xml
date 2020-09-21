@@ -10,30 +10,31 @@
     
     
     <item>
-      <title>IndicNLP Corpora</title>
-      <link>http://localhost/pages/indicnlp-corpus/</link>
+      <title>Corpora</title>
+      <link>http://localhost/corpora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/pages/indicnlp-corpus/</guid>
+      <guid>http://localhost/corpora/</guid>
       <description>IndicNLP corpora has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months. It has been used to train our released models.
-Download Links  Language Sentences Tokens Types Vocab Corpus   pa 6.5M 179.4M 0.5M link link   hi 62.9M 1199.8M 5.3M link link   bn 7.2M 100.1M 1.5M link link   or 3.</description>
+Download Links Note: Stats are shown for the original file and the file obtained after deduplicating sentences.
+   Language # News Articles* Sentences Tokens Link     as 0.60M 6.3M / 1.0M 156M / 36.</description>
     </item>
     
     <item>
       <title>fastText</title>
-      <link>http://localhost/pages/fasttext/</link>
+      <link>http://localhost/fasttext/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/pages/fasttext/</guid>
+      <guid>http://localhost/fasttext/</guid>
       <description>Language Vectors Models   pa link link   hi link link   bn link link   or link link   gu link link   mr link link   kn link link   te link link   ml link link   ta link link   </description>
     </item>
     
     <item>
       <title>IndicGLUE</title>
-      <link>http://localhost/pages/indic-glue/</link>
+      <link>http://localhost/indic-glue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/pages/indic-glue/</guid>
+      <guid>http://localhost/indic-glue/</guid>
       <description>IGLUE is a natural language understanding benchmark for Indian languages that we propose. While building this benchmark, our objective was also to cover most of the 11 Indian languages for each task. It consists of the following tasks:
 Tasks News Category Classification Predict the genre of a given news article. The dataset contains around 125k news articles across 9 Indian languages. Example:
 Article Snippet:
@@ -42,41 +43,30 @@ Article Snippet:
     
     <item>
       <title>IndicBERT</title>
-      <link>http://localhost/pages/indic-bert/</link>
+      <link>http://localhost/indic-bert/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/pages/indic-bert/</guid>
+      <guid>http://localhost/indic-bert/</guid>
       <description>IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages.
 Usage The easiest way to use Indic BERT is through the Huggingface transformers library. It can be simply loaded like this:
 from transformers import AutoModel, AutoTokenizer tokenizer = AutoTokenizer.from_pretrained(&amp;#39;ai4bharat/indic-bert&amp;#39;) model = AutoModel.from_pretrained(&amp;#39;ai4bharat/indic-bert&amp;#39;) Tutorials If you want to quickly try experimenting with IndicBERT, we suggest checking out our tutorials and other fine-tuning notebooks that run on Google Colab:</description>
     </item>
     
     <item>
-      <title>IndicNLP Resources</title>
-      <link>http://localhost/pages/indicnlp-resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/pages/indicnlp-resources/</guid>
-      <description>Please suggest any other resources you may be aware of. Raise a pull request or an issue to add more resources to the catalog. Put the proposed entry in the following format:
-[Wikipedia Dumps](https://dumps.wikimedia.org/)
-Add a small, informative description of the dataset and provide links to any paper/article/site documenting the resource. Mention your name too. We would like to acknowlege your contribution to building this catalog in the CONTRIBUTORS list.</description>
-    </item>
-    
-    <item>
       <title>Publications</title>
-      <link>http://localhost/pages/publications/</link>
+      <link>http://localhost/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/pages/publications/</guid>
+      <guid>http://localhost/publications/</guid>
       <description> Kakwani, D., Kunchukuttan, A.,, Golla, S., N.C. G., Bhattacharyya, A., Khapra, M.M. and Kumar, P., 2020. IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages. Accepted by Findings of EMNLP 2020 pdf Kunchukuttan, A., Kakwani, D., Golla, S., N.C. G., Bhattacharyya, A., Khapra, M.M. and Kumar, P., 2020. AI4Bharat-IndicNLP Corpus: Monolingual Corpora and Word Embeddings for Indic Languages. arXiv preprint arXiv:2005.00085. pdf  </description>
     </item>
     
     <item>
       <title>About Us</title>
-      <link>http://localhost/pages/about-us/</link>
+      <link>http://localhost/aboutus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/pages/about-us/</guid>
+      <guid>http://localhost/aboutus/</guid>
       <description>Our group focuses on building NLP ecosystem for Indian languages and seeking new models and techniques better suited for Indian languages. Our project has volunteers from IIT Madras, One fourth labs, Microsoft Research.
 Members       
 Contact Us Drop us a mail at opensource@ai4bharat.org</description>
@@ -84,10 +74,10 @@ Contact Us Drop us a mail at opensource@ai4bharat.org</description>
     
     <item>
       <title>IndicNLP</title>
-      <link>http://localhost/pages/home/</link>
+      <link>http://localhost/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/pages/home/</guid>
+      <guid>http://localhost/home/</guid>
       <description>Our work is focused on building a better ecosystem for Indian languages while also keeping up with the recent advancements in NLP. To this end, we are releasing our work on the following projects:
  IndicNLP Corpora: A lot of NLP models require a large amount of training data, which most of the Indian languages lack. In this project, we develop a large-scale Indic corpora by intesively crawling the web. The corpora that we build has a total of 8.</description>
     </item>

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="IndicGLUE">
+
+<title>IndicGLUE | AI4Bharat IndicNLP</title>
+
+<link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
+<link rel="stylesheet" href="/main.min.css" media="screen">
+<link rel="stylesheet" href="/custom.css" media="screen">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
+
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        const id = entry.target.getAttribute('id');
+        if (entry.intersectionRatio > 0) {
+            document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('active');
+        } else {
+            document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('active');
+        }
+    });
+});
+
+
+document.querySelectorAll('section[id]').forEach((section) => {
+    observer.observe(section);
+});
+
+});
+</script>
+</head>
+
+<body>
+    <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 24 24" id="arrow_back" xmlns="http://www.w3.org/2000/svg"><path d="M20.016 11.016v1.969H7.828l5.578 5.625L12 20.016 3.984 12 12 3.984l1.406 1.406-5.578 5.625h12.188z"/></symbol><symbol viewBox="0 0 24 24" id="arrow_left_alt" xmlns="http://www.w3.org/2000/svg"><path d="M7.969 11.016v-3L3.985 12l3.984 3.984v-3h12.047v-1.969H7.969z"/></symbol><symbol viewBox="0 0 24 24" id="arrow_right_alt" xmlns="http://www.w3.org/2000/svg"><path d="M16.031 11.016v-3L20.015 12l-3.984 3.984v-3H3.984v-1.969h12.047z"/></symbol><symbol viewBox="0 0 24 24" id="bookmark" xmlns="http://www.w3.org/2000/svg"><path d="M15 5.016q.797 0 1.406.586t.609 1.383v16.031l-7.031-3-6.984 3V6.985q0-.797.609-1.383t1.406-.586h9.984zM18.984 18V5.016q0-.797-.586-1.406t-1.383-.609H6.984q0-.797.609-1.406T8.999.986h9.984q.797 0 1.406.609t.609 1.406v15.984z"/></symbol><symbol viewBox="0 0 16 28" id="code" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 23a1.5 1.5 0 10-3.001.001A1.5 1.5 0 004.5 23zm0-18a1.5 1.5 0 10-3.001.001A1.5 1.5 0 004.5 5zm10 2a1.5 1.5 0 10-3.001.001A1.5 1.5 0 0014.5 7zM16 7a3.002 3.002 0 01-1.5 2.594c-.047 5.641-4.047 6.891-6.703 7.734C5.313 18.109 4.5 18.484 4.5 20v.406A3 3 0 016 23a3.001 3.001 0 01-6 0c0-1.109.609-2.078 1.5-2.594V7.594A3 3 0 010 5a3.001 3.001 0 016 0 3.002 3.002 0 01-1.5 2.594v7.766c.797-.391 1.641-.656 2.406-.891 2.906-.922 4.562-1.609 4.594-4.875A3 3 0 0110 7a3.001 3.001 0 016 0z"/></symbol><symbol viewBox="0 0 24 24" id="date" xmlns="http://www.w3.org/2000/svg"><path d="M18.984 20.016V9H5.015v11.016h13.969zm0-16.032q.797 0 1.406.609t.609 1.406v14.016q0 .797-.609 1.383t-1.406.586H5.015q-.844 0-1.43-.563t-.586-1.406V5.999q0-.797.586-1.406t1.43-.609h.984V2.015h2.016v1.969h7.969V2.015H18v1.969h.984zm-1.968 7.032v1.969H15v-1.969h2.016zm-4.032 0v1.969h-1.969v-1.969h1.969zm-3.984 0v1.969H6.984v-1.969H9z"/></symbol><symbol viewBox="0 0 24 24" id="download" xmlns="http://www.w3.org/2000/svg"><path d="M5.016 18h13.969v2.016H5.016V18zm13.968-9L12 15.984 5.016 9H9V3h6v6h3.984z"/></symbol><symbol viewBox="0 0 24 24" id="email" xmlns="http://www.w3.org/2000/svg"><path d="M20.016 8.016V6L12 11.016 3.984 6v2.016L12 12.985zm0-4.032q.797 0 1.383.609t.586 1.406v12q0 .797-.586 1.406t-1.383.609H3.985q-.797 0-1.383-.609t-.586-1.406v-12q0-.797.586-1.406t1.383-.609h16.031z"/></symbol><symbol viewBox="0 0 24 28" id="github" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-.609.109-.828-.266-.828-.578 0-.391.016-1.687.016-3.297 0-1.125-.375-1.844-.812-2.219 2.672-.297 5.484-1.313 5.484-5.922 0-1.313-.469-2.375-1.234-3.219.125-.313.531-1.531-.125-3.187-1-.313-3.297 1.234-3.297 1.234a11.28 11.28 0 00-6 0S6.704 6.656 5.704 6.969c-.656 1.656-.25 2.875-.125 3.187-.766.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-.344.313-.656.844-.766 1.609-.688.313-2.438.844-3.484-1-.656-1.141-1.844-1.234-1.844-1.234-1.172-.016-.078.734-.078.734.781.359 1.328 1.75 1.328 1.75.703 2.141 4.047 1.422 4.047 1.422 0 1 .016 1.937.016 2.234 0 .313-.219.688-.828.578C3.439 23.796.002 19.296.002 13.999c0-6.625 5.375-12 12-12zM4.547 19.234c.031-.063-.016-.141-.109-.187-.094-.031-.172-.016-.203.031-.031.063.016.141.109.187.078.047.172.031.203-.031zm.484.532c.063-.047.047-.156-.031-.25-.078-.078-.187-.109-.25-.047-.063.047-.047.156.031.25.078.078.187.109.25.047zm.469.703c.078-.063.078-.187 0-.297-.063-.109-.187-.156-.266-.094-.078.047-.078.172 0 .281s.203.156.266.109zm.656.656c.063-.063.031-.203-.063-.297-.109-.109-.25-.125-.313-.047-.078.063-.047.203.063.297.109.109.25.125.313.047zm.891.391c.031-.094-.063-.203-.203-.25-.125-.031-.266.016-.297.109s.063.203.203.234c.125.047.266 0 .297-.094zm.984.078c0-.109-.125-.187-.266-.172-.141 0-.25.078-.25.172 0 .109.109.187.266.172.141 0 .25-.078.25-.172zm.906-.156c-.016-.094-.141-.156-.281-.141-.141.031-.234.125-.219.234.016.094.141.156.281.125s.234-.125.219-.219z"/></symbol><symbol viewBox="0 0 28 28" id="heart" xmlns="http://www.w3.org/2000/svg"><path d="M14 26c-.25 0-.5-.094-.688-.281l-9.75-9.406c-.125-.109-3.563-3.25-3.563-7C-.001 4.735 2.796 2 7.468 2c2.734 0 5.297 2.156 6.531 3.375C15.233 4.156 17.796 2 20.53 2c4.672 0 7.469 2.734 7.469 7.313 0 3.75-3.437 6.891-3.578 7.031l-9.734 9.375a.972.972 0 01-.688.281z"/></symbol><symbol viewBox="0 0 24 24" id="link" xmlns="http://www.w3.org/2000/svg"><path d="M17.016 6.984q2.063 0 3.516 1.477T21.985 12t-1.453 3.539-3.516 1.477h-4.031v-1.922h4.031q1.266 0 2.18-.914T20.11 12t-.914-2.18-2.18-.914h-4.031V6.984h4.031zm-9 6v-1.969h7.969v1.969H8.016zM3.891 12q0 1.266.914 2.18t2.18.914h4.031v1.922H6.985q-2.063 0-3.516-1.477T2.016 12t1.453-3.539 3.516-1.477h4.031v1.922H6.985q-1.266 0-2.18.914T3.891 12z"/></symbol><symbol viewBox="0 0 24 24" id="menu" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2.016H3V6zm0 6.984v-1.969h18v1.969H3zM3 18v-2.016h18V18H3z"/></symbol><symbol viewBox="0 0 24 24" id="notification" xmlns="http://www.w3.org/2000/svg"><path d="M18 15.984L20.016 18v.984H3.985V18l2.016-2.016v-4.969q0-2.344 1.195-4.078t3.305-2.25v-.703q0-.609.422-1.055t1.078-.445 1.078.445.422 1.055v.703q2.109.516 3.305 2.25t1.195 4.078v4.969zm-6 6q-.844 0-1.43-.563t-.586-1.406h4.031q0 .797-.609 1.383T12 21.984z"/></symbol><symbol viewBox="0 0 24 24" id="path" xmlns="http://www.w3.org/2000/svg"><path d="M21.984 11.016H15v-3h-2.016v7.969H15v-3h6.984v8.016H15v-3h-3.984V8.017H9v3H2.016V3.001H9v3h6v-3h6.984v8.016z"/></symbol><symbol viewBox="0 0 24 24" id="person" xmlns="http://www.w3.org/2000/svg"><path d="M12 14.016q2.531 0 5.273 1.102t2.742 2.883v2.016H3.984v-2.016q0-1.781 2.742-2.883t5.273-1.102zM12 12q-1.641 0-2.813-1.172T8.015 8.015t1.172-2.836T12 3.984t2.813 1.195 1.172 2.836-1.172 2.813T12 12z"/></symbol><symbol viewBox="0 0 24 24" id="search" xmlns="http://www.w3.org/2000/svg"><path d="M9.516 14.016q1.875 0 3.188-1.313t1.313-3.188-1.313-3.188-3.188-1.313-3.188 1.313-1.313 3.188 1.313 3.188 3.188 1.313zm6 0l4.969 4.969-1.5 1.5-4.969-4.969v-.797l-.281-.281q-1.781 1.547-4.219 1.547-2.719 0-4.617-1.875T3.001 9.516t1.898-4.617 4.617-1.898 4.594 1.898 1.875 4.617q0 .984-.469 2.227t-1.078 1.992l.281.281h.797z"/></symbol><symbol viewBox="0 0 20 28" id="shield" xmlns="http://www.w3.org/2000/svg"><path d="M17 15V5h-7v17.766c.797-.422 2.078-1.156 3.328-2.141C15 19.312 17 17.266 17 15zm3-12v12c0 6.578-9.203 10.734-9.594 10.906-.125.063-.266.094-.406.094s-.281-.031-.406-.094C9.203 25.734 0 21.578 0 15V3c0-.547.453-1 1-1h18c.547 0 1 .453 1 1z"/></symbol><symbol viewBox="0 0 32 32" id="tags" xmlns="http://www.w3.org/2000/svg"><path d="M5 5c-1.104 0-2 .887-2 2v8l13.381 13.381c.716.716 1.838.78 2.62.191L5 14.5V5.007 5zm11-1l13.381 13.381c.783.783.787 2.051.008 2.831l-7.177 7.177a2.003 2.003 0 01-2.831-.008L6 14V6c0-1.112.895-2 2-2h8zm-4.5 7a1.5 1.5 0 10-.001-3.001A1.5 1.5 0 0011.5 11z"/></symbol><symbol viewBox="0 0 35 32" id="telescope" xmlns="http://www.w3.org/2000/svg"><path d="M27.464 2.314a.501.501 0 00-.698-.257L14.86 8.339a.499.499 0 00-.233.621l.245.641-6.873 3.769a.5.5 0 00-.222.63l.228.549-7.299 3.488a.5.5 0 00-.246.643l1.498 3.61a.5.5 0 00.629.28l7.625-2.701.228.549a.5.5 0 00.601.289l7.276-2.097.218.569a.497.497 0 00.612.299l13-4a.498.498 0 00.317-.663l-5-12.501zM2.7 21.469l-1.134-2.734 6.823-3.261 1.439 3.47L2.7 21.469zm8.491-1.846l-.238-.574-1.843-4.445-.238-.573 6.336-3.475 2.374 6.134.375.981-6.766 1.952zm8.109-1.238l-.203-.531c-.003-.011-.001-.024-.006-.035l-.618-1.597-2.754-7.206 11.023-5.815 4.592 11.48L19.3 18.385zM28.964.314a.5.5 0 00-.929.371l6 15a.502.502 0 00.651.279.501.501 0 00.279-.65l-6.001-15zM18 21h-3c-1.14 0-2 .86-2 2v1.315l-5.879 6.859a.5.5 0 10.758.651L13.73 25H16v6.5a.5.5 0 001 0V25h2.27l5.85 6.825a.497.497 0 00.705.054.5.5 0 00.054-.705L20 24.315v-1.24C20 21.912 19.122 21 18 21zm1 3h-5v-1c0-.589.411-1 1-1h3c.57 0 1 .462 1 1.075V24z"/></symbol></svg>
+
+    <div class="wrapper">
+        <input type="checkbox" class="hidden" id="menu-control" />
+        <header class="gdoc-header  bg-light shadow-sm">
+    <div class="container float-left">
+        
+        <label for="menu-control" class="gdoc-nav__control">
+            <svg class="icon menu"><use xlink:href="#menu"></use></svg>
+            <svg class="icon arrow-back"><use xlink:href="#arrow_back"></use></svg>
+        </label>
+        
+        <a class="gdoc-header__link" href="http://localhost">
+            <span class="gdoc-brand flex">
+                <div class="brand"><a href="#">AI4Bharat <span class="subbrand">indicnlp</span></a></div>
+            </span>
+        </a>
+    </div>
+</header>
+
+
+        <main class="container flex flex-even">
+            <aside class="gdoc-nav">
+                <nav>
+    
+
+
+    <section class="gdoc-nav--main">
+        
+            
+
+    
+
+    <ul class="gdoc-nav__list">
+
+        
+            
+            
+            <li>
+            
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/home/" class="gdoc-nav__entry ">
+                        IndicNLP
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/corpora/" class="gdoc-nav__entry ">
+                        Corpora
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/fasttext/" class="gdoc-nav__entry ">
+                        fastText
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/indic-glue/" class="gdoc-nav__entry is-active">
+                        IndicGLUE
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/indic-bert/" class="gdoc-nav__entry ">
+                        IndicBERT
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/publications/" class="gdoc-nav__entry ">
+                        Publications
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/aboutus/" class="gdoc-nav__entry ">
+                        About Us
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+        
+    </ul>
+
+
+
+
+
+        
+    </section>
+
+    <br>
+    
+    <section class="gdoc-nav--more">
+        
+            <b class="flex">More</b>
+            
+
+
+
+
+<ul class="gdoc-nav__list">
+
+    
+    
+
+    <li>
+        
+        
+            
+            
+            
+            
+
+            <span class="flex">
+                
+                <a href="/resources/"
+                    target=""
+                    class="gdoc-nav__entry ">
+                    IndicNLP Catalog
+                </a>
+            </span>
+        
+
+        
+        
+    </li>
+
+
+    
+    
+
+    <li>
+        
+        
+            
+            
+            
+            
+
+            <span class="flex">
+                <svg class="icon github"><use xlink:href="#github"></use></svg>
+                <a href="https://github.com/AI4Bharat/indic-bert"
+                    target="_blank"
+                    class="gdoc-nav__entry ">
+                    IndicBERT Repo
+                </a>
+            </span>
+        
+
+        
+        
+    </li>
+
+
+    
+    
+
+    <li>
+        
+        
+            
+            
+            
+            
+
+            <span class="flex">
+                <svg class="icon github"><use xlink:href="#github"></use></svg>
+                <a href="https://github.com/AI4Bharat"
+                    target="_blank"
+                    class="gdoc-nav__entry ">
+                    AI4Bharat Org
+                </a>
+            </span>
+        
+
+        
+        
+    </li>
+
+
+</ul>
+
+
+
+
+        
+    </section>
+</nav>
+
+            </aside>
+
+            <div class="gdoc-page">
+                
+    
+
+
+    
+
+
+
+
+
+
+<div class="gdoc-page__header flex flex-wrap justify-between hidden-mobile hidden " itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <span>
+        
+    </span>
+    <span>
+        
+    </span>
+</div>
+
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-9">
+
+            <article class="gdoc-markdown">
+                <h1>IndicGLUE</h1>
+                <hr>
+                
+
+
+
+    
+
+
+<p>IGLUE is a natural language understanding benchmark for Indian languages that we propose. While building this benchmark, our objective was also to cover most of the 11 Indian languages for each task. It consists of the following tasks:</p>
+<div class="gdoc-page__anchorwrap"><h4 id="tasks">Tasks<a data-clipboard-text="http://localhost/indic-glue/#tasks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Tasks" href="#tasks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<div class="gdoc-page__anchorwrap"><h5 id="news-category-classification">News Category Classification<a data-clipboard-text="http://localhost/indic-glue/#news-category-classification" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor News Category Classification" href="#news-category-classification"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<p>Predict the genre of a given news article. The dataset contains around 125k news articles across 9 Indian languages. Example:</p>
+<p><em>Article Snippet</em>:</p>
+<pre><code>கர்நாடக சட்டப் பேரவையில் வெற்றி பெற்ற எம்எல்ஏக்கள் இன்று பதவியேற்றுக் கொண்ட நிலையில் , காங்கிரஸ் எம்எல்ஏ ஆனந்த் சிங் க்கள் ஆப்சென்ட் ஆகி அதிர்ச்சியை ஏற்படுத்தியுள்ளார் . உச்சநீதிமன்ற உத்தரவுப்படி இன்று மாலை முதலமைச்சர் எடியூரப்பா இன்று நம்பிக்கை வாக்கெடுப்பு நடத்தி பெரும்பான்மையை நிரூபிக்க உச்சநீதிமன்றம் உத்தரவிட்டது . 
+</code></pre><p><em>Category</em>: Politics</p>
+<div class="gdoc-page__anchorwrap"><h5 id="named-entity-recognition">Named Entity Recognition<a data-clipboard-text="http://localhost/indic-glue/#named-entity-recognition" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Named Entity Recognition" href="#named-entity-recognition"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<p>Recognize entities and their coarse types in a sequence of words. The dataset contains around 787k examples across 11 Indian languages.</p>
+<p><em>Example</em>:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Token</strong></td>
+<td>चाणक्य</td>
+<td>पुरी</td>
+<td>को</td>
+<td>यहाँ</td>
+<td>देखने</td>
+<td>हेतु</td>
+<td>यहाँ</td>
+<td>क्लिक</td>
+<td>करें</td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>B-LOC</td>
+<td>I-LOC</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+</tbody>
+</table>
+<div class="gdoc-page__anchorwrap"><h5 id="headline-prediction">Headline Prediction<a data-clipboard-text="http://localhost/indic-glue/#headline-prediction" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Headline Prediction" href="#headline-prediction"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<p>Predict the correct headline for a news article from a given list of four candidate headlines. The dataset contains around 880k examples across 11 Indian languages. Example:</p>
+<p><em>News Article:</em></p>
+<pre><code> ರಾಷ್ಟ್ರೀಯ\nಪುಣೆ: 23 ವರ್ಷದ ಇನ್ಫೋಸಿಸ್ ಮಹಿಳಾ ಟೆಕ್ಕಿಯೊಬ್ಬರನ್ನು ನಡು ರಸ್ತೆಯಲ್ಲಿಯೇ ಮಾರಾಕಾಸ್ತ್ರಗಳಿಂದ ಬರ್ಬರವಾಗಿ ಹತ್ಯೆ ಮಾಡಿರುವ ಘಟನೆ ಪುಣೆಯಲ್ಲಿ ಶನಿವಾರ ರಾತ್ರಿ ನಡೆದಿದೆ.\nಅಂತರ ದಾಸ್ ಕೊಲೆಯಾದ ಮಹಿಳಾ ಟೆಕ್ಕಿಯಾಗಿದ್ದಾರೆ. ಅಂತರಾ ಅವರು ಪಶ್ಚಿಮ ಬಂಗಾಳದ ಮೂಲದವರಾಗಿದ್ದಾರೆ. ಕಳೆದ ರಾತ್ರಿ 8.00 ಗಂಟೆ ಸುಮಾರಿಗೆ ಕೆಲಸ ಮುಗಿಸಿ ಮನೆಗೆ ತೆರಳುತ್ತಿದ್ದ ಸಂದರ್ಭದಲ್ಲಿ ಅಂತರಾ ಅವರ ಮೇಲೆ ದಾಳಿ ಮಾಡಿರುವ ದುಷ್ಕರ್ಮಿಗಳು ಮಾರಾಕಾಸ್ತ್ರಗಳಿಂದ ಹಲ್ಲೆ ನಡೆಸಿದ್ದಾರೆಂದು ಪೊಲೀಸರು ಹೇಳಿದ್ದಾರೆ.\nದಾಳಿ ನಡೆಸಿದ ನಂತರ ರಕ್ತದ ಮಡುವಿನಲ್ಲಿ ಬಿದ್ದು ಒದ್ದಾಡುತ್ತಿದ್ದ ಅಂತರಾ ಅವರನ್ನು ಸ್ಥಳೀಯರು ಆಸ್ಪತ್ರೆಗೆ ದಾಳಸಿದ್ದಾರೆ. ಆದರೆ, ಆಸ್ಪತ್ರೆಗೆ ದಾಖಲಿಸುವಷ್ಟರಲ್ಲಿ ಅಂತರಾ ಅವರು ಸಾವನ್ನಪ್ಪಿದ್ದಾರೆಂದು ಅವರು ಹೇಳಿದ್ದಾರೆ.\nಪ್ರಕರಣ ದಾಖಲಿಸಿಕೊಂಡಿರುವ ಪೊಲೀಸರು ತನಿಖೆ ಆರಂಭಿಸಿದ್ದಾರೆ&quot;,
+</code></pre>
+<ul>
+<li><em>Candidate 1</em>: ಇನ್ಫೋಸಿಸ್ ಮಹಿಳಾ ಟೆಕ್ಕಿಯ ಬರ್ಬರ ಹತ್ಯೆ    <em>[correct answer]</em></li>
+<li><em>Candidate 2:</em> ಮಾನಸಿಕ ಅಸ್ವಸ್ಥೆ ಮೇಲೆ  ಮಕ್ಕಳ ಕಳ್ಳಿ ಎಂದು ಭೀಕರ ಹಲ್ಲೆ</li>
+<li><em>Candidate 3:</em> ಕಸಬ ಬೆಂಗ್ರೆಯಲ್ಲಿ ಮುಸುಕುಧಾರಿಗಳ ತಂಡದಿಂದ ಮೂವರು ಯುವಕರ ಮೇಲೆ ಹಲ್ಲೆ : ಓರ್ವ ಗಂಭೀರ</li>
+<li><em>Candidate 4:</em> ಕಣಿವೆ ರಾಜ್ಯದಲ್ಲಿ mobile ಬಂದ್, ಪ್ರಿಂಟಿಂಗ್ ಪ್ರೆಸ್ ಮೇಲೆ ದಾಳಿ</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h5 id="wikipedia-section-title-prediction">Wikipedia Section Title Prediction<a data-clipboard-text="http://localhost/indic-glue/#wikipedia-section-title-prediction" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Wikipedia Section Title Prediction" href="#wikipedia-section-title-prediction"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<p>Predict the correct title for a Wikipedia section from a given list of four candidate titles. The dataset has 400k examples across 11 Indian languages.</p>
+<p><em>Section Text</em>:</p>
+<pre><code>2005માં, જેકમેન નિર્માણ કંપની, સીડ પ્રોડકશન્સ ઊભી કરવા તેના લાંબાસમયના મદદનીશ જહોન પાલેર્મો સાથે જોડાયા, જેમનો પ્રથમ પ્રોજેકટ 2007માં વિવા લાફલિન હતો. જેકમેનની અભિનેત્રી પત્ની ડેબોરા-લી ફર્નેસ પણ કંપનીમાં જોડાઈ, અને પાલેર્મોએ પોતાના, ફર્નેસ અને જેકમેન માટે “ યુનિટી ” અર્થવાળા લખાણની આ ત્રણ વીંટીઓ બનાવી.[૨૭] ત્રણેયના સહયોગ અંગે જેકમેને જણાવ્યું કે “ મારી જિંદગીમાં જેમની સાથે મેં કામ કર્યું તે ભાગીદારો અંગે ડેબ અને જહોન પાલેર્મો અંગે હું ખૂબ નસીબદાર છું. ખરેખર તેથી કામ થયું. અમારી પાસે જુદું જુદું સાર્મથ્ય હતું. હું તે પસંદ કરતો હતો. I love it. તે ખૂબ ઉત્તેજક છે. ”[૨૮]ફોકસ આધારિત સીડ લેબલ, આમન્ડા સ્કિવેઈટઝર, કેથરિન ટેમ્બલિન, એલન મંડેલબમ અને જોય મરિનો તેમજ સાથે સિડની આધારિત નિર્માણ કચેરીનું સંચાલન કરનાર અલાના ફ્રીનો સમાવેશ થતાં કદમાં વિસ્તૃત બની. આ કંપીનોનો ઉદ્દેશ જેકમેનના વતનના દેશની સ્થાનિક પ્રતિભાને કામે લેવા મધ્યમ બજેટવાળી ફિલ્મો બનાવવાનો છે. 
+</code></pre><ul>
+<li><em>Candidate 1:</em> એકસ-મેન</li>
+<li><em>Candidate 2:</em> કારકીર્દિ</li>
+<li><em>Candidate 3:</em> નિર્માણ કંપન [<em>correct answer</em>]</li>
+<li><em>Candidate 4:</em> ઓસ્ટ્રેલિય</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h5 id="cloze-style-question-answering-wcqa">Cloze-style Question Answering (WCQA)<a data-clipboard-text="http://localhost/indic-glue/#cloze-style-question-answering-wcqa" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cloze-style Question Answering (WCQA)" href="#cloze-style-question-answering-wcqa"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<p>Given a text with an entity randomly masked, the task is to predict that masked entity from a list of 4 candidate entities. The dataset contains around 239k examples across 11 languages. Example:</p>
+<p><em>Text</em></p>
+<pre><code>ਹੋਮੀ ਭਾਬਾ ਦਾ ਜਨਮ 1949 ਈ ਨੂਂ ਮੁੰਬਈ ਵਿੱਚ ਪਾਰਸੀ ਪਰਿਵਾਰ ਵਿੱਚ ਹੋਇਆ । ਸੇਂਟ ਮੇਰੀ ਤੋਂ ਮੁਢਲੀ ਸਿਖਿਆ ਪ੍ਰਾਪਤ ਕਰਕੇ ਉਹ ਬੰਬੇ ਯੂਨੀਵਰਸਿਟੀ ਗ੍ਰੈਜੁਏਸ਼ਨ ਲਈ ਚਲਾ ਗਿਆ । ਇਸ ਤੋਂ ਬਾਅਦ ਉਹ ਉਚੇਰੀ ਸਿਖਿਆ ਲਈ &lt;MASK&gt; ਚਲਾ ਗਿਆ । ਉਸਨੇ ਓਥੇ ਆਕਸਫੋਰਡ ਯੂਨੀਵਰਸਿਟੀ ਤੋਂ ਐਮ.ਏ ਅਤੇ ਐਮ ਫਿਲ ਦੀਆਂ ਡਿਗਰੀਆਂ ਪ੍ਰਾਪਤ ਕੀਤੀਆਂ । ਤਕਰੀਬਨ ਦਸ ਸਾਲ ਤਕ ਉਸਨੇ ਸੁਸੈਕਸ ਯੂਨੀਵਰਸਿਟੀ ਦੇ ਅੰਗਰੇਜ਼ੀ ਵਿਭਾਗ ਵਿੱਚ ਬਤੌਰ ਲੈਕਚਰਾਰ ਕਾਰਜ ਨਿਭਾਇਆ । ਇਸਤੋਂ ਇਲਾਵਾ ਹੋਮੀ ਭਾਬਾ ਪੈਨਸੁਲਵੇਨਿਆ , ਸ਼ਿਕਾਗੋ ਅਤੇ ਅਮਰੀਕਾ ਦੀ ਹਾਰਵਰਡ ਯੂਨੀਵਰਸਿਟੀ ਵਿੱਚ ਵੀ ਪ੍ਰੋਫ਼ੇਸਰ ਦੇ ਆਹੁਦੇ ਤੇ ਰਿਹਾ ।
+</code></pre><ul>
+<li><em>Candidate 1</em>: ਬਰਤਾਨੀਆ <em>[correct answer]</em></li>
+<li><em>Candidate 2</em>: ਭਾਰਤ</li>
+<li><em>Candidate 3</em>: ਸ਼ਿਕਾਗੋ</li>
+<li><em>Candidate 4</em>: ਪਾਕਿਸਤਾਨ</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h5 id="cross-lingual-sentence-retrieval-xsr">Cross-lingual Sentence Retrieval (XSR)<a data-clipboard-text="http://localhost/indic-glue/#cross-lingual-sentence-retrieval-xsr" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cross-lingual Sentence Retrieval (XSR)" href="#cross-lingual-sentence-retrieval-xsr"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<p>Given a sentence in language $L_1$ the task is to retrieve its translation from a set of candidate sentences in language $L_2$. The dataset contains around 39k parallel sentence pairs across 8 Indian languages. Example:</p>
+<p><em>Input Sentence</em></p>
+<pre><code>In the health sector the nation has now moved ahead from the conventional approach.
+</code></pre><p><em>Retrieve the following translation from a set of 4886 sentences:</em></p>
+<pre><code>ആരോഗ്യമേഖലയില് ഇന്ന് രാജ്യം പരമ്പരാഗത രീതികളില് നിന്ന് മുന്നേറിക്കഴിഞ്ഞു.
+</code></pre><div class="gdoc-page__anchorwrap"><h4 id="additional-evaluation-tasks">Additional Evaluation Tasks<a data-clipboard-text="http://localhost/indic-glue/#additional-evaluation-tasks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Additional Evaluation Tasks" href="#additional-evaluation-tasks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<div class="gdoc-page__anchorwrap"><h5 id="natural-language-inference">Natural Language Inference<a data-clipboard-text="http://localhost/indic-glue/#natural-language-inference" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Natural Language Inference" href="#natural-language-inference"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<ul>
+<li>Winnograd Natural Language Inference (WNLI)</li>
+<li>Choice of Plausible Alternatives (COPA)</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h5 id="sentiment-analysis">Sentiment Analysis<a data-clipboard-text="http://localhost/indic-glue/#sentiment-analysis" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Sentiment Analysis" href="#sentiment-analysis"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<ul>
+<li>IITP Movie Reviews Sentiment</li>
+<li>IITP Product Reviews</li>
+<li>ACTSA Sentiment Classifcation</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h5 id="genre-classification">Genre Classification<a data-clipboard-text="http://localhost/indic-glue/#genre-classification" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Genre Classification" href="#genre-classification"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<ul>
+<li>Soham Articles Genre Classification</li>
+<li>iNLTK Headlines Genre Classifcation</li>
+<li>BBC News Articles</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h5 id="discourse-analysis">Discourse Analysis<a data-clipboard-text="http://localhost/indic-glue/#discourse-analysis" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Discourse Analysis" href="#discourse-analysis"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
+<ul>
+<li>MIDAS Discourse</li>
+</ul>
+
+
+
+            </article>
+
+            </div>
+
+            <div class="col-sm-3 d-none d-lg-block" >
+                <nav class="section-nav">
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#tasks">Tasks</a>
+      <ul>
+        <li><a href="#news-category-classification">News Category Classification</a></li>
+        <li><a href="#named-entity-recognition">Named Entity Recognition</a></li>
+        <li><a href="#headline-prediction">Headline Prediction</a></li>
+        <li><a href="#wikipedia-section-title-prediction">Wikipedia Section Title Prediction</a></li>
+        <li><a href="#cloze-style-question-answering-wcqa">Cloze-style Question Answering (WCQA)</a></li>
+        <li><a href="#cross-lingual-sentence-retrieval-xsr">Cross-lingual Sentence Retrieval (XSR)</a></li>
+      </ul>
+    </li>
+    <li><a href="#additional-evaluation-tasks">Additional Evaluation Tasks</a>
+      <ul>
+        <li><a href="#natural-language-inference">Natural Language Inference</a></li>
+        <li><a href="#sentiment-analysis">Sentiment Analysis</a></li>
+        <li><a href="#genre-classification">Genre Classification</a></li>
+        <li><a href="#discourse-analysis">Discourse Analysis</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </nav>
+            </div>
+
+        </div>
+
+    </div>
+
+                
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<div class="gdoc-page__footer flex flex-wrap justify-between">
+    
+    
+</div>
+
+            </div>
+        </main>
+
+        <footer class="gdoc-footer">
+    <div class="container flex flex-wrap">
+        <span class="gdoc-footer__item">
+            Built with <a href="https://gohugo.io/" class="gdoc-footer__link">Hugo</a> and
+            <svg class="icon heart"><use xlink:href="#heart"></use></svg>
+        </span>
+        
+        
+    </div>
+</footer>
+
+    </div>
+
+    
+
+
+<script defer src="/js/clipboard.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        var clipboard = new ClipboardJS('.clip');
+    });
+</script>
+
+
+</body>
+</html>

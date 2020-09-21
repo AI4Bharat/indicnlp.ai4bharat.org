@@ -2,6 +2,7 @@
 title: "IndicBERT"
 weight: 200
 toc: true
+url: /indic-bert
 ---
 
 IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages.

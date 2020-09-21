@@ -1,6 +1,7 @@
 ---
 title: "About Us"
 weight: 1000
+url: /aboutus
 ---
 
 Our group focuses on building NLP ecosystem for Indian languages and seeking new models and techniques better suited for Indian languages. Our project has volunteers from IIT Madras, One fourth labs, Microsoft Research.

@@ -1,6 +1,7 @@
 ---
 title: "IndicGLUE"
 weight: 150
+url: /indic-glue
 ---
 
 

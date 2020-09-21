@@ -1,8 +1,12 @@
 ---
-title: "IndicNLP Resources"
-weight: 280
+title: "Resources"
+url: /resources
 ---
 
+<div style="text-align: right">
+	<a href="https://github.com/AI4Bharat/indicnlp_catalog"> Edit on Github</a>
+</div>
+<br>
 
 _Please suggest any other resources you may be aware of. Raise a pull request or an issue to add more resources to the catalog. Put the proposed entry in the following format:_
 

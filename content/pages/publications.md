@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 weight: 300
+url: /publications
 ---
 
 

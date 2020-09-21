@@ -1,19 +1,17 @@
 
 [[more]]
+name = "IndicNLP Catalog"
+ref = "/resources"
+external = false
+new_tab = false
+
+
+[[more]]
 name = "IndicBERT Repo"
 ref = "https://github.com/AI4Bharat/indic-bert"
 external = true
 new_tab = true
 icon = "github"
-
-
-[[more]]
-name = "IndicNLP Catalog"
-ref = "https://github.com/AI4Bharat"
-external = true
-new_tab = true
-icon = "github"
-
 
 
 [[more]]

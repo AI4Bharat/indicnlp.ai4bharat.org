@@ -1,6 +1,7 @@
 ---
 title: "fastText"
 weight: 100
+url: /fasttext
 ---
 <div class="table-responsive">
                 <table class="table table-striped">
