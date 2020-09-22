@@ -16,8 +16,9 @@
       
       <guid>http://localhost/corpora/</guid>
       <description>IndicNLP corpora has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months. It has been used to train our released models.
-Download Links Note: Stats are shown for the original file and the file obtained after deduplicating sentences.
-   Language # News Articles* Sentences Tokens Link     as 0.60M 6.3M / 1.0M 156M / 36.</description>
+Download Links Note 1: Stats are shown for the original file and the file obtained after deduplicating sentences.
+Note 2: Links to be provided soon.
+   Language # News Articles* Sentences Tokens Link     as 0.</description>
     </item>
     
     <item>

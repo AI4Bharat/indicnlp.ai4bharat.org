@@ -8,7 +8,10 @@ IndicNLP corpora has been developed by discovering and scraping thousands of web
 
 ##### Download Links
 
-Note: Stats are shown for the original file and the file obtained after deduplicating sentences.
+Note 1: Stats are shown for the original file and the file obtained after deduplicating sentences.
+
+Note 2: Links to be provided soon.
+
 
 | Language | \# News Articles* | Sentences     | Tokens        | Link     |
 | -------- | ----------------- | ------------- | ------------- | -------- |
