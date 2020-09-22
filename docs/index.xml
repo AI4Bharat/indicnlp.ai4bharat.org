@@ -4,7 +4,11 @@
     <title>AI4Bharat IndicNLP</title>
     <link>http://localhost/</link>
     <description>Recent content on AI4Bharat IndicNLP</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Corpora</title>
       <link>http://localhost/corpora/</link>
@@ -64,7 +68,8 @@ Usage The easiest way to use Indic BERT is through the Huggingface transformers 
       <guid>http://localhost/aboutus/</guid>
       <description>Our group focuses on building NLP ecosystem for Indian languages and seeking new models and techniques better suited for Indian languages. Our project has volunteers from IIT Madras, One Fourth Labs, Microsoft Search Technology Center India.
 Members       
-Contact Us Drop us a mail at opensource@ai4bharat.org</description>
+Contact Us For any queries, feel free to reach us at:
+ Anoop Kunchukuttan (anoop.kunchukuttan@gmail.com) Mitesh Khapra (miteshk@cse.iitm.ac.in) Pratyush Kumar (pratyushk@cse.iitm.ac.in) Divyanshu Kakwani (divkakwani@gmail.com)  </description>
     </item>
     
     <item>
