@@ -519,66 +519,10 @@ document.querySelectorAll('section[id]').forEach((section) => {
 </ul>
 <hr>
 <div class="gdoc-page__anchorwrap"><h4 id="citations">Citations<a data-clipboard-text="http://localhost/indic-glue/#citations" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Citations" href="#citations"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<p>IndicGLUE [Kakwani et al., 2020] is an evaluation benchmark containing datasets for NLU tasks. These tasks consists of datasets that we built from Wikipidea and IndicCorp. In addition, we also used public datasets: cross-lingual similarity [Siripragrada et al., 2020], named entity recognition [Pan et al., 2017],  paraphrase detection [Kumar et al, 2016], discourse analysis [Dhanwal et al, 2016] and other datasets obtained from online sources.</p>
-<p>If you use IndicGLUE in your work, then we request you to use the following citation string to give credit to the authors of all datasets which are a part of this benchmark:</p>
-<pre><code>    @inproceedings{kakwani2020indicnlpsuite,
-    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
-    author={Divyanshu Kakwani  and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
-    year={2020},
-    booktitle={Findings of the EMNLP},
-    }
-</code></pre><pre><code>@inproceedings{kakwani2020indicnlpsuite,
-    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
-    author={Divyanshu Kakwani  and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
-    year={2020},
-    booktitle={Findings of the EMNLP},
-}
-</code></pre><pre><code>@inproceedings{siripragrada-etal-2020-multilingual,
-    title = &quot;A Multilingual Parallel Corpora Collection Effort for {I}ndian Languages&quot;,
-    author = &quot;Siripragrada, Shashank  and
-      Philip, Jerin  and
-      Namboodiri, Vinay P.  and
-      Jawahar, C V&quot;,
-    booktitle = &quot;Proceedings of The 12th Language Resources and Evaluation Conference&quot;,
-    month = may,
-    year = &quot;2020&quot;,
-    address = &quot;Marseille, France&quot;,
-    publisher = &quot;European Language Resources Association&quot;,
-    url = &quot;https://www.aclweb.org/anthology/2020.lrec-1.462&quot;,
-    pages = &quot;3743--3751&quot;,
-    language = &quot;English&quot;,
-    ISBN = &quot;979-10-95546-34-4&quot;,
-}
-</code></pre><pre><code>@inproceedings{pan-etal-2017-cross,
-    title = &quot;Cross-lingual Name Tagging and Linking for 282 Languages&quot;,
-    author = &quot;Pan, Xiaoman  and
-      Zhang, Boliang  and
-      May, Jonathan  and
-      Nothman, Joel  and
-      Knight, Kevin  and
-      Ji, Heng&quot;,
-    booktitle = &quot;Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)&quot;,
-    month = jul,
-    year = &quot;2017&quot;,
-    address = &quot;Vancouver, Canada&quot;,
-    publisher = &quot;Association for Computational Linguistics&quot;,
-    url = &quot;https://www.aclweb.org/anthology/P17-1178&quot;,
-    doi = &quot;10.18653/v1/P17-1178&quot;,
-    pages = &quot;1946--1958&quot;
-}
-</code></pre><pre><code>@inproceedings{Dhanwal2020AnAD,
-  title={An Annotated Dataset of Discourse Modes in Hindi Stories},
-  author={Swapnil Dhanwal and Hritwik Dutta and Hitesh Nankani and Nilay Shrivastava and Y. Kumar and Junyi Jessy Li and Debanjan Mahata and Rakesh Gosangi and Haimin Zhang and R. R. Shah and Amanda Stent},
-  booktitle={LREC},
-  year={2020}
-}
-</code></pre><pre><code>@inproceedings{Kumar2016DPILFIRE2016OO,
-  title={DPIL@FIRE2016: Overview of the Shared task on Detecting Paraphrases in Indian language},
-  author={M. A. Kumar and S. Singh and B. Kavirajan and P. SomanK.},
-  booktitle={FIRE},
-  year={2016}
-}
-</code></pre>
+<p>If you use these datasets in your work, then we request you to use the following detailed citation text so that the original authors of the datasets also get credit for their work. As more authors contribute to this benchmark we will add their references also to the below text.</p>
+<div class="highlight"><pre class="chroma"><code class="language-latex" data-lang="latex">We use the IndicGLUE dataset <span class="k">\cite</span><span class="nb">{</span>kakwani2020indicnlpsuite<span class="nb">}</span> which is an evaluation benchmark containing datasets for NLU tasks in Indian languages. Some of these datasets were built from Wikipidea and IndicCorp<span class="k">\cite</span><span class="nb">{</span>kakwani2020indicnlpsuite<span class="nb">}</span>. In addition, it also contains other publicly available datasets for cross-lingual similarity <span class="k">\cite</span><span class="nb">{</span>siripragrada-etal-2020-multilingual<span class="nb">}</span>, named entity recognition <span class="k">\cite</span><span class="nb">{</span>pan-etal-2017-cross<span class="nb">}</span>, paraphrase detection <span class="k">\cite</span><span class="nb">{</span>Kumar2016DPILFIRE2016OO<span class="nb">}</span>, discourse analysis <span class="k">\cite</span><span class="nb">{</span>Dhanwal2020AnAD<span class="nb">}</span>, sentiment analysis <span class="k">\cite</span><span class="nb">{</span>cicling/Akhtar16,DBLP:conf/coling/Akhtar0EB16, mukku-mamidi-2017-actsa<span class="nb">}</span> and genre classification <span class="k">\tablefootnote</span><span class="nb">{</span>https://github.com/goru001/inltk<span class="nb">}</span><span class="k">\tablefootnote</span><span class="nb">{</span>https://www.kaggle.com/csoham/classification-bengali-news-articles-indicnlp<span class="nb">}</span><span class="k">\tablefootnote</span><span class="nb">{</span>https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1<span class="nb">}</span>. It also contains translations of the original WNLI<span class="k">\cite</span><span class="nb">{</span>Levesque2011TheWS<span class="nb">}</span> and COPA <span class="k">\cite</span><span class="nb">{</span>Gordon2011SemEval2012T7<span class="nb">}</span> datasets in 3 Indian languages. 
+</code></pre></div><p>The bibtex entries for the above sources is available <a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indic-glue.bib">here</a>.</p>
+
 
 
             </article>
