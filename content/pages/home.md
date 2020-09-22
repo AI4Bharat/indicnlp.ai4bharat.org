@@ -15,7 +15,7 @@ You can read more about the _IndicNLPSuite_ in this [paper](https://indicnlp.ai4
 
 ----
 
-## Citing
+#### Citing
 
 If you are using any of the resources, please cite the following article: 
 
@@ -28,12 +28,26 @@ If you are using any of the resources, please cite the following article:
 }
 ``` 
 
+If you using IndicGLUE and additional evaluation datasets in your work, then we request you to use the following detailed citation text so that the original authors of the datasets also get credit for their work. As more authors contribute to this benchmark we will add their references also to the below text.
+
+
+```latex
+We use the IndicGLUE dataset \cite{kakwani2020indicnlpsuite} which is an evaluation benchmark containing datasets for NLU tasks in Indian languages. Some of these datasets were built from Wikipidea and IndicCorp\cite{kakwani2020indicnlpsuite}. In addition, it also contains other publicly available datasets for cross-lingual similarity \cite{siripragrada-etal-2020-multilingual}, named entity recognition \cite{pan-etal-2017-cross}, paraphrase detection \cite{Kumar2016DPILFIRE2016OO}, discourse analysis \cite{Dhanwal2020AnAD}, sentiment analysis \cite{cicling/Akhtar16,DBLP:conf/coling/Akhtar0EB16, mukku-mamidi-2017-actsa} and genre classification \footnote{https://github.com/goru001/inltk}\footnote{https://www.kaggle.com/csoham/classification-bengali-news-articles-indicnlp}\footnote{https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1}. It also contains translations of the original WNLI\cite{Levesque2011TheWS} and COPA \cite{Gordon2011SemEval2012T7} datasets in 3 Indian languages.
+```
+
+The bibtex entries for the above sources is available [here](https://indicnlp.ai4bharat.org/papers/indic-glue.bib).
+
+
 ----
 
-## IndicNLP Catalog
+#### IndicNLP Catalog
 
 In an effort to help discoverability of Indian language resources, we have started a collaborative catalog of known NLP resources for Indic languages. 
 Check out the <a href="https://github.com/AI4Bharat/indicnlp_catalog">IndicNLP Catalog</a> if you are looking for Indian NLP resources, and add to the catalog any resources you may know of or have created.
+
+
+
+
 
 ## License
 

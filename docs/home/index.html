@@ -401,7 +401,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 </ul>
 <p>You can read more about the <em>IndicNLPSuite</em> in this <a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf">paper</a>. This is a pre-print version of our upcoming paper at <em>Findings of EMNLP</em>. Camera-ready copy will be available soon.</p>
 <hr>
-<div class="gdoc-page__anchorwrap"><h2 id="citing">Citing<a data-clipboard-text="http://localhost/home/#citing" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Citing" href="#citing"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h4 id="citing">Citing<a data-clipboard-text="http://localhost/home/#citing" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Citing" href="#citing"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <p>If you are using any of the resources, please cite the following article:</p>
 <pre><code>@inproceedings{kakwani2020indicnlpsuite,
     title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
@@ -409,8 +409,11 @@ document.querySelectorAll('section[id]').forEach((section) => {
     year={2020},
     booktitle={Findings of EMNLP},
 }
-</code></pre><hr>
-<div class="gdoc-page__anchorwrap"><h2 id="indicnlp-catalog">IndicNLP Catalog<a data-clipboard-text="http://localhost/home/#indicnlp-catalog" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor IndicNLP Catalog" href="#indicnlp-catalog"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+</code></pre><p>If you using IndicGLUE and additional evaluation datasets in your work, then we request you to use the following detailed citation text so that the original authors of the datasets also get credit for their work. As more authors contribute to this benchmark we will add their references also to the below text.</p>
+<div class="highlight"><pre class="chroma"><code class="language-latex" data-lang="latex">We use the IndicGLUE dataset <span class="k">\cite</span><span class="nb">{</span>kakwani2020indicnlpsuite<span class="nb">}</span> which is an evaluation benchmark containing datasets for NLU tasks in Indian languages. Some of these datasets were built from Wikipidea and IndicCorp<span class="k">\cite</span><span class="nb">{</span>kakwani2020indicnlpsuite<span class="nb">}</span>. In addition, it also contains other publicly available datasets for cross-lingual similarity <span class="k">\cite</span><span class="nb">{</span>siripragrada-etal-2020-multilingual<span class="nb">}</span>, named entity recognition <span class="k">\cite</span><span class="nb">{</span>pan-etal-2017-cross<span class="nb">}</span>, paraphrase detection <span class="k">\cite</span><span class="nb">{</span>Kumar2016DPILFIRE2016OO<span class="nb">}</span>, discourse analysis <span class="k">\cite</span><span class="nb">{</span>Dhanwal2020AnAD<span class="nb">}</span>, sentiment analysis <span class="k">\cite</span><span class="nb">{</span>cicling/Akhtar16,DBLP:conf/coling/Akhtar0EB16, mukku-mamidi-2017-actsa<span class="nb">}</span> and genre classification <span class="k">\footnote</span><span class="nb">{</span>https://github.com/goru001/inltk<span class="nb">}</span><span class="k">\footnote</span><span class="nb">{</span>https://www.kaggle.com/csoham/classification-bengali-news-articles-indicnlp<span class="nb">}</span><span class="k">\footnote</span><span class="nb">{</span>https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1<span class="nb">}</span>. It also contains translations of the original WNLI<span class="k">\cite</span><span class="nb">{</span>Levesque2011TheWS<span class="nb">}</span> and COPA <span class="k">\cite</span><span class="nb">{</span>Gordon2011SemEval2012T7<span class="nb">}</span> datasets in 3 Indian languages.
+</code></pre></div><p>The bibtex entries for the above sources is available <a href="https://indicnlp.ai4bharat.org/papers/indic-glue.bib">here</a>.</p>
+<hr>
+<div class="gdoc-page__anchorwrap"><h4 id="indicnlp-catalog">IndicNLP Catalog<a data-clipboard-text="http://localhost/home/#indicnlp-catalog" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor IndicNLP Catalog" href="#indicnlp-catalog"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <p>In an effort to help discoverability of Indian language resources, we have started a collaborative catalog of known NLP resources for Indic languages.
 Check out the <a href="https://github.com/AI4Bharat/indicnlp_catalog">IndicNLP Catalog</a> if you are looking for Indian NLP resources, and add to the catalog any resources you may know of or have created.</p>
 <div class="gdoc-page__anchorwrap"><h2 id="license">License<a data-clipboard-text="http://localhost/home/#license" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor License" href="#license"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
@@ -424,7 +427,12 @@ Check out the <a href="https://github.com/AI4Bharat/indicnlp_catalog">IndicNLP C
 
             <div class="col-sm-3 d-none d-lg-block" >
                 <nav class="section-nav">
-                    <nav id="TableOfContents"></nav>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#citing">Citing</a></li>
+    <li><a href="#indicnlp-catalog">IndicNLP Catalog</a></li>
+  </ul>
+</nav>
                 </nav>
             </div>
 
