@@ -1,5 +1,5 @@
 ---
-title: "Corpora"
+title: "IndicCorp"
 weight: 10
 url: /corpora
 ---
