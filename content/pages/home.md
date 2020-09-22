@@ -4,7 +4,7 @@ weight: 0
 url: /home
 ---
            
-Our work is focused on building a better ecosystem for Indian languages while also keeping up with the recent advancements in NLP. To this end, we are releasing **IndicNLPSuite**, which is a collection of various resources and models for Indian languages:
+We are working towards building a better ecosystem for Indian languages while also keeping up with the recent advancements in NLP. To this end, we are releasing **IndicNLPSuite**, which is a collection of various resources and models for Indian languages:
 
 * <a href="/corpora"><b>IndicCorp:</b></a> A lot of NLP models require a large amount of training data, which most of the Indian languages lack. In this project, we develop a large-scale Indic corpora by intesively crawling the web. The corpora that we build has a total of 8.9 billion tokens and covers 12 major Indian languages - making it the largest public corpus for most of the Indian languages.
 * <a href="/indicft"><b>IndicFT:</b></a> fastText is a well-suited model for Indian languages because of their rich morphological structure. We pre-train and benchmark fastText embeddings on our corpora, producing embeddings that outperform the official fastText embeddings for Indian languages on a variety of tasks.

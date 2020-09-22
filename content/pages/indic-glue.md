@@ -27,7 +27,9 @@ Predict the genre of a given news article. The dataset contains around 125k news
 
 *Category*: Politics
 
-----------------
+
+----
+
 
 ##### Named Entity Recognition
 
@@ -42,7 +44,7 @@ Recognize entities and their coarse types in a sequence of words. The dataset co
 | **Type** | B-LOC | I-LOC | O    | O    | O    | O    | O    | O    | O    |
 
 
-----------------
+----
 
 
 ##### Headline Prediction
@@ -59,7 +61,7 @@ Recognize entities and their coarse types in a sequence of words. The dataset co
 * *Candidate 4:* ಕಣಿವೆ ರಾಜ್ಯದಲ್ಲಿ mobile ಬಂದ್, ಪ್ರಿಂಟಿಂಗ್ ಪ್ರೆಸ್ ಮೇಲೆ ದಾಳಿ
 
 
-----------------
+----
 
 
 ##### Wikipedia Section Title Prediction
@@ -78,7 +80,7 @@ Predict the correct title for a Wikipedia section from a given list of four cand
 * *Candidate 4:* ઓસ્ટ્રેલિય
 
 
-----------------
+----
 
 
 ##### Cloze-style Question Answering
@@ -97,7 +99,7 @@ Given a text with an entity randomly masked, the task is to predict that masked 
 * *Candidate 4*: ਪਾਕਿਸਤਾਨ
 
 
-----------------
+----
 
 
 ##### Cross-lingual Sentence Retrieval
@@ -117,7 +119,7 @@ In the health sector the nation has now moved ahead from the conventional approa
 ```
 
 
-----------------
+----
 
 
 #### Additional Evaluation Tasks
@@ -149,7 +151,7 @@ In the health sector the nation has now moved ahead from the conventional approa
 * Amrita Exact Paraphrase Detection
 * Amrita Rough Paraphrase Detection
 
-----------------
+----
 
 #### Citations
 
