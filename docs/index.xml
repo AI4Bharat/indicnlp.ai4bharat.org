@@ -21,7 +21,7 @@ Download Links Note: Stats are shown for the original file and the file obtained
     </item>
     
     <item>
-      <title>fastText</title>
+      <title>IndicFT</title>
       <link>http://localhost/fasttext/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -57,7 +57,7 @@ Usage The easiest way to use Indic BERT is through the Huggingface transformers 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/publications/</guid>
-      <description> Kakwani, D., Kunchukuttan, A., Golla, S., N.C. G., Bhattacharyya, A., Khapra, M.M. and Kumar, P., 2020. IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages. Accepted by Findings of EMNLP 2020 pdf Kunchukuttan, A., Kakwani, D., Golla, S., N.C. G., Bhattacharyya, A., Khapra, M.M. and Kumar, P., 2020. AI4Bharat-IndicNLP Corpus: Monolingual Corpora and Word Embeddings for Indic Languages. arXiv preprint arXiv:2005.00085. pdf  </description>
+      <description> Divyanshu Kakwani, Anoop Kunchukuttan, Satish Golla, Gokul N.C., Avik Bhattacharyya, Mitesh M. Khapra, Pratyush Kumar. 2020. IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages. Findings of the EMNLP. pdf Anoop Kunchukuttan, Divyanshu Kakwani, Satish Golla, Gokul N.C., Avik Bhattacharyya, Mitesh M. Khapra, Pratyush Kumar.. 2020. AI4Bharat-IndicNLP Corpus: Monolingual Corpora and Word Embeddings for Indic Languages. arXiv preprint arXiv:2005.00085. pdf  </description>
     </item>
     
     <item>
@@ -77,8 +77,8 @@ Contact Us Drop us a mail at opensource@ai4bharat.org</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/home/</guid>
-      <description>Our work is focused on building a better ecosystem for Indian languages while also keeping up with the recent advancements in NLP. To this end, we are releasing our work on the following projects:
- IndicNLP Corpora: A lot of NLP models require a large amount of training data, which most of the Indian languages lack. In this project, we develop a large-scale Indic corpora by intesively crawling the web. The corpora that we build has a total of 8.</description>
+      <description>Our work is focused on building a better ecosystem for Indian languages while also keeping up with the recent advancements in NLP. To this end, we are releasing IndicNLPSuite, which is a collection of various resources and models for Indian languages:
+ IndicCorp: A lot of NLP models require a large amount of training data, which most of the Indian languages lack. In this project, we develop a large-scale Indic corpora by intesively crawling the web.</description>
     </item>
     
     <item>
