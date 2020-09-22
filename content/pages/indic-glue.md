@@ -140,3 +140,69 @@ In the health sector the nation has now moved ahead from the conventional approa
 #### Downloads
 
 *A script to download the dataset will soon be provided*
+
+
+#### Citations
+
+IndicGLUE [kakwani2020indicnlpsuite] is an evaluation benchmark containing datasets for NLU tasks. These tasks consists of datasets that we built from Wikipidea and IndicCorp. In addition, we also used public datasets: cross-lingual similarity [Siripragrada et al., 2020], named entity recognition [Pan et al., 2017],  paraphrase detection [Kumar et al, 2016], discourse analysis [Dhanwal et al, 2016] and other datasets obtained from online sources.
+
+If you use IndicGLUE in your work, then we request you to use the following citation string to give credit to the authors of all datasets which are a part of this benchmark:
+
+```
+@inproceedings{kakwani2020indicnlpsuite,
+    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
+    author={Divyanshu Kakwani  and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
+    year={2020},
+    booktitle={Findings of the EMNLP},
+}
+
+@inproceedings{siripragrada-etal-2020-multilingual,
+    title = "A Multilingual Parallel Corpora Collection Effort for {I}ndian Languages",
+    author = "Siripragrada, Shashank  and
+      Philip, Jerin  and
+      Namboodiri, Vinay P.  and
+      Jawahar, C V",
+    booktitle = "Proceedings of The 12th Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://www.aclweb.org/anthology/2020.lrec-1.462",
+    pages = "3743--3751",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+
+@inproceedings{pan-etal-2017-cross,
+    title = "Cross-lingual Name Tagging and Linking for 282 Languages",
+    author = "Pan, Xiaoman  and
+      Zhang, Boliang  and
+      May, Jonathan  and
+      Nothman, Joel  and
+      Knight, Kevin  and
+      Ji, Heng",
+    booktitle = "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2017",
+    address = "Vancouver, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P17-1178",
+    doi = "10.18653/v1/P17-1178",
+    pages = "1946--1958"
+}
+
+@inproceedings{Dhanwal2020AnAD,
+  title={An Annotated Dataset of Discourse Modes in Hindi Stories},
+  author={Swapnil Dhanwal and Hritwik Dutta and Hitesh Nankani and Nilay Shrivastava and Y. Kumar and Junyi Jessy Li and Debanjan Mahata and Rakesh Gosangi and Haimin Zhang and R. R. Shah and Amanda Stent},
+  booktitle={LREC},
+  year={2020}
+}
+
+@inproceedings{Kumar2016DPILFIRE2016OO,
+  title={DPIL@FIRE2016: Overview of the Shared task on Detecting Paraphrases in Indian language},
+  author={M. A. Kumar and S. Singh and B. Kavirajan and P. SomanK.},
+  booktitle={FIRE},
+  year={2016}
+}
+
+```
