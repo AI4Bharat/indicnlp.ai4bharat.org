@@ -402,65 +402,51 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <span class="n">model</span> <span class="o">=</span> <span class="n">fasttext</span><span class="o">.</span><span class="n">load_model</span><span class="p">(</span><span class="n">path_to_binary_file</span><span class="p">)</span>
 </code></pre></div><p>For tutorials on using this model, please refer to the official <a href="https://fasttext.cc/docs/en/support.html">fastText documentation</a></p>
 <div class="gdoc-page__anchorwrap"><h4 id="downloads">Downloads<a data-clipboard-text="http://localhost/indicft/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<div class="table-responsive">
-                <table class="table table-striped">
-                    <thead class="">
-                        <th>Language</th>
-                        <th>Vectors</th>
-                        <th>Models</th>
-                    </thead>
-                    <tr>
-                        <td>pa</td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/pa.vocabfreq.tsv.gz">link</a></td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/pa.txt.gz">link</a></td>
-                    </tr>
-                    <tr>
-                        <td>hi</td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/hi.vocabfreq.tsv.gz">link</a></td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/hi.txt.gz">link</a></td>
-                    </tr>
-                    <tr>
-                        <td>bn</td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/bn.vocabfreq.tsv.gz">link</a></td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/bn.txt.gz">link</a></td>
-                    </tr>
-                    <tr>
-                        <td>or</td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/or.vocabfreq.tsv.gz">link</a></td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/or.txt.gz">link</a></td>
-                    </tr>
-                    <tr>
-                        <td>gu</td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/gu.vocabfreq.tsv.gz">link</a></td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/gu.txt.gz">link</a></td>
-                    </tr>
-                    <tr>
-                        <td>mr</td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/mr.vocabfreq.tsv.gz">link</a></td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/mr.txt.gz">link</a></td>
-                    </tr>
-                    <tr>
-                        <td>kn</td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/kn.vocabfreq.tsv.gz">link</a></td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/kn.txt.gz">link</a></td>
-                    </tr>
-                    <tr>
-                        <td>te</td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/te.vocabfreq.tsv.gz">link</a></td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/te.txt.gz">link</a></td>
-                    </tr>
-                    <tr>
-                        <td>ml</td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/ml.vocabfreq.tsv.gz">link</a></td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/ml.txt.gz">link</a></td>
-                    </tr>
-                    <tr>
-                        <td>ta</td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/corpus_stats/ta.vocabfreq.tsv.gz">link</a></td>
-                        <td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/data/monolingual/indicnlp_v1/sentence/ta.txt.gz">link</a></td>
-                    </tr>
-                </table>
-                </div>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>pa</th>
+<th>hi</th>
+<th>bn</th>
+<th>or</th>
+<th>gu</th>
+<th>mr</th>
+<th>kn</th>
+<th>te</th>
+<th>ml</th>
+<th>ta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vectors</td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.pa.vec.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.hi.vec.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.bn.vec.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.or.vec.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.gu.vec.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.mr.vec.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.kn.vec.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.te.vec.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.ml.vec.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.ta.vec.gz">link</a></td>
+</tr>
+<tr>
+<td>Model</td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.pa.bin.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.hi.bin.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.bn.bin.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.or.bin.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.gu.bin.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.mr.bin.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.kn.bin.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.te.bin.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.ml.bin.gz">link</a></td>
+<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding/indicnlp.v1.ta.bin.gz">link</a></td>
+</tr>
+</tbody>
+</table>
 <div class="gdoc-page__anchorwrap"><h4 id="evaluation">Evaluation<a data-clipboard-text="http://localhost/indicft/#evaluation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Evaluation" href="#evaluation"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <p>For a full result of evaluation, check our <a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf">paper</a>. Here, we show some of the evaluations.</p>
 <div class="gdoc-page__anchorwrap"><h5 id="word-similarity">Word Similarity<a data-clipboard-text="http://localhost/indicft/#word-similarity" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Word Similarity" href="#word-similarity"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
