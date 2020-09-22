@@ -144,7 +144,7 @@ In the health sector the nation has now moved ahead from the conventional approa
 
 #### Citations
 
-IndicGLUE [kakwani2020indicnlpsuite] is an evaluation benchmark containing datasets for NLU tasks. These tasks consists of datasets that we built from Wikipidea and IndicCorp. In addition, we also used public datasets: cross-lingual similarity [Siripragrada et al., 2020], named entity recognition [Pan et al., 2017],  paraphrase detection [Kumar et al, 2016], discourse analysis [Dhanwal et al, 2016] and other datasets obtained from online sources.
+IndicGLUE [Kakwani et al., 2020] is an evaluation benchmark containing datasets for NLU tasks. These tasks consists of datasets that we built from Wikipidea and IndicCorp. In addition, we also used public datasets: cross-lingual similarity [Siripragrada et al., 2020], named entity recognition [Pan et al., 2017],  paraphrase detection [Kumar et al, 2016], discourse analysis [Dhanwal et al, 2016] and other datasets obtained from online sources.
 
 If you use IndicGLUE in your work, then we request you to use the following citation string to give credit to the authors of all datasets which are a part of this benchmark:
 
