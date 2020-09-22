@@ -1,5 +1,5 @@
 ---
-title: "fastText"
+title: "IndicFT"
 weight: 100
 url: /fasttext
 ---
