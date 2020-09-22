@@ -9,7 +9,11 @@ url: /indic-bert
   
 <br>
 
-IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages: : Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. IndicBERT has much less parameters than other public models like mBERT and XLM-R while it still manages to give state of the art of performance on several tasks.
+IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. IndicBERT has much less parameters than other public models like mBERT and XLM-R while it still manages to give state of the art of performance on several tasks.
+
+#### Download Model
+
+The model can be downloaded [here](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/models/indic-bert-v1.tar.gz). Both tf checkpoints and pytorch binaries are included in the archive.
 
 #### Usage
 
@@ -89,6 +93,3 @@ Average |  |  69.84 | **74.42** | 73.66 |
 * Kakwani, D., Kunchukuttan, A., Golla, S., N.C. G., Bhattacharyya, A., Khapra, M.M. and Kumar, P., 2020. IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages. *Accepted by Findings of EMNLP 2020* [pdf](https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf)
 
 
-#### Downloads
-
-The model can be downloaded [here](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/models/indic-bert-v1.tar.gz). Both tf checkpoints and pytorch binaries are included in the archive.

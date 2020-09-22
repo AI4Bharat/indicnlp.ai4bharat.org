@@ -44,8 +44,8 @@ In addition, we also compile a list of additional evaluations which comprises of
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/indic-bert/</guid>
-      <description>IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages: : Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. IndicBERT has much less parameters than other public models like mBERT and XLM-R while it still manages to give state of the art of performance on several tasks.
-Usage The easiest way to use Indic BERT is through the Huggingface transformers library. It can be simply loaded like this:</description>
+      <description>IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. IndicBERT has much less parameters than other public models like mBERT and XLM-R while it still manages to give state of the art of performance on several tasks.
+Download Model The model can be downloaded here. Both tf checkpoints and pytorch binaries are included in the archive.</description>
     </item>
     
     <item>

@@ -9,6 +9,9 @@ To thoroughly evaluate language models on Indian languages, we need a robust NLU
 
 In addition, we also compile a list of additional evaluations which comprises of challenging public tasks, but cover only some of the Indian languages.
 
+#### Downloads
+
+*A script to download the datasets will soon be provided. Some datasets will have to be requested from the dataset owners.*
 
 #### Tasks
 
@@ -135,11 +138,6 @@ In the health sector the nation has now moved ahead from the conventional approa
 
 * Amrita Exact Paraphrase Detection
 * Amrita Rough Paraphrase Detection
-
-
-#### Downloads
-
-*A script to download the dataset will soon be provided*
 
 
 #### Citations
