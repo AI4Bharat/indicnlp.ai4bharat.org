@@ -11,7 +11,7 @@ Our work is focused on building a better ecosystem for Indian languages while al
 * <a href="/indic-bert"><b>IndicBERT:</b></a> To improve performance and coverage of Indian languages on a wide variety of tasks, we also develop and evaluate IndicBERT. IndicBERT is a multilingual ALBERT model (a lighter variant of BERT) pre-trained on 12 major Indian languages. It provides state-of-the-art performance on some of the tasks.
 * <a href="/indic-glue"><b>IndicGLUE:</b></a> This is a benchmark containing various tasks to evaluate the natural language understanding capabilities of language models fpr Indian languages.
 
-You can read more about the _IndicNLPSuite_ in this [paper](https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf)
+You can read more about the _IndicNLPSuite_ in this [paper](https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf). This is a pre-print version of our upcoming paper at _Findings of EMNLP_. Camera-ready copy will be available soon. 
 
 ----
 
@@ -22,9 +22,9 @@ If you are using any of the resources, please cite the following article:
 ```
 @inproceedings{kakwani2020indicnlpsuite,
     title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
-    author={Divyanshu Kakwani  and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
+    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
     year={2020},
-    booktitle={Findings of the EMNLP},
+    booktitle={Findings of EMNLP},
 }
 ``` 
 
