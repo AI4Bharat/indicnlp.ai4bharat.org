@@ -5,7 +5,7 @@ url: /indicft
 ---
 
 
-fastText is a subword-aware word embedding model. It is particularly well-suited for Indian languages due to their highly agglutinative morphology. We train fastText models on our IndicNLP Corpora and evaluate them on a set of tasks to measure its performance.
+[fastText](https://fasttext.cc/) is a subword-aware word embedding model. It is particularly well-suited for Indian languages due to their highly agglutinative morphology. We train fastText models on our IndicNLP Corpora and evaluate them on a set of tasks to measure its performance.
 
 Our fastText models are available for 11 Indian languages:  Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
 
@@ -24,7 +24,7 @@ import fasttext
 model = fasttext.load_model(path_to_binary_file)
 ```
 
-For tutorials on using this model, please refer to the official [fastText documentation](https://fasttext.cc/docs/en/support.html)
+For instructions on how to use these models, please refer to the official [fastText documentation](https://fasttext.cc/docs/en/support.html)
 
 
 #### Downloads
@@ -38,7 +38,7 @@ For tutorials on using this model, please refer to the official [fastText docume
 #### Evaluation
 
 
-For a full result of evaluation, check our [paper](https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf). Here, we show some of the evaluations.
+For a full results of evaluation, check our [paper](https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf). Here, we show some of the evaluations.
 
 
 ##### Word Similarity

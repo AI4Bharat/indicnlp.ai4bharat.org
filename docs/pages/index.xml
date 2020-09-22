@@ -4,7 +4,11 @@
     <title>Pages on AI4Bharat IndicNLP</title>
     <link>http://localhost/pages/</link>
     <description>Recent content in Pages on AI4Bharat IndicNLP</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://localhost/pages/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://localhost/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>IndicCorp</title>
       <link>http://localhost/corpora/</link>
@@ -75,7 +79,7 @@ Contact Us For any queries, feel free to reach us at:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/home/</guid>
-      <description>Our work is focused on building a better ecosystem for Indian languages while also keeping up with the recent advancements in NLP. To this end, we are releasing IndicNLPSuite, which is a collection of various resources and models for Indian languages:
+      <description>We are working towards building a better ecosystem for Indian languages while also keeping up with the recent advancements in NLP. To this end, we are releasing IndicNLPSuite, which is a collection of various resources and models for Indian languages:
  IndicCorp: A lot of NLP models require a large amount of training data, which most of the Indian languages lack. In this project, we develop a large-scale Indic corpora by intesively crawling the web.</description>
     </item>
     

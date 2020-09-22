@@ -402,6 +402,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <p><em>Article Snippet</em>:</p>
 <pre><code>கர்நாடக சட்டப் பேரவையில் வெற்றி பெற்ற எம்எல்ஏக்கள் இன்று பதவியேற்றுக் கொண்ட நிலையில் , காங்கிரஸ் எம்எல்ஏ ஆனந்த் சிங் க்கள் ஆப்சென்ட் ஆகி அதிர்ச்சியை ஏற்படுத்தியுள்ளார் . உச்சநீதிமன்ற உத்தரவுப்படி இன்று மாலை முதலமைச்சர் எடியூரப்பா இன்று நம்பிக்கை வாக்கெடுப்பு நடத்தி பெரும்பான்மையை நிரூபிக்க உச்சநீதிமன்றம் உத்தரவிட்டது . 
 </code></pre><p><em>Category</em>: Politics</p>
+<hr>
 <div class="gdoc-page__anchorwrap"><h5 id="named-entity-recognition">Named Entity Recognition<a data-clipboard-text="http://localhost/indic-glue/#named-entity-recognition" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Named Entity Recognition" href="#named-entity-recognition"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
 <p>Recognize entities and their coarse types in a sequence of words. The dataset contains around 787k examples across 11 Indian languages.</p>
 <p><em>Example</em>:</p>
@@ -447,6 +448,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 </tr>
 </tbody>
 </table>
+<hr>
 <div class="gdoc-page__anchorwrap"><h5 id="headline-prediction">Headline Prediction<a data-clipboard-text="http://localhost/indic-glue/#headline-prediction" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Headline Prediction" href="#headline-prediction"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
 <p>Predict the correct headline for a news article from a given list of four candidate headlines. The dataset contains around 880k examples across 11 Indian languages. Example:</p>
 <p><em>News Article:</em></p>
@@ -458,6 +460,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li><em>Candidate 3:</em> ಕಸಬ ಬೆಂಗ್ರೆಯಲ್ಲಿ ಮುಸುಕುಧಾರಿಗಳ ತಂಡದಿಂದ ಮೂವರು ಯುವಕರ ಮೇಲೆ ಹಲ್ಲೆ : ಓರ್ವ ಗಂಭೀರ</li>
 <li><em>Candidate 4:</em> ಕಣಿವೆ ರಾಜ್ಯದಲ್ಲಿ mobile ಬಂದ್, ಪ್ರಿಂಟಿಂಗ್ ಪ್ರೆಸ್ ಮೇಲೆ ದಾಳಿ</li>
 </ul>
+<hr>
 <div class="gdoc-page__anchorwrap"><h5 id="wikipedia-section-title-prediction">Wikipedia Section Title Prediction<a data-clipboard-text="http://localhost/indic-glue/#wikipedia-section-title-prediction" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Wikipedia Section Title Prediction" href="#wikipedia-section-title-prediction"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
 <p>Predict the correct title for a Wikipedia section from a given list of four candidate titles. The dataset has 400k examples across 11 Indian languages.</p>
 <p><em>Section Text</em>:</p>
@@ -468,6 +471,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li><em>Candidate 3:</em> નિર્માણ કંપન [<em>correct answer</em>]</li>
 <li><em>Candidate 4:</em> ઓસ્ટ્રેલિય</li>
 </ul>
+<hr>
 <div class="gdoc-page__anchorwrap"><h5 id="cloze-style-question-answering">Cloze-style Question Answering<a data-clipboard-text="http://localhost/indic-glue/#cloze-style-question-answering" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cloze-style Question Answering" href="#cloze-style-question-answering"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
 <p>Given a text with an entity randomly masked, the task is to predict that masked entity from a list of 4 candidate entities. The dataset contains around 239k examples across 11 languages. Example:</p>
 <p><em>Text</em></p>
@@ -478,13 +482,15 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li><em>Candidate 3</em>: ਸ਼ਿਕਾਗੋ</li>
 <li><em>Candidate 4</em>: ਪਾਕਿਸਤਾਨ</li>
 </ul>
+<hr>
 <div class="gdoc-page__anchorwrap"><h5 id="cross-lingual-sentence-retrieval">Cross-lingual Sentence Retrieval<a data-clipboard-text="http://localhost/indic-glue/#cross-lingual-sentence-retrieval" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cross-lingual Sentence Retrieval" href="#cross-lingual-sentence-retrieval"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
 <p>Given a sentence in language $L_1$ the task is to retrieve its translation from a set of candidate sentences in language $L_2$. The dataset contains around 39k parallel sentence pairs across 8 Indian languages. Example:</p>
 <p><em>Input Sentence</em></p>
 <pre><code>In the health sector the nation has now moved ahead from the conventional approach.
 </code></pre><p><em>Retrieve the following translation from a set of 4886 sentences:</em></p>
 <pre><code>ആരോഗ്യമേഖലയില് ഇന്ന് രാജ്യം പരമ്പരാഗത രീതികളില് നിന്ന് മുന്നേറിക്കഴിഞ്ഞു.
-</code></pre><div class="gdoc-page__anchorwrap"><h4 id="additional-evaluation-tasks">Additional Evaluation Tasks<a data-clipboard-text="http://localhost/indic-glue/#additional-evaluation-tasks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Additional Evaluation Tasks" href="#additional-evaluation-tasks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+</code></pre><hr>
+<div class="gdoc-page__anchorwrap"><h4 id="additional-evaluation-tasks">Additional Evaluation Tasks<a data-clipboard-text="http://localhost/indic-glue/#additional-evaluation-tasks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Additional Evaluation Tasks" href="#additional-evaluation-tasks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <div class="gdoc-page__anchorwrap"><h5 id="natural-language-inference">Natural Language Inference<a data-clipboard-text="http://localhost/indic-glue/#natural-language-inference" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Natural Language Inference" href="#natural-language-inference"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h5></div>
 <ul>
 <li>Winnograd Natural Language Inference (WNLI)</li>
@@ -511,17 +517,23 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li>Amrita Exact Paraphrase Detection</li>
 <li>Amrita Rough Paraphrase Detection</li>
 </ul>
+<hr>
 <div class="gdoc-page__anchorwrap"><h4 id="citations">Citations<a data-clipboard-text="http://localhost/indic-glue/#citations" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Citations" href="#citations"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <p>IndicGLUE [Kakwani et al., 2020] is an evaluation benchmark containing datasets for NLU tasks. These tasks consists of datasets that we built from Wikipidea and IndicCorp. In addition, we also used public datasets: cross-lingual similarity [Siripragrada et al., 2020], named entity recognition [Pan et al., 2017],  paraphrase detection [Kumar et al, 2016], discourse analysis [Dhanwal et al, 2016] and other datasets obtained from online sources.</p>
 <p>If you use IndicGLUE in your work, then we request you to use the following citation string to give credit to the authors of all datasets which are a part of this benchmark:</p>
-<pre><code>@inproceedings{kakwani2020indicnlpsuite,
+<pre><code>    @inproceedings{kakwani2020indicnlpsuite,
+    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
+    author={Divyanshu Kakwani  and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
+    year={2020},
+    booktitle={Findings of the EMNLP},
+    }
+</code></pre><pre><code>@inproceedings{kakwani2020indicnlpsuite,
     title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
     author={Divyanshu Kakwani  and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
     year={2020},
     booktitle={Findings of the EMNLP},
 }
-
-@inproceedings{siripragrada-etal-2020-multilingual,
+</code></pre><pre><code>@inproceedings{siripragrada-etal-2020-multilingual,
     title = &quot;A Multilingual Parallel Corpora Collection Effort for {I}ndian Languages&quot;,
     author = &quot;Siripragrada, Shashank  and
       Philip, Jerin  and
@@ -537,8 +549,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
     language = &quot;English&quot;,
     ISBN = &quot;979-10-95546-34-4&quot;,
 }
-
-@inproceedings{pan-etal-2017-cross,
+</code></pre><pre><code>@inproceedings{pan-etal-2017-cross,
     title = &quot;Cross-lingual Name Tagging and Linking for 282 Languages&quot;,
     author = &quot;Pan, Xiaoman  and
       Zhang, Boliang  and
@@ -555,21 +566,18 @@ document.querySelectorAll('section[id]').forEach((section) => {
     doi = &quot;10.18653/v1/P17-1178&quot;,
     pages = &quot;1946--1958&quot;
 }
-
-@inproceedings{Dhanwal2020AnAD,
+</code></pre><pre><code>@inproceedings{Dhanwal2020AnAD,
   title={An Annotated Dataset of Discourse Modes in Hindi Stories},
   author={Swapnil Dhanwal and Hritwik Dutta and Hitesh Nankani and Nilay Shrivastava and Y. Kumar and Junyi Jessy Li and Debanjan Mahata and Rakesh Gosangi and Haimin Zhang and R. R. Shah and Amanda Stent},
   booktitle={LREC},
   year={2020}
 }
-
-@inproceedings{Kumar2016DPILFIRE2016OO,
+</code></pre><pre><code>@inproceedings{Kumar2016DPILFIRE2016OO,
   title={DPIL@FIRE2016: Overview of the Shared task on Detecting Paraphrases in Indian language},
   author={M. A. Kumar and S. Singh and B. Kavirajan and P. SomanK.},
   booktitle={FIRE},
   year={2016}
 }
-
 </code></pre>
 
 
