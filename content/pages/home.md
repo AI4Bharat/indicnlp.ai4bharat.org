@@ -13,5 +13,20 @@ Our work is focused on building a better ecosystem for Indian languages while al
 
 ----
 
+## Citing
+
+If you are using any of the resources, please cite the following article: 
+
+```
+@article{kunchukuttan2020indicnlpcorpus,
+    title={AI4Bharat-IndicNLP Corpus: Monolingual Corpora and Word Embeddings for Indic Languages},
+    author={Anoop Kunchukuttan and Divyanshu Kakwani and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
+    year={2020},
+    journal={arXiv preprint arXiv:2005.00085},
+}
+``` 
+
+----
+
 For finding more openly-available resources, check out our <a href="/resources">IndicNLP Catalog</a> where we maintain all the resources for Indian languages.
 
