@@ -495,8 +495,33 @@ document.querySelectorAll('section[id]').forEach((section) => {
 </tbody>
 </table>
 <p>* Excluding articles obtained from the OSCAR corpus</p>
-<p>Note: Some links will be updated soon.</p>
+<div class="gdoc-page__anchorwrap"><h4 id="processing-corpus">Processing Corpus<a data-clipboard-text="http://localhost/corpora/#processing-corpus" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Processing Corpus" href="#processing-corpus"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>For processing the corpus into various other forms, for example, tokenized, transliterated etc., you can use the <a href="https://github.com/anoopkunchukuttan/indic_nlp_library">indicnlp library</a>.  The following code snippet can be used to tokenize the corpus:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">indicnlp.tokenize.indic_tokenize</span> <span class="kn">import</span> <span class="n">trivial_tokenize</span>
+<span class="kn">from</span> <span class="nn">indicnlp.normalize.indic_normalize</span> <span class="kn">import</span> <span class="n">IndicNormalizerFactory</span>
 
+<span class="n">lang</span> <span class="o">=</span> <span class="s1">&#39;kn&#39;</span>
+<span class="n">input_path</span> <span class="o">=</span> <span class="s1">&#39;kn&#39;</span>
+<span class="n">output_path</span> <span class="o">=</span> <span class="s1">&#39;kn.tok.txt&#39;</span>
+
+<span class="n">normalizer_factory</span> <span class="o">=</span> <span class="n">IndicNormalizerFactory</span><span class="p">()</span>
+<span class="n">normalizer</span> <span class="o">=</span> <span class="n">normalizer_factory</span><span class="o">.</span><span class="n">get_normalizer</span><span class="p">(</span><span class="n">lang</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">process_sent</span><span class="p">(</span><span class="n">sent</span><span class="p">):</span>
+    <span class="n">normalized</span> <span class="o">=</span> <span class="n">normalizer</span><span class="o">.</span><span class="n">normalize</span><span class="p">(</span><span class="n">sent</span><span class="p">)</span>
+    <span class="n">processed</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">trivial_tokenize</span><span class="p">(</span><span class="n">normalized</span><span class="p">,</span> <span class="n">lang</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">processed</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">input_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">in_fp</span><span class="p">,</span>\
+	 <span class="nb">open</span><span class="p">(</span><span class="n">output_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">out_fp</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">in_fp</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+        <span class="n">sent</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">toksent</span> <span class="o">=</span> <span class="n">process_sent</span><span class="p">(</span><span class="n">sent</span><span class="p">)</span>
+        <span class="n">out_fp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">toksent</span><span class="p">)</span>
+        <span class="n">out_fp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+
+
+</code></pre></div>
 
 
             </article>
@@ -509,6 +534,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
   <ul>
     <li><a href="#corpus-format">Corpus Format</a></li>
     <li><a href="#downloads">Downloads</a></li>
+    <li><a href="#processing-corpus">Processing Corpus</a></li>
   </ul>
 </nav>
                 </nav>

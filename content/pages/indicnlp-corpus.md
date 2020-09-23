@@ -34,5 +34,38 @@ The corpus is a single large text file containing one sentence per line. The [pu
 
 \* Excluding articles obtained from the OSCAR corpus
 
-Note: Some links will be updated soon.
+#### Processing Corpus
+
+For processing the corpus into various other forms, for example, tokenized, transliterated etc., you can use the [indicnlp library](https://github.com/anoopkunchukuttan/indic_nlp_library).  The following code snippet can be used to tokenize the corpus:
+
+```python
+from indicnlp.tokenize.indic_tokenize import trivial_tokenize
+from indicnlp.normalize.indic_normalize import IndicNormalizerFactory
+
+lang = 'kn'
+input_path = 'kn'
+output_path = 'kn.tok.txt'
+
+normalizer_factory = IndicNormalizerFactory()
+normalizer = normalizer_factory.get_normalizer(lang)
+
+def process_sent(sent):
+    normalized = normalizer.normalize(sent)
+    processed = ' '.join(trivial_tokenize(normalized, lang))
+    return processed
+
+with open(input_path, 'r', encoding='utf-8') as in_fp,\
+	 open(output_path, 'w', encoding='utf-8') as out_fp:
+    for line in in_fp.readlines():
+        sent = line.rstrip('\n')
+        toksent = process_sent(sent)
+        out_fp.write(toksent)
+        out_fp.write('\n')
+
+
+```
+
+
+
+
 
