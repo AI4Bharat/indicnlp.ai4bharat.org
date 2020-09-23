@@ -25,6 +25,8 @@ ACTSA Sentiment Classifcation | [link](https://storage.googleapis.com/ai4bharat-
 MIDAS Discourse | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/midas-discourse.tar.gz)
 
 
+The code to run evaluations on the above dataset is provided in the [IndicBERT repo](https://github.com/AI4Bharat/indic-bert). To find the source of each dataset, please refer the [citations](#citations).
+
 
 ## Tasks
 
