@@ -8,7 +8,7 @@ IndicNLP corpora has been developed by discovering and scraping thousands of web
 
 #### Corpus Format
 
-The corpus is a single large text file containing one sentence per line. The [publicly released version](#downloads) is randomly shuffled and deduplicated. For other forms of this data, please [write to us](/aboutus#contactus).
+The corpus is a single large text file containing one sentence per line. The [publicly released version](#downloads) is randomly shuffled, untokenized and deduplicated. To obtain other forms of the corpus, please [write to us](/aboutus#contactus).
 
 
 #### Downloads
