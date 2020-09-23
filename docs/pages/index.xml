@@ -15,8 +15,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/corpora/</guid>
-      <description>IndicNLP corpora has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months. It has been used to train our released models.
-Corpus Format The corpus is a single large text file containing one sentence per line. The publicly released version is randomly shuffled, untokenized and deduplicated. To obtain other forms of the corpus, please write to us.</description>
+      <description>IndicNLP corpora has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months.
+IndicCorp is one of the largest publicly-available corpora for Indian languages. It has also been used to train our released models which have obtained state-of-the-art performance on many tasks.
+Corpus Format The corpus is a single large text file containing one sentence per line. The publicly released version is randomly shuffled, untokenized and deduplicated.</description>
     </item>
     
     <item>
