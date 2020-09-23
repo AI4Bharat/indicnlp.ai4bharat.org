@@ -26,7 +26,7 @@ The corpus is a single large text file containing one sentence per line. The [pu
 | mr       | 2.31M             | 30.8M | 560M  | [link]() |
 | or       | 0.69M             | 6.94M   | 104M   | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/or.tar.xz) |
 | pa       | 2.64M             | 24.2M |  814M  | [link]() |
-| ta       | 4.41M             |  29M   |  549M  | [link]() |
+| ta       | 4.41M             |  31.5M   |  549M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ta.tar.xz) |
 | te       | 3.98M             | 43.3M   |  671M  | [link]() |
 
 \* Excluding articles obtained from the OSCAR corpus
