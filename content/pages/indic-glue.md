@@ -14,7 +14,7 @@ In addition, we also compile a list of additional evaluations which comprises of
 Dataset | Download Link |
 ------  | -----   |
 Wikipedia Section Titles | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-section-titles.tar.gz)
-Cloze-style Question Answering | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-cloze.gz)
+Cloze-style Question Answering | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-cloze.tar.gz)
 Wikipedia Named Entity Recognition | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wikiann-ner.tar.gz)
 Cross-lingual Sentence Retrieval | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/cvit-mkb.tar.gz)
 AI4Bharat Winnograd Natural Language Inference | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wnli-translated.tar.gz)
