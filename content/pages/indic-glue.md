@@ -20,16 +20,17 @@ Dataset | Download Link |
 Soham Articles | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/soham-articles.tar.gz)
 iNLTK Headlines | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/inltk-headlines.tar.gz)
 BBC News Articles | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/bbc-articles.tar.gz)
-Wikipedia Section Titles | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-section-titles.tar.gz)
-Cloze-style Question Answering | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-cloze.tar.gz)
-Wikipedia Named Entity Recognition | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wikiann-ner.tar.gz)
-Cross-lingual Sentence Retrieval | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/cvit-mkb.tar.gz)
+AI4Bharat Wikipedia Section Titles | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-section-titles.tar.gz)
+AI4Bharat Cloze-style Question Answering | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-cloze.tar.gz)
+WikiAnnNER  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wikiann-ner.tar.gz)
+CVIT-MKB Cross-lingual Sentence Retrieval | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/cvit-mkb.tar.gz)
 AI4Bharat Winnograd Natural Language Inference | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wnli-translated.tar.gz)
 AI4Bharat Choice of Plausible Alternatives | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/copa-translated.tar.gz)
 IITP Movie Reviews Sentiment | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/iitp-movie-reviews.tar.gz)
 IITP Product Reviews | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/iitp-product-reviews.tar.gz)
 ACTSA Sentiment Classifcation | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/actsa.tar.gz)
 MIDAS Discourse | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/midas-discourse.tar.gz)
+Amrita Paraphrase | [link](https://nlp.amrita.edu/dpil_cen/index.html) _(need to request)_
 
 
 The code to run evaluations on the above dataset is provided in the [IndicBERT repo](https://github.com/AI4Bharat/indic-bert). To find the source of each dataset, please refer the [citations](#citations).
