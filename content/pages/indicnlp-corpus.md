@@ -19,7 +19,7 @@ The corpus is a single large text file containing one sentence per line. The [pu
 
 | Language | \# News Articles* | Sentences     | Tokens        | Link     |
 | -------- | ----------------- | ------------- | ------------- | -------- |
-| as       | 0.60M             | 1.39M   |  36.9M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/as.tar.xz) |
+| as       | 0.60M             | 1.39M   |  32.6M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/as.tar.xz) |
 | bn       | 3.83M             | 39.9M | 815M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/bn.tar.xz) |
 | en       | 3.49M             | 54.3M | 1.34B | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/en.tar.xz) |
 | gu       | 2.63M             | 41.1M | 724M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/gu.tar.xz) |
@@ -27,7 +27,7 @@ The corpus is a single large text file containing one sentence per line. The [pu
 | kn       | 3.76M             | 53.3M | 712M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/bn.tar.xz) |
 | ml       | 4.75M             | 50.2M |  767M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ml.tar.xz) |
 | mr       | 2.31M             | 34.0M | 560M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/mr.tar.xz) |
-| or       | 0.69M             | 6.94M   | 104M   | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/or.tar.xz) |
+| or       | 0.69M             | 6.94M   | 107M   | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/or.tar.xz) |
 | pa       | 2.64M             | 29.2M |  814M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/pa.tar.xz) |
 | ta       | 4.41M             |  31.5M   |  549M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ta.tar.xz) |
 | te       | 3.98M             | 43.3M   |  671M  | [link]() |

@@ -11,8 +11,15 @@ In addition, we also compile a list of additional evaluations which comprises of
 
 #### Downloads
 
+ Genre Classification
+ Genre Classifcation
+
+
 Dataset | Download Link |
 ------  | -----   |
+Soham Articles | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/soham-articles.tar.gz)
+iNLTK Headlines | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/inltk-headlines.tar.gz)
+BBC News Articles | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/bbc-articles.tar.gz)
 Wikipedia Section Titles | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-section-titles.tar.gz)
 Cloze-style Question Answering | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-cloze.tar.gz)
 Wikipedia Named Entity Recognition | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wikiann-ner.tar.gz)
