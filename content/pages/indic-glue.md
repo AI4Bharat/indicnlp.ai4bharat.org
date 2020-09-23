@@ -23,6 +23,7 @@ IITP Movie Reviews Sentiment | [link](https://storage.googleapis.com/ai4bharat-p
 IITP Product Reviews | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/iitp-product-reviews.tar.gz)
 ACTSA Sentiment Classifcation | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/actsa.tar.gz)
 MIDAS Discourse | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/midas-discourse.tar.gz)
+Amrita Paraphrase | [link](https://nlp.amrita.edu/dpil_cen/index.html) _(need to request)_
 
 
 The code to run evaluations on the above dataset is provided in the [IndicBERT repo](https://github.com/AI4Bharat/indic-bert). To find the source of each dataset, please refer the [citations](#citations).
