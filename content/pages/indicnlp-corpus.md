@@ -26,9 +26,9 @@ The corpus is a single large text file containing one sentence per line. The [pu
 | hi       | 4.95M             | 56.8M |  1.84B | [link]() |
 | kn       | 3.76M             | 53.3M | 712M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/bn.tar.xz) |
 | ml       | 4.75M             | 50.2M |  767M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ml.tar.xz) |
-| mr       | 2.31M             | 30.8M | 560M  | [link]() |
+| mr       | 2.31M             | 34.0M | 560M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/mr.tar.xz) |
 | or       | 0.69M             | 6.94M   | 104M   | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/or.tar.xz) |
-| pa       | 2.64M             | 24.2M |  814M  | [link]() |
+| pa       | 2.64M             | 29.2M |  814M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/pa.tar.xz) |
 | ta       | 4.41M             |  31.5M   |  549M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ta.tar.xz) |
 | te       | 3.98M             | 43.3M   |  671M  | [link]() |
 
