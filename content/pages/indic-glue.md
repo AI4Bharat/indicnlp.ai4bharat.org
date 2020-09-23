@@ -7,7 +7,7 @@ url: /indic-glue
 
 To thoroughly evaluate language models on Indian languages, we need a robust NLU benchmark consisting of a wide variety of tasks and covering all the Indian languages. IndicGLUE is a natural language understanding benchmark that we propose. It consists of 6 tasks which we describe in the next section.
 
-In addition, we also compile a list of additional evaluations which comprises of challenging public tasks, but cover only some of the Indian languages.
+In addition, we also compile a list of additional evaluations which comprises of tasks based on publicly-available datasets.
 
 #### Downloads
 

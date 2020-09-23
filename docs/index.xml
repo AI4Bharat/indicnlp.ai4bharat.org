@@ -38,7 +38,8 @@ Usage To use our fastText models, first download them. Next, install the fastTex
       
       <guid>http://localhost/indic-glue/</guid>
       <description>To thoroughly evaluate language models on Indian languages, we need a robust NLU benchmark consisting of a wide variety of tasks and covering all the Indian languages. IndicGLUE is a natural language understanding benchmark that we propose. It consists of 6 tasks which we describe in the next section.
-In addition, we also compile a list of additional evaluations which comprises of challenging public tasks, but cover only some of the Indian languages.</description>
+In addition, we also compile a list of additional evaluations which comprises of tasks based on publicly-available datasets.
+Downloads    Dataset Download Link     Soham News Article Classification link   iNLTK Headline Classification link   BBC News Article Classification link   AI4Bharat Wikipedia Section Titles link   AI4Bharat Cloze-style Question Answering link   AI4Bharat Winnograd Natural Language Inference link   AI4Bharat Choice of Plausible Alternatives link   WikiAnnNER link   CVIT-MKB Cross-lingual Sentence Retrieval link   IITP Movie Reviews Sentiment link   IITP Product Reviews link   ACTSA Sentiment Classifcation link   MIDAS Discourse link   Amrita Paraphrase link (need to request)    The code to run evaluations on the above dataset is provided in the IndicBERT repo.</description>
     </item>
     
     <item>
