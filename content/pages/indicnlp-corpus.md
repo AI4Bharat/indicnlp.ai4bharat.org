@@ -36,7 +36,7 @@ The corpus is a single large text file containing one sentence per line. The [pu
 
 #### Processing Corpus
 
-For processing the corpus into various other forms, for example, tokenized, transliterated etc., you can use the [indicnlp library](https://github.com/anoopkunchukuttan/indic_nlp_library).  The following code snippet can be used to tokenize the corpus:
+For processing the corpus into other forms (tokenized, transliterated etc.), you can use the [indicnlp library](https://github.com/anoopkunchukuttan/indic_nlp_library).  As an example, the following code snippet can be used to tokenize the corpus:
 
 ```python
 from indicnlp.tokenize.indic_tokenize import trivial_tokenize
