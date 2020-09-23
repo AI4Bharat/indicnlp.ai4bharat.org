@@ -13,9 +13,9 @@ In addition, we also compile a list of additional evaluations which comprises of
 
 *A script to download the datasets will soon be provided. Some datasets will have to be requested from the dataset owners.*
 
-#### Tasks
+## Tasks
 
-##### News Category Classification
+#### News Category Classification
 
 Predict the genre of a given news article. The dataset contains around 125k news articles across 9 Indian languages. Example:
 
@@ -37,7 +37,7 @@ Predict the genre of a given news article. The dataset contains around 125k news
 ----
 
 
-##### Headline Prediction
+#### Headline Prediction
 
  Predict the correct headline for a news article from a given list of four candidate headlines. The dataset contains around 880k examples across 11 Indian languages. Example:
 
@@ -57,7 +57,7 @@ Predict the genre of a given news article. The dataset contains around 125k news
 ----
 
 
-##### Wikipedia Section Title Prediction
+#### Wikipedia Section Title Prediction
 
 Predict the correct title for a Wikipedia section from a given list of four candidate titles. The dataset has 400k examples across 11 Indian languages.
 
@@ -79,7 +79,7 @@ Predict the correct title for a Wikipedia section from a given list of four cand
 ----
 
 
-##### Cloze-style Question Answering
+#### Cloze-style Question Answering
 
 Given a text with an entity randomly masked, the task is to predict that masked entity from a list of 4 candidate entities. The dataset contains around 239k examples across 11 languages. Example:
 
@@ -101,7 +101,7 @@ Given a text with an entity randomly masked, the task is to predict that masked 
 ----
 
 
-##### Named Entity Recognition
+#### Named Entity Recognition
 
 Recognize entities and their coarse types in a sequence of words. The dataset contains around 787k examples across 11 Indian languages.
 
@@ -121,7 +121,7 @@ Recognize entities and their coarse types in a sequence of words. The dataset co
 
 
 
-##### Cross-lingual Sentence Retrieval
+#### Cross-lingual Sentence Retrieval
 
 Given a sentence in language $L_1$ the task is to retrieve its translation from a set of candidate sentences in language $L_2$. The dataset contains around 39k parallel sentence pairs across 8 Indian languages. Example:
 
@@ -144,7 +144,7 @@ In the health sector the nation has now moved ahead from the conventional approa
 ----
 
 
-##### Natural Language Inference
+#### Natural Language Inference
 
 *Datasets*
 
@@ -155,7 +155,7 @@ These are translations of the WNLI and COPA datasets into some Indian languages.
 
 ----
 
-##### Sentiment Analysis
+#### Sentiment Analysis
 
 *Datasets*
 
@@ -165,7 +165,7 @@ These are translations of the WNLI and COPA datasets into some Indian languages.
 
 ----
 
-##### Discourse Analysis
+#### Discourse Analysis
 
 *Datasets*
 
@@ -173,7 +173,7 @@ These are translations of the WNLI and COPA datasets into some Indian languages.
 
 ----
 
-##### Paraphrase Detection
+#### Paraphrase Detection
 
 *Datasets*
 
