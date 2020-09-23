@@ -27,22 +27,12 @@ Predict the genre of a given news article. The dataset contains around 125k news
 
 *Category*: Politics
 
+**Datasets**
 
-----
-
-
-##### Named Entity Recognition
-
-Recognize entities and their coarse types in a sequence of words. The dataset contains around 787k examples across 11 Indian languages.
-
-*Example*:
-
-
-|     |     |     |     |     |     |     |     |     |     |
-|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
-| **Token** | चाणक्य | पुरी   | को   | यहाँ  | देखने  | हेतु   | यहाँ  | क्लिक | करें   |
-| **Type** | B-LOC | I-LOC | O    | O    | O    | O    | O    | O    | O    |
-
+- AI4Bharat
+- Soham Articles Genre Classification
+- iNLTK Headlines Genre Classifcation
+- BBC News Articles
 
 ----
 
@@ -60,6 +50,9 @@ Recognize entities and their coarse types in a sequence of words. The dataset co
 * *Candidate 3:* ಕಸಬ ಬೆಂಗ್ರೆಯಲ್ಲಿ ಮುಸುಕುಧಾರಿಗಳ ತಂಡದಿಂದ ಮೂವರು ಯುವಕರ ಮೇಲೆ ಹಲ್ಲೆ : ಓರ್ವ ಗಂಭೀರ
 * *Candidate 4:* ಕಣಿವೆ ರಾಜ್ಯದಲ್ಲಿ mobile ಬಂದ್, ಪ್ರಿಂಟಿಂಗ್ ಪ್ರೆಸ್ ಮೇಲೆ ದಾಳಿ
 
+**Datasets**
+
+- AI4Bharat
 
 ----
 
@@ -79,6 +72,9 @@ Predict the correct title for a Wikipedia section from a given list of four cand
 * *Candidate 3:* નિર્માણ કંપન [*correct answer*]
 * *Candidate 4:* ઓસ્ટ્રેલિય
 
+**Datasets**
+
+- AI4Bharat
 
 ----
 
@@ -98,8 +94,31 @@ Given a text with an entity randomly masked, the task is to predict that masked 
 * *Candidate 3*: ਸ਼ਿਕਾਗੋ
 * *Candidate 4*: ਪਾਕਿਸਤਾਨ
 
+**Datasets**
+
+- AI4Bharat
 
 ----
+
+
+##### Named Entity Recognition
+
+Recognize entities and their coarse types in a sequence of words. The dataset contains around 787k examples across 11 Indian languages.
+
+*Example*:
+
+
+|     |     |     |     |     |     |     |     |     |     |
+|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+| **Token** | चाणक्य | पुरी   | को   | यहाँ  | देखने  | हेतु   | यहाँ  | क्लिक | करें   |
+| **Type** | B-LOC | I-LOC | O    | O    | O    | O    | O    | O    | O    |
+
+**Datasets**
+
+- WikiAnnNER
+
+----
+
 
 
 ##### Cross-lingual Sentence Retrieval
@@ -118,35 +137,45 @@ In the health sector the nation has now moved ahead from the conventional approa
 ആരോഗ്യമേഖലയില് ഇന്ന് രാജ്യം പരമ്പരാഗത രീതികളില് നിന്ന് മുന്നേറിക്കഴിഞ്ഞു.
 ```
 
+**Datasets**
+
+- CVIT-Mann ki baat test set 
 
 ----
 
 
-#### Additional Evaluation Tasks
-
 ##### Natural Language Inference
 
-- Winnograd Natural Language Inference (WNLI)
-- Choice of Plausible Alternatives (COPA)
+**Datasets**
+
+- AI4Bharat Winnograd Natural Language Inference (WNLI)
+- AI4Bharat Choice of Plausible Alternatives (COPA)
+
+These are translations of the WNLI and COPA datasets into some Indian languages.
+
+----
 
 ##### Sentiment Analysis
+
+**Datasets**
 
 - IITP Movie Reviews Sentiment 
 - IITP Product Reviews
 - ACTSA Sentiment Classifcation
 
-##### Genre Classification
-
-- Soham Articles Genre Classification
-- iNLTK Headlines Genre Classifcation
-- BBC News Articles
+----
 
 ##### Discourse Analysis
 
-* MIDAS Discourse
+**Datasets**
 
+- MIDAS Discourse
+
+----
 
 ##### Paraphrase Detection
+
+**Datasets**
 
 * Amrita Exact Paraphrase Detection
 * Amrita Rough Paraphrase Detection
