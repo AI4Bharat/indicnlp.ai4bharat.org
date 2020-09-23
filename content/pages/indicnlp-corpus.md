@@ -6,7 +6,12 @@ url: /corpora
 
 IndicNLP corpora has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months. It has been used to train our released models.
 
-##### Download Links
+#### Corpus Format
+
+The corpus is a single large text file containing one sentence per line. The [publicly released version](#downloads) is randomly shuffled and deduplicated. For other forms of this data, please [write to us](/aboutus#contactus).
+
+
+#### Downloads
 
 
 | Language | \# News Articles* | Sentences     | Tokens        | Link     |
@@ -17,12 +22,12 @@ IndicNLP corpora has been developed by discovering and scraping thousands of web
 | gu       | 2.63M             | 41.1M | 724M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/gu.tar.xz) |
 | hi       | 4.95M             | 56.8M |  1.84B | [link]() |
 | kn       | 3.76M             | 53.3M | 712M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/bn.tar.xz) |
-| ml       | 4.75M             | 50.2M | 1.20B / 767M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ml.tar.xz) |
+| ml       | 4.75M             | 50.2M |  767M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ml.tar.xz) |
 | mr       | 2.31M             | 30.8M | 560M  | [link]() |
 | or       | 0.69M             | 6.94M   | 104M   | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/or.tar.xz) |
-| pa       | 2.64M             | 62.9M / 24.2M | 2.42B / 814M  | [link]() |
-| ta       | 4.41M             | 112M / 29M    | 1.90B / 549M  | [link]() |
-| te       | 3.98M             | 80M / 43.3M   | 1.15B / 671M  | [link]() |
+| pa       | 2.64M             | 24.2M |  814M  | [link]() |
+| ta       | 4.41M             |  29M   |  549M  | [link]() |
+| te       | 3.98M             | 43.3M   |  671M  | [link]() |
 
 \* Excluding articles obtained from the OSCAR corpus
 

@@ -16,7 +16,8 @@
       
       <guid>http://localhost/corpora/</guid>
       <description>IndicNLP corpora has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months. It has been used to train our released models.
-Download Links    Language # News Articles* Sentences Tokens Link     as 0.60M 1.39M 36.9M link   bn 3.83M 39.9M 815M link   en 3.49M 54.3M 1.34B link   gu 2.</description>
+Corpus Format The corpus is a single large text file containing one sentence per line. The publicly released version is randomly shuffled and deduplicated. For other forms of this data, please write to us.
+Downloads    Language # News Articles* Sentences Tokens Link     as 0.</description>
     </item>
     
     <item>
