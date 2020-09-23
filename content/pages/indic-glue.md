@@ -11,7 +11,20 @@ In addition, we also compile a list of additional evaluations which comprises of
 
 #### Downloads
 
-*A script to download the datasets will soon be provided. Some datasets will have to be requested from the dataset owners.*
+Dataset | Download Link |
+------  | -----   |
+Wikipedia Section Titles | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-section-titles.tar.gz)
+Cloze-style Question Answering | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-cloze.gz)
+Wikipedia Named Entity Recognition | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wikiann-ner.tar.gz)
+Cross-lingual Sentence Retrieval | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/cvit-mkb.tar.gz)
+AI4Bharat Winnograd Natural Language Inference | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wnli-translated.tar.gz)
+AI4Bharat Choice of Plausible Alternatives | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/copa-translated.tar.gz)
+IITP Movie Reviews Sentiment | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/iitp-movie-reviews.tar.gz)
+IITP Product Reviews | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/iitp-product-reviews.tar.gz)
+ACTSA Sentiment Classifcation | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/actsa.tar.gz)
+MIDAS Discourse | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/midas-discourse.tar.gz)
+
+
 
 ## Tasks
 
