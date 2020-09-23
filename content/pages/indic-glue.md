@@ -27,7 +27,7 @@ Predict the genre of a given news article. The dataset contains around 125k news
 
 *Category*: Politics
 
-**Datasets**
+*Datasets*
 
 - AI4Bharat
 - Soham Articles Genre Classification
@@ -50,7 +50,7 @@ Predict the genre of a given news article. The dataset contains around 125k news
 * *Candidate 3:* ಕಸಬ ಬೆಂಗ್ರೆಯಲ್ಲಿ ಮುಸುಕುಧಾರಿಗಳ ತಂಡದಿಂದ ಮೂವರು ಯುವಕರ ಮೇಲೆ ಹಲ್ಲೆ : ಓರ್ವ ಗಂಭೀರ
 * *Candidate 4:* ಕಣಿವೆ ರಾಜ್ಯದಲ್ಲಿ mobile ಬಂದ್, ಪ್ರಿಂಟಿಂಗ್ ಪ್ರೆಸ್ ಮೇಲೆ ದಾಳಿ
 
-**Datasets**
+*Datasets*
 
 - AI4Bharat
 
@@ -72,7 +72,7 @@ Predict the correct title for a Wikipedia section from a given list of four cand
 * *Candidate 3:* નિર્માણ કંપન [*correct answer*]
 * *Candidate 4:* ઓસ્ટ્રેલિય
 
-**Datasets**
+*Datasets*
 
 - AI4Bharat
 
@@ -94,7 +94,7 @@ Given a text with an entity randomly masked, the task is to predict that masked 
 * *Candidate 3*: ਸ਼ਿਕਾਗੋ
 * *Candidate 4*: ਪਾਕਿਸਤਾਨ
 
-**Datasets**
+*Datasets*
 
 - AI4Bharat
 
@@ -113,7 +113,7 @@ Recognize entities and their coarse types in a sequence of words. The dataset co
 | **Token** | चाणक्य | पुरी   | को   | यहाँ  | देखने  | हेतु   | यहाँ  | क्लिक | करें   |
 | **Type** | B-LOC | I-LOC | O    | O    | O    | O    | O    | O    | O    |
 
-**Datasets**
+*Datasets*
 
 - WikiAnnNER
 
@@ -137,7 +137,7 @@ In the health sector the nation has now moved ahead from the conventional approa
 ആരോഗ്യമേഖലയില് ഇന്ന് രാജ്യം പരമ്പരാഗത രീതികളില് നിന്ന് മുന്നേറിക്കഴിഞ്ഞു.
 ```
 
-**Datasets**
+*Datasets*
 
 - CVIT-Mann ki baat test set 
 
@@ -146,7 +146,7 @@ In the health sector the nation has now moved ahead from the conventional approa
 
 ##### Natural Language Inference
 
-**Datasets**
+*Datasets*
 
 - AI4Bharat Winnograd Natural Language Inference (WNLI)
 - AI4Bharat Choice of Plausible Alternatives (COPA)
@@ -157,7 +157,7 @@ These are translations of the WNLI and COPA datasets into some Indian languages.
 
 ##### Sentiment Analysis
 
-**Datasets**
+*Datasets*
 
 - IITP Movie Reviews Sentiment 
 - IITP Product Reviews
@@ -167,7 +167,7 @@ These are translations of the WNLI and COPA datasets into some Indian languages.
 
 ##### Discourse Analysis
 
-**Datasets**
+*Datasets*
 
 - MIDAS Discourse
 
@@ -175,7 +175,7 @@ These are translations of the WNLI and COPA datasets into some Indian languages.
 
 ##### Paraphrase Detection
 
-**Datasets**
+*Datasets*
 
 * Amrita Exact Paraphrase Detection
 * Amrita Rough Paraphrase Detection
