@@ -25,7 +25,7 @@ The corpus is a single large text file containing one sentence per line. The [pu
 | gu       | 2.63M             | 41.1M | 719M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/gu.tar.xz) |
 | hi       | 4.95M             | 63.1M |  1.86B | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/hi.tar.xz) |
 | kn       | 3.76M             | 53.3M | 713M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/bn.tar.xz) |
-| ml       | 4.75M             | 50.2M |  767M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ml.tar.xz) |
+| ml       | 4.75M             | 50.2M |  721M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/ml.tar.xz) |
 | mr       | 2.31M             | 34.0M | 551M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/mr.tar.xz) |
 | or       | 0.69M             | 6.94M   | 107M   | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/or.tar.xz) |
 | pa       | 2.64M             | 29.2M |  773M  | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/pa.tar.xz) |
