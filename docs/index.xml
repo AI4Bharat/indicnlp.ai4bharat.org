@@ -4,7 +4,11 @@
     <title>AI4Bharat IndicNLP</title>
     <link>http://localhost/</link>
     <description>Recent content on AI4Bharat IndicNLP</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>IndicCorp</title>
       <link>http://localhost/corpora/</link>
@@ -67,6 +71,17 @@ Download Model The model can be downloaded here. Both tf checkpoints and pytorch
 Members       
 Contact Us For any queries, feel free to reach us at:
  Anoop Kunchukuttan (anoop.kunchukuttan@gmail.com) Mitesh Khapra (miteshk@cse.iitm.ac.in) Pratyush Kumar (pratyush@cse.iitm.ac.in) Divyanshu Kakwani (divkakwani@gmail.com)  </description>
+    </item>
+    
+    <item>
+      <title>Data Explorer</title>
+      <link>http://localhost/explorer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/explorer/</guid>
+      <description>Explore, search and add datasets.
+IndicNLP: Current Status Status of datasets across languages:
+ Search Datasets     let dataURL = &#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQGyB-QInM69IoR2nP6pJ_Uc0tA0fRxb1NvDe1F1GvBd7UT9lYW06-DuTjaKTYzmuHbAEPaQR5nhhCb/pub?gid=0&amp;single=true&amp;output=csv&#34;; let encodedURL = encodeURIComponent(dataURL) let proxyURL = `https://api.allorigins.win/raw?url=${encodedURL}`; console.log(proxyURL); result = Papa.parse(proxyURL, { download: true, dynamicTyping: true, complete: function(results) { let data = process_data(results.data); let table = []; for (const prop in data.datasets) { for (const lang in data.datasets[prop]) { for (const name of data.datasets[prop][lang]) { table.</description>
     </item>
     
     <item>

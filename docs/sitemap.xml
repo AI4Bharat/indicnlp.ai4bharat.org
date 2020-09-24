@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://localhost/corpora/</loc>
-    <lastmod>2020-09-24T00:28:19+05:30</lastmod>
+    <lastmod>2020-09-24T01:55:48+05:30</lastmod>
   </url>
   
   <url>
@@ -34,11 +34,15 @@
   
   <url>
     <loc>http://localhost/</loc>
-    <lastmod>2020-09-24T00:28:19+05:30</lastmod>
+    <lastmod>2020-09-21T15:11:11+05:30</lastmod>
   </url>
   
   <url>
     <loc>http://localhost/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost/explorer/</loc>
   </url>
   
   <url>
@@ -48,11 +52,7 @@
   
   <url>
     <loc>http://localhost/pages/</loc>
-<<<<<<< HEAD
-    <lastmod>2020-09-24T00:17:36+05:30</lastmod>
-=======
-    <lastmod>2020-09-24T00:28:19+05:30</lastmod>
->>>>>>> 11f36adec8dd648874a95d1b17eaa58597f34e88
+    <lastmod>2020-09-24T01:55:48+05:30</lastmod>
   </url>
   
   <url>
