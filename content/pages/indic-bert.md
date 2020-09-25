@@ -9,11 +9,11 @@ url: /indic-bert
 
 IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. IndicBERT has much less parameters than other public models like mBERT and XLM-R while it still manages to give state of the art performance on several tasks.
 
-#### Download Model
+### Download Model
 
 The model can be downloaded [here](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/models/indic-bert-v1.tar.gz). Both tf checkpoints and pytorch binaries are included in the archive. Alternatively, you can also download it from [Huggingface](https://huggingface.co/ai4bharat/indic-bert).
 
-#### Usage
+### Usage
 
 The easiest way to use Indic BERT is through the Huggingface transformers library. It can be simply loaded like this:
 
@@ -26,13 +26,13 @@ model = AutoModel.from_pretrained('ai4bharat/indic-bert')
 
 
 
-#### Tutorials
+### Tutorials
 
 If you want to quickly try experimenting with IndicBERT, we suggest checking out our tutorials and other fine-tuning notebooks that run on Google Colab:
 * General Finetuning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ai4bharat/indic-bert/blob/master/notebooks/finetuning.ipynb)
 
 
-#### Pretraining Details
+### Pretraining Details
 
 IndicBERT is pre-trained with IndicNLP corpus which covers 12 Indian languages (including English) The amount of pretraining data for each language is listed below:
 
@@ -46,11 +46,11 @@ IndicBERT is pre-trained with IndicNLP corpus which covers 12 Indian languages (
 In total, the pretraining corpus has a size of 120GB and contains 8.9B tokens.
 
 
-#### Evaluation
+### Evaluation
 
 We evaluate IndicBERT model on a set of tasks as described in the [IndicGLUE page](/indic-glue). Here are the results that we obtain:
 
-##### IndicGLUE
+#### IndicGLUE
 
 Task | mBERT | XLM-R | IndicBERT |
 -----| ----- | ----- | ------ |
@@ -62,7 +62,7 @@ Named Entity Recognition (F1-score) | **73.24** | 65.93 | 64.47 |
 Cross-Lingual Sentence Retrieval Task | 21.46 | 13.74 | **27.12** |
 Average | 64.62 | 61.09 | **66.66** |
 
-##### Additional Tasks
+#### Additional Tasks
 
 
 Task | Task Type | mBERT | XLM-R | IndicBERT |
@@ -85,7 +85,7 @@ Average |  |  69.84 | **74.42** | 73.66 |
 
 
 
-#### Paper
+### Paper
 
 
 * Kakwani, D., Kunchukuttan, A., Golla, S., N.C. G., Bhattacharyya, A., Khapra, M.M. and Kumar, P., 2020. IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages. *Accepted by Findings of EMNLP 2020* [pdf](https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf)

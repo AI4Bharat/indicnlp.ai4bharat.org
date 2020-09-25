@@ -16,8 +16,8 @@ publishDir = "docs"
     # Needed for mermaid shortcode
     unsafe = true
   [markup.tableOfContents]
-    startLevel = 4
-    endLevel = 5
+    startLevel = 3
+    endLevel = 4
 
 [params]
   # (Optional, default true) Enables search function with flexsearch.
@@ -32,3 +32,12 @@ publishDir = "docs"
 
 [permalinks]
   posts = "/:title"
+
+[menu]
+
+  [[menu.pages]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110

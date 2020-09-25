@@ -8,6 +8,10 @@
   </url>
   
   <url>
+    <loc>http://localhost/adddataset/</loc>
+  </url>
+  
+  <url>
     <loc>http://localhost/indicft/</loc>
     <lastmod>2020-09-22T18:07:51+05:30</lastmod>
   </url>
@@ -35,6 +39,10 @@
   <url>
     <loc>http://localhost/</loc>
     <lastmod>2020-09-21T15:11:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/catalog/</loc>
   </url>
   
   <url>

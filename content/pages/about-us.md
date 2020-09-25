@@ -6,7 +6,7 @@ url: /aboutus
 
 Our group focuses on building NLP ecosystem for Indian languages and seeking new models and techniques better suited for Indian languages. Our project has volunteers from IIT Madras, One Fourth Labs, Microsoft Search Technology Center India.
 
-##### Members
+### Members
 
 <a href="https://github.com/divkakwani"><img height="80" src="https://avatars0.githubusercontent.com/u/2513455?s=400&u=6171e89ed0534342e86f432d9054106733629f03&v=4" class="rounded-circle" alt="Divyanshu"></a>
 <a href=" http://anoopk.in"><img height="80" src="https://avatars0.githubusercontent.com/u/2256602?s=400&v=4" class="rounded-circle" alt="Anoop"></a>
@@ -16,7 +16,7 @@ Our group focuses on building NLP ecosystem for Indian languages and seeking new
 <a href="https://www.cse.iitm.ac.in/~miteshk/"><img height="80" src="https://avatars2.githubusercontent.com/u/4814357?s=460&v=4" class="rounded-circle" alt="Mitesh"></a>
 <a href="https://www.cse.iitm.ac.in/~pratyush"><img height="80" src="https://avatars0.githubusercontent.com/u/49815493?s=460&v=4" class="rounded-circle" alt="Pratyush"></a>
 
-##### Contact Us
+### Contact Us
 
 For any queries, feel free to reach us at:
 

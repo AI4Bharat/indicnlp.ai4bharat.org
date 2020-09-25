@@ -13,7 +13,8 @@
 <link rel="stylesheet" href="/custom.css" media="screen">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 
 <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
 
@@ -82,6 +83,61 @@ document.querySelectorAll('section[id]').forEach((section) => {
             
             <li>
             
+                <span class="flex">Catalogs</span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/explorer/" class="gdoc-nav__entry is-active">
+                        Data Explorer
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/adddataset/" class="gdoc-nav__entry ">
+                        Add a Dataset
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+            
+            <li>
+            
+                <span class="flex">Pages</span>
             
 
             
@@ -393,33 +449,60 @@ document.querySelectorAll('section[id]').forEach((section) => {
 
 
 <p>Explore, search and add datasets.</p>
-<div class="gdoc-page__anchorwrap"><h4 id="indicnlp-current-status">IndicNLP: Current Status<a data-clipboard-text="http://localhost/explorer/#indicnlp-current-status" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor IndicNLP: Current Status" href="#indicnlp-current-status"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<p>Status of datasets across languages:</p>
-<div id="status">
-</div>
-<div class="gdoc-page__anchorwrap"><h4 id="search-datasets">Search Datasets<a data-clipboard-text="http://localhost/explorer/#search-datasets" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Search Datasets" href="#search-datasets"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<div class="gdoc-page__anchorwrap"><h3 id="indicnlp-the-current-state">IndicNLP: The Current State<a data-clipboard-text="http://localhost/explorer/#indicnlp-the-current-state" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor IndicNLP: The Current State" href="#indicnlp-the-current-state"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<table id="example2" class="ui table table-bordered dt-responsive no-wrap compact">
+</table>
+<div class="gdoc-page__anchorwrap"><h3 id="search-datasets">Search Datasets<a data-clipboard-text="http://localhost/explorer/#search-datasets" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Search Datasets" href="#search-datasets"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<style>
+    table.dataTable.no-footer {
+        border-bottom: 0 !important;
+    }
+
+    tfoot {
+        display: table-row-group;
+    }
+    input[type="text"] {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+    }
+
+
+</style>
 <script>
 
     let dataURL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQGyB-QInM69IoR2nP6pJ_Uc0tA0fRxb1NvDe1F1GvBd7UT9lYW06-DuTjaKTYzmuHbAEPaQR5nhhCb/pub?gid=0&single=true&output=csv";
     let encodedURL = encodeURIComponent(dataURL)
     let proxyURL = `https://api.allorigins.win/raw?url=${encodedURL}`;
-    console.log(proxyURL);
 
     result = Papa.parse(proxyURL, {
         download: true,
         dynamicTyping: true,
         complete: function(results) {
             let data = process_data(results.data);
-            let table = [];
-            for (const prop in data.datasets) {
-                for (const lang in data.datasets[prop]) {
-                    for (const name of data.datasets[prop][lang]) {
-                        table.push([name, prop, lang]);
+            let dataset_names = {};
+            for (const type in data.datasets) {
+                for (const lang in data.datasets[type]) {
+                    for (const name of data.datasets[type][lang]) {
+                        if (!(name in dataset_names)) {
+                            dataset_names[name] = {};
+                        }
+                        if (!(type in dataset_names[name])) {
+                            dataset_names[name][type] = []
+                        }
+                        dataset_names[name][type].push(lang);
                     }
+                }
+            }
+            let table = [];
+            for (const name in dataset_names) {
+                for (const type in dataset_names[name]) {
+                    table.push([name, type, dataset_names[name][type].sort().join(", "), `<div id="${name}"></div>`]);
                 }
             }
             $('#example').DataTable( {
@@ -428,16 +511,84 @@ document.querySelectorAll('section[id]').forEach((section) => {
                     { title: "Dataset Name" },
                     { title: "Dataset Type" },
                     { title: "Language" },
-                ]
+                    { title: "Link"}
+                ],
+                pageLength: 10,
+                "lengthChange": false,
+                "ordering": false,
+                // dom: 'lrtp',
+                initComplete: function () {
+                    /*
+                    $("#example").append(
+                        $('<tfoot/>').append( $("#example thead tr").clone() )
+                    );
+                    $('tfoot').each(function () {
+                        $(this).insertAfter($(this).siblings('thead'));
+                    });
+                    $('#example tfoot th').each( function () {
+                        var title = $(this).text();
+                        $(this).html( '<div class="ui input"><input type="text" placeholder="Search '+title+'" /></div>' );
+                    });
+
+                    // Apply the search
+                    window.dt = this;
+                    this.api().columns().every( function () {
+                        var that = this;
+                        $('input', this.footer()).on('keyup change clear', function () {
+                            if ( that.search() !== this.value ) {
+                                that.search( this.value ).draw();
+                            }
+                        });
+                    });
+                    
+                    */
+                }
             });
+            let table2 = [];
             for (const type in data.datasets) {
-                $("#status").append(`<span class="badge badge-info">${type}</span> ${Object.keys(data.datasets[type]).join(" ")}<br>`);
+                let row = [type];
+                for (let lang of data.languages) {
+                    if (lang in data.datasets[type]) {
+                        row.push(`<i class="green icon check"></span>`);
+                    } else {
+                        row.push(`<i class="red close icon"></i>`);
+                    }
+                }
+                table2.push(row);
+                // table2.push([type, Object.keys(data.datasets[type]).join(", ")]);
+            }
+            let columns =  [{ title: "Dataset Type" }];
+            for (let lang of data.languages) {
+                columns.push({title: lang});
+            }
+            $('#example2').DataTable( {
+                data: table2,
+                columns: columns,
+                "lengthChange": false,
+                "ordering": false,
+                "info":     false,
+                "filter": false,
+            });
+
+ 
+        }
+    });
+
+    dataURL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQGyB-QInM69IoR2nP6pJ_Uc0tA0fRxb1NvDe1F1GvBd7UT9lYW06-DuTjaKTYzmuHbAEPaQR5nhhCb/pub?gid=1367132144&single=true&output=csv";
+    encodedURL = encodeURIComponent(dataURL)
+    proxyURL = `https://api.allorigins.win/raw?url=${encodedURL}`;
+
+    result = Papa.parse(proxyURL, {
+        download: true,
+        dynamicTyping: true,
+        complete: function(results) {
+            for (let i = 1; i < results.data.length; i++) {
+                $("#" + results.data[i][0]).html(`<a href="${results.data[i][1]}">link</a>`);
             }
         }
     });
 
     function process_data(data) {
-        window.data = data;
         let languages = data[0].slice(2, 14);
         languages = languages.map(l => l.trim());
 
@@ -450,8 +601,8 @@ document.querySelectorAll('section[id]').forEach((section) => {
             if (!(type in datasets)) {
                 datasets[type] = {};
             }
-            for (let j = 2; j < languages.length; j++) {
-                let lang = languages[j-1]
+            for (let j = 2; j < languages.length+2; j++) {
+                let lang = languages[j-2]
                 if (row[j] !== null) {
                     datasets[type][lang] = row[j].split("\n");
                 }
@@ -465,13 +616,8 @@ document.querySelectorAll('section[id]').forEach((section) => {
     }
 
 </script>
-<table id="example">
+<table id="example" class="ui table table-bordered dt-responsive no-wrap compact">
 </table>
-<div class="gdoc-page__anchorwrap"><h4 id="add-a-dataset">Add a Dataset<a data-clipboard-text="http://localhost/explorer/#add-a-dataset" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add a Dataset" href="#add-a-dataset"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<div style="width: 50%; max-width: 300px;">
-Dataset type: <input class="form-control" type="text"/>
-Link: <input class="form-control" type="text">
-</div>
 
 
 
@@ -483,9 +629,8 @@ Link: <input class="form-control" type="text">
                 <nav class="section-nav">
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#indicnlp-current-status">IndicNLP: Current Status</a></li>
+    <li><a href="#indicnlp-the-current-state">IndicNLP: The Current State</a></li>
     <li><a href="#search-datasets">Search Datasets</a></li>
-    <li><a href="#add-a-dataset">Add a Dataset</a></li>
   </ul>
 </nav>
                 </nav>

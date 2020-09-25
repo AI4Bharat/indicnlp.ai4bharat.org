@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Catalogs on AI4Bharat IndicNLP</title>
+    <link>http://localhost/catalog/</link>
+    <description>Recent content in Catalogs on AI4Bharat IndicNLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://localhost/catalog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add a Dataset</title>
+      <link>http://localhost/adddataset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/adddataset/</guid>
+      <description>Form Loading… </description>
+    </item>
+    
+    <item>
+      <title>Data Explorer</title>
+      <link>http://localhost/explorer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/explorer/</guid>
+      <description>Explore, search and add datasets.
+IndicNLP: The Current State  Search Datasets     table.dataTable.no-footer { border-bottom: 0 !important; } tfoot { display: table-row-group; } input[type=&#34;text&#34;] { width: 100%; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }   let dataURL = &#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQGyB-QInM69IoR2nP6pJ_Uc0tA0fRxb1NvDe1F1GvBd7UT9lYW06-DuTjaKTYzmuHbAEPaQR5nhhCb/pub?gid=0&amp;single=true&amp;output=csv&#34;; let encodedURL = encodeURIComponent(dataURL) let proxyURL = `https://api.allorigins.win/raw?url=${encodedURL}`; result = Papa.parse(proxyURL, { download: true, dynamicTyping: true, complete: function(results) { let data = process_data(results.data); let dataset_names = {}; for (const type in data.</description>
+    </item>
+    
+  </channel>
+</rss>

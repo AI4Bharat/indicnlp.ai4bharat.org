@@ -27,8 +27,20 @@
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-weight: 600;
+    font-weight: 600 !important;
     color:rgba(0, 0, 0, 0.7) !important;
+}
+
+h4 {
+    font-size: 1.1em !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+
+h3 {
+    font-size: 1.4em !important;
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
 }
 
 h1 {

@@ -9,7 +9,7 @@ To thoroughly evaluate language models on Indian languages, we need a robust NLU
 
 In addition, we also compile a list of additional evaluations which comprises of tasks based on publicly-available datasets.
 
-#### Downloads
+### Downloads
 
 
 Dataset | Download Link |
@@ -33,7 +33,7 @@ Amrita Paraphrase | [link](https://nlp.amrita.edu/dpil_cen/index.html) _(need to
 The code to run evaluations on the above dataset is provided in the [IndicBERT repo](https://github.com/AI4Bharat/indic-bert). To find the source of each dataset, please refer the [citations](#citations).
 
 
-## Tasks
+### Tasks
 
 #### News Category Classification
 

@@ -10,7 +10,7 @@ url: /indicft
 Our fastText models are available for 11 Indian languages:  Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
 
 
-#### Usage
+### Usage
 
 To use our fastText models, first [download them](#downloads). Next, install the fastText library:
 ```bash
@@ -27,7 +27,7 @@ model = fasttext.load_model(path_to_binary_file)
 For instructions on how to use these models, please refer to the official [fastText documentation](https://fasttext.cc/docs/en/support.html)
 
 
-#### Downloads
+### Downloads
 
 | Language | as | pa | hi | bn | or | gu | mr | kn | te | ml | ta |
 | -------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
@@ -35,13 +35,13 @@ For instructions on how to use these models, please refer to the official [fastT
 | Model | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.as.300.bin) | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.pa.300.bin) | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.hi.300.bin) | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.bn.300.bin) | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.or.300.bin) | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.gu.300.bin) | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.mr.300.bin) | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.kn.300.bin) | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.te.300.bin) | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.ml.300.bin) | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.ta.300.bin) |
 
 
-#### Evaluation
+### Evaluation
 
 
 For a full results of evaluation, check our [paper](https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf). Here, we show some of the evaluations.
 
 
-##### Word Similarity
+#### Word Similarity
 
 
 Language | fastText wiki | fastText wiki+CC | Indic fastText
@@ -55,7 +55,7 @@ ta | **0.439** | 0.438 | 0.422
 Average| 0.507| 0.497| **0.525**
 
 
-##### News Genre Classification
+#### News Genre Classification
 
 Language | fastText wiki | fastText wiki+CC | Indic fastText
 ------| -----|-----|----

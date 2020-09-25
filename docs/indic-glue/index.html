@@ -13,7 +13,8 @@
 <link rel="stylesheet" href="/custom.css" media="screen">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 
 <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
 
@@ -82,6 +83,61 @@ document.querySelectorAll('section[id]').forEach((section) => {
             
             <li>
             
+                <span class="flex">Catalogs</span>
+            
+
+            
+            
+                
+    
+
+    <ul class="gdoc-nav__list">
+
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/explorer/" class="gdoc-nav__entry ">
+                        Data Explorer
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/adddataset/" class="gdoc-nav__entry ">
+                        Add a Dataset
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+    </ul>
+
+            
+            </li>
+            
+            
+            
+            <li>
+            
+                <span class="flex">Pages</span>
             
 
             
@@ -394,7 +450,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 
 <p>To thoroughly evaluate language models on Indian languages, we need a robust NLU benchmark consisting of a wide variety of tasks and covering all the Indian languages. IndicGLUE is a natural language understanding benchmark that we propose. It consists of 6 tasks which we describe in the next section.</p>
 <p>In addition, we also compile a list of additional evaluations which comprises of tasks based on publicly-available datasets.</p>
-<div class="gdoc-page__anchorwrap"><h4 id="downloads">Downloads<a data-clipboard-text="http://localhost/indic-glue/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/indic-glue/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <table>
 <thead>
 <tr>
@@ -462,7 +518,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 </tbody>
 </table>
 <p>The code to run evaluations on the above dataset is provided in the <a href="https://github.com/AI4Bharat/indic-bert">IndicBERT repo</a>. To find the source of each dataset, please refer the <a href="#citations">citations</a>.</p>
-<div class="gdoc-page__anchorwrap"><h2 id="tasks">Tasks<a data-clipboard-text="http://localhost/indic-glue/#tasks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Tasks" href="#tasks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h3 id="tasks">Tasks<a data-clipboard-text="http://localhost/indic-glue/#tasks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Tasks" href="#tasks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <div class="gdoc-page__anchorwrap"><h4 id="news-category-classification">News Category Classification<a data-clipboard-text="http://localhost/indic-glue/#news-category-classification" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor News Category Classification" href="#news-category-classification"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <p>Predict the genre of a given news article. The dataset contains around 125k news articles across 9 Indian languages. Example:</p>
 <p><em>Article Snippet</em>:</p>
@@ -630,20 +686,21 @@ We use the IndicGLUE dataset <code>\cite{kakwani2020indicnlpsuite}</code> which 
                     <nav id="TableOfContents">
   <ul>
     <li><a href="#downloads">Downloads</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#news-category-classification">News Category Classification</a></li>
-    <li><a href="#headline-prediction">Headline Prediction</a></li>
-    <li><a href="#wikipedia-section-title-prediction">Wikipedia Section Title Prediction</a></li>
-    <li><a href="#cloze-style-question-answering">Cloze-style Question Answering</a></li>
-    <li><a href="#named-entity-recognition">Named Entity Recognition</a></li>
-    <li><a href="#cross-lingual-sentence-retrieval">Cross-lingual Sentence Retrieval</a></li>
-    <li><a href="#natural-language-inference">Natural Language Inference</a></li>
-    <li><a href="#sentiment-analysis">Sentiment Analysis</a></li>
-    <li><a href="#discourse-analysis">Discourse Analysis</a></li>
-    <li><a href="#paraphrase-detection">Paraphrase Detection</a></li>
-    <li><a href="#citations">Citations</a></li>
+    <li><a href="#tasks">Tasks</a>
+      <ul>
+        <li><a href="#news-category-classification">News Category Classification</a></li>
+        <li><a href="#headline-prediction">Headline Prediction</a></li>
+        <li><a href="#wikipedia-section-title-prediction">Wikipedia Section Title Prediction</a></li>
+        <li><a href="#cloze-style-question-answering">Cloze-style Question Answering</a></li>
+        <li><a href="#named-entity-recognition">Named Entity Recognition</a></li>
+        <li><a href="#cross-lingual-sentence-retrieval">Cross-lingual Sentence Retrieval</a></li>
+        <li><a href="#natural-language-inference">Natural Language Inference</a></li>
+        <li><a href="#sentiment-analysis">Sentiment Analysis</a></li>
+        <li><a href="#discourse-analysis">Discourse Analysis</a></li>
+        <li><a href="#paraphrase-detection">Paraphrase Detection</a></li>
+        <li><a href="#citations">Citations</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
                 </nav>
