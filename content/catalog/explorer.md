@@ -6,7 +6,6 @@ weight: 0
 
 Explore, search and add datasets.
 
-
 ### IndicNLP: The Current State
 
 
@@ -184,3 +183,9 @@ Explore, search and add datasets.
 
 <table id="example" class="ui table table-bordered dt-responsive no-wrap compact">
 </table>
+
+
+### IndicNLP Catalog
+
+To get comprehensive information about Indic NLP resources, check out the detailed <a href="https://github.com/AI4Bharat/indicnlp_catalog" target="_blank">IndicNLP Catalog</a> on GitHub. 
+

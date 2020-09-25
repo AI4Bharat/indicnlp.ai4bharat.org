@@ -4,11 +4,7 @@
     <title>Pages on AI4Bharat IndicNLP</title>
     <link>http://localhost/pages/</link>
     <description>Recent content in Pages on AI4Bharat IndicNLP</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="http://localhost/pages/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://localhost/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IndicCorp</title>
       <link>http://localhost/corpora/</link>

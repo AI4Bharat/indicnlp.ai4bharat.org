@@ -4,6 +4,8 @@ url: /adddataset
 weight: 100
 ---
 
+If you have an Indian language NLP resource that you would want the community to know more about, please help us expand the IndicNLP Data Explorer and Catalog. You can  add information about the resources either using the simple form below or head over to the underlying [Github catalog](https://github.com/AI4Bharat/indicnlp_catalog) and raise a pull request/issue. 
+
 ### Form
 
 
