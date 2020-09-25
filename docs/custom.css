@@ -3,6 +3,10 @@
 .gdoc-header { border: none; margin-bottom: 1em;}
 .gdoc-nav__entry { font-size: 1.3em;}
 
+.is-active {
+    font-weight: 550;
+}
+
 
 @media only screen and (max-width: 600px) {
     .gdoc-nav__entry {

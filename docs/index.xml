@@ -4,7 +4,11 @@
     <title>AI4Bharat IndicNLP</title>
     <link>http://localhost/</link>
     <description>Recent content on AI4Bharat IndicNLP</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>IndicCorp</title>
       <link>http://localhost/corpora/</link>
@@ -14,16 +18,6 @@
       <description>IndicCorp has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months.
 IndicCorp is one of the largest publicly-available corpora for Indian languages. It has also been used to train our released models which have obtained state-of-the-art performance on many tasks.
 Corpus Format The corpus is a single large text file containing one sentence per line. The publicly released version is randomly shuffled, untokenized and deduplicated.</description>
-    </item>
-    
-    <item>
-      <title>Add a Dataset</title>
-      <link>http://localhost/adddataset/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/adddataset/</guid>
-      <description>If you have an Indian language NLP resource that you would want the community to know more about, please help us expand the IndicNLP Data Explorer and Catalog. You can add information about the resources either using the simple form below or head over to the underlying Github catalog and raise a pull request/issue.
-Form Loading… </description>
     </item>
     
     <item>
@@ -87,6 +81,16 @@ Contact Us For any queries, feel free to reach us at:
       <guid>http://localhost/explorer/</guid>
       <description>Explore, search and add datasets.
 IndicNLP: The Current State  Search Datasets     table.dataTable.no-footer { border-bottom: 0 !important; } tfoot { display: table-row-group; } input[type=&#34;text&#34;] { width: 100%; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }   let dataURL = &#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQGyB-QInM69IoR2nP6pJ_Uc0tA0fRxb1NvDe1F1GvBd7UT9lYW06-DuTjaKTYzmuHbAEPaQR5nhhCb/pub?gid=0&amp;single=true&amp;output=csv&#34;; let encodedURL = encodeURIComponent(dataURL) let proxyURL = `https://api.allorigins.win/raw?url=${encodedURL}`; result = Papa.parse(proxyURL, { download: true, dynamicTyping: true, complete: function(results) { let data = process_data(results.data); let dataset_names = {}; for (const type in data.</description>
+    </item>
+    
+    <item>
+      <title>Add a Dataset</title>
+      <link>http://localhost/adddataset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/adddataset/</guid>
+      <description>If you have an Indian language NLP resource that you would want the community to know more about, please help us expand the IndicNLP Data Explorer and Catalog. You can add information about the resources either using the simple form below or head over to the underlying Github catalog and raise a pull request/issue.
+Form Loading… </description>
     </item>
     
     <item>

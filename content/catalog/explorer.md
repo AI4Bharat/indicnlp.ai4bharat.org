@@ -1,7 +1,7 @@
 ---
 title: "Data Explorer"
 url: /explorer
-weight: 0
+weight: 1800
 ---
 
 Explore, search and add datasets.
