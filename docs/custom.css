@@ -1,7 +1,15 @@
 
 /* site header */
 .gdoc-header { border: none; margin-bottom: 1em;}
-.gdoc-nav__entry { font-size: 1.3em; }
+.gdoc-nav__entry { font-size: 1.3em;}
+
+
+@media only screen and (max-width: 600px) {
+    .gdoc-nav__entry {
+        font-size: 1em !important;
+    }
+  }
+
 .gdoc-markdown {font-size: 1.2em; }
 
 .brand {
@@ -28,7 +36,7 @@
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 600 !important;
-    color:rgba(0, 0, 0, 0.7) !important;
+    color:rgba(0, 0, 0, 0.8) !important;
 }
 
 h4 {
@@ -46,7 +54,7 @@ h3 {
 h1 {
     font-size: 1.8em !important;
     font-weight: 600 !important;
-    color:rgba(0, 0, 0, 0.7) !important;
+    color:rgba(0, 0, 0, 0.8) !important;
 }
 
 html {

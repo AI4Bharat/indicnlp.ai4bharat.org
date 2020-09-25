@@ -10,7 +10,7 @@ Explore, search and add datasets.
 ### IndicNLP: The Current State
 
 
-<table id="example2" class="ui table table-bordered dt-responsive no-wrap compact">
+<table id="example2" class="ui table table-bordered dt-responsive no-wrap compact unstackable">
 </table>
 
 ### Search Datasets
