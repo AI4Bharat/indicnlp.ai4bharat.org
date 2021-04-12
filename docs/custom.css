@@ -18,8 +18,9 @@
 
 .brand {
     margin: 0 auto;
-    padding-left: 5%;
+    padding-left: 6%;
     padding-right: 5%;
+    padding-top: 1%;
 }
 
 .gdoc-nav__control {
