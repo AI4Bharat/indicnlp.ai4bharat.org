@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Add a Dataset">
+<meta name="description" content="IndicTrans">
 
-<title>Add a Dataset | AI4Bharat IndicNLP</title>
+<title>IndicTrans | AI4Bharat IndicNLP</title>
 
 <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 <link rel="stylesheet" href="/main.min.css" media="screen">
@@ -183,7 +183,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <li>
             
                 <span class="flex">
-                    <a href="/indic-trans/" class="gdoc-nav__entry ">
+                    <a href="/indic-trans/" class="gdoc-nav__entry is-active">
                         IndicTrans
                     </a>
                 </span>
@@ -289,7 +289,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <li>
             
                 <span class="flex">
-                    <a href="/adddataset/" class="gdoc-nav__entry is-active">
+                    <a href="/adddataset/" class="gdoc-nav__entry ">
                         Add a Dataset
                     </a>
                 </span>
@@ -473,7 +473,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <div class="col-sm-9">
 
             <article class="gdoc-markdown">
-                <h1>Add a Dataset</h1>
+                <h1>IndicTrans</h1>
                 <hr>
                 
 
@@ -482,9 +482,176 @@ document.querySelectorAll('section[id]').forEach((section) => {
     
 
 
-<p>If you have an Indian language NLP resource that you would want the community to know more about, please help us expand the IndicNLP Data Explorer and Catalog. You can  add information about the resources either using the simple form below or head over to the underlying <a href="https://github.com/AI4Bharat/indicnlp_catalog">Github catalog</a> and raise a pull request/issue.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="form">Form<a data-clipboard-text="http://localhost/adddataset/#form" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Form" href="#form"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVAUGm4dlUJtQDQayb661DhY1wguCbR4PgXNkWn0DI5lm5qg/viewform?embedded=true" width="70%" height="1200px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<p><a href="https://huggingface.co/ai4bharat/indic-trans"><img alt="Doc" src="https://img.shields.io/static/v1?url=https%3A%2F%2Fhuggingface.co%2Fai4bharat%2Findic-bert&label=Huggingface&color=green&message=indic-trans&logo=huggingface"></a></p>
+<p>IndicTrans is a Transformer-XL model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="download-model">Download Model<a data-clipboard-text="http://localhost/indic-trans/#download-model" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Download Model" href="#download-model"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>The model can be downloaded <a href="">here</a>. The pytorch binary is available in the archive. Alternatively, you can also download it from <a href="">Huggingface</a>.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="usage">Usage<a data-clipboard-text="http://localhost/indic-trans/#usage" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Usage" href="#usage"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>The easiest way to use IndicTrans is through the Huggingface transformers library. It can be simply loaded like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">AutoModel</span><span class="p">,</span> <span class="n">AutoTokenizer</span>
+
+<span class="n">tokenizer</span> <span class="o">=</span> <span class="n">AutoTokenizer</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s1">&#39;ai4bharat/indic-trans&#39;</span><span class="p">)</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">AutoModel</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s1">&#39;ai4bharat/indic-trans&#39;</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="model-details">Model Details<a data-clipboard-text="http://localhost/indic-trans/#model-details" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Model Details" href="#model-details"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>IndicTrans is trained with Samanantar dataset which covers 11 language pairs.The amount of pretraining data for each language pair is listed below:</p>
+<table>
+<thead>
+<tr>
+<th>Language Pair</th>
+<th># Sentence Pairs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>en-as</td>
+<td>0.14M</td>
+</tr>
+<tr>
+<td>en-bn</td>
+<td>8.52M</td>
+</tr>
+<tr>
+<td>en-gu</td>
+<td>3.05M</td>
+</tr>
+<tr>
+<td>en-hi</td>
+<td>8.56M</td>
+</tr>
+<tr>
+<td>en-kn</td>
+<td>4.07M</td>
+</tr>
+<tr>
+<td>en-ml</td>
+<td>5.85M</td>
+</tr>
+<tr>
+<td>en-mr</td>
+<td>3.32M</td>
+</tr>
+<tr>
+<td>en-or</td>
+<td>1.00M</td>
+</tr>
+<tr>
+<td>en-pa</td>
+<td>2.42M</td>
+</tr>
+<tr>
+<td>en-ta</td>
+<td>5.16M</td>
+</tr>
+<tr>
+<td>en-te</td>
+<td>4.82M</td>
+</tr>
+</tbody>
+</table>
+<p>In total, the training data has 46.9M sentence pairs.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="benchmarking">Benchmarking<a data-clipboard-text="http://localhost/indic-trans/#benchmarking" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Benchmarking" href="#benchmarking"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>We evaluate IndicTrans model on a WAT2021, WAT2020, WMT, UFAL, PMI. Here are the results that we obtain:</p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-cly1"></th>
+    <th class="tg-wa1i" colspan="10"><span style="font-weight:bold">WAT2021</span></th>
+    <th class="tg-wa1i" colspan="7"><span style="font-weight:bold">WAT2020</span></th>
+    <th class="tg-wa1i" colspan="3"><span style="font-weight:bold">WMT</span></th>
+    <th class="tg-wa1i"><span style="font-weight:bold">UFAL</span></th>
+    <th class="tg-wa1i"><span style="font-weight:bold">pmi</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-wa1i"></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">bn</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">gu</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">hi</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">kn</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">ml</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">mr</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">or</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">pa</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">ta</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">te</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">bn</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">gu</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">hi</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">ml</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">mr</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">ta</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">te</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">hi</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">gu</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">ta</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">ta</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">as</span></td>
+  </tr>
+  <tr>
+    <td class="tg-amwm">IN-EN</td>
+    <td class="tg-wa1i"><span style="font-weight:bold">33.7</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">43.4</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">46.9</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">38.3</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">36.9</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">36.</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">36.6</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">46.</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">35.4</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">38.3</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">23.1</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">27.1</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">27.1</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">21.4</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">22.8</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">20.1</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">19.8</span></td>
+    <td class="tg-nrix">28.6</td>
+    <td class="tg-nrix">20.8</td>
+    <td class="tg-nrix">23.2</td>
+    <td class="tg-nrix">30.3</td>
+    <td class="tg-wa1i"><span style="font-weight:bold">34.8</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:bold">EN-IN</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">16.</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">25.3</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">38.8</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">18.9</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">14.1</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">19.5</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">18.1</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">32.</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">13.9</span></td>
+    <td class="tg-wa1i">13.7</td>
+    <td class="tg-wa1i"><span style="font-weight:bold">11.8</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">15.7</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">20.7</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">7.1</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">12.9</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">6.5</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">7.5</span></td>
+    <td class="tg-wa1i"><span style="font-weight:bold">25.</span></td>
+    <td class="tg-nrix">15.8</td>
+    <td class="tg-nrix">8.5</td>
+    <td class="tg-nrix">11.3</td>
+    <td class="tg-wa1i"><span style="font-weight:bold">12.5</span></td>
+  </tr>
+</tbody>
+</table>
 
 
 
@@ -496,7 +663,10 @@ document.querySelectorAll('section[id]').forEach((section) => {
                 <nav class="section-nav">
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#form">Form</a></li>
+    <li><a href="#download-model">Download Model</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#model-details">Model Details</a></li>
+    <li><a href="#benchmarking">Benchmarking</a></li>
   </ul>
 </nav>
                 </nav>
