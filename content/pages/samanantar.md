@@ -20,17 +20,17 @@ The language wise splits can be found on the table below
 
 | Language Pair | \# Sentence Pairs   | Link     |
 | -------- | ----------------- | -------- |
-| en-as       | 0.14M             | [link](https://storage.googleapis.com/samanantar-public/data/en-as.zip) |
-| en-bn       | 8.52M             | [link](https://storage.googleapis.com/samanantar-public/data/en-bn.zip) |
-| en-gu       | 3.05M             | [link](https://storage.googleapis.com/samanantar-public/data/en-gu.zip) |
-| en-hi       | 8.56M             | [link](https://storage.googleapis.com/samanantar-public/data/en-hi.zip) |
-| en-kn       | 4.07M             | [link](https://storage.googleapis.com/samanantar-public/data/en-kn.zip) |
-| en-ml       | 5.85M             | [link](https://storage.googleapis.com/samanantar-public/data/en-amls.zip) |
-| en-mr       | 3.32M             | [link](https://storage.googleapis.com/samanantar-public/data/en-mr.zip) |
-| en-or       | 1.00M             | [link](https://storage.googleapis.com/samanantar-public/data/en-or.zip) |
-| en-pa       | 2.42M             | [link](https://storage.googleapis.com/samanantar-public/data/en-pa.zip) |
-| en-ta       | 5.16M             |  [link](https://storage.googleapis.com/samanantar-public/data/en-ta.zip) |
-| en-te       | 4.82M             | [link](https://storage.googleapis.com/samanantar-public/data/en-te.zip) |
+| en-as <sub>(9 MB)</sub>       | 0.14M             | [link](https://storage.googleapis.com/samanantar-public/data/en-as.zip) |
+| en-bn <sub>(580 MB)</sub>       | 8.52M             | [link](https://storage.googleapis.com/samanantar-public/data/en-bn.zip) |
+| en-gu  <sub>(178 MB)</sub>      | 3.05M             | [link](https://storage.googleapis.com/samanantar-public/data/en-gu.zip) |
+| en-hi  <sub>(818 MB)</sub>     | 8.56M             | [link](https://storage.googleapis.com/samanantar-public/data/en-hi.zip) |
+| en-kn   <sub>(229 MB)</sub>     | 4.07M             | [link](https://storage.googleapis.com/samanantar-public/data/en-kn.zip) |
+| en-ml  <sub>(365 MB)</sub>      | 5.85M             | [link](https://storage.googleapis.com/samanantar-public/data/en-amls.zip) |
+| en-mr  <sub>(210 MB)</sub>     | 3.32M             | [link](https://storage.googleapis.com/samanantar-public/data/en-mr.zip) |
+| en-or  <sub>(65 MB)</sub>      | 1.00M             | [link](https://storage.googleapis.com/samanantar-public/data/en-or.zip) |
+| en-pa   <sub>(175 MB)</sub>     | 2.42M             | [link](https://storage.googleapis.com/samanantar-public/data/en-pa.zip) |
+| en-ta  <sub>(350 MB)</sub>      | 5.16M             |  [link](https://storage.googleapis.com/samanantar-public/data/en-ta.zip) |
+| en-te   <sub>(280 MB)</sub>    | 4.82M             | [link](https://storage.googleapis.com/samanantar-public/data/en-te.zip) |
 
 The entire M2M data can be downloaded from [here](https://storage.googleapis.com/samanantar-public/m2m-data/all.zip)
 
@@ -49,3 +49,31 @@ Language wise splits for M2M data can be downloaded from the table below
 | pa |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/as-pa.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/bn-pa.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/gu-pa.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/hi-pa.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/kn-pa.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/ml-pa.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/mr-pa.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/or-pa.zip)  |    |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/pa-ta.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/pa-te.zip) |
 | ta |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/as-ta.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/bn-ta.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/gu-ta.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/hi-ta.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/kn-ta.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/ml-ta.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/mr-ta.zip)  | [link](https://storage.googleapis.com/samanantar-public/m2m-data/or-ta.zip)   |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/pa-ta.zip)  |    |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/ta-te.zip) |
 | te |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/as-te.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/bn-te.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/gu-te.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/hi-te.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/kn-te.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/ml-te.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/mr-te.zip)  | [link](https://storage.googleapis.com/samanantar-public/m2m-data/or-te.zip)   |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/pa-te.zip)  |  [link](https://storage.googleapis.com/samanantar-public/m2m-data/ta-te.zip)  |   |
+
+
+### Contributors
+
+- Gowtham Ramesh
+- Sumanth Doddapaneni
+- Aravinth Bheemaraj
+- Mayank Jobanputra
+- Raghavan AK
+- Ajitesh Sharma
+- Sujit Sahoo
+- Harshita Diddee
+- Mahalakshmi J
+- Navneet Kumar
+- Aswin Pradeep
+- Kumar Deepak
+- Vivek Raghavan
+- Anoop Kunchukuttan
+- Pratyush Kumar
+- Mitesh Shantadevi Khapra
+
+
+### License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
+<p/>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Samanantar</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.
+
