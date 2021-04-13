@@ -56,7 +56,7 @@ Language wise splits for M2M data can be downloaded from the table below
 - Gowtham Ramesh, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in))</sub>
 - Sumanth Doddapaneni, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in))</sub>
 - Aravinth Bheemaraj, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
-- Mayank Jobanputra, [IITM](https://www.iitm.ac.in)
+- Mayank Jobanputra, <sub>([IITM](https://www.iitm.ac.in))</sub>
 - Raghavan AK, <sub>([AI4Bharat](https://ai4bharat.org))</sub>
 - Ajitesh Sharma, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
 - Sujit Sahoo, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
