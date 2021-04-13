@@ -18,19 +18,19 @@ The entire dataset can be downloaded from [here](https://storage.googleapis.com/
 
 The language wise splits can be found on the table below
 
-| Language Pair | \# Sentence Pairs   | Link     |
-| -------- | ----------------- | -------- |
-| en-as <sub>(9 MB)</sub>       | 0.14M             | [link](https://storage.googleapis.com/samanantar-public/data/en-as.zip) |
-| en-bn <sub>(580 MB)</sub>       | 8.52M             | [link](https://storage.googleapis.com/samanantar-public/data/en-bn.zip) |
-| en-gu  <sub>(178 MB)</sub>      | 3.05M             | [link](https://storage.googleapis.com/samanantar-public/data/en-gu.zip) |
-| en-hi  <sub>(818 MB)</sub>     | 8.56M             | [link](https://storage.googleapis.com/samanantar-public/data/en-hi.zip) |
-| en-kn   <sub>(229 MB)</sub>     | 4.07M             | [link](https://storage.googleapis.com/samanantar-public/data/en-kn.zip) |
-| en-ml  <sub>(365 MB)</sub>      | 5.85M             | [link](https://storage.googleapis.com/samanantar-public/data/en-amls.zip) |
-| en-mr  <sub>(210 MB)</sub>     | 3.32M             | [link](https://storage.googleapis.com/samanantar-public/data/en-mr.zip) |
-| en-or  <sub>(65 MB)</sub>      | 1.00M             | [link](https://storage.googleapis.com/samanantar-public/data/en-or.zip) |
-| en-pa   <sub>(175 MB)</sub>     | 2.42M             | [link](https://storage.googleapis.com/samanantar-public/data/en-pa.zip) |
-| en-ta  <sub>(350 MB)</sub>      | 5.16M             |  [link](https://storage.googleapis.com/samanantar-public/data/en-ta.zip) |
-| en-te   <sub>(280 MB)</sub>    | 4.82M             | [link](https://storage.googleapis.com/samanantar-public/data/en-te.zip) |
+| Language Pair | Link     |
+| -------- | -------- |
+| en-as <sub>(9 MB)</sub>       | [0.14M](https://storage.googleapis.com/samanantar-public/data/en-as.zip) |
+| en-bn <sub>(580 MB)</sub>       | [8.52M](https://storage.googleapis.com/samanantar-public/data/en-bn.zip) |
+| en-gu  <sub>(178 MB)</sub>      | [3.05M](https://storage.googleapis.com/samanantar-public/data/en-gu.zip) |
+| en-hi  <sub>(818 MB)</sub>     | [8.56M](https://storage.googleapis.com/samanantar-public/data/en-hi.zip) |
+| en-kn   <sub>(229 MB)</sub>     | [4.07M](https://storage.googleapis.com/samanantar-public/data/en-kn.zip) |
+| en-ml  <sub>(365 MB)</sub>      | [5.85M](https://storage.googleapis.com/samanantar-public/data/en-amls.zip) |
+| en-mr  <sub>(210 MB)</sub>     | [3.32M](https://storage.googleapis.com/samanantar-public/data/en-mr.zip) |
+| en-or  <sub>(65 MB)</sub>      | [1.00M](https://storage.googleapis.com/samanantar-public/data/en-or.zip) |
+| en-pa   <sub>(175 MB)</sub>     | [2.42M](https://storage.googleapis.com/samanantar-public/data/en-pa.zip) |
+| en-ta  <sub>(350 MB)</sub>      |  [5.16M](https://storage.googleapis.com/samanantar-public/data/en-ta.zip) |
+| en-te   <sub>(280 MB)</sub>    | [4.82M](https://storage.googleapis.com/samanantar-public/data/en-te.zip) |
 
 The entire M2M data can be downloaded from [here](https://storage.googleapis.com/samanantar-public/m2m-data/all.zip)
 

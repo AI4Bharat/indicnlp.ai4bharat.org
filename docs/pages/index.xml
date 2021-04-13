@@ -69,7 +69,7 @@ Usage The easiest way to use IndicTrans is through the Huggingface transformers 
 Dataset Format The publicly released version is randomly shuffled, untokenized and deduplicated.
 Downloads The entire dataset can be downloaded from here
 The language wise splits can be found on the table below
-   Language Pair # Sentence Pairs Link     en-as (9 MB) 0.</description>
+   Language Pair Link     en-as (9 MB) 0.</description>
     </item>
     
     <item>
