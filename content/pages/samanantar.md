@@ -53,8 +53,8 @@ Language wise splits for M2M data can be downloaded from the table below
 
 ### Contributors
 
-- Gowtham Ramesh, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in))</sub>
-- Sumanth Doddapaneni, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in))</sub>
+- Gowtham Ramesh, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in), [IITM](https://www.iitm.ac.in))</sub>
+- Sumanth Doddapaneni, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in), [IITM](https://www.iitm.ac.in))</sub>
 - Aravinth Bheemaraj, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
 - Mayank Jobanputra, <sub>([IITM](https://www.iitm.ac.in))</sub>
 - Raghavan AK, <sub>([AI4Bharat](https://ai4bharat.org))</sub>
@@ -67,7 +67,7 @@ Language wise splits for M2M data can be downloaded from the table below
 - Aswin Pradeep, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
 - Kumar Deepak, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
 - Vivek Raghavan, <sub>([EkStep](https://ekstep.in))</sub>
-- Anoop Kunchukuttan, <sub>([AI4Bharat](https://ai4bharat.org), [Microsoft](https://www.microsoft.com/en-in/))</sub>
+- Anoop Kunchukuttan, <sub>([Microsoft](https://www.microsoft.com/en-in/), [AI4Bharat](https://ai4bharat.org))</sub>
 - Pratyush Kumar, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in), [AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
 - Mitesh Shantadevi Khapra, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in), [AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
 
