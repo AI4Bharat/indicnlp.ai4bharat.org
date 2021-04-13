@@ -53,23 +53,23 @@ Language wise splits for M2M data can be downloaded from the table below
 
 ### Contributors
 
-- Gowtham Ramesh, [RBCDSAI](https://rbcdsai.iitm.ac.in)
-- Sumanth Doddapaneni, [RBCDSAI](https://rbcdsai.iitm.ac.in)
-- Aravinth Bheemaraj, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
+- Gowtham Ramesh, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in))</sub>
+- Sumanth Doddapaneni, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in))</sub>
+- Aravinth Bheemaraj, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
 - Mayank Jobanputra, [IITM](https://www.iitm.ac.in)
-- Raghavan AK, [AI4Bharat](https://ai4bharat.org)
-- Ajitesh Sharma, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
-- Sujit Sahoo, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
-- Harshita Diddee, [AI4Bharat](https://ai4bharat.org)
-- Mahalakshmi J, [AI4Bharat](https://ai4bharat.org)
-- Divyanshu Kakwani, [IITM](https://www.iitm.ac.in), [AI4Bharat](https://ai4bharat.org)
-- Navneet Kumar, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
-- Aswin Pradeep, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
-- Kumar Deepak, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
-- Vivek Raghavan, [EkStep](https://ekstep.in)
-- Anoop Kunchukuttan, [AI4Bharat](https://ai4bharat.org), [Microsoft](https://www.microsoft.com/en-in/)
-- Pratyush Kumar, [RBCDSAI](https://rbcdsai.iitm.ac.in), [AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in)
-- Mitesh Shantadevi Khapra, [RBCDSAI](https://rbcdsai.iitm.ac.in), [AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in)
+- Raghavan AK, <sub>([AI4Bharat](https://ai4bharat.org))</sub>
+- Ajitesh Sharma, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
+- Sujit Sahoo, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
+- Harshita Diddee, <sub>([AI4Bharat](https://ai4bharat.org))</sub>
+- Mahalakshmi J, <sub>([AI4Bharat](https://ai4bharat.org))</sub>
+- Divyanshu Kakwani, <sub>([IITM](https://www.iitm.ac.in), [AI4Bharat](https://ai4bharat.org))</sub>
+- Navneet Kumar, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
+- Aswin Pradeep, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
+- Kumar Deepak, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
+- Vivek Raghavan, <sub>([EkStep](https://ekstep.in))</sub>
+- Anoop Kunchukuttan, <sub>([AI4Bharat](https://ai4bharat.org), [Microsoft](https://www.microsoft.com/en-in/))</sub>
+- Pratyush Kumar, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in), [AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
+- Mitesh Shantadevi Khapra, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in), [AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
 
 
 ### License
