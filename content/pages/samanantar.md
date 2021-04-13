@@ -16,14 +16,14 @@ The [publicly released version](#downloads) is randomly shuffled, untokenized, a
 
 #### En-Indic
 
-The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all.zip)
+The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all-without-supara.zip)
 
 The language wise splits can be found in the table below.  Each link contains the number of sentence pairs in millions.
 
 | Language Pair | Link     |
 | -------- | -------- |
 | en-as <sub>(9 MB)</sub>       | [0.14M](https://storage.googleapis.com/samanantar-public/data/en-as.zip) |
-| en-bn <sub>(580 MB)</sub>       | [8.52M](https://storage.googleapis.com/samanantar-public/data/en-bn.zip) |
+| en-bn <sub>(580 MB)</sub>       | [8.52M](https://storage.googleapis.com/samanantar-public/data/en-bn-without-supara.zip) |
 | en-gu  <sub>(178 MB)</sub>      | [3.05M](https://storage.googleapis.com/samanantar-public/data/en-gu.zip) |
 | en-hi  <sub>(818 MB)</sub>     | [8.56M](https://storage.googleapis.com/samanantar-public/data/en-hi.zip) |
 | en-kn   <sub>(229 MB)</sub>     | [4.07M](https://storage.googleapis.com/samanantar-public/data/en-kn.zip) |
