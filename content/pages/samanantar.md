@@ -53,22 +53,23 @@ Language wise splits for M2M data can be downloaded from the table below
 
 ### Contributors
 
-- Gowtham Ramesh
-- Sumanth Doddapaneni
-- Aravinth Bheemaraj
-- Mayank Jobanputra
-- Raghavan AK
-- Ajitesh Sharma
-- Sujit Sahoo
-- Harshita Diddee
-- Mahalakshmi J
-- Navneet Kumar
-- Aswin Pradeep
-- Kumar Deepak
-- Vivek Raghavan
-- Anoop Kunchukuttan
-- Pratyush Kumar
-- Mitesh Shantadevi Khapra
+- Gowtham Ramesh, [RBCDSAI](https://rbcdsai.iitm.ac.in)
+- Sumanth Doddapaneni, [RBCDSAI](https://rbcdsai.iitm.ac.in)
+- Aravinth Bheemaraj, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
+- Mayank Jobanputra, [IITM](https://www.iitm.ac.in)
+- Raghavan AK, [AI4Bharat](https://ai4bharat.org)
+- Ajitesh Sharma, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
+- Sujit Sahoo, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
+- Harshita Diddee, [AI4Bharat](https://ai4bharat.org)
+- Mahalakshmi J, [AI4Bharat](https://ai4bharat.org)
+- Divyanshu Kakwani, [IITM](https://www.iitm.ac.in), [AI4Bharat](https://ai4bharat.org)
+- Navneet Kumar, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
+- Aswin Pradeep, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
+- Kumar Deepak, [Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in)
+- Vivek Raghavan, [EkStep](https://ekstep.in)
+- Anoop Kunchukuttan, [AI4Bharat](https://ai4bharat.org), [Microsoft](https://www.microsoft.com/en-in/)
+- Pratyush Kumar, [RBCDSAI](https://rbcdsai.iitm.ac.in), [AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in)
+- Mitesh Shantadevi Khapra, [RBCDSAI](https://rbcdsai.iitm.ac.in), [AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in)
 
 
 ### License
