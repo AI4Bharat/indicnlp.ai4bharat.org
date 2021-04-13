@@ -18,9 +18,7 @@ The [publicly released version](#downloads) is randomly shuffled, untokenized, a
 
 The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all.zip)
 
-* All the number reported are in the scale of Millions
-
-The language wise splits can be found on the table below
+The language wise splits can be found in the table below.  Each link contains the number of sentence pairs in millions.
 
 | Language Pair | Link     |
 | -------- | -------- |
@@ -39,7 +37,7 @@ The language wise splits can be found on the table below
 #### Indic-Indic
 The entire Indic-Indic data can be downloaded from [here](https://storage.googleapis.com/samanantar-public/m2m-data/all.zip)
 
-Language wise splits for Indic-Indic data can be downloaded from the table below
+Language wise splits for Indic-Indic data can be downloaded from the table below. Each link contains the number of sentence pairs in millions.
 
 |    | as | bn | gu | hi | kn | ml | mr | or | pa | ta | te |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |

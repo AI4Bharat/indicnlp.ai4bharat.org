@@ -68,7 +68,7 @@ Usage The easiest way to use IndicTrans is through the Huggingface transformers 
       <description>Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.
 Dataset Format The publicly released version is randomly shuffled, untokenized, and deduplicated.
 Downloads En-Indic The entire dataset can be downloaded from here
- All the number reported are in the scale of Millions  The language wise splits can be found on the table below</description>
+The language wise splits can be found in the table below. Each link contains the number of sentence pairs in millions.</description>
     </item>
     
     <item>
