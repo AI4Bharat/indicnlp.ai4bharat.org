@@ -18,6 +18,8 @@ The [publicly released version](#downloads) is randomly shuffled, untokenized, a
 
 The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all.zip)
 
+* All the number reported are in the scale of Millions
+
 The language wise splits can be found on the table below
 
 | Language Pair | Link     |
