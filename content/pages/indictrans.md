@@ -4,12 +4,16 @@ weight: 200
 toc: true
 url: /indic-trans
 ---
-<a href="https://huggingface.co/ai4bharat/indic-trans"><img alt="Doc" src="https://img.shields.io/static/v1?url=https%3A%2F%2Fhuggingface.co%2Fai4bharat%2Findic-bert&label=Huggingface&color=green&message=indic-trans&logo=huggingface"></a>
+<!-- <a href="https://huggingface.co/ai4bharat/indic-trans"><img alt="Doc" src="https://img.shields.io/static/v1?url=https%3A%2F%2Fhuggingface.co%2Fai4bharat%2Findic-bert&label=Huggingface&color=green&message=indic-trans&logo=huggingface"></a> -->
   
 
-IndicTrans is a Transformer-XL model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
+IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
 
-### Download Model
+### Download
+
+For downloading and usage instructions please follow the [IndicTrans](https://github.com/AI4Bharat/indicTrans) Repository
+
+<!-- ### Download Model
 
 The model can be downloaded [here](). The pytorch binary is available in the archive. Alternatively, you can also download it from [Huggingface]().
 
@@ -21,8 +25,8 @@ The easiest way to use IndicTrans is through the Huggingface transformers librar
 from transformers import AutoModel, AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained('ai4bharat/indic-trans')
-model = AutoModel.from_pretrained('ai4bharat/indic-trans')
-```
+model = AutoModel.from_pretrained('ai4bharat/indic-trans') 
+``` -->
 
 
 ### Model Details

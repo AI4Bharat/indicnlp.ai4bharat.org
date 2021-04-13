@@ -482,17 +482,25 @@ document.querySelectorAll('section[id]').forEach((section) => {
     
 
 
-<p><a href="https://huggingface.co/ai4bharat/indic-trans"><img alt="Doc" src="https://img.shields.io/static/v1?url=https%3A%2F%2Fhuggingface.co%2Fai4bharat%2Findic-bert&label=Huggingface&color=green&message=indic-trans&logo=huggingface"></a></p>
-<p>IndicTrans is a Transformer-XL model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="download-model">Download Model<a data-clipboard-text="http://localhost/indic-trans/#download-model" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Download Model" href="#download-model"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>The model can be downloaded <a href="">here</a>. The pytorch binary is available in the archive. Alternatively, you can also download it from <a href="">Huggingface</a>.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="usage">Usage<a data-clipboard-text="http://localhost/indic-trans/#usage" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Usage" href="#usage"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>The easiest way to use IndicTrans is through the Huggingface transformers library. It can be simply loaded like this:</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">AutoModel</span><span class="p">,</span> <span class="n">AutoTokenizer</span>
+<!-- <a href="https://huggingface.co/ai4bharat/indic-trans"><img alt="Doc" src="https://img.shields.io/static/v1?url=https%3A%2F%2Fhuggingface.co%2Fai4bharat%2Findic-bert&label=Huggingface&color=green&message=indic-trans&logo=huggingface"></a> -->
+<p>IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="download">Download<a data-clipboard-text="http://localhost/indic-trans/#download" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Download" href="#download"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>For downloading and usage instructions please follow the <a href="https://github.com/AI4Bharat/indicTrans">IndicTrans</a> Repository</p>
+<!-- ### Download Model
 
-<span class="n">tokenizer</span> <span class="o">=</span> <span class="n">AutoTokenizer</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s1">&#39;ai4bharat/indic-trans&#39;</span><span class="p">)</span>
-<span class="n">model</span> <span class="o">=</span> <span class="n">AutoModel</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s1">&#39;ai4bharat/indic-trans&#39;</span><span class="p">)</span>
-</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="model-details">Model Details<a data-clipboard-text="http://localhost/indic-trans/#model-details" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Model Details" href="#model-details"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+The model can be downloaded [here](). The pytorch binary is available in the archive. Alternatively, you can also download it from [Huggingface]().
+
+### Usage
+
+The easiest way to use IndicTrans is through the Huggingface transformers library. It can be simply loaded like this:
+
+```python
+from transformers import AutoModel, AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained('ai4bharat/indic-trans')
+model = AutoModel.from_pretrained('ai4bharat/indic-trans') 
+``` -->
+<div class="gdoc-page__anchorwrap"><h3 id="model-details">Model Details<a data-clipboard-text="http://localhost/indic-trans/#model-details" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Model Details" href="#model-details"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>IndicTrans is trained with Samanantar dataset which covers 11 language pairs.The amount of pretraining data for each language pair is listed below:</p>
 <table>
 <thead>
@@ -663,8 +671,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
                 <nav class="section-nav">
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#download-model">Download Model</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#download">Download</a></li>
     <li><a href="#model-details">Model Details</a></li>
     <li><a href="#benchmarking">Benchmarking</a></li>
   </ul>
