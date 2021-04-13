@@ -6,13 +6,15 @@ url: /samanantar
 ---
   
 
-Samanantar is the largest publicly available parallel corpora collection for Indic languages : Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.
+Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.
 
 ### Dataset Format
 
-The [publicly released version](#downloads) is randomly shuffled, untokenized and deduplicated.
+The [publicly released version](#downloads) is randomly shuffled, untokenized, and deduplicated.
 
 ### Downloads
+
+#### En-Indic
 
 The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all.zip)
 
@@ -32,9 +34,10 @@ The language wise splits can be found on the table below
 | en-ta  <sub>(350 MB)</sub>      |  [5.16M](https://storage.googleapis.com/samanantar-public/data/en-ta.zip) |
 | en-te   <sub>(280 MB)</sub>    | [4.82M](https://storage.googleapis.com/samanantar-public/data/en-te.zip) |
 
-The entire M2M data can be downloaded from [here](https://storage.googleapis.com/samanantar-public/m2m-data/all.zip)
+#### Indic-Indic
+The entire Indic-Indic data can be downloaded from [here](https://storage.googleapis.com/samanantar-public/m2m-data/all.zip)
 
-Language wise splits for M2M data can be downloaded from the table below
+Language wise splits for Indic-Indic data can be downloaded from the table below
 
 |    | as | bn | gu | hi | kn | ml | mr | or | pa | ta | te |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
@@ -71,6 +74,21 @@ Language wise splits for M2M data can be downloaded from the table below
 - Pratyush Kumar, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in), [AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
 - Mitesh Shantadevi Khapra, <sub>([RBCDSAI](https://rbcdsai.iitm.ac.in), [AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
 
+
+### Citing
+
+If you are using any of the resources, please cite the following article: 
+
+```
+@misc{ramesh2021samanantar,
+      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, 
+      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},
+      year={2021},
+      eprint={2104.05596},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+``` 
 
 ### License
 
