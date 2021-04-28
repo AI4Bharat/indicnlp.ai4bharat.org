@@ -16,8 +16,13 @@ The [publicly released version](#downloads) is randomly shuffled, untokenized, a
 
 #### En-Indic
 
-The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all-without-supara.zip)
+<!-- The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all-without-supara.zip) -->
 
+The entire dataset can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/samanatar/v0.1/samanantar-en-indic-v0.1.zip)
+
+The language wise splits will be made available soon
+
+<!--
 The language wise splits can be found in the table below.  Each link contains the number of sentence pairs in millions.
 
 | Language Pair | Link     |
@@ -33,8 +38,15 @@ The language wise splits can be found in the table below.  Each link contains th
 | en-pa   <sub>(175 MB)</sub>     | [2.42M](https://storage.googleapis.com/samanantar-public/data/en-pa.zip) |
 | en-ta  <sub>(350 MB)</sub>      |  [5.16M](https://storage.googleapis.com/samanantar-public/data/en-ta.zip) |
 | en-te   <sub>(280 MB)</sub>    | [4.82M](https://storage.googleapis.com/samanantar-public/data/en-te.zip) |
+-->
 
 #### Indic-Indic
+
+The entire Indic-Indic data can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/samanatar/v0.1/samanatar-indic-indic-v0.1.zip)
+
+The language wise splits will be made available soon
+
+<!--
 The entire Indic-Indic data can be downloaded from [here](https://storage.googleapis.com/samanantar-public/m2m-data/all.zip)
 
 Language wise splits for Indic-Indic data can be downloaded from the table below. Each link contains the number of sentence pairs in millions.
@@ -52,6 +64,7 @@ Language wise splits for Indic-Indic data can be downloaded from the table below
 | pa |  [0.11M](https://storage.googleapis.com/samanantar-public/m2m-data/as-pa.zip)  |  [1.11M](https://storage.googleapis.com/samanantar-public/m2m-data/bn-pa.zip)  |  [1.13M](https://storage.googleapis.com/samanantar-public/m2m-data/gu-pa.zip)  |  [1.44M](https://storage.googleapis.com/samanantar-public/m2m-data/hi-pa.zip)  |  [1.12M](https://storage.googleapis.com/samanantar-public/m2m-data/kn-pa.zip)  |  [1.11M](https://storage.googleapis.com/samanantar-public/m2m-data/ml-pa.zip)  |  [1.06M](https://storage.googleapis.com/samanantar-public/m2m-data/mr-pa.zip)  |  [0.50M](https://storage.googleapis.com/samanantar-public/m2m-data/or-pa.zip)  |    |  [1.75M](https://storage.googleapis.com/samanantar-public/m2m-data/pa-ta.zip)  |  [1.76M](https://storage.googleapis.com/samanantar-public/m2m-data/pa-te.zip) |
 | ta |  [0.22M](https://storage.googleapis.com/samanantar-public/m2m-data/as-ta.zip)  |  [2.44M](https://storage.googleapis.com/samanantar-public/m2m-data/bn-ta.zip)  |  [2.07M](https://storage.googleapis.com/samanantar-public/m2m-data/gu-ta.zip)  |  [2.48M](https://storage.googleapis.com/samanantar-public/m2m-data/hi-ta.zip)  |  [2.52M](https://storage.googleapis.com/samanantar-public/m2m-data/kn-ta.zip)  |  [2.60M](https://storage.googleapis.com/samanantar-public/m2m-data/ml-ta.zip)  |  [2.12M](https://storage.googleapis.com/samanantar-public/m2m-data/mr-ta.zip)  | [1.09M](https://storage.googleapis.com/samanantar-public/m2m-data/or-ta.zip)   |  [1.75M](https://storage.googleapis.com/samanantar-public/m2m-data/pa-ta.zip)  |    |  [2.61M](https://storage.googleapis.com/samanantar-public/m2m-data/ta-te.zip) |
 | te |  [0.21M](https://storage.googleapis.com/samanantar-public/m2m-data/as-te.zip)  |  [2.35M](https://storage.googleapis.com/samanantar-public/m2m-data/bn-te.zip)  |  [2.31M](https://storage.googleapis.com/samanantar-public/m2m-data/gu-te.zip)  |  [2.42M](https://storage.googleapis.com/samanantar-public/m2m-data/hi-te.zip)  |  [2.81M](https://storage.googleapis.com/samanantar-public/m2m-data/kn-te.zip)  |  [2.68M](https://storage.googleapis.com/samanantar-public/m2m-data/ml-te.zip)  |  [2.23M](https://storage.googleapis.com/samanantar-public/m2m-data/mr-te.zip)  | [1.12M](https://storage.googleapis.com/samanantar-public/m2m-data/or-te.zip)   |  [1.76M](https://storage.googleapis.com/samanantar-public/m2m-data/pa-te.zip)  |  [2.61M](https://storage.googleapis.com/samanantar-public/m2m-data/ta-te.zip)  |   |
+-->
 
 
 ### Contributors
