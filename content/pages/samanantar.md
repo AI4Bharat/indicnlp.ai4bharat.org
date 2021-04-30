@@ -18,7 +18,7 @@ The [publicly released version](#downloads) is randomly shuffled, untokenized, a
 
 <!-- The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all-without-supara.zip) -->
 
-The entire dataset can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/samanatar/v0.1/samanantar-en-indic-v0.1.zip)
+The entire dataset can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/samanatar/v0.2/samanatar-en-indic-v0.2.zip)
 
 The language wise splits will be made available soon
 
@@ -65,6 +65,9 @@ Language wise splits for Indic-Indic data can be downloaded from the table below
 | ta |  [0.22M](https://storage.googleapis.com/samanantar-public/m2m-data/as-ta.zip)  |  [2.44M](https://storage.googleapis.com/samanantar-public/m2m-data/bn-ta.zip)  |  [2.07M](https://storage.googleapis.com/samanantar-public/m2m-data/gu-ta.zip)  |  [2.48M](https://storage.googleapis.com/samanantar-public/m2m-data/hi-ta.zip)  |  [2.52M](https://storage.googleapis.com/samanantar-public/m2m-data/kn-ta.zip)  |  [2.60M](https://storage.googleapis.com/samanantar-public/m2m-data/ml-ta.zip)  |  [2.12M](https://storage.googleapis.com/samanantar-public/m2m-data/mr-ta.zip)  | [1.09M](https://storage.googleapis.com/samanantar-public/m2m-data/or-ta.zip)   |  [1.75M](https://storage.googleapis.com/samanantar-public/m2m-data/pa-ta.zip)  |    |  [2.61M](https://storage.googleapis.com/samanantar-public/m2m-data/ta-te.zip) |
 | te |  [0.21M](https://storage.googleapis.com/samanantar-public/m2m-data/as-te.zip)  |  [2.35M](https://storage.googleapis.com/samanantar-public/m2m-data/bn-te.zip)  |  [2.31M](https://storage.googleapis.com/samanantar-public/m2m-data/gu-te.zip)  |  [2.42M](https://storage.googleapis.com/samanantar-public/m2m-data/hi-te.zip)  |  [2.81M](https://storage.googleapis.com/samanantar-public/m2m-data/kn-te.zip)  |  [2.68M](https://storage.googleapis.com/samanantar-public/m2m-data/ml-te.zip)  |  [2.23M](https://storage.googleapis.com/samanantar-public/m2m-data/mr-te.zip)  | [1.12M](https://storage.googleapis.com/samanantar-public/m2m-data/or-te.zip)   |  [1.76M](https://storage.googleapis.com/samanantar-public/m2m-data/pa-te.zip)  |  [2.61M](https://storage.googleapis.com/samanantar-public/m2m-data/ta-te.zip)  |   |
 -->
+
+### Change Log
+- v0.2 uses super strict overlap removal of validation and test data with train data
 
 
 ### Contributors
