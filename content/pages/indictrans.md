@@ -9,18 +9,20 @@ url: /indic-trans
 
 IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
 
-### NOTE
+### Update 30-04-2021
 
-The models will soon be made available for downloading
+The models are now available for download
 
 <!-- ### Download
 
 For downloading and usage instructions please follow the [IndicTrans](https://github.com/AI4Bharat/indicTrans) Repository -->
 
-<!-- ### Download Model
+### Download Model
 
-The model can be downloaded [here](). The pytorch binary is available in the archive. Alternatively, you can also download it from [Huggingface]().
+- Indic-English model can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/indictrans/indictrans-indic-en-v0.2.zip)
+- English-Indic model can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/indictrans/inidctrans-en-indic-v0.2.zip)
 
+<!--
 ### Usage
 
 The easiest way to use IndicTrans is through the Huggingface transformers library. It can be simply loaded like this:
