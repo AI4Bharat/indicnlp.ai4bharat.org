@@ -67,98 +67,94 @@ We evaluate IndicTrans model on a WAT2021, WAT2020, WMT, UFAL, PMI. Here are the
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-nrix{text-align:center;vertical-align:middle}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-cly1"></th>
-    <th class="tg-wa1i" colspan="10"><span style="font-weight:bold">WAT2021</span></th>
-    <th class="tg-wa1i" colspan="7"><span style="font-weight:bold">WAT2020</span></th>
-    <th class="tg-wa1i" colspan="3"><span style="font-weight:bold">WMT</span></th>
-    <th class="tg-wa1i"><span style="font-weight:bold">UFAL</span></th>
-    <th class="tg-wa1i"><span style="font-weight:bold">pmi</span></th>
+    <th class="tg-9wq8"></th>
+    <th class="tg-9wq8" colspan="10">WAT2021</th>
+    <th class="tg-9wq8" colspan="7">WAT2020</th>
+    <th class="tg-9wq8" colspan="3">WMT</th>
+    <th class="tg-9wq8">UFAL</th>
+    <th class="tg-9wq8">pmi</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-wa1i"></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">bn</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">gu</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">hi</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">kn</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">ml</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">mr</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">or</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">pa</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">ta</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">te</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">bn</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">gu</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">hi</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">ml</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">mr</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">ta</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">te</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">hi</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">gu</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">ta</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">ta</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">as</span></td>
+    <td class="tg-9wq8"></td>
+    <td class="tg-9wq8">bn</td>
+    <td class="tg-9wq8">gu</td>
+    <td class="tg-9wq8">hi</td>
+    <td class="tg-9wq8">kn</td>
+    <td class="tg-9wq8">ml</td>
+    <td class="tg-9wq8">mr</td>
+    <td class="tg-9wq8">or</td>
+    <td class="tg-9wq8">pa</td>
+    <td class="tg-9wq8">ta</td>
+    <td class="tg-9wq8">te</td>
+    <td class="tg-9wq8">bn</td>
+    <td class="tg-9wq8">gu</td>
+    <td class="tg-9wq8">hi</td>
+    <td class="tg-9wq8">ml</td>
+    <td class="tg-9wq8">mr</td>
+    <td class="tg-9wq8">ta</td>
+    <td class="tg-9wq8">te</td>
+    <td class="tg-9wq8">hi</td>
+    <td class="tg-9wq8">gu</td>
+    <td class="tg-9wq8">ta</td>
+    <td class="tg-9wq8">ta</td>
+    <td class="tg-9wq8">as</td>
   </tr>
   <tr>
-    <td class="tg-amwm">IN-EN</td>
-    <td class="tg-wa1i"><span style="font-weight:bold">33.7</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">43.4</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">46.9</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">38.3</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">36.9</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">36.</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">36.6</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">46.</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">35.4</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">38.3</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">23.1</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">27.1</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">27.1</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">21.4</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">22.8</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">20.1</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">19.8</span></td>
-    <td class="tg-nrix">28.6</td>
-    <td class="tg-nrix">20.8</td>
-    <td class="tg-nrix">23.2</td>
-    <td class="tg-nrix">30.3</td>
-    <td class="tg-wa1i"><span style="font-weight:bold">34.8</span></td>
+    <td class="tg-9wq8">IN-EN</td>
+    <td class="tg-9wq8">28.4</td>
+    <td class="tg-9wq8">39.5</td>
+    <td class="tg-9wq8">43.2</td>
+    <td class="tg-9wq8">34.9</td>
+    <td class="tg-9wq8">33.4</td>
+    <td class="tg-9wq8">32.4</td>
+    <td class="tg-9wq8">33.4</td>
+    <td class="tg-9wq8">42.</td>
+    <td class="tg-9wq8">32.</td>
+    <td class="tg-9wq8">35.1</td>
+    <td class="tg-9wq8">19.2</td>
+    <td class="tg-9wq8">23.</td>
+    <td class="tg-9wq8">23.5</td>
+    <td class="tg-9wq8">19.6</td>
+    <td class="tg-9wq8">19.6</td>
+    <td class="tg-9wq8">17.9</td>
+    <td class="tg-9wq8">17.8</td>
+    <td class="tg-9wq8">29.4</td>
+    <td class="tg-9wq8">23.4</td>
+    <td class="tg-9wq8">24.3</td>
+    <td class="tg-9wq8">30.1</td>
+    <td class="tg-9wq8">28.7</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">EN-IN</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">16.</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">25.3</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">38.8</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">18.9</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">14.1</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">19.5</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">18.1</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">32.</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">13.9</span></td>
-    <td class="tg-wa1i">13.7</td>
-    <td class="tg-wa1i"><span style="font-weight:bold">11.8</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">15.7</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">20.7</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">7.1</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">12.9</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">6.5</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">7.5</span></td>
-    <td class="tg-wa1i"><span style="font-weight:bold">25.</span></td>
-    <td class="tg-nrix">15.8</td>
-    <td class="tg-nrix">8.5</td>
-    <td class="tg-nrix">11.3</td>
-    <td class="tg-wa1i"><span style="font-weight:bold">12.5</span></td>
+    <td class="tg-9wq8">EN-IN</td>
+    <td class="tg-9wq8">14.7</td>
+    <td class="tg-9wq8">24.8</td>
+    <td class="tg-9wq8">37.9</td>
+    <td class="tg-9wq8">18.2</td>
+    <td class="tg-9wq8">14.4</td>
+    <td class="tg-9wq8">19.2</td>
+    <td class="tg-9wq8">18.5</td>
+    <td class="tg-9wq8">31.4</td>
+    <td class="tg-9wq8">13.3</td>
+    <td class="tg-9wq8">13.2</td>
+    <td class="tg-9wq8">10.2</td>
+    <td class="tg-9wq8">14.6</td>
+    <td class="tg-9wq8">19.4</td>
+    <td class="tg-9wq8">6.9</td>
+    <td class="tg-9wq8">12.5</td>
+    <td class="tg-9wq8">5.8</td>
+    <td class="tg-9wq8">7.2</td>
+    <td class="tg-9wq8">25.</td>
+    <td class="tg-9wq8">16.2</td>
+    <td class="tg-9wq8">8.8</td>
+    <td class="tg-9wq8">11.6</td>
+    <td class="tg-9wq8">12</td>
   </tr>
 </tbody>
 </table>

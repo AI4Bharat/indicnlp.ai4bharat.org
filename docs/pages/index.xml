@@ -55,8 +55,8 @@ Download Model The model can be downloaded here. Both tf checkpoints and pytorch
       
       <guid>http://localhost/indic-trans/</guid>
       <description>-- IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
-NOTE The models will soon be made available for downloading
-Model Details IndicTrans is trained with Samanantar dataset which covers 11 language pairs.The amount of pretraining data for each language pair is listed below:</description>
+Update 30-04-2021 The models are now available for download
+Download Model  Indic-English model can be downloaded from here English-Indic model can be downloaded from here  Model Details IndicTrans is trained with Samanantar dataset which covers 11 language pairs.</description>
     </item>
     
     <item>
