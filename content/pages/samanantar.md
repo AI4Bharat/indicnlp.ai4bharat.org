@@ -42,7 +42,7 @@ The language wise splits can be found in the table below.  Each link contains th
 
 #### Indic-Indic
 
-The entire Indic-Indic data can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/samanatar/v0.1/samanatar-indic-indic-v0.1.zip)
+The entire Indic-Indic data can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/samanatar/v0.2/samanatar-indic-indic-v0.2.zip)
 
 The language wise splits will be made available soon
 
@@ -67,7 +67,8 @@ Language wise splits for Indic-Indic data can be downloaded from the table below
 -->
 
 ### Change Log
-- v0.2 uses super strict overlap removal of validation and test data with train data
+- 02 May 2021, Indic-Indic v0.2 data has been updated with super strict overlap removal
+- 30 April 2021, v0.2 uses super strict overlap removal of validation and test data with train data
 
 
 ### Contributors
