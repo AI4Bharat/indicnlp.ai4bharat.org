@@ -24,7 +24,7 @@ For downloading and usage instructions please follow the [IndicTrans](https://gi
 
 ### Usage
 
-The instructions for running inference can be found as [IndicTrans](https://github.com/AI4Bharat/indicTrans.git) GitHub repository 
+The instructions for running inference can be found at [IndicTrans](https://github.com/AI4Bharat/indicTrans.git) GitHub repository 
 
 <!--
 ### Usage
