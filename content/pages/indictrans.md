@@ -22,6 +22,10 @@ For downloading and usage instructions please follow the [IndicTrans](https://gi
 - Indic-English model can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/indictrans/indictrans-indic-en-v0.2.zip)
 - English-Indic model can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/indictrans/inidctrans-en-indic-v0.2.zip)
 
+### Usage
+
+The instructions for running inference can be found as [IndicTrans](https://github.com/AI4Bharat/indicTrans.git) GitHub repository 
+
 <!--
 ### Usage
 
