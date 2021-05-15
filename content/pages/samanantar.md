@@ -44,9 +44,6 @@ The language wise splits can be found in the table below.  Each link contains th
 
 #### Indic-Indic
 
-The entire Indic-Indic data can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/samanatar/v0.2/samanatar-indic-indic-v0.2.zip)
-
-
 The entire Indic-Indic data can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/samanatar-en-indic-v0.2.zip)
 
 
