@@ -19,8 +19,8 @@ For downloading and usage instructions please follow the [IndicTrans](https://gi
 
 ### Download Model
 
-- Indic-English model can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/indictrans/indictrans-indic-en-v0.2.zip)
-- English-Indic model can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/indictrans/inidctrans-en-indic-v0.2.zip)
+- Indic-English model can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/models/indic-en.zip)
+- English-Indic model can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/models/en-indic.zip)
 
 ### Usage
 
