@@ -8,6 +8,10 @@ url: /samanantar
 
 Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.
 
+### Update 15-05-2021
+
+The language wise splits are now available for download
+
 ### Dataset Format
 
 The [publicly released version](#downloads) is randomly shuffled, untokenized, and deduplicated.
@@ -19,8 +23,6 @@ The [publicly released version](#downloads) is randomly shuffled, untokenized, a
 <!-- The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all-without-supara.zip) -->
 
 The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/samanatar-en-indic-v0.2.zip)
-
-The language wise splits will be made available soon
 
 
 The language wise splits can be found in the table below.  Each link contains the number of sentence pairs in millions.
@@ -43,8 +45,6 @@ The language wise splits can be found in the table below.  Each link contains th
 #### Indic-Indic
 
 The entire Indic-Indic data can be downloaded from [here](https://akpublicdata.blob.core.windows.net/indicnlp/samanatar/v0.2/samanatar-indic-indic-v0.2.zip)
-
-The language wise splits will be made available soon
 
 
 The entire Indic-Indic data can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/samanatar-en-indic-v0.2.zip)
