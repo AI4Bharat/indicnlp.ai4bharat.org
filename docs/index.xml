@@ -55,8 +55,9 @@ Download Model The model can be downloaded here. Both tf checkpoints and pytorch
       
       <guid>http://localhost/indic-trans/</guid>
       <description>-- IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
+Update 05-06-2021 The Indic-Indic model is now available for download
 Update 30-04-2021 The models are now available for download
-Download Model  Indic-English model can be downloaded from here English-Indic model can be downloaded from here  Usage The instructions for running inference can be found at IndicTrans GitHub repository</description>
+Download Model  Indic-English model can be downloaded from here English-Indic model can be downloaded from here Indic-Indic can be downloaded from here  Usage The instructions for running inference can be found at IndicTrans GitHub repository</description>
     </item>
     
     <item>
@@ -66,10 +67,10 @@ Download Model  Indic-English model can be downloaded from here English-Indic mo
       
       <guid>http://localhost/samanantar/</guid>
       <description>Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.
-Update 15-05-2021 The language wise splits are now available for download
+Update 05-06-2021 The benchmarking testsets are now available for download
 Dataset Format The publicly released version is randomly shuffled, untokenized, and deduplicated.
-Downloads En-Indic The entire dataset can be downloaded from here
-The language wise splits can be found in the table below.</description>
+Downloads Benchmarks The testsets used to benchmark IndicTrans can be found here
+En-Indic The entire dataset can be downloaded from here</description>
     </item>
     
     <item>
