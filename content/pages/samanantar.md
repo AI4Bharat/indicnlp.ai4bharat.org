@@ -8,6 +8,10 @@ url: /samanantar
 
 Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.
 
+### Update 09-06-2021
+
+The Semantic Textual Similarity (STS) benchmark is now available for download 
+
 ### Update 05-06-2021
 
 The benchmarking testsets are now available for download
@@ -21,6 +25,10 @@ The [publicly released version](#downloads) is randomly shuffled, untokenized, a
 #### Benchmarks
 
 The testsets used to benchmark IndicTrans can be found [here](https://storage.googleapis.com/samanantar-public/benchmarks.zip)
+
+#### STS Benchmark
+
+The Semantic Textual Similarity (STS) benchmark can be downloaded from [here](https://storage.googleapis.com/samanantar-public/human_annotations.tsv)
 
 #### En-Indic
 
