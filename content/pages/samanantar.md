@@ -60,7 +60,7 @@ The language wise splits can be found in the table below.  Each link contains th
 
 #### Indic-Indic
 
-The entire Indic-Indic data can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/samanatar-en-indic-v0.2.zip)
+The entire Indic-Indic data can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/data/indic2indic/indic2indic.zip)
 
 
 Language wise splits for Indic-Indic data can be downloaded from the table below. Each link contains the number of sentence pairs in millions.
