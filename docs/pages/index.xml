@@ -49,18 +49,6 @@ Download Model The model can be downloaded here. Both tf checkpoints and pytorch
     </item>
     
     <item>
-      <title>IndicTrans</title>
-      <link>http://localhost/indic-trans/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/indic-trans/</guid>
-      <description>-- IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
-Update 05-06-2021 The Indic-Indic model is now available for download
-Update 30-04-2021 The models are now available for download
-Download Model  Indic-English model can be downloaded from here English-Indic model can be downloaded from here Indic-Indic can be downloaded from here  Usage The instructions for running inference can be found at IndicTrans GitHub repository</description>
-    </item>
-    
-    <item>
       <title>Samanantar</title>
       <link>http://localhost/samanantar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,6 +58,28 @@ Download Model  Indic-English model can be downloaded from here English-Indic mo
 Update 06-07-2021 v0.2.1 data with metadata of source and Labse Alignment Score (LAS) is now available here
 Update 09-06-2021 The Semantic Textual Similarity (STS) benchmark is now available for download
 Update 05-06-2021 The benchmarking testsets are now available for download</description>
+    </item>
+    
+    <item>
+      <title>IndicBART</title>
+      <link>http://localhost/indic-bart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/indic-bart/</guid>
+      <description>IndicBART is a multilingual, sequence-to-sequence pre-trained model focusing on Indic languages and English. It currently supports 11 Indian languages and is based on the mBART architecture. You can use IndicBART model to build natural language generation applications for Indian languages by finetuning the model with supervised training data for tasks like machine translation, summarization, question generation, etc. Some salient features of the IndicBART are:
+ Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English.</description>
+    </item>
+    
+    <item>
+      <title>IndicTrans</title>
+      <link>http://localhost/indic-trans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/indic-trans/</guid>
+      <description>-- IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
+Update 05-06-2021 The Indic-Indic model is now available for download
+Update 30-04-2021 The models are now available for download
+Download Model  Indic-English model can be downloaded from here English-Indic model can be downloaded from here Indic-Indic can be downloaded from here  Usage The instructions for running inference can be found at IndicTrans GitHub repository</description>
     </item>
     
     <item>

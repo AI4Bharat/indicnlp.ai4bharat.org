@@ -1,6 +1,6 @@
 ---
 title: "IndicTrans"
-weight: 200
+weight: 210
 toc: true
 url: /indic-trans
 ---

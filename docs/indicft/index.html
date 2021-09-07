@@ -183,8 +183,8 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <li>
             
                 <span class="flex">
-                    <a href="/indic-trans/" class="gdoc-nav__entry ">
-                        IndicTrans
+                    <a href="/samanantar/" class="gdoc-nav__entry ">
+                        Samanantar
                     </a>
                 </span>
             
@@ -194,12 +194,31 @@ document.querySelectorAll('section[id]').forEach((section) => {
             </li>
             
             
+        
+            
             
             <li>
             
                 <span class="flex">
-                    <a href="/samanantar/" class="gdoc-nav__entry ">
-                        Samanantar
+                    <a href="/indic-bart/" class="gdoc-nav__entry ">
+                        IndicBART
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/indic-trans/" class="gdoc-nav__entry ">
+                        IndicTrans
                     </a>
                 </span>
             
@@ -486,9 +505,9 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <p>Our fastText models are available for 11 Indian languages:  Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.</p>
 <div class="gdoc-page__anchorwrap"><h3 id="usage">Usage<a data-clipboard-text="http://localhost/indicft/#usage" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Usage" href="#usage"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>To use our fastText models, first <a href="#downloads">download them</a>. Next, install the fastText library:</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">pip3 install fasttext
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pip3 install fasttext
 </code></pre></div><p>and then load the models like this:</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">fasttext</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">fasttext</span>
 <span class="n">model</span> <span class="o">=</span> <span class="n">fasttext</span><span class="o">.</span><span class="n">load_model</span><span class="p">(</span><span class="n">path_to_binary_file</span><span class="p">)</span>
 </code></pre></div><p>For instructions on how to use these models, please refer to the official <a href="https://fasttext.cc/docs/en/support.html">fastText documentation</a></p>
 <div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/indicft/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
