@@ -4,8 +4,6 @@ weight: 201
 url: /indic-bart
 ---
 
-_Coming soon_
-
 IndicBART is a multilingual,  sequence-to-sequence pre-trained model focusing on Indic languages and English. It currently supports 11 Indian languages and is based on the mBART architecture. You can use IndicBART model to build natural language generation applications for Indian languages by finetuning the model with supervised training data for tasks like machine translation, summarization, question generation, etc. Some salient features of the IndicBART are:
 
 - Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English. Not all of these languages are supported by mBART50 and mT5.
@@ -14,7 +12,7 @@ IndicBART is a multilingual,  sequence-to-sequence pre-trained model focusing on
 
 ### Model Repository
 
-You can download the model and find instructions for model finetuning and decoding in this [GitHub Repo](https://github.com/AI4Bharat/indic-bart). 
+You can download the model and find instructions for model finetuning and decoding in this [IndicBART github repo](https://github.com/AI4Bharat/indic-bart). 
 
 ### Paper
 
