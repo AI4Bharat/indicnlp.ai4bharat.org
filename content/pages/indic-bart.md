@@ -14,6 +14,15 @@ IndicBART is a multilingual,  sequence-to-sequence pre-trained model focusing on
 
 You can download the model and find instructions for model finetuning and decoding in this [IndicBART github repo](https://github.com/AI4Bharat/indic-bart). 
 
+### Contributors 
+
+- Raj Dabre 
+- Himani Shrotriya
+- Anoop Kunchukuttan 
+- Ratish Puduppully 
+- Mitesh M. Khapra  
+- Pratyush Kumar
+
 ### Paper
 
 If you use IndicBART, please cite:
