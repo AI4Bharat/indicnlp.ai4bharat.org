@@ -10,6 +10,8 @@ IndicBART is a multilingual,  sequence-to-sequence pre-trained model focusing on
 - The model is much smaller than the mBART and mT5(-base) models, so less computationally expensive for finetuning and decoding.
 - Trained on large Indic language corpora (452 million sentences and 9 billion tokens) which also includes Indian English content. 
 
+You can read more about IndicBART [in this paper](https://arxiv.org/abs/2109.02903).
+
 ### Model Repository
 
 You can download the model and find instructions for model finetuning and decoding in this [IndicBART github repo](https://github.com/AI4Bharat/indic-bart). 
@@ -25,7 +27,8 @@ You can download the model and find instructions for model finetuning and decodi
 
 ### Paper
 
-If you use IndicBART, please cite:
+
+If you use IndicBART, please cite the [following paper](https://arxiv.org/abs/2109.02903):
 
 ```
 @misc{dabre2021indicbart,
