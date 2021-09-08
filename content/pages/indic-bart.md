@@ -27,7 +27,16 @@ You can download the model and find instructions for model finetuning and decodi
 
 If you use IndicBART, please cite:
 
-
+```
+@misc{dabre2021indicbart,
+      title={IndicBART: A Pre-trained Model for Natural Language Generation of Indic Languages}, 
+      author={Raj Dabre and Himani Shrotriya and Anoop Kunchukuttan and Ratish Puduppully and Mitesh M. Khapra and Pratyush Kumar},
+      year={2021},
+      eprint={2109.02903},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+    }    
+```   
 
 
 ### License
