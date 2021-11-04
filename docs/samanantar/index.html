@@ -502,12 +502,8 @@ document.querySelectorAll('section[id]').forEach((section) => {
 
 
 <p>Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="update-06-07-2021">Update 06-07-2021<a data-clipboard-text="http://localhost/samanantar/#update-06-07-2021" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update 06-07-2021" href="#update-06-07-2021"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>v0.2.1 data with metadata of source and Labse Alignment Score (LAS) is now available <a href="https://storage.googleapis.com/samanantar-public/v0.2_with_LAS_SRC.zip">here</a></p>
-<div class="gdoc-page__anchorwrap"><h3 id="update-09-06-2021">Update 09-06-2021<a data-clipboard-text="http://localhost/samanantar/#update-09-06-2021" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update 09-06-2021" href="#update-09-06-2021"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>The Semantic Textual Similarity (STS) benchmark is now available for download</p>
-<div class="gdoc-page__anchorwrap"><h3 id="update-05-06-2021">Update 05-06-2021<a data-clipboard-text="http://localhost/samanantar/#update-05-06-2021" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update 05-06-2021" href="#update-05-06-2021"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>The benchmarking testsets are now available for download</p>
+<div class="gdoc-page__anchorwrap"><h3 id="update-04-11-2021">Update 04-11-2021<a data-clipboard-text="http://localhost/samanantar/#update-04-11-2021" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update 04-11-2021" href="#update-04-11-2021"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>Samanantar v0.3 along with LaBSE scores metadata is available for download. Go to <a href="#downloads">Downloads</a></p>
 <div class="gdoc-page__anchorwrap"><h3 id="dataset-format">Dataset Format<a data-clipboard-text="http://localhost/samanantar/#dataset-format" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Dataset Format" href="#dataset-format"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>The <a href="#downloads">publicly released version</a> is randomly shuffled, untokenized, and deduplicated.</p>
 <div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/samanantar/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
@@ -517,8 +513,14 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <p>The Semantic Textual Similarity (STS) benchmark can be downloaded from <a href="https://storage.googleapis.com/samanantar-public/human_annotations.tsv">here</a></p>
 <div class="gdoc-page__anchorwrap"><h4 id="en-indic">En-Indic<a data-clipboard-text="http://localhost/samanantar/#en-indic" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor En-Indic" href="#en-indic"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <!-- The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all-without-supara.zip) -->
-<p>The entire dataset can be downloaded from <a href="https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/samanatar-en-indic-v0.2.zip">here</a></p>
-<p>The language wise splits can be found in the table below.  Each link contains the number of sentence pairs in millions.</p>
+<p>The entire dataset can be downloaded from <a href="https://storage.googleapis.com/samanantar-public/V0.3/source_wise_splits.zip">Samanantar v0.3</a>.</p>
+<p>The folder has 2 directories</p>
+<ul>
+<li>existing - all existing data compiled before samanantar</li>
+<li>created - mined as part of samanantar</li>
+<li>We have separate sub-dir for each source</li>
+</ul>
+<p>The language wise splits for <strong>Samanantar v0.2</strong> can be found in the table below.  Each link contains the number of sentence pairs in millions.</p>
 <table>
 <thead>
 <tr>
@@ -752,6 +754,9 @@ document.querySelectorAll('section[id]').forEach((section) => {
 </table>
 <div class="gdoc-page__anchorwrap"><h3 id="change-log">Change Log<a data-clipboard-text="http://localhost/samanantar/#change-log" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Change Log" href="#change-log"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <ul>
+<li>06 July 2021, v0.2.1 data with metadata of source and Labse Alignment Score (LAS) was made available <a href="https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/samanantar_v0.2_las.zip">here</a></li>
+<li>09 June 2021, The Semantic Textual Similarity (STS) benchmark is now available for download</li>
+<li>05 June 2021, The benchmarking testsets are now available for download</li>
 <li>15 May 2021, The language wise splits are now available for download</li>
 <li>02 May 2021, Indic-Indic v0.2 data has been updated with super strict overlap removal</li>
 <li>30 April 2021, v0.2 uses super strict overlap removal of validation and test data with train data</li>
@@ -802,9 +807,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
                 <nav class="section-nav">
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#update-06-07-2021">Update 06-07-2021</a></li>
-    <li><a href="#update-09-06-2021">Update 09-06-2021</a></li>
-    <li><a href="#update-05-06-2021">Update 05-06-2021</a></li>
+    <li><a href="#update-04-11-2021">Update 04-11-2021</a></li>
     <li><a href="#dataset-format">Dataset Format</a></li>
     <li><a href="#downloads">Downloads</a>
       <ul>

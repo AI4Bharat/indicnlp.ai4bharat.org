@@ -8,17 +8,9 @@ url: /samanantar
 
 Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.
 
-### Update 06-07-2021
+### Update 04-11-2021
+Samanantar v0.3 along with LaBSE scores metadata is available for download. Go to [Downloads](#downloads)
 
-v0.2.1 data with metadata of source and Labse Alignment Score (LAS) is now available [here](https://storage.googleapis.com/samanantar-public/v0.2_with_LAS_SRC.zip)
-
-### Update 09-06-2021
-
-The Semantic Textual Similarity (STS) benchmark is now available for download 
-
-### Update 05-06-2021
-
-The benchmarking testsets are now available for download
 
 ### Dataset Format
 
@@ -38,10 +30,15 @@ The Semantic Textual Similarity (STS) benchmark can be downloaded from [here](ht
 
 <!-- The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all-without-supara.zip) -->
 
-The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/samanatar-en-indic-v0.2.zip)
+The entire dataset can be downloaded from [Samanantar v0.3](https://storage.googleapis.com/samanantar-public/V0.3/source_wise_splits.zip). 
+
+The folder has 2 directories 
+- existing - all existing data compiled before samanantar 
+- created - mined as part of samanantar
+- We have separate sub-dir for each source 
 
 
-The language wise splits can be found in the table below.  Each link contains the number of sentence pairs in millions.
+The language wise splits for **Samanantar v0.2** can be found in the table below.  Each link contains the number of sentence pairs in millions.
 
 | Language Pair | Link     |
 | -------- | -------- |
@@ -81,6 +78,9 @@ Language wise splits for Indic-Indic data can be downloaded from the table below
 
 
 ### Change Log
+- 06 July 2021, v0.2.1 data with metadata of source and Labse Alignment Score (LAS) was made available [here](https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/samanantar_v0.2_las.zip)
+- 09 June 2021, The Semantic Textual Similarity (STS) benchmark is now available for download
+- 05 June 2021, The benchmarking testsets are now available for download
 - 15 May 2021, The language wise splits are now available for download
 - 02 May 2021, Indic-Indic v0.2 data has been updated with super strict overlap removal
 - 30 April 2021, v0.2 uses super strict overlap removal of validation and test data with train data
