@@ -6,7 +6,7 @@ url: /indicwav2vec
 ---
   
 
-As part of IndicWav2Vec we create lastest publicly available corpora for 40 languages from 4 different language families. We also trained state-of-the-art ASR models for 9 Indian languages. 
+As part of IndicWav2Vec we create largest publicly available corpora for 40 languages from 4 different language families. We also trained state-of-the-art ASR models for 9 Indian languages. 
 
 All the resources (i) pretraining data (ii) pre-trained models (iii) fine-tuned models (iv) language models are made publicly available.
 
@@ -18,9 +18,9 @@ All the code and script for data processing, pretraining and fine-tuning can be 
 
 #### Pretraing Data
 
-The pretraining data used for training IndicWav2Vec can be found [here]()
+The pretraining data used for training IndicWav2Vec can be found [here](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/pret_urls.tar)
 
-The language wise subsets can be found in the table
+The language-wise subsets can be found in the table
 
 | Language  |      Url     | Language |      Url     |
 |-----------|:------------:|----------|:------------:|
@@ -43,10 +43,10 @@ The language wise subsets can be found in the table
 
 #### Fine-tuned Models
 
-Language wise fine-tuned models can be found in the table
+Language-wise fine-tuned models can be found in the table
 
-| Language  | Url          |
-|-----------|--------------|
+| Language  |      Url     |
+|-----------|:------------:|
 | bengali   | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/bengali_large.pt) |
 | gujarati  | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/gujarati_large.pt) |
 | hindi     | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/hindi_large.pt) |
@@ -57,9 +57,20 @@ Language wise fine-tuned models can be found in the table
 | tamil     | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/tamil_large.pt) |
 | telugu    | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/telugu_large.pt) |
 
-<!-- #### Language Models
+#### Language Models
 
--  -->
+Language-wise KenLM langauge models can be found in the table
+
+| Language  |      Url     |
+|-----------|:------------:|
+| bengali   | [download](https://storage.googleapis.com/indicwav2vec-public/language-models/bengali.zip) |
+| gujarati  | [download](https://storage.googleapis.com/indicwav2vec-public/language-models/guharati.zip) |
+| hindi     | [download](https://storage.googleapis.com/indicwav2vec-public/language-models/hindi.zip) |
+| marathi   | [download](https://storage.googleapis.com/indicwav2vec-public/language-models/marathi.zip) |
+| nepali    | [download](https://storage.googleapis.com/indicwav2vec-public/language-models/nepali.zip) |
+| odia      | [download](https://storage.googleapis.com/indicwav2vec-public/language-models/odia.zip) |
+| tamil     | [download](https://storage.googleapis.com/indicwav2vec-public/language-models/tamil.zip) |
+| telugu    | [download](https://storage.googleapis.com/indicwav2vec-public/language-models/telugu.zip) |
 
 
 
