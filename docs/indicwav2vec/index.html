@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="IndicTrans">
+<meta name="description" content="IndicWav2Vec">
 
-<title>IndicTrans | AI4Bharat IndicNLP</title>
+<title>IndicWav2Vec | AI4Bharat IndicNLP</title>
 
 <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 <link rel="stylesheet" href="/main.min.css" media="screen">
@@ -183,7 +183,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <li>
             
                 <span class="flex">
-                    <a href="/indicwav2vec/" class="gdoc-nav__entry ">
+                    <a href="/indicwav2vec/" class="gdoc-nav__entry is-active">
                         IndicWav2Vec
                     </a>
                 </span>
@@ -232,7 +232,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <li>
             
                 <span class="flex">
-                    <a href="/indic-trans/" class="gdoc-nav__entry is-active">
+                    <a href="/indic-trans/" class="gdoc-nav__entry ">
                         IndicTrans
                     </a>
                 </span>
@@ -507,7 +507,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <div class="col-sm-9">
 
             <article class="gdoc-markdown">
-                <h1>IndicTrans</h1>
+                <h1>IndicWav2Vec</h1>
                 <hr>
                 
 
@@ -516,190 +516,175 @@ document.querySelectorAll('section[id]').forEach((section) => {
     
 
 
-<!-- <a href="https://huggingface.co/ai4bharat/indic-trans"><img alt="Doc" src="https://img.shields.io/static/v1?url=https%3A%2F%2Fhuggingface.co%2Fai4bharat%2Findic-bert&label=Huggingface&color=green&message=indic-trans&logo=huggingface"></a> -->
-<p>IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="update-05-06-2021">Update 05-06-2021<a data-clipboard-text="http://localhost/indic-trans/#update-05-06-2021" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update 05-06-2021" href="#update-05-06-2021"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>The Indic-Indic model is now available for download</p>
-<div class="gdoc-page__anchorwrap"><h3 id="update-30-04-2021">Update 30-04-2021<a data-clipboard-text="http://localhost/indic-trans/#update-30-04-2021" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update 30-04-2021" href="#update-30-04-2021"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>The models are now available for download</p>
-<!-- ### Download
-
-For downloading and usage instructions please follow the [IndicTrans](https://github.com/AI4Bharat/indicTrans) Repository -->
-<div class="gdoc-page__anchorwrap"><h3 id="download-model">Download Model<a data-clipboard-text="http://localhost/indic-trans/#download-model" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Download Model" href="#download-model"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<ul>
-<li>Indic-English model can be downloaded from <a href="https://storage.googleapis.com/samanantar-public/V0.2/models/indic-en.zip">here</a></li>
-<li>English-Indic model can be downloaded from <a href="https://storage.googleapis.com/samanantar-public/V0.2/models/en-indic.zip">here</a></li>
-<li>Indic-Indic can be downloaded from <a href="https://storage.googleapis.com/samanantar-public/models/m2m.zip">here</a></li>
-</ul>
-<div class="gdoc-page__anchorwrap"><h3 id="usage">Usage<a data-clipboard-text="http://localhost/indic-trans/#usage" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Usage" href="#usage"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>The instructions for running inference can be found at <a href="https://github.com/AI4Bharat/indicTrans.git">IndicTrans</a> GitHub repository</p>
-<!--
-### Usage
-
-The easiest way to use IndicTrans is through the Huggingface transformers library. It can be simply loaded like this:
-
-```python
-from transformers import AutoModel, AutoTokenizer
-
-tokenizer = AutoTokenizer.from_pretrained('ai4bharat/indic-trans')
-model = AutoModel.from_pretrained('ai4bharat/indic-trans') 
-``` -->
-<div class="gdoc-page__anchorwrap"><h3 id="model-details">Model Details<a data-clipboard-text="http://localhost/indic-trans/#model-details" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Model Details" href="#model-details"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>IndicTrans is trained with Samanantar dataset which covers 11 language pairs.The amount of pretraining data for each language pair is listed below:</p>
+<p>As part of IndicWav2Vec we create lastest publicly available corpora for 40 languages from 4 different language families. We also trained state-of-the-art ASR models for 9 Indian languages.</p>
+<p>All the resources (i) pretraining data (ii) pre-trained models (iii) fine-tuned models (iv) language models are made publicly available.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="code">Code<a data-clipboard-text="http://localhost/indicwav2vec/#code" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Code" href="#code"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>All the code and script for data processing, pretraining and fine-tuning can be found in our GitHub repository <a href="https://github.com/AI4Bharat/IndicWav2Vec">here</a></p>
+<div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/indicwav2vec/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h4 id="pretraing-data">Pretraing Data<a data-clipboard-text="http://localhost/indicwav2vec/#pretraing-data" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pretraing Data" href="#pretraing-data"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>The pretraining data used for training IndicWav2Vec can be found <a href="">here</a></p>
+<p>The language wise subsets can be found in the table</p>
 <table>
 <thead>
 <tr>
-<th>Language Pair</th>
-<th># Sentence Pairs</th>
+<th>Language</th>
+<th style="text-align:center">Url</th>
+<th>Language</th>
+<th style="text-align:center">Url</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>en-as</td>
-<td>0.14M</td>
+<td>assamese</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/assamese.txt">download</a></td>
+<td>manipuri</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/manipuri.txt">download</a></td>
 </tr>
 <tr>
-<td>en-bn</td>
-<td>8.52M</td>
+<td>bengali</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/bengali.txt">download</a></td>
+<td>marathi</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/marathi.txt">download</a></td>
 </tr>
 <tr>
-<td>en-gu</td>
-<td>3.05M</td>
+<td>bodo</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/bodo.txt">download</a></td>
+<td>nepali</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/nepali.txt">download</a></td>
 </tr>
 <tr>
-<td>en-hi</td>
-<td>8.56M</td>
+<td>dogri</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/dogri.txt">download</a></td>
+<td>odia</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/odia.txt">download</a></td>
 </tr>
 <tr>
-<td>en-kn</td>
-<td>4.07M</td>
+<td>gujarati</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/gujarati.txt">download</a></td>
+<td>punjabi</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/punjabi.txt">download</a></td>
 </tr>
 <tr>
-<td>en-ml</td>
-<td>5.85M</td>
+<td>hindi</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/hindi.txt">download</a></td>
+<td>sanskrit</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/sanskrit.txt">download</a></td>
 </tr>
 <tr>
-<td>en-mr</td>
-<td>3.32M</td>
+<td>kannada</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/kannada.txt">download</a></td>
+<td>santhali</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/santhali.txt">download</a></td>
 </tr>
 <tr>
-<td>en-or</td>
-<td>1.00M</td>
+<td>kashmiri</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/kashmiri.txt">download</a></td>
+<td>sindhi</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/sindhi.txt">download</a></td>
 </tr>
 <tr>
-<td>en-pa</td>
-<td>2.42M</td>
+<td>konkani</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/konkani.txt">download</a></td>
+<td>tamil</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/tamil.txt">download</a></td>
 </tr>
 <tr>
-<td>en-ta</td>
-<td>5.16M</td>
+<td>maithili</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/maithili.txt">download</a></td>
+<td>telugu</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/telugu.txt">download</a></td>
 </tr>
 <tr>
-<td>en-te</td>
-<td>4.82M</td>
+<td>malayalam</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/malayalam.txt">download</a></td>
+<td>urdu</td>
+<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/urdu.txt">download</a></td>
 </tr>
 </tbody>
 </table>
-<p>In total, the training data has 46.9M sentence pairs.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="benchmarking">Benchmarking<a data-clipboard-text="http://localhost/indic-trans/#benchmarking" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Benchmarking" href="#benchmarking"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>We evaluate IndicTrans model on a WAT2021, WAT2020, WMT, UFAL, PMI. Here are the results that we obtain:</p>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
-</style>
-<table class="tg">
+<div class="gdoc-page__anchorwrap"><h4 id="pretrained-models">Pretrained Models<a data-clipboard-text="http://localhost/indicwav2vec/#pretrained-models" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pretrained Models" href="#pretrained-models"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<ul>
+<li>IndicWav2Vec BASE can be downloaded from <a href="">here</a></li>
+<li>IndicWav2Vec LARGE can be downloaded from <a href="">here</a></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h4 id="fine-tuned-models">Fine-tuned Models<a data-clipboard-text="http://localhost/indicwav2vec/#fine-tuned-models" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Fine-tuned Models" href="#fine-tuned-models"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>Language wise fine-tuned models can be found in the table</p>
+<table>
 <thead>
-  <tr>
-    <th class="tg-9wq8"></th>
-    <th class="tg-9wq8" colspan="10">WAT2021</th>
-    <th class="tg-9wq8" colspan="7">WAT2020</th>
-    <th class="tg-9wq8" colspan="3">WMT</th>
-    <th class="tg-9wq8">UFAL</th>
-    <th class="tg-9wq8">pmi</th>
-  </tr>
+<tr>
+<th>Language</th>
+<th>Url</th>
+</tr>
 </thead>
 <tbody>
-  <tr>
-    <td class="tg-9wq8"></td>
-    <td class="tg-9wq8">bn</td>
-    <td class="tg-9wq8">gu</td>
-    <td class="tg-9wq8">hi</td>
-    <td class="tg-9wq8">kn</td>
-    <td class="tg-9wq8">ml</td>
-    <td class="tg-9wq8">mr</td>
-    <td class="tg-9wq8">or</td>
-    <td class="tg-9wq8">pa</td>
-    <td class="tg-9wq8">ta</td>
-    <td class="tg-9wq8">te</td>
-    <td class="tg-9wq8">bn</td>
-    <td class="tg-9wq8">gu</td>
-    <td class="tg-9wq8">hi</td>
-    <td class="tg-9wq8">ml</td>
-    <td class="tg-9wq8">mr</td>
-    <td class="tg-9wq8">ta</td>
-    <td class="tg-9wq8">te</td>
-    <td class="tg-9wq8">hi</td>
-    <td class="tg-9wq8">gu</td>
-    <td class="tg-9wq8">ta</td>
-    <td class="tg-9wq8">ta</td>
-    <td class="tg-9wq8">as</td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8">IN-EN</td>
-    <td class="tg-9wq8">28.4</td>
-    <td class="tg-9wq8">39.5</td>
-    <td class="tg-9wq8">43.2</td>
-    <td class="tg-9wq8">34.9</td>
-    <td class="tg-9wq8">33.4</td>
-    <td class="tg-9wq8">32.4</td>
-    <td class="tg-9wq8">33.4</td>
-    <td class="tg-9wq8">42.</td>
-    <td class="tg-9wq8">32.</td>
-    <td class="tg-9wq8">35.1</td>
-    <td class="tg-9wq8">19.2</td>
-    <td class="tg-9wq8">23.</td>
-    <td class="tg-9wq8">23.5</td>
-    <td class="tg-9wq8">19.6</td>
-    <td class="tg-9wq8">19.6</td>
-    <td class="tg-9wq8">17.9</td>
-    <td class="tg-9wq8">17.8</td>
-    <td class="tg-9wq8">29.4</td>
-    <td class="tg-9wq8">23.4</td>
-    <td class="tg-9wq8">24.3</td>
-    <td class="tg-9wq8">30.1</td>
-    <td class="tg-9wq8">28.7</td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8">EN-IN</td>
-    <td class="tg-9wq8">14.7</td>
-    <td class="tg-9wq8">24.8</td>
-    <td class="tg-9wq8">37.9</td>
-    <td class="tg-9wq8">18.2</td>
-    <td class="tg-9wq8">14.4</td>
-    <td class="tg-9wq8">19.2</td>
-    <td class="tg-9wq8">18.5</td>
-    <td class="tg-9wq8">31.4</td>
-    <td class="tg-9wq8">13.3</td>
-    <td class="tg-9wq8">13.2</td>
-    <td class="tg-9wq8">10.2</td>
-    <td class="tg-9wq8">14.6</td>
-    <td class="tg-9wq8">19.4</td>
-    <td class="tg-9wq8">6.9</td>
-    <td class="tg-9wq8">12.5</td>
-    <td class="tg-9wq8">5.8</td>
-    <td class="tg-9wq8">7.2</td>
-    <td class="tg-9wq8">25.</td>
-    <td class="tg-9wq8">16.2</td>
-    <td class="tg-9wq8">8.8</td>
-    <td class="tg-9wq8">11.6</td>
-    <td class="tg-9wq8">12</td>
-  </tr>
+<tr>
+<td>bengali</td>
+<td><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/bengali_large.pt">download</a></td>
+</tr>
+<tr>
+<td>gujarati</td>
+<td><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/gujarati_large.pt">download</a></td>
+</tr>
+<tr>
+<td>hindi</td>
+<td><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/hindi_large.pt">download</a></td>
+</tr>
+<tr>
+<td>marathi</td>
+<td><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/marathi_large.pt">download</a></td>
+</tr>
+<tr>
+<td>nepali</td>
+<td><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/nepali_large.pt">download</a></td>
+</tr>
+<tr>
+<td>odia</td>
+<td><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/odia_large.pt">download</a></td>
+</tr>
+<tr>
+<td>sinhala</td>
+<td><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/sinhala_large.pt">download</a></td>
+</tr>
+<tr>
+<td>tamil</td>
+<td><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/tamil_large.pt">download</a></td>
+</tr>
+<tr>
+<td>telugu</td>
+<td><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/telugu_large.pt">download</a></td>
+</tr>
 </tbody>
 </table>
+<!-- #### Language Models
+
+-  -->
+<!-- ### Change Log
+- 06 July 2021, v0.2.1 data with metadata of source and Labse Alignment Score (LAS) was made available [here](https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/samanantar_v0.2_las.zip) -->
+<div class="gdoc-page__anchorwrap"><h3 id="contributors">Contributors<a data-clipboard-text="http://localhost/indicwav2vec/#contributors" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Contributors" href="#contributors"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li>Tahir Javed, <sub>(<a href="https://www.iitm.ac.in">IITM</a>, <a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
+<li>Sumanth Doddapaneni, <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://rbcdsai.iitm.ac.in">RBCDSAI</a>)</sub></li>
+<li>Abhigyan Raman, <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
+<li>Kaushal Bhogale, <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
+<li>Gowtham Ramesh, <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://rbcdsai.iitm.ac.in">RBCDSAI</a>)</sub></li>
+<li>Anoop Kunchukuttan, <sub>(<a href="https://www.microsoft.com/en-in/">Microsoft</a>, <a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
+<li>Pratyush Kumar, <sub>(<a href="https://www.microsoft.com/en-in/">Microsoft</a>, <a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
+<li>Mitesh Khapra, <sub>(<a href="https://www.iitm.ac.in">IITM</a>, <a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://rbcdsai.iitm.ac.in">RBCDSAI</a>)</sub></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="citing">Citing<a data-clipboard-text="http://localhost/indicwav2vec/#citing" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Citing" href="#citing"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>If you are using any of the resources, please cite the following article:</p>
+<pre tabindex="0"><code>@misc{javed2021building,
+      title={Towards Building ASR Systems for the Next Billion Users}, 
+      author={Tahir Javed and Sumanth Doddapaneni and Abhigyan Raman and Kaushal Santosh Bhogale and Gowtham Ramesh and Anoop Kunchukuttan and Pratyush Kumar and Mitesh M. Khapra},
+      year={2021},
+      eprint={2111.03945},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+</code></pre><div class="gdoc-page__anchorwrap"><h3 id="license">License<a data-clipboard-text="http://localhost/indicwav2vec/#license" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor License" href="#license"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /></p>
+<p/>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">IndicWav2Vec</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. This license applies to datasets created as part of the project.
 
 
 
@@ -711,12 +696,17 @@ model = AutoModel.from_pretrained('ai4bharat/indic-trans')
                 <nav class="section-nav">
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#update-05-06-2021">Update 05-06-2021</a></li>
-    <li><a href="#update-30-04-2021">Update 30-04-2021</a></li>
-    <li><a href="#download-model">Download Model</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#model-details">Model Details</a></li>
-    <li><a href="#benchmarking">Benchmarking</a></li>
+    <li><a href="#code">Code</a></li>
+    <li><a href="#downloads">Downloads</a>
+      <ul>
+        <li><a href="#pretraing-data">Pretraing Data</a></li>
+        <li><a href="#pretrained-models">Pretrained Models</a></li>
+        <li><a href="#fine-tuned-models">Fine-tuned Models</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributors">Contributors</a></li>
+    <li><a href="#citing">Citing</a></li>
+    <li><a href="#license">License</a></li>
   </ul>
 </nav>
                 </nav>
