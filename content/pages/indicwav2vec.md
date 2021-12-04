@@ -5,6 +5,7 @@ toc: true
 url: /indicwav2vec
 ---
   
+IndicWav2Vec is a multilingual speech model pretrained on 40 Indian langauges. This model represents the largest diversity of Indian languages in the pool of multilingual speech models. We fine-tune this model for downstream ASR for 9 languages and obtain state-of-the-art results on 3 public benchmarks, namely MUCS, MSR and OpenSLR. 
 
 As part of IndicWav2Vec we create largest publicly available corpora for 40 languages from 4 different language families. We also trained state-of-the-art ASR models for 9 Indian languages. 
 
@@ -12,15 +13,17 @@ All the resources (i) pretraining data (ii) pre-trained models (iii) fine-tuned 
 
 ### Code
 
-All the code and script for data processing, pretraining and fine-tuning can be found in our GitHub repository [here](https://github.com/AI4Bharat/IndicWav2Vec)
+All the code and scripts for data processing, pretraining and fine-tuning can be found in our GitHub repository [here](https://github.com/AI4Bharat/IndicWav2Vec)
 
 ### Downloads
 
-#### Pretraing Data
+#### Pretraining Data
 
-The pretraining data used for training IndicWav2Vec can be found [here](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/pret_urls.tar)
+The YouTube Video IDs we used for creating the pretraining data can be found [here](https://github.com/AI4Bharat/IndicWav2Vec/tree/main/data_prep_scripts/urls)
 
-The language-wise subsets can be found in the table
+The pipeline for data processing can be found [here](https://github.com/AI4Bharat/IndicWav2Vec/tree/main/data_prep_scripts)
+
+<!-- The language-wise subsets can be found in the table
 
 | Language  |      Url     | Language |      Url     |
 |-----------|:------------:|----------|:------------:|
@@ -34,12 +37,12 @@ The language-wise subsets can be found in the table
 | kashmiri  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/kashmiri.txt) | sindhi   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/sindhi.txt) |
 | konkani   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/konkani.txt) | tamil    | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/tamil.txt) |
 | maithili  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/maithili.txt) | telugu   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/telugu.txt) |
-| malayalam | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/malayalam.txt) | urdu     | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/urdu.txt) |
+| malayalam | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/malayalam.txt) | urdu     | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/urdu.txt) | -->
 
 #### Pretrained Models
 
-- IndicWav2Vec BASE can be downloaded from [here]()
-- IndicWav2Vec LARGE can be downloaded from [here]()
+- IndicWav2Vec BASE can be downloaded from [here](https://storage.googleapis.com/indicwav2vec-public/pretraining-ckpts/indicwav2vec-base.pt)
+- IndicWav2Vec LARGE can be downloaded from [here](https://storage.googleapis.com/indicwav2vec-public/pretraining-ckpts/indicwav2vec-large.pt)
 
 #### Fine-tuned Models
 
@@ -107,7 +110,10 @@ If you are using any of the resources, please cite the following article:
 
 ### License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
-<p/>
-<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">IndicWav2Vec</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. This license applies to datasets created as part of the project.
+<!-- <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /> -->
 
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">The pretraining data</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</a> license.
+
+The YouTube videos for the respective IDs are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International</a> license.
+
+IndicWav2Vec is MIT-licensed. The license applies to all pretrained, fine-tuned and language models as well.

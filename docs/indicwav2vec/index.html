@@ -516,96 +516,34 @@ document.querySelectorAll('section[id]').forEach((section) => {
     
 
 
+<p>IndicWav2Vec is a multilingual speech model pretrained on 40 Indian langauges. This model represents the largest diversity of Indian languages in the pool of multilingual speech models. We fine-tune this model for downstream ASR for 9 languages and obtain state-of-the-art results on 3 public benchmarks, namely MUCS, MSR and OpenSLR.</p>
 <p>As part of IndicWav2Vec we create largest publicly available corpora for 40 languages from 4 different language families. We also trained state-of-the-art ASR models for 9 Indian languages.</p>
 <p>All the resources (i) pretraining data (ii) pre-trained models (iii) fine-tuned models (iv) language models are made publicly available.</p>
 <div class="gdoc-page__anchorwrap"><h3 id="code">Code<a data-clipboard-text="http://localhost/indicwav2vec/#code" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Code" href="#code"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>All the code and script for data processing, pretraining and fine-tuning can be found in our GitHub repository <a href="https://github.com/AI4Bharat/IndicWav2Vec">here</a></p>
+<p>All the code and scripts for data processing, pretraining and fine-tuning can be found in our GitHub repository <a href="https://github.com/AI4Bharat/IndicWav2Vec">here</a></p>
 <div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/indicwav2vec/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<div class="gdoc-page__anchorwrap"><h4 id="pretraing-data">Pretraing Data<a data-clipboard-text="http://localhost/indicwav2vec/#pretraing-data" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pretraing Data" href="#pretraing-data"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<p>The pretraining data used for training IndicWav2Vec can be found <a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/pret_urls.tar">here</a></p>
-<p>The language-wise subsets can be found in the table</p>
-<table>
-<thead>
-<tr>
-<th>Language</th>
-<th style="text-align:center">Url</th>
-<th>Language</th>
-<th style="text-align:center">Url</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>assamese</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/assamese.txt">download</a></td>
-<td>manipuri</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/manipuri.txt">download</a></td>
-</tr>
-<tr>
-<td>bengali</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/bengali.txt">download</a></td>
-<td>marathi</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/marathi.txt">download</a></td>
-</tr>
-<tr>
-<td>bodo</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/bodo.txt">download</a></td>
-<td>nepali</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/nepali.txt">download</a></td>
-</tr>
-<tr>
-<td>dogri</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/dogri.txt">download</a></td>
-<td>odia</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/odia.txt">download</a></td>
-</tr>
-<tr>
-<td>gujarati</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/gujarati.txt">download</a></td>
-<td>punjabi</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/punjabi.txt">download</a></td>
-</tr>
-<tr>
-<td>hindi</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/hindi.txt">download</a></td>
-<td>sanskrit</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/sanskrit.txt">download</a></td>
-</tr>
-<tr>
-<td>kannada</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/kannada.txt">download</a></td>
-<td>santhali</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/santhali.txt">download</a></td>
-</tr>
-<tr>
-<td>kashmiri</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/kashmiri.txt">download</a></td>
-<td>sindhi</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/sindhi.txt">download</a></td>
-</tr>
-<tr>
-<td>konkani</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/konkani.txt">download</a></td>
-<td>tamil</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/tamil.txt">download</a></td>
-</tr>
-<tr>
-<td>maithili</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/maithili.txt">download</a></td>
-<td>telugu</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/telugu.txt">download</a></td>
-</tr>
-<tr>
-<td>malayalam</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/malayalam.txt">download</a></td>
-<td>urdu</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-data/urdu.txt">download</a></td>
-</tr>
-</tbody>
-</table>
+<div class="gdoc-page__anchorwrap"><h4 id="pretraining-data">Pretraining Data<a data-clipboard-text="http://localhost/indicwav2vec/#pretraining-data" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pretraining Data" href="#pretraining-data"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>The YouTube Video IDs we used for creating the pretraining data can be found <a href="https://github.com/AI4Bharat/IndicWav2Vec/tree/main/data_prep_scripts/urls">here</a></p>
+<p>The pipeline for data processing can be found <a href="https://github.com/AI4Bharat/IndicWav2Vec/tree/main/data_prep_scripts">here</a></p>
+<!-- The language-wise subsets can be found in the table
+
+| Language  |      Url     | Language |      Url     |
+|-----------|:------------:|----------|:------------:|
+| assamese  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/assamese.txt) | manipuri | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/manipuri.txt) |
+| bengali   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/bengali.txt) | marathi  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/marathi.txt) |
+| bodo      | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/bodo.txt) | nepali   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/nepali.txt) |
+| dogri     | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/dogri.txt) | odia     | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/odia.txt) |
+| gujarati  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/gujarati.txt) | punjabi  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/punjabi.txt) |
+| hindi     | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/hindi.txt) | sanskrit | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/sanskrit.txt) |
+| kannada   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/kannada.txt) | santhali | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/santhali.txt) |
+| kashmiri  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/kashmiri.txt) | sindhi   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/sindhi.txt) |
+| konkani   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/konkani.txt) | tamil    | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/tamil.txt) |
+| maithili  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/maithili.txt) | telugu   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/telugu.txt) |
+| malayalam | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/malayalam.txt) | urdu     | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/urdu.txt) | -->
 <div class="gdoc-page__anchorwrap"><h4 id="pretrained-models">Pretrained Models<a data-clipboard-text="http://localhost/indicwav2vec/#pretrained-models" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pretrained Models" href="#pretrained-models"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <ul>
-<li>IndicWav2Vec BASE can be downloaded from <a href="">here</a></li>
-<li>IndicWav2Vec LARGE can be downloaded from <a href="">here</a></li>
+<li>IndicWav2Vec BASE can be downloaded from <a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-ckpts/indicwav2vec-base.pt">here</a></li>
+<li>IndicWav2Vec LARGE can be downloaded from <a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-ckpts/indicwav2vec-large.pt">here</a></li>
 </ul>
 <div class="gdoc-page__anchorwrap"><h4 id="fine-tuned-models">Fine-tuned Models<a data-clipboard-text="http://localhost/indicwav2vec/#fine-tuned-models" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Fine-tuned Models" href="#fine-tuned-models"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <p>Language-wise fine-tuned models can be found in the table</p>
@@ -723,9 +661,10 @@ document.querySelectorAll('section[id]').forEach((section) => {
       primaryClass={cs.CL}
 }
 </code></pre><div class="gdoc-page__anchorwrap"><h3 id="license">License<a data-clipboard-text="http://localhost/indicwav2vec/#license" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor License" href="#license"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /></p>
-<p/>
-<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">IndicWav2Vec</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. This license applies to datasets created as part of the project.
+<!-- <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /> -->
+<p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">The pretraining data</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</a> license.</p>
+<p>The YouTube videos for the respective IDs are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International</a> license.</p>
+<p>IndicWav2Vec is MIT-licensed. The license applies to all pretrained, fine-tuned and language models as well.</p>
 
 
 
@@ -740,7 +679,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
     <li><a href="#code">Code</a></li>
     <li><a href="#downloads">Downloads</a>
       <ul>
-        <li><a href="#pretraing-data">Pretraing Data</a></li>
+        <li><a href="#pretraining-data">Pretraining Data</a></li>
         <li><a href="#pretrained-models">Pretrained Models</a></li>
         <li><a href="#fine-tuned-models">Fine-tuned Models</a></li>
         <li><a href="#language-models">Language Models</a></li>
