@@ -98,13 +98,11 @@ Language-wise KenLM langauge models can be found in the table
 If you are using any of the resources, please cite the following article: 
 
 ```
-@misc{javed2021building,
-      title={Towards Building ASR Systems for the Next Billion Users}, 
-      author={Tahir Javed and Sumanth Doddapaneni and Abhigyan Raman and Kaushal Santosh Bhogale and Gowtham Ramesh and Anoop Kunchukuttan and Pratyush Kumar and Mitesh M. Khapra},
-      year={2021},
-      eprint={2111.03945},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{javed2021building,
+    title = {Towards Building ASR Systems for the Next Billion Users},
+    author = {Tahir Javed and Sumanth Doddapaneni and Abhigyan Raman and Kaushal Santosh Bhogale and Gowtham Ramesh and Anoop Kunchukuttan and Pratyush Kumar and Mitesh M. Khapra},
+    booktitle = "Proceedings of the AAAI Conference on Artificial Intelligence",
+    year = "2022 (to appear)",
 }
 ``` 
 
@@ -112,8 +110,6 @@ If you are using any of the resources, please cite the following article:
 
 <!-- <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /> -->
 
-<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">The pretraining data</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</a> license.
-
-The YouTube videos for the respective IDs are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International</a> license.
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">The pretraining data and YouTube videos</span> are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode">Attribution 4.0 International</a> license.
 
 IndicWav2Vec is MIT-licensed. The license applies to all pretrained, fine-tuned and language models as well.
