@@ -11,6 +11,8 @@ As part of IndicWav2Vec we create largest publicly available corpora for 40 lang
 
 All the resources (i) pretraining data (ii) pre-trained models (iii) fine-tuned models (iv) language models are made publicly available.
 
+Our paper is available on [arXiv](https://arxiv.org/abs/2111.03945)
+
 ### Code
 
 All the code and scripts for data processing, pretraining and fine-tuning can be found in our GitHub repository [here](https://github.com/AI4Bharat/IndicWav2Vec)
