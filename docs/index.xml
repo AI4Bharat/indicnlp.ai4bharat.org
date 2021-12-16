@@ -86,7 +86,7 @@ Downloads Benchmarks The testsets used to benchmark IndicTrans can be found here
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/indic-trans/</guid>
-      <description>-- IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
+      <description>--IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
 Update 05-06-2021 The Indic-Indic model is now available for download
 Update 30-04-2021 The models are now available for download
 Download Model  Indic-English model can be downloaded from here English-Indic model can be downloaded from here Indic-Indic can be downloaded from here  Usage The instructions for running inference can be found at IndicTrans GitHub repository</description>
@@ -120,7 +120,7 @@ Contact Us For any queries, feel free to reach us at:
       
       <guid>http://localhost/explorer/</guid>
       <description>Explore, search and add datasets.
-IndicNLP: The Current State  Search Datasets     table.dataTable.no-footer { border-bottom: 0 !important; } tfoot { display: table-row-group; } input[type=&#34;text&#34;] { width: 100%; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }   let dataURL = &#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQGyB-QInM69IoR2nP6pJ_Uc0tA0fRxb1NvDe1F1GvBd7UT9lYW06-DuTjaKTYzmuHbAEPaQR5nhhCb/pub?gid=0&amp;single=true&amp;output=csv&#34;; let encodedURL = encodeURIComponent(dataURL) let proxyURL = `https://api.allorigins.win/raw?url=${encodedURL}`; result = Papa.parse(proxyURL, { download: true, dynamicTyping: true, complete: function(results) { let data = process_data(results.data); let dataset_names = {}; for (const type in data.</description>
+IndicNLP: The Current State Search Datasets table.dataTable.no-footer {border-bottom: 0 !important;}tfoot {display: table-row-group;}input[type=&#34;text&#34;] {width: 100%; box-sizing: border-box;-webkit-box-sizing:border-box;-moz-box-sizing: border-box;}let dataURL = &#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQGyB-QInM69IoR2nP6pJ_Uc0tA0fRxb1NvDe1F1GvBd7UT9lYW06-DuTjaKTYzmuHbAEPaQR5nhhCb/pub?gid=0&amp;single=true&amp;output=csv&#34;;let encodedURL = encodeURIComponent(dataURL)let proxyURL = `https://api.allorigins.win/raw?url=${encodedURL}`;result = Papa.parse(proxyURL, {download: true,dynamicTyping: true,complete: function(results) {let data = process_data(results.data);let dataset_names = {};for (const type in data.</description>
     </item>
     
     <item>
@@ -130,7 +130,7 @@ IndicNLP: The Current State  Search Datasets     table.dataTable.no-footer { bor
       
       <guid>http://localhost/adddataset/</guid>
       <description>If you have an Indian language NLP resource that you would want the community to know more about, please help us expand the IndicNLP Data Explorer and Catalog. You can add information about the resources either using the simple form below or head over to the underlying Github catalog and raise a pull request/issue.
-Form Loading… </description>
+Form Loading…</description>
     </item>
     
     <item>
@@ -149,7 +149,7 @@ Form Loading… </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/resources/</guid>
-      <description>Edit on Github  Please suggest any other resources you may be aware of. Raise a pull request or an issue to add more resources to the catalog. Put the proposed entry in the following format:
+      <description>Edit on GithubPlease suggest any other resources you may be aware of. Raise a pull request or an issue to add more resources to the catalog. Put the proposed entry in the following format:
 [Wikipedia Dumps](https://dumps.wikimedia.org/)
 Add a small, informative description of the dataset and provide links to any paper/article/site documenting the resource. Mention your name too. We would like to acknowlege your contribution to building this catalog in the CONTRIBUTORS list.</description>
     </item>
