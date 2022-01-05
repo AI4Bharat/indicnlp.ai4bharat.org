@@ -13,6 +13,10 @@ All the resources (i) pretraining data (ii) pre-trained models (iii) fine-tuned 
 
 Our paper is available on [arXiv](https://arxiv.org/abs/2111.03945)
 
+### Update 05-01-2022
+
+We are currently facing issues with access to the data. We will resolve this ASAP.
+
 ### Code
 
 All the code and scripts for data processing, pretraining and fine-tuning can be found in our GitHub repository [here](https://github.com/AI4Bharat/IndicWav2Vec)

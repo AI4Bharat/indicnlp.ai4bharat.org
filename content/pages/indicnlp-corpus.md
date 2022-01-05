@@ -13,6 +13,10 @@ IndicCorp is one of the largest publicly-available corpora for Indian languages.
 
 The corpus is a single large text file containing one sentence per line. The [publicly released version](#downloads) is randomly shuffled, untokenized and deduplicated. 
 
+### Update 05-01-2022
+
+We are currently facing issues with access to the data. We will resolve this ASAP.
+
 #### Downloads
 
 
