@@ -23,9 +23,9 @@ For downloading and usage instructions please follow the [IndicTrans](https://gi
 
 ### Download Model
 
-- Indic-English model can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/models/indic-en.zip)
-- English-Indic model can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/models/en-indic.zip)
-- Indic-Indic can be downloaded from [here](https://storage.googleapis.com/samanantar-public/models/m2m.zip)
+- Indic-English model can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.3/models/indic-en.zip)
+- English-Indic model can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.3/models/en-indic.zip)
+- Indic-Indic can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.3/models/m2m.zip)
 
 ### Mirror Links
 
@@ -55,19 +55,19 @@ IndicTrans is trained with Samanantar dataset which covers 11 language pairs.The
 | Language Pair | \# Sentence Pairs   |
 | -------- | ----------------- |
 | en-as       | 0.14M             |
-| en-bn       | 8.52M             |
-| en-gu       | 3.05M             |
-| en-hi       | 8.56M             |
-| en-kn       | 4.07M             |
-| en-ml       | 5.85M             |
-| en-mr       | 3.32M             |
+| en-bn       | 8.6M             |
+| en-gu       | 3.06M             |
+| en-hi       | 10.13M             |
+| en-kn       | 4.09M             |
+| en-ml       | 5.92M             |
+| en-mr       | 3.63M             |
 | en-or       | 1.00M             |
-| en-pa       | 2.42M             |
-| en-ta       | 5.16M             |
-| en-te       | 4.82M             |
+| en-pa       | 2.98M             |
+| en-ta       | 5.26M             |
+| en-te       | 4.95M             |
 
 
-In total, the training data has 46.9M sentence pairs.
+In total, the training data has 49.7M sentence pairs.
 
 
 ### Benchmarking
