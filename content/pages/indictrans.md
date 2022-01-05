@@ -27,6 +27,10 @@ For downloading and usage instructions please follow the [IndicTrans](https://gi
 - English-Indic model can be downloaded from [here](https://storage.googleapis.com/samanantar-public/V0.2/models/en-indic.zip)
 - Indic-Indic can be downloaded from [here](https://storage.googleapis.com/samanantar-public/models/m2m.zip)
 
+### Mirror Links
+
+- Please use this mirror [gdrive](https://drive.google.com/drive/folders/1bfF2m1UzzNe_M9SB6M60BfQeTsx4zq5j?usp=sharing) link to download the models 
+
 ### Usage
 
 The instructions for running inference can be found at [IndicTrans](https://github.com/AI4Bharat/indicTrans.git) GitHub repository 
