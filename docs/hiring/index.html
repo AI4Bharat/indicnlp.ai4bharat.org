@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="IndicWav2Vec">
+<meta name="description" content="Hiring">
 
-<title>IndicWav2Vec | AI4Bharat IndicNLP</title>
+<title>Hiring | AI4Bharat IndicNLP</title>
 
 <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 <link rel="stylesheet" href="/main.min.css" media="screen">
@@ -183,7 +183,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <li>
             
                 <span class="flex">
-                    <a href="/indicwav2vec/" class="gdoc-nav__entry is-active">
+                    <a href="/indicwav2vec/" class="gdoc-nav__entry ">
                         IndicWav2Vec
                     </a>
                 </span>
@@ -281,7 +281,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <li>
             
                 <span class="flex">
-                    <a href="/hiring/" class="gdoc-nav__entry ">
+                    <a href="/hiring/" class="gdoc-nav__entry is-active">
                         Hiring
                     </a>
                 </span>
@@ -522,7 +522,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <div class="col-sm-9">
 
             <article class="gdoc-markdown">
-                <h1>IndicWav2Vec</h1>
+                <h1>Hiring</h1>
                 <hr>
                 
 
@@ -531,155 +531,24 @@ document.querySelectorAll('section[id]').forEach((section) => {
     
 
 
-<p>IndicWav2Vec is a multilingual speech model pretrained on 40 Indian langauges. This model represents the largest diversity of Indian languages in the pool of multilingual speech models. We fine-tune this model for downstream ASR for 9 languages and obtain state-of-the-art results on 3 public benchmarks, namely MUCS, MSR and OpenSLR.</p>
-<p>As part of IndicWav2Vec we create largest publicly available corpora for 40 languages from 4 different language families. We also trained state-of-the-art ASR models for 9 Indian languages.</p>
-<p>All the resources (i) pretraining data (ii) pre-trained models (iii) fine-tuned models (iv) language models are made publicly available.</p>
-<p>Our paper is available on <a href="https://arxiv.org/abs/2111.03945">arXiv</a></p>
-<div class="gdoc-page__anchorwrap"><h3 id="update-05-01-2022">Update 05-01-2022<a data-clipboard-text="http://localhost/indicwav2vec/#update-05-01-2022" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update 05-01-2022" href="#update-05-01-2022"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>We are currently facing issues with access to the data. We will resolve this ASAP.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="code">Code<a data-clipboard-text="http://localhost/indicwav2vec/#code" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Code" href="#code"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>All the code and scripts for data processing, pretraining and fine-tuning can be found in our GitHub repository <a href="https://github.com/AI4Bharat/IndicWav2Vec">here</a></p>
-<div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/indicwav2vec/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<div class="gdoc-page__anchorwrap"><h4 id="pretraining-data">Pretraining Data<a data-clipboard-text="http://localhost/indicwav2vec/#pretraining-data" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pretraining Data" href="#pretraining-data"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<p>The YouTube Video IDs we used for creating the pretraining data can be found <a href="https://github.com/AI4Bharat/IndicWav2Vec/tree/main/data_prep_scripts/urls">here</a></p>
-<p>The pipeline for data processing can be found <a href="https://github.com/AI4Bharat/IndicWav2Vec/tree/main/data_prep_scripts">here</a></p>
-<!-- The language-wise subsets can be found in the table
-
-| Language  |      Url     | Language |      Url     |
-|-----------|:------------:|----------|:------------:|
-| assamese  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/assamese.txt) | manipuri | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/manipuri.txt) |
-| bengali   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/bengali.txt) | marathi  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/marathi.txt) |
-| bodo      | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/bodo.txt) | nepali   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/nepali.txt) |
-| dogri     | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/dogri.txt) | odia     | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/odia.txt) |
-| gujarati  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/gujarati.txt) | punjabi  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/punjabi.txt) |
-| hindi     | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/hindi.txt) | sanskrit | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/sanskrit.txt) |
-| kannada   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/kannada.txt) | santhali | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/santhali.txt) |
-| kashmiri  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/kashmiri.txt) | sindhi   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/sindhi.txt) |
-| konkani   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/konkani.txt) | tamil    | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/tamil.txt) |
-| maithili  | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/maithili.txt) | telugu   | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/telugu.txt) |
-| malayalam | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/malayalam.txt) | urdu     | [download](https://storage.googleapis.com/indicwav2vec-public/pretraining-data/urdu.txt) | -->
-<div class="gdoc-page__anchorwrap"><h4 id="pretrained-models">Pretrained Models<a data-clipboard-text="http://localhost/indicwav2vec/#pretrained-models" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pretrained Models" href="#pretrained-models"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>Our group focuses on building NLP ecosystem for Indian languages and seeking new models and techniques better suited for Indian languages. Our project has volunteers from IIT Madras, One Fourth Labs, Microsoft Search Technology Center India.</p>
+<h1 id="full-time-roles">Full-time Roles</h1>
+<p>We are now hiring translators and annotators as to help in translating Indian lang. content from and to En, transcribing audio data, creating content in native language.
+Apply to the Language Translators position at
+<a href="https://icandsr.iitm.ac.in/recruitment/">https://icandsr.iitm.ac.in/recruitment/</a></p>
+<p>We are currently looking for following 22 languages</p>
+<pre tabindex="0"><code>Assamese, Bengali, Bodo, Dogri, Gujarati, Hindi, Kannada, Kashmiri, Konkani, Maithili, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Santali, Sindhi, Tamil, Telugu, Urdu
+</code></pre><p>The candidate must be proficient in English in addition to at least one of the languages mentioned. A background in linguistics is preferred but not mandatory</p>
 <ul>
-<li>IndicWav2Vec BASE can be downloaded from <a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-ckpts/indicwav2vec-base.pt">here</a></li>
-<li>IndicWav2Vec LARGE can be downloaded from <a href="https://storage.googleapis.com/indicwav2vec-public/pretraining-ckpts/indicwav2vec-large.pt">here</a></li>
+<li>Contact <a href="mailto:anupama@ai4bharat.org">Anupama Sujatha</a> for any queries</li>
 </ul>
-<div class="gdoc-page__anchorwrap"><h4 id="fine-tuned-models">Fine-tuned Models<a data-clipboard-text="http://localhost/indicwav2vec/#fine-tuned-models" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Fine-tuned Models" href="#fine-tuned-models"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<p>Language-wise fine-tuned models can be found in the table</p>
-<table>
-<thead>
-<tr>
-<th>Language</th>
-<th style="text-align:center">Url</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>bengali</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/bengali_large.pt">download</a></td>
-</tr>
-<tr>
-<td>gujarati</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/gujarati_large.pt">download</a></td>
-</tr>
-<tr>
-<td>hindi</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/hindi_large.pt">download</a></td>
-</tr>
-<tr>
-<td>marathi</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/marathi_large.pt">download</a></td>
-</tr>
-<tr>
-<td>nepali</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/nepali_large.pt">download</a></td>
-</tr>
-<tr>
-<td>odia</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/odia_large.pt">download</a></td>
-</tr>
-<tr>
-<td>sinhala</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/sinhala_large.pt">download</a></td>
-</tr>
-<tr>
-<td>tamil</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/tamil_large.pt">download</a></td>
-</tr>
-<tr>
-<td>telugu</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/telugu_large.pt">download</a></td>
-</tr>
-</tbody>
-</table>
-<div class="gdoc-page__anchorwrap"><h4 id="language-models">Language Models<a data-clipboard-text="http://localhost/indicwav2vec/#language-models" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Language Models" href="#language-models"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<p>Language-wise KenLM langauge models can be found in the table</p>
-<table>
-<thead>
-<tr>
-<th>Language</th>
-<th style="text-align:center">Url</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>bengali</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/language-models/bengali.zip">download</a></td>
-</tr>
-<tr>
-<td>gujarati</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/language-models/guharati.zip">download</a></td>
-</tr>
-<tr>
-<td>hindi</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/language-models/hindi.zip">download</a></td>
-</tr>
-<tr>
-<td>marathi</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/language-models/marathi.zip">download</a></td>
-</tr>
-<tr>
-<td>nepali</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/language-models/nepali.zip">download</a></td>
-</tr>
-<tr>
-<td>odia</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/language-models/odia.zip">download</a></td>
-</tr>
-<tr>
-<td>tamil</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/language-models/tamil.zip">download</a></td>
-</tr>
-<tr>
-<td>telugu</td>
-<td style="text-align:center"><a href="https://storage.googleapis.com/indicwav2vec-public/language-models/telugu.zip">download</a></td>
-</tr>
-</tbody>
-</table>
-<!-- ### Change Log
-- 06 July 2021, v0.2.1 data with metadata of source and Labse Alignment Score (LAS) was made available [here](https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/samanantar_v0.2_las.zip) -->
-<div class="gdoc-page__anchorwrap"><h3 id="contributors">Contributors<a data-clipboard-text="http://localhost/indicwav2vec/#contributors" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Contributors" href="#contributors"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h3 id="contact-us">Contact Us<a data-clipboard-text="http://localhost/hiring/#contact-us" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Contact Us" href="#contact-us"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>For any queries, feel free to reach us at:</p>
 <ul>
-<li>Tahir Javed, <sub>(<a href="https://www.iitm.ac.in">IITM</a>, <a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
-<li>Sumanth Doddapaneni, <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://rbcdsai.iitm.ac.in">RBCDSAI</a>)</sub></li>
-<li>Abhigyan Raman, <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
-<li>Kaushal Bhogale, <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
-<li>Gowtham Ramesh, <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://rbcdsai.iitm.ac.in">RBCDSAI</a>)</sub></li>
-<li>Anoop Kunchukuttan, <sub>(<a href="https://www.microsoft.com/en-in/">Microsoft</a>, <a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
-<li>Pratyush Kumar, <sub>(<a href="https://www.microsoft.com/en-in/">Microsoft</a>, <a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
-<li>Mitesh Khapra, <sub>(<a href="https://www.iitm.ac.in">IITM</a>, <a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://rbcdsai.iitm.ac.in">RBCDSAI</a>)</sub></li>
+<li>Anoop Kunchukuttan (<a href="mailto:anoop.kunchukuttan@gmail.com">anoop.kunchukuttan@gmail.com</a>)</li>
+<li>Mitesh Khapra (<a href="mailto:miteshk@cse.iitm.ac.in">miteshk@cse.iitm.ac.in</a>)</li>
+<li>Pratyush Kumar (<a href="mailto:pratyushk@cse.iitm.ac.in">pratyush@cse.iitm.ac.in</a>)</li>
 </ul>
-<div class="gdoc-page__anchorwrap"><h3 id="citing">Citing<a data-clipboard-text="http://localhost/indicwav2vec/#citing" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Citing" href="#citing"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>If you are using any of the resources, please cite the following article:</p>
-<pre tabindex="0"><code>@inproceedings{javed2021building,
-    title = {Towards Building ASR Systems for the Next Billion Users},
-    author = {Tahir Javed and Sumanth Doddapaneni and Abhigyan Raman and Kaushal Santosh Bhogale and Gowtham Ramesh and Anoop Kunchukuttan and Pratyush Kumar and Mitesh M. Khapra},
-    booktitle = &quot;Proceedings of the AAAI Conference on Artificial Intelligence&quot;,
-    year = &quot;2022 (to appear)&quot;,
-}
-</code></pre><div class="gdoc-page__anchorwrap"><h3 id="license">License<a data-clipboard-text="http://localhost/indicwav2vec/#license" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor License" href="#license"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<!-- <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /> -->
-<p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">The pretraining data and YouTube videos</span> are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode">Attribution 4.0 International</a> license.</p>
-<p>IndicWav2Vec is MIT-licensed. The license applies to all pretrained, fine-tuned and language models as well.</p>
 
 
 
@@ -691,19 +560,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
                 <nav class="section-nav">
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#update-05-01-2022">Update 05-01-2022</a></li>
-    <li><a href="#code">Code</a></li>
-    <li><a href="#downloads">Downloads</a>
-      <ul>
-        <li><a href="#pretraining-data">Pretraining Data</a></li>
-        <li><a href="#pretrained-models">Pretrained Models</a></li>
-        <li><a href="#fine-tuned-models">Fine-tuned Models</a></li>
-        <li><a href="#language-models">Language Models</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributors">Contributors</a></li>
-    <li><a href="#citing">Citing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#contact-us">Contact Us</a></li>
   </ul>
 </nav>
                 </nav>

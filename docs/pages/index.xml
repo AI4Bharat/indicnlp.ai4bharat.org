@@ -114,6 +114,16 @@ Contact Us For any queries, feel free to reach us at:
     </item>
     
     <item>
+      <title>Hiring</title>
+      <link>http://localhost/hiring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hiring/</guid>
+      <description>Our group focuses on building NLP ecosystem for Indian languages and seeking new models and techniques better suited for Indian languages. Our project has volunteers from IIT Madras, One Fourth Labs, Microsoft Search Technology Center India.
+Full-time Roles We are now hiring translators and annotators as to help in translating Indian lang. content from and to En, transcribing audio data, creating content in native language. Apply to the Language Translators position at https://icandsr.</description>
+    </item>
+    
+    <item>
       <title>IndicNLP</title>
       <link>http://localhost/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
