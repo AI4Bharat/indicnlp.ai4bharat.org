@@ -20,17 +20,17 @@ Samanantar v0.3 along with LaBSE scores metadata is available for download. Go t
 
 The [publicly released version](#downloads) is randomly shuffled, untokenized, and deduplicated.
 
-### Downloads
+## Downloads
 
-#### Benchmarks
+### Benchmarks
 
 The testsets used to benchmark IndicTrans can be found [here](https://storage.googleapis.com/samanantar-public/benchmarks.zip)
 
-#### STS Benchmark
+### STS Benchmark
 
 The Semantic Textual Similarity (STS) benchmark can be downloaded from [here](https://storage.googleapis.com/samanantar-public/human_annotations.tsv)
 
-#### En-Indic
+### En-Indic
 
 <!-- The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all-without-supara.zip) -->
 
@@ -40,6 +40,10 @@ The folder has 2 directories
 - existing - all existing data compiled before samanantar 
 - created - mined as part of samanantar
 - We have separate sub-dir for each source 
+
+### Mirror Links
+
+- Please use this mirror [gdrive](https://drive.google.com/file/d/1xrD9bL78mbxpp-DdOw1EHhz1nzin_6dX/view?usp=sharing) link to download the v0.3 data 
 
 
 The language wise splits for **Samanantar v0.2** can be found in the table below.  Each link contains the number of sentence pairs in millions.
