@@ -1,6 +1,6 @@
 ---
 title: "IndicBERT"
-weight: 200
+weight: 50
 toc: true
 url: /indic-bert
 ---

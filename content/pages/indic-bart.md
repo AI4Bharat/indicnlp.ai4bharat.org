@@ -1,6 +1,6 @@
 ---
 title: "IndicBART"
-weight: 201
+weight: 60
 url: /indic-bart
 ---
 
@@ -31,13 +31,11 @@ You can download the model and find instructions for model finetuning and decodi
 If you use IndicBART, please cite the [following paper](https://arxiv.org/abs/2109.02903):
 
 ```
-@misc{dabre2021indicbart,
+@inproceedings{dabre2021indicbart,
       title={IndicBART: A Pre-trained Model for Natural Language Generation of Indic Languages}, 
       author={Raj Dabre and Himani Shrotriya and Anoop Kunchukuttan and Ratish Puduppully and Mitesh M. Khapra and Pratyush Kumar},
-      year={2021},
-      eprint={2109.02903},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      year={2022},
+      booktitle={Findings of the Association for Computational Linguistics (to appear)},
     }    
 ```   
 

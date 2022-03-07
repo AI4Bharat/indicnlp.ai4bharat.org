@@ -1,6 +1,6 @@
 ---
 title: "Samanantar"
-weight: 200
+weight: 20
 toc: true
 url: /samanantar
 ---

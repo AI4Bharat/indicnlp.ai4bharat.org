@@ -1,6 +1,6 @@
 ---
 title: "IndicWav2Vec"
-weight: 200
+weight: 40
 toc: true
 url: /indicwav2vec
 ---
