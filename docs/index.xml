@@ -17,14 +17,57 @@ Corpus Format The corpus is a single large text file containing one sentence per
     </item>
     
     <item>
-      <title>IndicFT</title>
-      <link>http://localhost/indicft/</link>
+      <title>Samanantar</title>
+      <link>http://localhost/samanantar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/indicft/</guid>
-      <description>fastText is a subword-aware word embedding model. It is particularly well-suited for Indian languages due to their highly agglutinative morphology. We train fastText models on our IndicNLP Corpora and evaluate them on a set of tasks to measure its performance.
-Our fastText models are available for 11 Indian languages: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
-Usage To use our fastText models, first download them. Next, install the fastText library:</description>
+      <guid>http://localhost/samanantar/</guid>
+      <description>Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.
+Update 05-01-2022 We are currently facing issues with access to the data. We will resolve this ASAP.
+Update 04-11-2021 Samanantar v0.3 along with LaBSE scores metadata is available for download. Go to Downloads
+Dataset Format The publicly released version is randomly shuffled, untokenized, and deduplicated.</description>
+    </item>
+    
+    <item>
+      <title>IndicTrans</title>
+      <link>http://localhost/indic-trans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/indic-trans/</guid>
+      <description>-- IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
+Update 05-06-2021 The Indic-Indic model is now available for download
+Update 30-04-2021 The models are now available for download
+Download Model  Indic-English model can be downloaded from here English-Indic model can be downloaded from here Indic-Indic can be downloaded from here  Mirror Links  Please use this mirror gdrive link to download the models  Usage The instructions for running inference can be found at IndicTrans GitHub repository</description>
+    </item>
+    
+    <item>
+      <title>IndicWav2Vec</title>
+      <link>http://localhost/indicwav2vec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/indicwav2vec/</guid>
+      <description>IndicWav2Vec is a multilingual speech model pretrained on 40 Indian langauges. This model represents the largest diversity of Indian languages in the pool of multilingual speech models. We fine-tune this model for downstream ASR for 9 languages and obtain state-of-the-art results on 3 public benchmarks, namely MUCS, MSR and OpenSLR.
+As part of IndicWav2Vec we create largest publicly available corpora for 40 languages from 4 different language families. We also trained state-of-the-art ASR models for 9 Indian languages.</description>
+    </item>
+    
+    <item>
+      <title>IndicBERT</title>
+      <link>http://localhost/indic-bert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/indic-bert/</guid>
+      <description>IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. IndicBERT has much less parameters than other public models like mBERT and XLM-R while it still manages to give state of the art performance on several tasks.
+Download Model The model can be downloaded here. Both tf checkpoints and pytorch binaries are included in the archive.</description>
+    </item>
+    
+    <item>
+      <title>IndicBART</title>
+      <link>http://localhost/indic-bart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/indic-bart/</guid>
+      <description>IndicBART is a multilingual, sequence-to-sequence pre-trained model focusing on Indic languages and English. It currently supports 11 Indian languages and is based on the mBART architecture. You can use IndicBART model to build natural language generation applications for Indian languages by finetuning the model with supervised training data for tasks like machine translation, summarization, question generation, etc. Some salient features of the IndicBART are:
+ Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English.</description>
     </item>
     
     <item>
@@ -39,57 +82,14 @@ Downloads    Dataset Download Link     Soham News Article Classification link   
     </item>
     
     <item>
-      <title>IndicBERT</title>
-      <link>http://localhost/indic-bert/</link>
+      <title>IndicFT</title>
+      <link>http://localhost/indicft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/indic-bert/</guid>
-      <description>IndicBERT is a multilingual ALBERT model trained on large-scale corpora, covering 12 major Indian languages: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. IndicBERT has much less parameters than other public models like mBERT and XLM-R while it still manages to give state of the art performance on several tasks.
-Download Model The model can be downloaded here. Both tf checkpoints and pytorch binaries are included in the archive.</description>
-    </item>
-    
-    <item>
-      <title>IndicWav2Vec</title>
-      <link>http://localhost/indicwav2vec/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/indicwav2vec/</guid>
-      <description>IndicWav2Vec is a multilingual speech model pretrained on 40 Indian langauges. This model represents the largest diversity of Indian languages in the pool of multilingual speech models. We fine-tune this model for downstream ASR for 9 languages and obtain state-of-the-art results on 3 public benchmarks, namely MUCS, MSR and OpenSLR.
-As part of IndicWav2Vec we create largest publicly available corpora for 40 languages from 4 different language families. We also trained state-of-the-art ASR models for 9 Indian languages.</description>
-    </item>
-    
-    <item>
-      <title>Samanantar</title>
-      <link>http://localhost/samanantar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/samanantar/</guid>
-      <description>Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.
-Update 05-01-2022 We are currently facing issues with access to the data. We will resolve this ASAP.
-Update 04-11-2021 Samanantar v0.3 along with LaBSE scores metadata is available for download. Go to Downloads
-Dataset Format The publicly released version is randomly shuffled, untokenized, and deduplicated.</description>
-    </item>
-    
-    <item>
-      <title>IndicBART</title>
-      <link>http://localhost/indic-bart/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/indic-bart/</guid>
-      <description>IndicBART is a multilingual, sequence-to-sequence pre-trained model focusing on Indic languages and English. It currently supports 11 Indian languages and is based on the mBART architecture. You can use IndicBART model to build natural language generation applications for Indian languages by finetuning the model with supervised training data for tasks like machine translation, summarization, question generation, etc. Some salient features of the IndicBART are:
- Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English.</description>
-    </item>
-    
-    <item>
-      <title>IndicTrans</title>
-      <link>http://localhost/indic-trans/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/indic-trans/</guid>
-      <description>-- IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
-Update 05-06-2021 The Indic-Indic model is now available for download
-Update 30-04-2021 The models are now available for download
-Download Model  Indic-English model can be downloaded from here English-Indic model can be downloaded from here Indic-Indic can be downloaded from here  Mirror Links  Please use this mirror gdrive link to download the models  Usage The instructions for running inference can be found at IndicTrans GitHub repository</description>
+      <guid>http://localhost/indicft/</guid>
+      <description>fastText is a subword-aware word embedding model. It is particularly well-suited for Indian languages due to their highly agglutinative morphology. We train fastText models on our IndicNLP Corpora and evaluate them on a set of tasks to measure its performance.
+Our fastText models are available for 11 Indian languages: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
+Usage To use our fastText models, first download them. Next, install the fastText library:</description>
     </item>
     
     <item>
