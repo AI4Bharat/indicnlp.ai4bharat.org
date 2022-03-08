@@ -82,6 +82,18 @@ Downloads    Dataset Download Link     Soham News Article Classification link   
     </item>
     
     <item>
+      <title>IndicNLG Suite</title>
+      <link>http://localhost/indicnlg-suite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/indicnlg-suite/</guid>
+      <description>Coming Soon
+ Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English.  You can read more about IndicNLGSuite in this paper.
+Downloads Contributors  Raj Dabre Himani Shrotriya Anoop Kunchukuttan Ratish Puduppully Mitesh M. Khapra Pratyush Kumar add  Paper If you use IndicNLG Suite, please cite the following paper:
+@misc{ } License </description>
+    </item>
+    
+    <item>
       <title>IndicFT</title>
       <link>http://localhost/indicft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

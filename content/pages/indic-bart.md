@@ -14,7 +14,7 @@ You can read more about IndicBART [in this paper](https://arxiv.org/abs/2109.029
 
 ### Model Repository
 
-You can download the model and find instructions for model finetuning and decoding in this [IndicBART github repo](https://github.com/AI4Bharat/indic-bart). 
+You can download the model and find instructions for model finetuning and decoding in this [IndicBART github repo](https://github.com/AI4Bharat/indic-bart). Alternatively, you may <a href="https://huggingface.co/ai4bharat/IndicBART">download</a> it from the HuggingFace hub and use it in your own fine-tuning scripts. 
 
 ### Contributors 
 
