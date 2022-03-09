@@ -13,7 +13,24 @@ IndicNLG suite is a collection of datasets for benchmarking Natural Language Gen
 </ul>
 
 
-You can read more about IndicNLGSuite [in this paper](). We have benchmarked our own monolingual and multilingual models based on <a href="../indic-bart">IndicBART</a> and found that our models perform at par with or are better than baseline models such as mT5. If you ant to fine-tune IndicBart then look <a href="https://github.com/AI4Bharat/indic-bart#finetuning-indicbart-for-summarization">here</a> for an example for fine-tuning summarization models. Minor changes to the training script should enable fine-tuning the model for other tasks.
+You can read more about IndicNLGSuite [in this paper](). We have benchmarked our own monolingual and multilingual models based on <a href="../indic-bart">IndicBART</a> and found that our models perform at par with or are better than baseline models such as mT5. 
+
+### IndicBART fine-tuning and decoding
+- Follow the setup instructions [here](https://github.com/AI4Bharat/indic-bart/blob/main/README.md#installation).
+    - We use the [YANMTT](https://github.com/prajdabre/yanmtt) toolkit for fine-tuning IndicBART.
+- Extract the input and target text from the [json files]() or [HuggingFace format files]().
+    - For question generation, concatenate the question and context into a single line.
+    - Convert the scripts in the extracted files into Devanagari using the [Indic Script Converter](https://github.com/AI4Bharat/indic-bart/blob/main/indic_scriptmap.py).
+- [Here](https://github.com/AI4Bharat/indic-bart/blob/main/README.md#fine-tuning-command-1) is a command for fine-tuning IndicBART for summarization. 
+    - The correct input and output file paths should be provided.
+    - Use appropriate hyperparameters according the paper.
+- Decode the test set using the fine-tuned model after modifying [this](https://github.com/AI4Bharat/indic-bart/blob/main/README.md#decoding-command-1) command.
+    - Map the output to the original script using the script converter.
+- <b>Alternatively</b>: IndicBART is uploaded to HuggingFace hub [here](https://huggingface.co/ai4bharat/IndicBART).
+    - Modify the HuggingFace [summarization](https://github.com/huggingface/transformers/tree/master/examples/pytorch/summarization) script to use the IndicBART model.
+    - This script can use the json as well as HuggingFace format files.
+    - Ensure that script mapping is done before training and after decoding.
+
 
 ### Downloads
 
