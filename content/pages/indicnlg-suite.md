@@ -33,12 +33,16 @@ You can read more about IndicNLGSuite [in this paper](). We have benchmarked our
 
 
 ### Downloads
-- IndicWikiBio: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
-- IndicHeadlineGeneration: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration)
-- IndicSentenceSummarization: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization)
-- IndicParaphrase: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
-- IndicQuestionGeneration: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration)
+- IndicWikiBio: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicWikiBio), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
+- IndicHeadlineGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicHeadlineGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration)
+- IndicSentenceSummarization: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicSentenceSummarization), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization)
+- IndicParaphrase: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicParaphrase), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
+- IndicQuestionGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicQuestionGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration)
 
+### Notes
+- Each of the download links is accompanied with a simple readme to explain the format of the data.
+- jsonl format files contain a json object per line.
+- huggingface format files contain the same data as jsonl format files but are in a format that is compatible with huggingface pipelines.
 
 ### Contributors 
 - Aman Kumar
