@@ -87,10 +87,7 @@ Downloads    Dataset Download Link     Soham News Article Classification link   
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/indicnlg-suite/</guid>
-      <description>Coming Soon
- Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English.  You can read more about IndicNLGSuite in this paper.
-Downloads Contributors  Raj Dabre Himani Shrotriya Anoop Kunchukuttan Ratish Puduppully Mitesh M. Khapra Pratyush Kumar add  Paper If you use IndicNLG Suite, please cite the following paper:
-@misc{ } License </description>
+      <description>IndicNLG suite is a collection of datasets for benchmarking Natural Language Generation (NLG) for 11 Indic languages spanning five diverse NLG tasks. The datasets were created using a combination of crawling websites, machine translation, n-gram count and regular expression based cleaning . Overall, the suite contains about 8.5M examples across all languages and tasks and is the largest NLG dataset to date as well as the first of it&amp;rsquo;s kind of Indic languages.</description>
     </item>
     
     <item>

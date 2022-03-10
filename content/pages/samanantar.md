@@ -134,7 +134,21 @@ The bibtex entries for the existing data sources is available [here](https://ind
 
 ### License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
-<p/>
-<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Samanantar</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.
 
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+
+This data is released under this licensing scheme:
+
+- We do not own any of the text from which these data has been extracted.
+- We license the actual packaging of these data under the [Creative Commons CC0 license (“no rights reserved”)](http://creativecommons.org/publicdomain/zero/1.0).
+- To the extent possible under law,
+  <a rel="dct:publisher"
+     href="https://indicnlp.ai4bharat.org/samanantar/">
+    <span property="dct:title">AI4Bharat</span></a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">Samanantar</span>
+- This work is published from: India.
