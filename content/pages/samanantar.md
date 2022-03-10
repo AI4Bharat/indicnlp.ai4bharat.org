@@ -108,6 +108,7 @@ Language wise splits for Indic-Indic data can be downloaded from the table below
 - Divyanshu Kakwani, <sub>([IITM](https://www.iitm.ac.in), [AI4Bharat](https://ai4bharat.org))</sub>
 - Navneet Kumar, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
 - Aswin Pradeep, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
+- Srihari Nagaraj, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
 - Kumar Deepak, <sub>([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in))</sub>
 - Vivek Raghavan, <sub>([EkStep](https://ekstep.in))</sub>
 - Anoop Kunchukuttan, <sub>([Microsoft](https://www.microsoft.com/en-in/), [AI4Bharat](https://ai4bharat.org))</sub>
@@ -122,7 +123,7 @@ If you are using any of the resources, please cite the following article:
 ```
 @misc{ramesh2021samanantar,
       title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, 
-      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},
+      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Srihari Nagaraj and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},
       year={2021},
       eprint={2104.05596},
       archivePrefix={arXiv},
@@ -143,8 +144,8 @@ The bibtex entries for the existing data sources is available [here](https://ind
 
 This data is released under this licensing scheme:
 
-- We do not own any of the text from which these data has been extracted.
-- We license the actual packaging of these data under the [Creative Commons CC0 license (“no rights reserved”)](http://creativecommons.org/publicdomain/zero/1.0).
+- We do not own any of the text from which this data has been extracted.
+- We license the actual packaging of this data under the [Creative Commons CC0 license (“no rights reserved”)](http://creativecommons.org/publicdomain/zero/1.0).
 - To the extent possible under law,
   <a rel="dct:publisher"
      href="https://indicnlp.ai4bharat.org/samanantar/">
