@@ -16,11 +16,14 @@ IndicNLG suite is a collection of datasets for benchmarking Natural Language Gen
 You can read more about IndicNLGSuite [in this paper](). We have benchmarked our own monolingual and multilingual models based on <a href="../indic-bart">IndicBART</a> and found that our models perform at par with or are better than baseline models such as mT5. 
 
 ### Downloads
+
+Datasets will be available in a couple of days!
+<!-- 
 - IndicWikiBio: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicWikiBio), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
 - IndicHeadlineGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicHeadlineGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration) (Will be ready soon!)
 - IndicSentenceSummarization: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicSentenceSummarization), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization) (Will be ready soon!)
 - IndicParaphrase: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicParaphrase), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
-- IndicQuestionGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicQuestionGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration)
+- IndicQuestionGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicQuestionGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration) -->
 
 ### Notes
 - Each of the download links is accompanied with a simple readme to explain the format of the data.
