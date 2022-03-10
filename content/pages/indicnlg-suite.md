@@ -33,7 +33,11 @@ You can read more about IndicNLGSuite [in this paper](). We have benchmarked our
 
 
 ### Downloads
-
+- IndicWikiBio: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
+- IndicHeadlineGeneration: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration)
+- IndicSentenceSummarization: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization)
+- IndicParaphrase: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
+- IndicQuestionGeneration: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration)
 
 
 ### Contributors 
