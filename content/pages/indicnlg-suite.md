@@ -15,10 +15,22 @@ IndicNLG suite is a collection of datasets for benchmarking Natural Language Gen
 
 You can read more about IndicNLGSuite [in this paper](). We have benchmarked our own monolingual and multilingual models based on <a href="../indic-bart">IndicBART</a> and found that our models perform at par with or are better than baseline models such as mT5. 
 
+### Downloads
+- IndicWikiBio: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicWikiBio), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
+- IndicHeadlineGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicHeadlineGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration)
+- IndicSentenceSummarization: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicSentenceSummarization), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization)
+- IndicParaphrase: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicParaphrase), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
+- IndicQuestionGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicQuestionGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration)
+
+### Notes
+- Each of the download links is accompanied with a simple readme to explain the format of the data.
+- jsonl format files contain a json object per line.
+- huggingface format files contain the same data as jsonl format files but are in a format that is compatible with huggingface pipelines.
+
 ### IndicBART fine-tuning and decoding
 - Follow the setup instructions [here](https://github.com/AI4Bharat/indic-bart/blob/main/README.md#installation).
     - We use the [YANMTT](https://github.com/prajdabre/yanmtt) toolkit for fine-tuning IndicBART.
-- Extract the input and target text from the [json files]() or [HuggingFace format files]().
+- Extract the input and target text from the jsonl format files or HuggingFace format files.
     - For question generation, concatenate the question and context into a single line.
     - Convert the scripts in the extracted files into Devanagari using the [Indic Script Converter](https://github.com/AI4Bharat/indic-bart/blob/main/indic_scriptmap.py).
 - [Here](https://github.com/AI4Bharat/indic-bart/blob/main/README.md#fine-tuning-command-1) is a command for fine-tuning IndicBART for summarization. 
@@ -31,18 +43,6 @@ You can read more about IndicNLGSuite [in this paper](). We have benchmarked our
     - This script can use the json as well as HuggingFace format files.
     - Ensure that script mapping is done before training and after decoding.
 
-
-### Downloads
-- IndicWikiBio: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicWikiBio), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
-- IndicHeadlineGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicHeadlineGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration)
-- IndicSentenceSummarization: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicSentenceSummarization), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization)
-- IndicParaphrase: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicParaphrase), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
-- IndicQuestionGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicQuestionGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration)
-
-### Notes
-- Each of the download links is accompanied with a simple readme to explain the format of the data.
-- jsonl format files contain a json object per line.
-- huggingface format files contain the same data as jsonl format files but are in a format that is compatible with huggingface pipelines.
 
 ### Contributors 
 - Aman Kumar
