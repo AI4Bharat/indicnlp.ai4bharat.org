@@ -60,7 +60,7 @@ Datasets will be available in a couple of days!
 
 ### Paper
 
-If you use IndicNLG Suite, please cite the [following paper]():
+If you use IndicNLG Suite, please cite the [following paper](https://arxiv.org/abs/2203.05437):
 
 ```
 @misc{kumar2022indicnlg,
