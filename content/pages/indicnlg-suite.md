@@ -63,8 +63,14 @@ Datasets will be available in a couple of days!
 If you use IndicNLG Suite, please cite the [following paper]():
 
 ```
-@misc{
-    }    
+@misc{kumar2022indicnlg,
+      title={IndicNLG Suite: Multilingual Datasets for Diverse NLG Tasks in Indic Languages}, 
+      author={Aman Kumar and Himani Shrotriya and Prachi Sahu and Raj Dabre and Ratish Puduppully and Anoop Kunchukuttan and Amogh Mishra and Mitesh M. Khapra and Pratyush Kumar},
+      year={2022},
+      eprint={2203.05437},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}   
 ```   
 
 
