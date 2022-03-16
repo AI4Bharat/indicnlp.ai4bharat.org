@@ -559,6 +559,20 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li>Datasets are available in json file and HuggingFace format. </li>
 </ul>
 <p>You can read more about IndicNLGSuite <a href="">in this paper</a>. We have benchmarked our own monolingual and multilingual models based on <a href="../indic-bart">IndicBART</a> and found that our models perform at par with or are better than baseline models such as mT5.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/indicnlg-suite/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>Datasets will be available in a couple of days!</p>
+<!-- 
+- IndicWikiBio: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicWikiBio), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
+- IndicHeadlineGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicHeadlineGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration) (Will be ready soon!)
+- IndicSentenceSummarization: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicSentenceSummarization), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization) (Will be ready soon!)
+- IndicParaphrase: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicParaphrase), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
+- IndicQuestionGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicQuestionGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration) -->
+<div class="gdoc-page__anchorwrap"><h3 id="notes">Notes<a data-clipboard-text="http://localhost/indicnlg-suite/#notes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Notes" href="#notes"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li>Each of the download links is accompanied with a simple readme to explain the format of the data.</li>
+<li>jsonl format files contain a json object per line.</li>
+<li>huggingface format files contain the same data as jsonl format files but are in a format that is compatible with huggingface pipelines.</li>
+</ul>
 <div class="gdoc-page__anchorwrap"><h3 id="indicbart-fine-tuning-and-decoding">IndicBART fine-tuning and decoding<a data-clipboard-text="http://localhost/indicnlg-suite/#indicbart-fine-tuning-and-decoding" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor IndicBART fine-tuning and decoding" href="#indicbart-fine-tuning-and-decoding"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <ul>
 <li>Follow the setup instructions <a href="https://github.com/AI4Bharat/indic-bart/blob/main/README.md#installation">here</a>.
@@ -566,7 +580,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li>We use the <a href="https://github.com/prajdabre/yanmtt">YANMTT</a> toolkit for fine-tuning IndicBART.</li>
 </ul>
 </li>
-<li>Extract the input and target text from the <a href="">json files</a> or <a href="">HuggingFace format files</a>.
+<li>Extract the input and target text from the jsonl format files or HuggingFace format files.
 <ul>
 <li>For question generation, concatenate the question and context into a single line.</li>
 <li>Convert the scripts in the extracted files into Devanagari using the <a href="https://github.com/AI4Bharat/indic-bart/blob/main/indic_scriptmap.py">Indic Script Converter</a>.</li>
@@ -590,14 +604,6 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li>Ensure that script mapping is done before training and after decoding.</li>
 </ul>
 </li>
-</ul>
-<div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/indicnlg-suite/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<ul>
-<li>IndicWikiBio: <a href="">json</a>, <a href="https://huggingface.co/datasets/ai4bharat/IndicWikiBio">huggingface</a></li>
-<li>IndicHeadlineGeneration: <a href="">json</a>, <a href="https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration">huggingface</a></li>
-<li>IndicSentenceSummarization: <a href="">json</a>, <a href="https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization">huggingface</a></li>
-<li>IndicParaphrase: <a href="">json</a>, <a href="https://huggingface.co/datasets/ai4bharat/IndicParaphrase">huggingface</a></li>
-<li>IndicQuestionGeneration: <a href="">json</a>, <a href="https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration">huggingface</a></li>
 </ul>
 <div class="gdoc-page__anchorwrap"><h3 id="contributors">Contributors<a data-clipboard-text="http://localhost/indicnlg-suite/#contributors" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Contributors" href="#contributors"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <ul>
@@ -627,8 +633,9 @@ document.querySelectorAll('section[id]').forEach((section) => {
                 <nav class="section-nav">
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#indicbart-fine-tuning-and-decoding">IndicBART fine-tuning and decoding</a></li>
     <li><a href="#downloads">Downloads</a></li>
+    <li><a href="#notes">Notes</a></li>
+    <li><a href="#indicbart-fine-tuning-and-decoding">IndicBART fine-tuning and decoding</a></li>
     <li><a href="#contributors">Contributors</a></li>
     <li><a href="#paper">Paper</a></li>
     <li><a href="#license">License</a></li>

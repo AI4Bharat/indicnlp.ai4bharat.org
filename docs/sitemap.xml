@@ -24,7 +24,7 @@
     <lastmod>2022-03-07T19:36:20+05:30</lastmod>
   </url><url>
     <loc>http://localhost/indicnlg-suite/</loc>
-    <lastmod>2022-03-10T19:51:17+09:00</lastmod>
+    <lastmod>2022-03-11T01:05:11+09:00</lastmod>
   </url><url>
     <loc>http://localhost/indicft/</loc>
     <lastmod>2020-09-25T18:24:28+05:30</lastmod>
@@ -48,15 +48,23 @@
     <lastmod>2020-09-26T01:51:37+05:30</lastmod>
   </url><url>
     <loc>http://localhost/</loc>
+<<<<<<< HEAD
     <lastmod>2022-03-10T16:29:03+05:30</lastmod>
+=======
+    <lastmod>2022-03-11T01:05:11+09:00</lastmod>
+>>>>>>> 887cf77f366bd884e67744119fbfc53dbc6782fc
   </url><url>
     <loc>http://localhost/categories/</loc>
   </url><url>
     <loc>http://localhost/home/</loc>
-    <lastmod>2021-09-08T08:01:28+05:30</lastmod>
+    <lastmod>2022-03-11T01:05:11+09:00</lastmod>
   </url><url>
     <loc>http://localhost/pages/</loc>
+<<<<<<< HEAD
     <lastmod>2022-03-10T16:29:03+05:30</lastmod>
+=======
+    <lastmod>2022-03-11T01:05:11+09:00</lastmod>
+>>>>>>> 887cf77f366bd884e67744119fbfc53dbc6782fc
   </url><url>
     <loc>http://localhost/resources/</loc>
     <lastmod>2020-09-21T15:11:11+05:30</lastmod>

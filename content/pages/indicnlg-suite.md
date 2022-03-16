@@ -7,7 +7,7 @@ url: /indicnlg-suite
 IndicNLG suite is a collection of datasets for benchmarking Natural Language Generation (NLG) for 11 Indic languages spanning five diverse NLG tasks. The datasets were created using a combination of crawling websites, machine translation, n-gram count and regular expression based cleaning . Overall, the suite contains about 8.5M examples across all languages and tasks and is the largest NLG dataset to date as well as the first of it's kind of Indic languages. You can use these datasets to benchmark your own NLG systems.
 
 <ul>
-<li>Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English. </li>
+<li>Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, and Telugu. </li>
 <li>Supported NLG tasks and datasets: Biography generation using Wikipedia infoboxes (WikiBio), news headline generation, sentence summarization, question generation and paraphrase generation. </li>
 <li>Datasets are available in json file and HuggingFace format. </li>
 </ul>
@@ -15,10 +15,25 @@ IndicNLG suite is a collection of datasets for benchmarking Natural Language Gen
 
 You can read more about IndicNLGSuite [in this paper](). We have benchmarked our own monolingual and multilingual models based on <a href="../indic-bart">IndicBART</a> and found that our models perform at par with or are better than baseline models such as mT5. 
 
+### Downloads
+
+Datasets will be available in a couple of days!
+<!-- 
+- IndicWikiBio: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicWikiBio), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
+- IndicHeadlineGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicHeadlineGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration) (Will be ready soon!)
+- IndicSentenceSummarization: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicSentenceSummarization), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization) (Will be ready soon!)
+- IndicParaphrase: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicParaphrase), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
+- IndicQuestionGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicQuestionGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration) -->
+
+### Notes
+- Each of the download links is accompanied with a simple readme to explain the format of the data.
+- jsonl format files contain a json object per line.
+- huggingface format files contain the same data as jsonl format files but are in a format that is compatible with huggingface pipelines.
+
 ### IndicBART fine-tuning and decoding
 - Follow the setup instructions [here](https://github.com/AI4Bharat/indic-bart/blob/main/README.md#installation).
     - We use the [YANMTT](https://github.com/prajdabre/yanmtt) toolkit for fine-tuning IndicBART.
-- Extract the input and target text from the [json files]() or [HuggingFace format files]().
+- Extract the input and target text from the jsonl format files or HuggingFace format files.
     - For question generation, concatenate the question and context into a single line.
     - Convert the scripts in the extracted files into Devanagari using the [Indic Script Converter](https://github.com/AI4Bharat/indic-bart/blob/main/indic_scriptmap.py).
 - [Here](https://github.com/AI4Bharat/indic-bart/blob/main/README.md#fine-tuning-command-1) is a command for fine-tuning IndicBART for summarization. 
@@ -30,14 +45,6 @@ You can read more about IndicNLGSuite [in this paper](). We have benchmarked our
     - Modify the HuggingFace [summarization](https://github.com/huggingface/transformers/tree/master/examples/pytorch/summarization) script to use the IndicBART model.
     - This script can use the json as well as HuggingFace format files.
     - Ensure that script mapping is done before training and after decoding.
-
-
-### Downloads
-- IndicWikiBio: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
-- IndicHeadlineGeneration: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration)
-- IndicSentenceSummarization: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization)
-- IndicParaphrase: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
-- IndicQuestionGeneration: [json](), [huggingface](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration)
 
 
 ### Contributors 
@@ -53,11 +60,17 @@ You can read more about IndicNLGSuite [in this paper](). We have benchmarked our
 
 ### Paper
 
-If you use IndicNLG Suite, please cite the [following paper]():
+If you use IndicNLG Suite, please cite the [following paper](https://arxiv.org/abs/2203.05437):
 
 ```
-@misc{
-    }    
+@misc{kumar2022indicnlg,
+      title={IndicNLG Suite: Multilingual Datasets for Diverse NLG Tasks in Indic Languages}, 
+      author={Aman Kumar and Himani Shrotriya and Prachi Sahu and Raj Dabre and Ratish Puduppully and Anoop Kunchukuttan and Amogh Mishra and Mitesh M. Khapra and Pratyush Kumar},
+      year={2022},
+      eprint={2203.05437},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}   
 ```   
 
 
