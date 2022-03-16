@@ -10,7 +10,7 @@ Our group focuses on building NLP ecosystem for Indian languages and seeking new
 
 We are now hiring translators and annotators as to help in translating Indian lang. content from and to En, transcribing audio data, creating content in native language.
 Apply to the Language Translators position at
-https://icandsr.iitm.ac.in/recruitment/
+https://forms.gle/nAwU5qJDaBZoKddR6
 
 We are currently looking for following 22 languages
 ```
@@ -18,7 +18,7 @@ Assamese, Bengali, Bodo, Dogri, Gujarati, Hindi, Kannada, Kashmiri, Konkani, Mai
 ```
 The candidate must be proficient in English in addition to at least one of the languages mentioned. A background in linguistics is preferred but not mandatory
 
-- Contact [Anupama Sujatha](mailto:anupama@ai4bharat.org) for any queries
+- Contact [Bhavana R](mailto:bhavana@ai4bharat.org) for any queries
 
 ### Contact Us
 
