@@ -23,9 +23,9 @@ Corpus Format The corpus is a single large text file containing one sentence per
       
       <guid>http://localhost/samanantar/</guid>
       <description>Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages.
-Update 05-01-2022 We are currently facing issues with access to the data. We will resolve this ASAP.
 Update 04-11-2021 Samanantar v0.3 along with LaBSE scores metadata is available for download. Go to Downloads
-Dataset Format The publicly released version is randomly shuffled, untokenized, and deduplicated.</description>
+Dataset Format The publicly released version is randomly shuffled, untokenized, and deduplicated.
+Downloads Benchmarks The testsets used to benchmark IndicTrans can be found here</description>
     </item>
     
     <item>
@@ -87,7 +87,7 @@ Downloads    Dataset Download Link     Soham News Article Classification link   
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/indicnlg-suite/</guid>
-      <description>IndicNLG suite is a collection of datasets for benchmarking Natural Language Generation (NLG) for 11 Indic languages spanning five diverse NLG tasks. The datasets were created using a combination of crawling websites, machine translation, n-gram count and regular expression based cleaning . Overall, the suite contains about 8.5M examples across all languages and tasks and is the largest NLG dataset to date as well as the first of it&amp;rsquo;s kind of Indic languages.</description>
+      <description>IndicNLG suite is a collection of datasets for benchmarking Natural Language Generation (NLG) for 11 Indic languages spanning five diverse NLG tasks. The datasets were created using a combination of crawling websites, machine translation, n-gram count and regular expression based cleaning . Overall, the suite contains about 8.5M examples across all languages and tasks and is the largest multilingual NLG dataset to date as well as the first of its kind for Indic languages.</description>
     </item>
     
     <item>
@@ -107,7 +107,7 @@ Usage To use our fastText models, first download them. Next, install the fastTex
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/publications/</guid>
-      <description>Raj Dabre, Himani Shrotriya, Anoop Kunchukuttan, Ratish Puduppully, Mitesh M. Khapra, Pratyush Kumar. 2021. IndicBART: A Pre-trained Model for Natural Language Generation of Indic Languages. arXiv preprint arXiv:2109.02903. pdf Gowtham Ramesh, Sumanth Doddapaneni, Aravinth Bheemaraj, Mayank Jobanputra, Raghavan AK, Ajitesh Sharma, Sujit Sahoo, Harshita Diddee, Mahalakshmi J, Divyanshu Kakwani, Navneet Kumar, Aswin Pradeep, Kumar Deepak, Vivek Raghavan, Anoop Kunchukuttan, Pratyush Kumar, Mitesh Shantadevi Khapra. 2021. Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages.</description>
+      <description>Aman Kumar, Himani Shrotriya, Prachi Sahu, Raj Dabre, Ratish Puduppully, Anoop Kunchukuttan, Amogh Mishra, Mitesh M. Khapra, Pratyush Kumar. 2022. IndicNLG Suite: Multilingual Datasets for Diverse NLG Tasks in Indic Languages. arXiv preprint arXiv:2203.05437. pdf Raj Dabre, Himani Shrotriya, Anoop Kunchukuttan, Ratish Puduppully, Mitesh M. Khapra, Pratyush Kumar. 2022. IndicBART: A Pre-trained Model for Natural Language Generation of Indic Languages. Findings of the ACL. pdf Gowtham Ramesh, Sumanth Doddapaneni, Aravinth Bheemaraj, Mayank Jobanputra, Raghavan AK, Ajitesh Sharma, Sujit Sahoo, Harshita Diddee, Mahalakshmi J, Divyanshu Kakwani, Navneet Kumar, Aswin Pradeep, Kumar Deepak, Vivek Raghavan, Anoop Kunchukuttan, Pratyush Kumar, Mitesh Shantadevi Khapra.</description>
     </item>
     
     <item>
@@ -138,8 +138,8 @@ Full-time Roles We are now hiring translators and annotators as to help in trans
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/home/</guid>
-      <description>We are working towards building a better ecosystem for Indian languages while also keeping up with the recent advancements in NLP. To this end, we are releasing IndicNLPSuite, which is a collection of various resources and models for Indian languages:
- IndicCorp: A lot of NLP models require a large amount of training data, which most of the Indian languages lack. In this project, we develop a large-scale Indic corpora by intesively crawling the web.</description>
+      <description>We are working towards building a better ecosystem for Indian languages. To this end, we are building various resources and models for Indian languages:
+ IndicCorp: A lot of NLP models require a large amount of training data, which most of the Indian languages lack. In this project, we develop a large-scale Indic corpora by intesively crawling the web. The corpora that we build has a total of 8.9 billion tokens and covers 12 major Indian languages - making it the largest public corpus for most of the Indian languages.</description>
     </item>
     
   </channel>

@@ -4,10 +4,13 @@ url: /explorer
 weight: 1800
 ---
 
-Explore, search and add datasets.
+### IndicNLP Catalog
+
+To get comprehensive information about Indic NLP resources, check out the detailed <a href="https://github.com/AI4Bharat/indicnlp_catalog" target="_blank">IndicNLP Catalog</a> on GitHub. 
 
 ### IndicNLP: The Current State
 
+Explore, search and add datasets.
 
 <table id="example2" class="ui table table-bordered dt-responsive no-wrap compact unstackable">
 </table>
@@ -185,7 +188,5 @@ Explore, search and add datasets.
 </table>
 
 
-### IndicNLP Catalog
 
-To get comprehensive information about Indic NLP resources, check out the detailed <a href="https://github.com/AI4Bharat/indicnlp_catalog" target="_blank">IndicNLP Catalog</a> on GitHub. 
 

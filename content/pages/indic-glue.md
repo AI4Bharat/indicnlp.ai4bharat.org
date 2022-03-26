@@ -202,15 +202,32 @@ These are translations of the WNLI and COPA datasets into some Indian languages.
 
 ----
 
-#### Citations
+### Citing
 
+If you are using IndicGLUE, please cite the following article: 
 
-If you use these datasets in your work, then we request you to use the following detailed citation text so that the original authors of the datasets also get credit for their work. As more authors contribute to this benchmark we will add their references also to the below text.
+```
+@inproceedings{kakwani2020indicnlpsuite,
+    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
+    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
+    year={2020},
+    booktitle={Findings of EMNLP},
+}
+``` 
+
+If you are using IndicGLUE and additional evaluation datasets in your work, then we request you to use the following detailed citation text so that the original authors of the datasets also get credit for their work. As more authors contribute to this benchmark we will add their references also to the below text.
 
 
 <div style=" font-size: .85em; line-height: 1.45; text-align:left; padding: 1rem;">
 We use the IndicGLUE dataset <code>\cite{kakwani2020indicnlpsuite}</code> which is an evaluation benchmark containing datasets for NLU tasks in Indian languages. Some of these datasets were built from Wikipidea and IndicCorp <code>\cite{kakwani2020indicnlpsuite}</code>. In addition, it also contains other publicly available datasets for cross-lingual similarity <code>\cite{siripragrada-etal-2020-multilingual}</code>, named entity recognition <code>\cite{pan-etal-2017-cross}</code>, paraphrase detection <code>\cite{Kumar2016DPILFIRE2016OO}</code>, discourse analysis <code>\cite{Dhanwal2020AnAD}</code>, sentiment analysis <code>\cite{cicling/Akhtar16}</code>, <code>\cite{DBLP:conf/coling/Akhtar0EB16}</code>, <code>\cite{mukku-mamidi-2017-actsa}</code> and genre classification <code>\footnote{https://github.com/goru001/inltk}</code> <code>\footnote{https://www.kaggle.com/csoham/classification-bengali-news-articles-indicnlp}</code> <code>\footnote{https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1}</code>. It also contains translations of the original WNLI <code>\cite{Levesque2011TheWS}</code> and COPA <code>\cite{Gordon2011SemEval2012T7}</code> datasets in 3 Indian languages.
 </div>
 
-
 The bibtex entries for the above sources is available [here](https://indicnlp.ai4bharat.org/papers/indic-glue.bib).
+
+----
+
+### License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
+<p/>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">IndicNLP Suite</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.

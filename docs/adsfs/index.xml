@@ -11,8 +11,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/explorer/</guid>
-      <description>Explore, search and add datasets.
-IndicNLP: The Current State  Search Datasets     table.dataTable.no-footer { border-bottom: 0 !important; } tfoot { display: table-row-group; } input[type=&#34;text&#34;] { width: 100%; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }   let dataURL = &#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQGyB-QInM69IoR2nP6pJ_Uc0tA0fRxb1NvDe1F1GvBd7UT9lYW06-DuTjaKTYzmuHbAEPaQR5nhhCb/pub?gid=0&amp;single=true&amp;output=csv&#34;; let encodedURL = encodeURIComponent(dataURL) let proxyURL = `https://api.allorigins.win/raw?url=${encodedURL}`; result = Papa.parse(proxyURL, { download: true, dynamicTyping: true, complete: function(results) { let data = process_data(results.data); let dataset_names = {}; for (const type in data.</description>
+      <description>IndicNLP Catalog To get comprehensive information about Indic NLP resources, check out the detailed IndicNLP Catalog on GitHub.
+IndicNLP: The Current State Explore, search and add datasets.
+ Search Datasets     table.dataTable.no-footer { border-bottom: 0 !important; } tfoot { display: table-row-group; } input[type=&#34;text&#34;] { width: 100%; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }   let dataURL = &#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQGyB-QInM69IoR2nP6pJ_Uc0tA0fRxb1NvDe1F1GvBd7UT9lYW06-DuTjaKTYzmuHbAEPaQR5nhhCb/pub?gid=0&amp;single=true&amp;output=csv&#34;; let encodedURL = encodeURIComponent(dataURL) let proxyURL = `https://api.allorigins.win/raw?url=${encodedURL}`; result = Papa.</description>
     </item>
     
     <item>

@@ -80,14 +80,21 @@ Amrita Exact Paraphrase | Paraphrase Detection | **93.81** | 93.02 | 93.75 |
 Amrita Rough Paraphrase | Paraphrase Detection | 83.38 | 82.20 | **84.33** |
 Average |  |  69.84 | **74.42** | 73.66 |
 
-
 \* Note: all models have been restricted to a max_seq_length of 128.
 
+### Citing
 
+If you are using any of the resources, please cite the following [paper](https://aclanthology.org/2020.findings-emnlp.445): 
 
-### Paper
+```
+@inproceedings{kakwani2020indicnlpsuite,
+    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
+    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
+    year={2020},
+    booktitle={Findings of EMNLP},
+}
+``` 
 
+### License 
 
-* Kakwani, D., Kunchukuttan, A., Golla, S., N.C. G., Bhattacharyya, A., Khapra, M.M. and Kumar, P., 2020. IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages. *Accepted by Findings of EMNLP 2020* [pdf](https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf)
-
-
+The IndicBERT [code](https://github.com/AI4Bharat/indic-bert) (and [model](https://huggingface.co/ai4bharat/indic-bert)) are released under the MIT License.

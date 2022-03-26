@@ -8,16 +8,11 @@ IndicCorp has been developed by discovering and scraping thousands of web source
 
 IndicCorp is one of the largest publicly-available corpora for Indian languages. It has also been used to train our released models which have obtained state-of-the-art performance on many tasks.
 
-
-#### Corpus Format
+### Corpus Format
 
 The corpus is a single large text file containing one sentence per line. The [publicly released version](#downloads) is randomly shuffled, untokenized and deduplicated. 
 
-### Update 05-01-2022
-
-We are currently facing issues with access to the data. We will resolve this ASAP.
-
-#### Downloads
+### Downloads
 
 
 | Language | \# News Articles* | Sentences     | Tokens        | Link     |
@@ -37,7 +32,7 @@ We are currently facing issues with access to the data. We will resolve this ASA
 
 \* Excluding articles obtained from the OSCAR corpus
 
-#### Processing Corpus
+### Processing Corpus
 
 For processing the corpus into other forms (tokenized, transliterated etc.), you can use the [indicnlp library](https://github.com/anoopkunchukuttan/indic_nlp_library).  As an example, the following code snippet can be used to tokenize the corpus:
 
@@ -68,7 +63,24 @@ with open(input_path, 'r', encoding='utf-8') as in_fp,\
 
 ```
 
+### Citing
 
+If you are using IndicGLUE, please cite the following article: 
 
+```
+@inproceedings{kakwani2020indicnlpsuite,
+    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
+    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
+    year={2020},
+    booktitle={Findings of EMNLP},
+}
+``` 
 
+----
+
+### License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
+<p/>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">IndicCorp</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. 
 

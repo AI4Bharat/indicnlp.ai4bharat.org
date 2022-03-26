@@ -172,5 +172,7 @@ We evaluate IndicTrans model on a WAT2021, WAT2020, WMT, UFAL, PMI. Here are the
 </tbody>
 </table>
 
+### License 
 
+The IndicTrans [code](https://github.com/AI4Bharat/indicTrans) (and [models](https://github.com/AI4Bharat/indicTrans#download-indictrans-models)) are released under the MIT License.
 

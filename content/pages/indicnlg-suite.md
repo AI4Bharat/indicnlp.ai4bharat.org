@@ -4,7 +4,7 @@ weight: 80
 url: /indicnlg-suite
 ---
 
-IndicNLG suite is a collection of datasets for benchmarking Natural Language Generation (NLG) for 11 Indic languages spanning five diverse NLG tasks. The datasets were created using a combination of crawling websites, machine translation, n-gram count and regular expression based cleaning . Overall, the suite contains about 8.5M examples across all languages and tasks and is the largest NLG dataset to date as well as the first of it's kind of Indic languages. You can use these datasets to benchmark your own NLG systems.
+IndicNLG suite is a collection of datasets for benchmarking Natural Language Generation (NLG) for 11 Indic languages spanning five diverse NLG tasks. The datasets were created using a combination of crawling websites, machine translation, n-gram count and regular expression based cleaning . Overall, the suite contains about 8.5M examples across all languages and tasks and is the largest multilingual NLG dataset to date as well as the first of its kind for Indic languages. You can use these datasets to benchmark your own NLG systems.
 
 <ul>
 <li>Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, and Telugu. </li>
@@ -12,23 +12,19 @@ IndicNLG suite is a collection of datasets for benchmarking Natural Language Gen
 <li>Datasets are available in json file and HuggingFace format. </li>
 </ul>
 
-
-You can read more about IndicNLGSuite [in this paper](). We have benchmarked our own monolingual and multilingual models based on <a href="../indic-bart">IndicBART</a> and found that our models perform at par with or are better than baseline models such as mT5. 
+You can read more about IndicNLGSuite [in this paper](https://arxiv.org/abs/2203.05437). We have benchmarked our own monolingual and multilingual models based on <a href="../indic-bart">IndicBART</a> and found that our models perform at par with or are better than baseline models such as mT5. 
 
 ### Downloads
 
-Datasets will be available in a couple of days!
-<!-- 
-- IndicWikiBio: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicWikiBio), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
-- IndicHeadlineGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicHeadlineGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration) (Will be ready soon!)
-- IndicSentenceSummarization: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicSentenceSummarization), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization) (Will be ready soon!)
-- IndicParaphrase: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicParaphrase), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
-- IndicQuestionGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicQuestionGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration) -->
+The datasets and models are available on [HuggingFace](https://huggingface.co)
 
-### Notes
-- Each of the download links is accompanied with a simple readme to explain the format of the data.
-- jsonl format files contain a json object per line.
-- huggingface format files contain the same data as jsonl format files but are in a format that is compatible with huggingface pipelines.
+| Task      | Dataset | Model |
+| ----------- | ----------- | ------- |
+| Biography Generation      | [IndicWikiBio](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)      | Coming Soon |
+| Headline Generation       | [IndicHeadlineGeneration](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration)        | Coming Soon |
+| Sentence Summarization    | [IndicSentenceSummarization](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization)        | Coming Soon  |
+| Paraphrase Generation     | [IndicParaphrase](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)        | Coming Soon  |
+| Question Generation       | [IndicQuestionGeneration](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration)        | Coming Soon  |
 
 ### IndicBART fine-tuning and decoding
 - Follow the setup instructions [here](https://github.com/AI4Bharat/indic-bart/blob/main/README.md#installation).
@@ -58,7 +54,7 @@ Datasets will be available in a couple of days!
 - Mitesh M. Khapra  
 - Pratyush Kumar
 
-### Paper
+### Citing
 
 If you use IndicNLG Suite, please cite the [following paper](https://arxiv.org/abs/2203.05437):
 
@@ -73,7 +69,23 @@ If you use IndicNLG Suite, please cite the [following paper](https://arxiv.org/a
 }   
 ```   
 
-
 ### License
+
+**Datasets**
+
+Different datasets are released under different licenses 
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
+<p/>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type"><b>IndicHeadlineGeneration, IndicSentenceSummarization and IndicParaphrase</b></span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><b>IndicWikiBio and IndicQuestionGeneration</b> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+**Models** 
+
+All models are released under the MIT license.
+
+
 
 

@@ -69,3 +69,21 @@ te | 98.67 | 98.08 | **99.17**
 ml | 89.02 | 89.18 | **92.83**
 ta | 95.99 | 95.90 | **97.26**
 Average | 95.52 | 95.63 | **97.52**
+
+### Citing
+
+If you are using IndicFT, please cite the following [paper](https://aclanthology.org/2020.findings-emnlp.445): 
+
+```
+@inproceedings{kakwani2020indicnlpsuite,
+    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
+    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
+    year={2020},
+    booktitle={Findings of EMNLP},
+}
+``` 
+
+
+### License 
+
+The IndicFT embeddings are released under the MIT License.

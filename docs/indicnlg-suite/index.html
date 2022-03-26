@@ -552,27 +552,51 @@ document.querySelectorAll('section[id]').forEach((section) => {
     
 
 
-<p>IndicNLG suite is a collection of datasets for benchmarking Natural Language Generation (NLG) for 11 Indic languages spanning five diverse NLG tasks. The datasets were created using a combination of crawling websites, machine translation, n-gram count and regular expression based cleaning . Overall, the suite contains about 8.5M examples across all languages and tasks and is the largest NLG dataset to date as well as the first of it&rsquo;s kind of Indic languages. You can use these datasets to benchmark your own NLG systems.</p>
+<p>IndicNLG suite is a collection of datasets for benchmarking Natural Language Generation (NLG) for 11 Indic languages spanning five diverse NLG tasks. The datasets were created using a combination of crawling websites, machine translation, n-gram count and regular expression based cleaning . Overall, the suite contains about 8.5M examples across all languages and tasks and is the largest multilingual NLG dataset to date as well as the first of its kind for Indic languages. You can use these datasets to benchmark your own NLG systems.</p>
 <ul>
-<li>Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English. </li>
+<li>Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, and Telugu. </li>
 <li>Supported NLG tasks and datasets: Biography generation using Wikipedia infoboxes (WikiBio), news headline generation, sentence summarization, question generation and paraphrase generation. </li>
 <li>Datasets are available in json file and HuggingFace format. </li>
 </ul>
-<p>You can read more about IndicNLGSuite <a href="">in this paper</a>. We have benchmarked our own monolingual and multilingual models based on <a href="../indic-bart">IndicBART</a> and found that our models perform at par with or are better than baseline models such as mT5.</p>
+<p>You can read more about IndicNLGSuite <a href="https://arxiv.org/abs/2203.05437">in this paper</a>. We have benchmarked our own monolingual and multilingual models based on <a href="../indic-bart">IndicBART</a> and found that our models perform at par with or are better than baseline models such as mT5.</p>
 <div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/indicnlg-suite/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>Datasets will be available in a couple of days!</p>
-<!-- 
-- IndicWikiBio: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicWikiBio), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicWikiBio)
-- IndicHeadlineGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicHeadlineGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration) (Will be ready soon!)
-- IndicSentenceSummarization: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicSentenceSummarization), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization) (Will be ready soon!)
-- IndicParaphrase: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicParaphrase), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicParaphrase)
-- IndicQuestionGeneration: [jsonl format](https://console.cloud.google.com/storage/browser/indicnlg/public/IndicQuestionGeneration), [HuggingFace format](https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration) -->
-<div class="gdoc-page__anchorwrap"><h3 id="notes">Notes<a data-clipboard-text="http://localhost/indicnlg-suite/#notes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Notes" href="#notes"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<ul>
-<li>Each of the download links is accompanied with a simple readme to explain the format of the data.</li>
-<li>jsonl format files contain a json object per line.</li>
-<li>huggingface format files contain the same data as jsonl format files but are in a format that is compatible with huggingface pipelines.</li>
-</ul>
+<p>The datasets and models are available on <a href="https://huggingface.co">HuggingFace</a></p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Dataset</th>
+<th>Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Biography Generation</td>
+<td><a href="https://huggingface.co/datasets/ai4bharat/IndicWikiBio">IndicWikiBio</a></td>
+<td>Coming Soon</td>
+</tr>
+<tr>
+<td>Headline Generation</td>
+<td><a href="https://huggingface.co/datasets/ai4bharat/IndicHeadlineGeneration">IndicHeadlineGeneration</a></td>
+<td>Coming Soon</td>
+</tr>
+<tr>
+<td>Sentence Summarization</td>
+<td><a href="https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization">IndicSentenceSummarization</a></td>
+<td>Coming Soon</td>
+</tr>
+<tr>
+<td>Paraphrase Generation</td>
+<td><a href="https://huggingface.co/datasets/ai4bharat/IndicParaphrase">IndicParaphrase</a></td>
+<td>Coming Soon</td>
+</tr>
+<tr>
+<td>Question Generation</td>
+<td><a href="https://huggingface.co/datasets/ai4bharat/IndicQuestionGeneration">IndicQuestionGeneration</a></td>
+<td>Coming Soon</td>
+</tr>
+</tbody>
+</table>
 <div class="gdoc-page__anchorwrap"><h3 id="indicbart-fine-tuning-and-decoding">IndicBART fine-tuning and decoding<a data-clipboard-text="http://localhost/indicnlg-suite/#indicbart-fine-tuning-and-decoding" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor IndicBART fine-tuning and decoding" href="#indicbart-fine-tuning-and-decoding"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <ul>
 <li>Follow the setup instructions <a href="https://github.com/AI4Bharat/indic-bart/blob/main/README.md#installation">here</a>.
@@ -617,11 +641,25 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <li>Mitesh M. Khapra</li>
 <li>Pratyush Kumar</li>
 </ul>
-<div class="gdoc-page__anchorwrap"><h3 id="paper">Paper<a data-clipboard-text="http://localhost/indicnlg-suite/#paper" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Paper" href="#paper"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>If you use IndicNLG Suite, please cite the <a href="">following paper</a>:</p>
-<pre tabindex="0"><code>@misc{
-    }    
+<div class="gdoc-page__anchorwrap"><h3 id="citing">Citing<a data-clipboard-text="http://localhost/indicnlg-suite/#citing" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Citing" href="#citing"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>If you use IndicNLG Suite, please cite the <a href="https://arxiv.org/abs/2203.05437">following paper</a>:</p>
+<pre tabindex="0"><code>@misc{kumar2022indicnlg,
+      title={IndicNLG Suite: Multilingual Datasets for Diverse NLG Tasks in Indic Languages}, 
+      author={Aman Kumar and Himani Shrotriya and Prachi Sahu and Raj Dabre and Ratish Puduppully and Anoop Kunchukuttan and Amogh Mishra and Mitesh M. Khapra and Pratyush Kumar},
+      year={2022},
+      eprint={2203.05437},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}   
 </code></pre><div class="gdoc-page__anchorwrap"><h3 id="license">License<a data-clipboard-text="http://localhost/indicnlg-suite/#license" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor License" href="#license"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p><strong>Datasets</strong></p>
+<p>Different datasets are released under different licenses</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /></p>
+<p/>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type"><b>IndicHeadlineGeneration, IndicSentenceSummarization and IndicParaphrase</b></span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><b>IndicWikiBio and IndicQuestionGeneration</b> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+<p><strong>Models</strong></p>
+<p>All models are released under the MIT license.</p>
 
 
 
@@ -634,10 +672,9 @@ document.querySelectorAll('section[id]').forEach((section) => {
                     <nav id="TableOfContents">
   <ul>
     <li><a href="#downloads">Downloads</a></li>
-    <li><a href="#notes">Notes</a></li>
     <li><a href="#indicbart-fine-tuning-and-decoding">IndicBART fine-tuning and decoding</a></li>
     <li><a href="#contributors">Contributors</a></li>
-    <li><a href="#paper">Paper</a></li>
+    <li><a href="#citing">Citing</a></li>
     <li><a href="#license">License</a></li>
   </ul>
 </nav>

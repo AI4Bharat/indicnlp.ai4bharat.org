@@ -554,11 +554,9 @@ document.querySelectorAll('section[id]').forEach((section) => {
 
 <p>IndicCorp has been developed by discovering and scraping thousands of web sources - primarily news, magazines and books, over a duration of several months.</p>
 <p>IndicCorp is one of the largest publicly-available corpora for Indian languages. It has also been used to train our released models which have obtained state-of-the-art performance on many tasks.</p>
-<div class="gdoc-page__anchorwrap"><h4 id="corpus-format">Corpus Format<a data-clipboard-text="http://localhost/corpora/#corpus-format" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Corpus Format" href="#corpus-format"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<div class="gdoc-page__anchorwrap"><h3 id="corpus-format">Corpus Format<a data-clipboard-text="http://localhost/corpora/#corpus-format" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Corpus Format" href="#corpus-format"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>The corpus is a single large text file containing one sentence per line. The <a href="#downloads">publicly released version</a> is randomly shuffled, untokenized and deduplicated.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="update-05-01-2022">Update 05-01-2022<a data-clipboard-text="http://localhost/corpora/#update-05-01-2022" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update 05-01-2022" href="#update-05-01-2022"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>We are currently facing issues with access to the data. We will resolve this ASAP.</p>
-<div class="gdoc-page__anchorwrap"><h4 id="downloads">Downloads<a data-clipboard-text="http://localhost/corpora/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/corpora/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <table>
 <thead>
 <tr>
@@ -657,7 +655,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 </tbody>
 </table>
 <p>* Excluding articles obtained from the OSCAR corpus</p>
-<div class="gdoc-page__anchorwrap"><h4 id="processing-corpus">Processing Corpus<a data-clipboard-text="http://localhost/corpora/#processing-corpus" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Processing Corpus" href="#processing-corpus"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<div class="gdoc-page__anchorwrap"><h3 id="processing-corpus">Processing Corpus<a data-clipboard-text="http://localhost/corpora/#processing-corpus" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Processing Corpus" href="#processing-corpus"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>For processing the corpus into other forms (tokenized, transliterated etc.), you can use the <a href="https://github.com/anoopkunchukuttan/indic_nlp_library">indicnlp library</a>.  As an example, the following code snippet can be used to tokenize the corpus:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">indicnlp.tokenize.indic_tokenize</span> <span class="kn">import</span> <span class="n">trivial_tokenize</span>
 <span class="kn">from</span> <span class="nn">indicnlp.normalize.indic_normalize</span> <span class="kn">import</span> <span class="n">IndicNormalizerFactory</span>
@@ -683,7 +681,20 @@ document.querySelectorAll('section[id]').forEach((section) => {
         <span class="n">out_fp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
 
 
-</code></pre></div>
+</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="citing">Citing<a data-clipboard-text="http://localhost/corpora/#citing" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Citing" href="#citing"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>If you are using IndicGLUE, please cite the following article:</p>
+<pre tabindex="0"><code>@inproceedings{kakwani2020indicnlpsuite,
+    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
+    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
+    year={2020},
+    booktitle={Findings of EMNLP},
+}
+</code></pre><hr>
+<div class="gdoc-page__anchorwrap"><h3 id="license">License<a data-clipboard-text="http://localhost/corpora/#license" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor License" href="#license"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /></p>
+<p/>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">IndicCorp</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. 
+
 
 
             </article>
@@ -694,17 +705,11 @@ document.querySelectorAll('section[id]').forEach((section) => {
                 <nav class="section-nav">
                     <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#corpus-format">Corpus Format</a></li>
-      </ul>
-    </li>
-    <li><a href="#update-05-01-2022">Update 05-01-2022</a>
-      <ul>
-        <li><a href="#downloads">Downloads</a></li>
-        <li><a href="#processing-corpus">Processing Corpus</a></li>
-      </ul>
-    </li>
+    <li><a href="#corpus-format">Corpus Format</a></li>
+    <li><a href="#downloads">Downloads</a></li>
+    <li><a href="#processing-corpus">Processing Corpus</a></li>
+    <li><a href="#citing">Citing</a></li>
+    <li><a href="#license">License</a></li>
   </ul>
 </nav>
                 </nav>

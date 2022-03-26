@@ -4,6 +4,8 @@ weight: 60
 url: /indic-bart
 ---
 
+<a href="https://huggingface.co/ai4bharat/IndicBART"><img alt="Doc" src="https://img.shields.io/static/v1?url=https%3A%2F%2Fhuggingface.co%2Fai4bharat%2FIndicBART&label=Huggingface&color=green&message=IndicBART&logo=huggingface"></a>
+
 IndicBART is a multilingual,  sequence-to-sequence pre-trained model focusing on Indic languages and English. It currently supports 11 Indian languages and is based on the mBART architecture. You can use IndicBART model to build natural language generation applications for Indian languages by finetuning the model with supervised training data for tasks like machine translation, summarization, question generation, etc. Some salient features of the IndicBART are:
 
 - Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English. Not all of these languages are supported by mBART50 and mT5.
@@ -25,8 +27,7 @@ You can download the model and find instructions for model finetuning and decodi
 - Mitesh M. Khapra  
 - Pratyush Kumar
 
-### Paper
-
+### Citing
 
 If you use IndicBART, please cite the [following paper](https://arxiv.org/abs/2109.02903):
 
@@ -35,11 +36,10 @@ If you use IndicBART, please cite the [following paper](https://arxiv.org/abs/21
       title={IndicBART: A Pre-trained Model for Natural Language Generation of Indic Languages}, 
       author={Raj Dabre and Himani Shrotriya and Anoop Kunchukuttan and Ratish Puduppully and Mitesh M. Khapra and Pratyush Kumar},
       year={2022},
-      booktitle={Findings of the Association for Computational Linguistics (to appear)},
+      booktitle={Findings of the Association for Computational Linguistics},
     }    
 ```   
 
-
 ### License
 
-The model is available under the MIT License.
+The IndicBART [code](https://github.com/AI4Bharat/indic-bart) (and [model](https://huggingface.co/ai4bharat/indic-bert)) are released under the MIT License.
