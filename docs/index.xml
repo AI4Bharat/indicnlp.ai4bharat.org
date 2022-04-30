@@ -29,6 +29,16 @@ Downloads Benchmarks The testsets used to benchmark IndicTrans can be found here
     </item>
     
     <item>
+      <title>Aksharantara</title>
+      <link>http://localhost/aksharantara/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/aksharantara/</guid>
+      <description>Aksharantara is transliteration dataset for Indic languages.
+More details, model and dataset download coming soon.</description>
+    </item>
+    
+    <item>
       <title>IndicTrans</title>
       <link>http://localhost/indic-trans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,6 +48,16 @@ Downloads Benchmarks The testsets used to benchmark IndicTrans can be found here
 Update 05-06-2021 The Indic-Indic model is now available for download
 Update 30-04-2021 The models are now available for download
 Download Model  Indic-English model can be downloaded from here English-Indic model can be downloaded from here Indic-Indic can be downloaded from here  Mirror Links  Please use this mirror gdrive link to download the models  Usage The instructions for running inference can be found at IndicTrans GitHub repository</description>
+    </item>
+    
+    <item>
+      <title>IndicXlit</title>
+      <link>http://localhost/indic-xlit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/indic-xlit/</guid>
+      <description>IndicXlit is a Transformer model for romanized input to native Indic language script supporting 21 languages from the Indian subcontinent.
+More details, model and dataset download coming soon.</description>
     </item>
     
     <item>

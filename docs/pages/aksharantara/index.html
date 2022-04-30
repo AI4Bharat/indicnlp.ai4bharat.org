@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="IndicFT">
+<meta name="description" content="Aksharantara">
 
-<title>IndicFT | AI4Bharat IndicNLP</title>
+<title>Aksharantara | AI4Bharat IndicNLP</title>
 
 <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 <link rel="stylesheet" href="/main.min.css" media="screen">
@@ -99,6 +99,18 @@ document.querySelectorAll('section[id]').forEach((section) => {
             
             <li>
             
+                <br>
+                <span class="flex">Aksharantara</span>
+            
+
+            
+            
+            </li>
+            
+            
+            
+            <li>
+            
                 <span class="flex">
                     <a href="/home/" class="gdoc-nav__entry ">
                         IndicNLP
@@ -136,23 +148,6 @@ document.querySelectorAll('section[id]').forEach((section) => {
                 <span class="flex">
                     <a href="/samanantar/" class="gdoc-nav__entry ">
                         Samanantar
-                    </a>
-                </span>
-            
-
-            
-            
-            </li>
-            
-            
-        
-            
-            
-            <li>
-            
-                <span class="flex">
-                    <a href="/aksharantara/" class="gdoc-nav__entry ">
-                        Aksharantara
                     </a>
                 </span>
             
@@ -287,7 +282,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <li>
             
                 <span class="flex">
-                    <a href="/indicft/" class="gdoc-nav__entry is-active">
+                    <a href="/indicft/" class="gdoc-nav__entry ">
                         IndicFT
                     </a>
                 </span>
@@ -577,7 +572,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             <div class="col-sm-9">
 
             <article class="gdoc-markdown">
-                <h1>IndicFT</h1>
+                <h1>Aksharantara</h1>
                 <hr>
                 
 
@@ -586,204 +581,6 @@ document.querySelectorAll('section[id]').forEach((section) => {
     
 
 
-<p><a href="https://fasttext.cc/">fastText</a> is a subword-aware word embedding model. It is particularly well-suited for Indian languages due to their highly agglutinative morphology. We train fastText models on our IndicNLP Corpora and evaluate them on a set of tasks to measure its performance.</p>
-<p>Our fastText models are available for 11 Indian languages:  Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="usage">Usage<a data-clipboard-text="http://localhost/indicft/#usage" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Usage" href="#usage"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>To use our fastText models, first <a href="#downloads">download them</a>. Next, install the fastText library:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pip3 install fasttext
-</code></pre></div><p>and then load the models like this:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">fasttext</span>
-<span class="n">model</span> <span class="o">=</span> <span class="n">fasttext</span><span class="o">.</span><span class="n">load_model</span><span class="p">(</span><span class="n">path_to_binary_file</span><span class="p">)</span>
-</code></pre></div><p>For instructions on how to use these models, please refer to the official <a href="https://fasttext.cc/docs/en/support.html">fastText documentation</a></p>
-<div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/indicft/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<table>
-<thead>
-<tr>
-<th>Language</th>
-<th>as</th>
-<th>pa</th>
-<th>hi</th>
-<th>bn</th>
-<th>or</th>
-<th>gu</th>
-<th>mr</th>
-<th>kn</th>
-<th>te</th>
-<th>ml</th>
-<th>ta</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Vectors</td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.as.300.vec">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.pa.300.vec">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.hi.300.vec">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.bn.300.vec">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.or.300.vec">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.gu.300.vec">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.mr.300.vec">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.kn.300.vec">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.te.300.vec">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.ml.300.vec">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.ta.300.vec">link</a></td>
-</tr>
-<tr>
-<td>Model</td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.as.300.bin">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.pa.300.bin">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.hi.300.bin">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.bn.300.bin">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.or.300.bin">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.gu.300.bin">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.mr.300.bin">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.kn.300.bin">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.te.300.bin">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.ml.300.bin">link</a></td>
-<td><a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/embedding-v2/indicnlp.ft.ta.300.bin">link</a></td>
-</tr>
-</tbody>
-</table>
-<div class="gdoc-page__anchorwrap"><h3 id="evaluation">Evaluation<a data-clipboard-text="http://localhost/indicft/#evaluation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Evaluation" href="#evaluation"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>For a full results of evaluation, check our <a href="https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf">paper</a>. Here, we show some of the evaluations.</p>
-<div class="gdoc-page__anchorwrap"><h4 id="word-similarity">Word Similarity<a data-clipboard-text="http://localhost/indicft/#word-similarity" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Word Similarity" href="#word-similarity"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<table>
-<thead>
-<tr>
-<th>Language</th>
-<th>fastText wiki</th>
-<th>fastText wiki+CC</th>
-<th>Indic fastText</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>pa</td>
-<td>0.467</td>
-<td>0.384</td>
-<td><strong>0.445</strong></td>
-</tr>
-<tr>
-<td>hi</td>
-<td>0.575</td>
-<td>0.551</td>
-<td><strong>0.598</strong></td>
-</tr>
-<tr>
-<td>gu</td>
-<td>0.507</td>
-<td>0.521</td>
-<td><strong>0.600</strong></td>
-</tr>
-<tr>
-<td>mr</td>
-<td>0.497</td>
-<td><strong>0.544</strong></td>
-<td>0.509</td>
-</tr>
-<tr>
-<td>te</td>
-<td>0.559</td>
-<td>0.543</td>
-<td><strong>0.578</strong></td>
-</tr>
-<tr>
-<td>ta</td>
-<td><strong>0.439</strong></td>
-<td>0.438</td>
-<td>0.422</td>
-</tr>
-<tr>
-<td>Average</td>
-<td>0.507</td>
-<td>0.497</td>
-<td><strong>0.525</strong></td>
-</tr>
-</tbody>
-</table>
-<div class="gdoc-page__anchorwrap"><h4 id="news-genre-classification">News Genre Classification<a data-clipboard-text="http://localhost/indicft/#news-genre-classification" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor News Genre Classification" href="#news-genre-classification"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<table>
-<thead>
-<tr>
-<th>Language</th>
-<th>fastText wiki</th>
-<th>fastText wiki+CC</th>
-<th>Indic fastText</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>pa</td>
-<td><strong>97.12</strong></td>
-<td>95.53</td>
-<td>96.47</td>
-</tr>
-<tr>
-<td>bn</td>
-<td>96.57</td>
-<td>97.57</td>
-<td><strong>97.71</strong></td>
-</tr>
-<tr>
-<td>or</td>
-<td>94.80</td>
-<td>96.20</td>
-<td><strong>98.43</strong></td>
-</tr>
-<tr>
-<td>gu</td>
-<td>95.12</td>
-<td>94.63</td>
-<td><strong>99.02</strong></td>
-</tr>
-<tr>
-<td>mr</td>
-<td>96.44</td>
-<td>97.07</td>
-<td><strong>99.37</strong></td>
-</tr>
-<tr>
-<td>kn</td>
-<td>95.93</td>
-<td>96.53</td>
-<td><strong>97.43</strong></td>
-</tr>
-<tr>
-<td>te</td>
-<td>98.67</td>
-<td>98.08</td>
-<td><strong>99.17</strong></td>
-</tr>
-<tr>
-<td>ml</td>
-<td>89.02</td>
-<td>89.18</td>
-<td><strong>92.83</strong></td>
-</tr>
-<tr>
-<td>ta</td>
-<td>95.99</td>
-<td>95.90</td>
-<td><strong>97.26</strong></td>
-</tr>
-<tr>
-<td>Average</td>
-<td>95.52</td>
-<td>95.63</td>
-<td><strong>97.52</strong></td>
-</tr>
-</tbody>
-</table>
-<div class="gdoc-page__anchorwrap"><h3 id="citing">Citing<a data-clipboard-text="http://localhost/indicft/#citing" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Citing" href="#citing"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>If you are using IndicFT, please cite the following <a href="https://aclanthology.org/2020.findings-emnlp.445">paper</a>:</p>
-<pre tabindex="0"><code>@inproceedings{kakwani2020indicnlpsuite,
-    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
-    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
-    year={2020},
-    booktitle={Findings of EMNLP},
-}
-</code></pre><div class="gdoc-page__anchorwrap"><h3 id="license">License<a data-clipboard-text="http://localhost/indicft/#license" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor License" href="#license"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>The IndicFT embeddings are released under the MIT License.</p>
 
 
 
@@ -793,20 +590,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
 
             <div class="col-sm-3 d-none d-lg-block" >
                 <nav class="section-nav">
-                    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#downloads">Downloads</a></li>
-    <li><a href="#evaluation">Evaluation</a>
-      <ul>
-        <li><a href="#word-similarity">Word Similarity</a></li>
-        <li><a href="#news-genre-classification">News Genre Classification</a></li>
-      </ul>
-    </li>
-    <li><a href="#citing">Citing</a></li>
-    <li><a href="#license">License</a></li>
-  </ul>
-</nav>
+                    <nav id="TableOfContents"></nav>
                 </nav>
             </div>
 
