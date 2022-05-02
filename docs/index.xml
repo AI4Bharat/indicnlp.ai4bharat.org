@@ -29,12 +29,12 @@ Downloads Benchmarks The testsets used to benchmark IndicTrans can be found here
     </item>
     
     <item>
-      <title>Aksharantara</title>
-      <link>http://localhost/aksharantara/</link>
+      <title>Aksharantar</title>
+      <link>http://localhost/aksharantar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/aksharantara/</guid>
-      <description>Aksharantara is transliteration dataset for Indic languages.
+      <guid>http://localhost/aksharantar/</guid>
+      <description>Aksharantar is transliteration dataset for Indic languages.
 More details, model and dataset download coming soon.</description>
     </item>
     
