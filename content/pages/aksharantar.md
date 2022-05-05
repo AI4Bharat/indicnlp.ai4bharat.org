@@ -113,7 +113,6 @@ Language wise splits for Indic-Indic data can be downloaded from the table below
 - Sushane Parthan <sub>([AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
 - Priyanka Bedekar <sub>([AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
 - Ruchi Khapra <sub>([AI4Bharat](https://ai4bharat.org))</sub>
-- Vivek Seshadri <sub>([Microsoft](https://www.microsoft.com/en-in/), [Karya Inc](https://projectkarya.com/))</sub>
 - Anoop Kunchukuttan <sub>([AI4Bharat](https://ai4bharat.org), [Microsoft](https://www.microsoft.com/en-in/))</sub>
 - Pratyush Kumar <sub>([AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in), [Microsoft](https://www.microsoft.com/en-in/))</sub>
 - Mitesh Shantadevi Khapra <sub>([AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
@@ -155,6 +154,6 @@ The bibtex entries for the existing data sources is available [here](https://ind
 This data is released under the following licensing scheme:
 
 - We do not own any of the text from which this data has been extracted.
-- We license the actual packaging of this data under the [Creative Commons CC0 license (“no rights reserved”)](http://creativecommons.org/publicdomain/zero/1.0) and [Creative Commons CC-BY license (“no rights reserved”)](https://creativecommons.org/licenses/by/4.0/).
+- We license the actual packaging of the mined data under the [Creative Commons CC0 license (“no rights reserved”)](http://creativecommons.org/publicdomain/zero/1.0), and the Aksharantar benchmark and all manually transliterated data under the [Creative Commons CC-BY license (“no rights reserved”)](https://creativecommons.org/licenses/by/4.0/).
 - To the extent possible under law, <a rel="dct:publisher" href="https://indicnlp.ai4bharat.org/samanantar/"> <span property="dct:title">AI4Bharat</span></a> has waived all copyright and related or neighboring rights to <span property="dct:title">Samanantar</span>.
 - This work is published from: India.
