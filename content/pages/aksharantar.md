@@ -6,7 +6,7 @@ url: /aksharantar
 ---
   
 
-Aksharantar is the largest publicly available transliteration dataset for 21 Indic languages. The corpus has 26M Indic language-English transliteration pairs.
+Aksharantar is the largest publicly available transliteration dataset for 20 Indic languages. The corpus has 26M Indic language-English transliteration pairs.
 <!--  -->
 <!-- Samanantar is the largest publicly available parallel corpora collection for Indic languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu. The corpus has 49.6M sentence pairs between English to Indian Languages. -->
 <!--  -->
@@ -34,24 +34,24 @@ The Semantic Textual Similarity (STS) benchmark can be downloaded from [here](ht
 <!-- The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all-without-supara.zip) -->
 <!-- 
 The entire dataset can be downloaded from [Samanantar v0.3](https://storage.googleapis.com/samanantar-public/V0.3/source_wise_splits.zip).  -->
-The entire dataset can be downloaded from [Aksharantar]().
+The Aksharantar dataset is split into training, validation and test subsets. They can all be downloaded from [Aksharantar](). Each subset consists of Indic language-English word pairs as individual JSON files with their source details.
 
 The folder has 3 directories with separate sub-directories for each source:
 - Existing - All existing data compiled before Aksharantar
 - Mined - Mined as part of Aksharantar
 - Manually annotated
 
-
+<!-- 
 ### Mirror Links
 
 - Please use this mirror [Google Drive]() link to download the Aksharantar dataset.
-
+ -->
 
 ### Data Split
 
 - The language-wise splits for Aksharantar can be found in the table below. Each link contains the number of sentence pairs (in millions) as against the hyperlink.
 
-| Language Pair | Link |
+<!-- | Language Pair | Link |
 | -------- | -------- |
 | as-en <sub>(A MB)</sub> | [0.217M]() |
 | bn-en <sub>(B MB)</sub> | [1.337M]() |
@@ -73,7 +73,14 @@ The folder has 3 directories with separate sub-directories for each source:
 | si-en <sub>(I4 MB)</sub> | [0.037M]() |
 | ta-en <sub>(J MB)</sub> | [3.301M]() |
 | te-en <sub>(K MB)</sub> | [2.521M]() |
-| ur-en <sub>(K2 MB)</sub> | [0.748M]() |
+| ur-en <sub>(K2 MB)</sub> | [0.748M]() | -->
+
+| Subset | as-en | bn-en | brx-en | gu-en | hi-en | kn-en | ks-en | kok-en | mai-en | ml-en | mni-en | mr-en | ne-en | or-en | pa-en | san-en | sd-en | ta-en | te-en | ur-en |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| Training | 179K | 1231K | 36K | 1143K | 1299K | 2907K | 47K | 613K | 283K | 4101K | 10K | 1453K | 2397K | 346K | 515K | 1813K | 60K | 3231K | 2430K | 699K |
+| Validation | 4K | 11K | 3K | 12K | 6K | 7K | 4K | 4K | 4K | 8K | 3K | 8K | 3K | 3K | 9K | 3K | 8K | 9K | 8K | 12K |
+| Test | 5531 | 5009 | 4136 | 7768 | 5693 | 6396 | 7707 | 5093 | 5512 | 6911 | 4925 | 6573 | 4133 | 4256 | 4316 | 5334 | - | 4682 | 4567 | 4463 |
+
 <!-- 
  -->
 <!-- #### Indic-Indic
@@ -157,5 +164,5 @@ This data is released under the following licensing scheme:
 
 - We do not own any of the text from which this data has been extracted.
 - We license the actual packaging of the mined data under the [Creative Commons CC0 license (“no rights reserved”)](http://creativecommons.org/publicdomain/zero/1.0), and the Aksharantar benchmark and all manually transliterated data under the [Creative Commons CC-BY license (“no rights reserved”)](https://creativecommons.org/licenses/by/4.0/).
-- To the extent possible under law, <a rel="dct:publisher" href="https://indicnlp.ai4bharat.org/samanantar/"> <span property="dct:title">AI4Bharat</span></a> has waived all copyright and related or neighboring rights to <span property="dct:title">Samanantar</span>.
+- To the extent possible under law, <a rel="dct:publisher" href="https://indicnlp.ai4bharat.org/samanantar/"> <span property="dct:title">AI4Bharat</span></a> has waived all copyright and related or neighboring rights to <span property="dct:title">Aksharantar</span>.
 - This work is published from: India.
