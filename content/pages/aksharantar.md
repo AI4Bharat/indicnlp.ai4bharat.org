@@ -44,34 +44,36 @@ The folder has 3 directories with separate sub-directories for each source:
 
 ### Mirror Links
 
-- Please use this mirror [Google Drive](https://drive.google.com/file/d/1xrD9bL78mbxpp-DdOw1EHhz1nzin_6dX/view?usp=sharing) link to download the Aksharantar dataset.
+- Please use this mirror [Google Drive]() link to download the Aksharantar dataset.
 
 
-The language-wise splits for Aksharantar can be found in the table below. Each link contains the number of sentence pairs (in millions) as against the hyperlink.
+### Data Split
+
+- The language-wise splits for Aksharantar can be found in the table below. Each link contains the number of sentence pairs (in millions) as against the hyperlink.
 
 | Language Pair | Link |
 | -------- | -------- |
-| as-en <sub>(A MB)</sub> | [aM]() |
-| bn-en <sub>(B MB)</sub> | [bM]() |
-| brx-en <sub>(B2 MB)</sub> | [b2M]() |
-| gu-en <sub>(C MB)</sub> | [cM]() |
-| hi-en <sub>(D MB)</sub> | [dM]() |
-| kn-en <sub>(E MB)</sub> | [eM]() |
-| ks-en <sub>(E2 MB)</sub> | [e2M]() |
-| kok-en <sub>(E2 MB)</sub> | [e3M]() |
-| mai-en <sub>(E3 MB)</sub> | [e3M]() |
-| ml-en <sub>(F MB)</sub> | [fM]() |
-| mni-en <sub>(F2 MB)</sub> | [f2M]() |
-| mr-en <sub>(G MB)</sub> | [gM]() |
-| ne-en <sub>(G2 MB)</sub> | [g2M]() |
-| or-en <sub>(H MB)</sub> | [hM]() |
-| pa-en <sub>(I MB)</sub> | [iM]() |
-| san-en <sub>(I2 MB)</sub> | [i2M]() |
-| sd-en <sub>(I3 MB)</sub> | [i3M]() |
-| si-en <sub>(I4 MB)</sub> | [i4M]() |
-| ta-en <sub>(J MB)</sub> | [jM]() |
-| te-en <sub>(K MB)</sub> | [kM]() |
-| ur-en <sub>(K2 MB)</sub> | [k2M]() |
+| as-en <sub>(A MB)</sub> | [0.217M]() |
+| bn-en <sub>(B MB)</sub> | [1.337M]() |
+| brx-en <sub>(B2 MB)</sub> | [0.044M]() |
+| gu-en <sub>(C MB)</sub> | [1.236M]() |
+| hi-en <sub>(D MB)</sub> | [1.522M]() |
+| kn-en <sub>(E MB)</sub> | [3.01M]() |
+| ks-en <sub>(E2 MB)</sub> | [0.064M]() |
+| kok-en <sub>(E2 MB)</sub> | [0.702M]() |
+| mai-en <sub>(E3 MB)</sub> | [0.37M]() |
+| ml-en <sub>(F MB)</sub> | [4.195M]() |
+| mni-en <sub>(F2 MB)</sub> | [0.016M]() |
+| mr-en <sub>(G MB)</sub> | [1.594M]() |
+| ne-en <sub>(G2 MB)</sub> | [2.458M]() |
+| or-en <sub>(H MB)</sub> | [0.398M]() |
+| pa-en <sub>(I MB)</sub> | [0.611M]() |
+| san-en <sub>(I2 MB)</sub> | [1.881M]() |
+| sd-en <sub>(I3 MB)</sub> | [0.082M]() |
+| si-en <sub>(I4 MB)</sub> | [0.037M]() |
+| ta-en <sub>(J MB)</sub> | [3.301M]() |
+| te-en <sub>(K MB)</sub> | [2.521M]() |
+| ur-en <sub>(K2 MB)</sub> | [0.748M]() |
 <!-- 
  -->
 <!-- #### Indic-Indic
