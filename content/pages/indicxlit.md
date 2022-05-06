@@ -5,7 +5,7 @@ toc: true
 url: /indic-xlit
 ---
 
-IndicXlit is a Transformer-based multilingual transliteration model (with ~11M parameters) for romanised to Indic script conversion, supporting 20 languages from the Indian subcontinent.
+IndicXlit is a Transformer-based multilingual transliteration model (with ~11M parameters) for romanised to Indic script conversion, supporting 21 languages from the Indian subcontinent.
 
 <!-- 
 ### Update 05-06-2021
@@ -22,11 +22,11 @@ For downloading and usage instructions please follow the [IndicTrans](https://gi
 
 ### Download Model
 
-- English-Indic transliteration model can be downloaded [here](https://storage.googleapis.com/indic-xlit-public/final_model/indicxlit-en-indic-v1.0.zip).
-
+English-Indic transliteration model can be downloaded [here](https://storage.googleapis.com/indic-xlit-public/final_model/indicxlit-en-indic-v1.0.zip).
+<!-- 
 ### Mirror Links
 
-- Please use this mirror [Google Drive]() link to download the IndicXlit model.
+- Please use this mirror [Google Drive]() link to download the IndicXlit model. -->
 
 ### Usage
 
