@@ -16,14 +16,9 @@ Samanantar v0.3 along with LaBSE scores metadata is available for download. Go t
 ### Dataset Format
 
 <!-- The [publicly released version](#downloads) is randomly shuffled, untokenized, and deduplicated. -->
-The [publicly released version]() is randomly shuffled, untokenized and deduplicated.
+The [publicly released version](https://github.com/SushaneP/indicnlp.ai4bharat.org/edit/master/content/pages/aksharantar.md#downloads) is randomly shuffled, untokenized and deduplicated.
 
 ## Downloads
-
-### Benchmarks
-
-<!-- The testsets used to benchmark IndicTrans can be found [here](https://storage.googleapis.com/samanantar-public/benchmarks.zip) -->
-The testsets used to benchmark IndicXlit can be found [here]().
 <!-- 
 ### STS Benchmark
 
@@ -34,12 +29,19 @@ The Semantic Textual Similarity (STS) benchmark can be downloaded from [here](ht
 <!-- The entire dataset can be downloaded from [here](https://storage.googleapis.com/samanantar-public/data/all-without-supara.zip) -->
 <!-- 
 The entire dataset can be downloaded from [Samanantar v0.3](https://storage.googleapis.com/samanantar-public/V0.3/source_wise_splits.zip).  -->
-The Aksharantar dataset is split into training, validation and test subsets. They can all be downloaded from [Aksharantar](). Each subset consists of Indic language-English word pairs as individual JSON files with their source details.
+- The Aksharantar dataset can be downloaded as a single zip file from the [Aksharantar Hugging Face repository](https://huggingface.co/datasets/ai4bharat/Aksharantar/tree/main).
+- Each language-pair corpus in the Aksharantar dataset is split into training, validation and test subsets. Each subset is a JSONL file consisting of individual data instances comprising a unique identifier, native word, English word, transliteration source and a score (if applicable).
+- Individual language-pair download links are provided in the [data split](https://github.com/SushaneP/indicnlp.ai4bharat.org/edit/master/content/pages/aksharantar.md#data-split) below.
 
-The folder has 3 directories with separate sub-directories for each source:
+<!-- The folder has 3 directories with separate sub-directories for each source:
 - Existing - All existing data compiled before Aksharantar
 - Mined - Mined as part of Aksharantar
-- Manually annotated
+- Manually annotated -->
+
+### Benchmarks
+
+<!-- The testsets used to benchmark IndicTrans can be found [here](https://storage.googleapis.com/samanantar-public/benchmarks.zip) -->
+Language-pair testsets ({lang_test}) were used to benchmark the IndicXlit model.
 
 <!-- 
 ### Mirror Links
@@ -49,7 +51,7 @@ The folder has 3 directories with separate sub-directories for each source:
 
 ### Data Split
 
-- The language-wise splits for Aksharantar can be found in the table below. Each link contains the number of sentence pairs (in millions) as against the hyperlink.
+The language-wise splits for Aksharantar is shown in the table with total number of word pairs (in millions). Individual download links for each language-pair are as against the hyperlink.
 
 <!-- | Language Pair | Link |
 | -------- | -------- |
@@ -75,7 +77,7 @@ The folder has 3 directories with separate sub-directories for each source:
 | te-en <sub>(K MB)</sub> | [2.521M]() |
 | ur-en <sub>(K2 MB)</sub> | [0.748M]() | -->
 
-| Subset | as-en | bn-en | brx-en | gu-en | hi-en | kn-en | ks-en | kok-en | mai-en | ml-en | mni-en | mr-en | ne-en | or-en | pa-en | san-en | sd-en | ta-en | te-en | ur-en |
+| Subset | [as-en <sub>(4.72 MB)</sub>](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/asm.zip) | [bn-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/ben.zip) <sub>(31.5 MB)</sub> | [brx-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/brx.zip) <sub>(0.933 MB)</sub> | [gu-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/guj.zip) <sub>(29.5 MB)</sub> | [hi-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/hin.zip) <sub>(31.4 MB)</sub> | [kn-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/kan.zip) <sub>(83.7 MB)</sub> | [ks-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/kas.zip) <sub>(1.1 MB)</sub> | [kok-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/kok.zip) <sub>(16.6 MB)</sub> | [mai-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mai.zip) <sub>(6.74 MB)</sub> | [ml-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mal.zip) <sub>(125 MB)</sub> | [mni-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mni.zip) <sub>(0.313 MB)</sub> | [mr-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mar.zip) <sub>(39.9 MB)</sub> | [ne-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/nep.zip) <sub>(67 MB)</sub> | [or-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/ori.zip) <sub>(9.09 MB)</sub> | [pa-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/pan.zip) <sub>(12.1 MB)</sub> | [sa-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/san.zip) <sub>(56 MB)</sub> | [sd-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/sid.zip) <sub>(1.37 MB)</sub> | [ta-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/tam.zip) <sub>(92.7 MB)</sub> | [te-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/tel.zip) <sub>(69.1 MB)</sub> | [ur-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/urd.zip) <sub>(17 MB)</sub> |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | Training | 179K | 1231K | 36K | 1143K | 1299K | 2907K | 47K | 613K | 283K | 4101K | 10K | 1453K | 2397K | 346K | 515K | 1813K | 60K | 3231K | 2430K | 699K |
 | Validation | 4K | 11K | 3K | 12K | 6K | 7K | 4K | 4K | 4K | 8K | 3K | 8K | 3K | 3K | 9K | 3K | 8K | 9K | 8K | 12K |
@@ -112,8 +114,8 @@ Language wise splits for Indic-Indic data can be downloaded from the table below
 - 15 May 2021, The language wise splits are now available for download
 - 02 May 2021, Indic-Indic v0.2 data has been updated with super strict overlap removal
 - 30 April 2021, v0.2 uses super strict overlap removal of validation and test data with train data -->
-- YY May 2022 - The benchmarking testsets are now available for download.
-- XX May 2022 - The language-wise splits are now available for download.
+- 07 May 2022 - The Aksharantar dataset is now available for download.
+<!-- - 05 May 2022 - The language-wise splits are now available for download. -->
 
 
 ### Contributors
