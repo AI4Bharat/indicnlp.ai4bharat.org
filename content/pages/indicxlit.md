@@ -1,48 +1,20 @@
 ---
 title: "IndicXlit"
-weight: 30
+weight: 35
 toc: true
 url: /indic-xlit
 ---
 
 IndicXlit is a Transformer-based multilingual transliteration model (with ~11M parameters) for romanised to Indic script conversion, supporting 21 languages from the Indian subcontinent.
 
-<!-- 
-### Update 05-06-2021
-
-The Indic-Indic model is now available for download
-
-### Update 30-04-2021
-
-The models are now available for download
- -->
-<!-- ### Download
-
-For downloading and usage instructions please follow the [IndicTrans](https://github.com/AI4Bharat/indicTrans) Repository -->
-
 ### Download Model
 
 English-Indic transliteration model can be downloaded [here](https://storage.googleapis.com/indic-xlit-public/final_model/indicxlit-en-indic-v1.0.zip).
-<!-- 
-### Mirror Links
-
-- Please use this mirror [Google Drive]() link to download the IndicXlit model. -->
 
 ### Usage
 
 All information and instructions pertaining to using the IndicXlit model can be found on the [IndicXlit](https://github.com/AI4Bharat/IndicXlit) GitHub repository.
 
-<!--
-### Usage
-
-The easiest way to use IndicTrans is through the Huggingface transformers library. It can be simply loaded like this:
-
-```python
-from transformers import AutoModel, AutoTokenizer
-
-tokenizer = AutoTokenizer.from_pretrained('ai4bharat/indic-trans')
-model = AutoModel.from_pretrained('ai4bharat/indic-trans') 
-``` -->
 
 ### Model Details
 
@@ -54,30 +26,6 @@ IndicXlit is trained on Aksharantar dataset which covers 21 language pairs. The 
 | Validation | 4K | 11K | 3K | 12K | 6K | 7K | 4K | 4K | 4K | 8K | 3K | 8K | 3K | 3K | 9K | 3K | 8K | 9K | 8K | 12K |
 | Test | 5531 | 5009 | 4136 | 7768 | 5693 | 6396 | 7707 | 5093 | 5512 | 6911 | 4925 | 6573 | 4133 | 4256 | 4316 | 5334 | - | 4682 | 4567 | 4463 |
 
-<!-- | Language Pair | \# Sentence Pairs |
-| -------- | ----------------- |
-| as-en | aM |
-| bn-en | bM |
-| brx-en | b2M |
-| gu-en | cM |
-| hi-en | dM |
-| kn-en | eM |
-| ks-en | e2M |
-| kok-en | e3M |
-| mai-en | e3M |
-| ml-en | fM |
-| mni-en | f2M |
-| mr-en | gM |
-| ne-en | g2M |
-| or-en | hM |
-| pa-en | iM |
-| san-en | i2M |
-| sd-en | i3M |
-| si-en | i4M |
-| ta-en | jM |
-| te-en | kM |
-| ur-en | k2M |
- -->
 
 In total, the Aksharantar dataset contains ~26M word pairs.
 
@@ -149,6 +97,34 @@ We evaluate IndicXlit model on the Dakshina testset and compare our results with
   </tr>
 </tbody>
 </table>
+
+The paper also contains strong baseline results on the Aksharantar testset.
+
+### Contributors
+
+- Yash Madhani <sub>([AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
+- Sushane Parthan <sub>([AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
+- Priyanka Bedekar <sub>([AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
+- Ruchi Khapra <sub>([AI4Bharat](https://ai4bharat.org))</sub>
+- Anoop Kunchukuttan <sub>([AI4Bharat](https://ai4bharat.org), [Microsoft](https://www.microsoft.com/en-in/))</sub>
+- Pratyush Kumar <sub>([AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in), [Microsoft](https://www.microsoft.com/en-in/))</sub>
+- Mitesh M. Khapra <sub>([AI4Bharat](https://ai4bharat.org), [IITM](https://www.iitm.ac.in))</sub>
+
+
+### Citing
+
+If you are using IndicXlit, please cite the following paper: 
+
+```
+@misc{madhani2022aksharantar,
+      title={Aksharantar: Towards Building Open Transliteration Tools for the Next Billion Users}, 
+      author={Yash Madhani and Sushane Parthan and Priyanka Bedekar and Ruchi Khapra and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},
+      year={2022},
+      eprint={},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ### License 
 

@@ -586,8 +586,171 @@ document.querySelectorAll('section[id]').forEach((section) => {
     
 
 
-<p>Aksharantar is transliteration dataset for Indic languages.</p>
-<p><strong>More details, model and dataset download coming soon</strong>.</p>
+<p>Aksharantar is the largest publicly available transliteration dataset for 21 Indic languages. The corpus has 26M Indic language-English transliteration pairs.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="downloads">Downloads<a data-clipboard-text="http://localhost/aksharantar/#downloads" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Downloads" href="#downloads"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li>The Aksharantar dataset can be downloaded  from the <a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/tree/main">Aksharantar Hugging Face repository</a>.</li>
+<li>Each language-pair corpus in the Aksharantar dataset is split into training, validation and test subsets. Each subset is a JSONL file consisting of individual data instances comprising a unique identifier, native word, English word, transliteration source and a score (if applicable).</li>
+<li>Individual language-pair download links are provided in the <a href="https://github.com/SushaneP/indicnlp.ai4bharat.org/edit/master/content/pages/aksharantar.md#data-split">data split</a> below.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="data-split">Data Split<a data-clipboard-text="http://localhost/aksharantar/#data-split" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Data Split" href="#data-split"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>The language-wise splits for Aksharantar is shown in the table with total number of word pairs (in millions). Individual download links for each language-pair are as against the hyperlink.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Subset</th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/asm.zip">as-en <sub>(4.72 MB)</sub></a></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/ben.zip">bn-en</a> <sub>(31.5 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/brx.zip">brx-en</a> <sub>(0.933 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/guj.zip">gu-en</a> <sub>(29.5 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/hin.zip">hi-en</a> <sub>(31.4 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/kan.zip">kn-en</a> <sub>(83.7 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/kas.zip">ks-en</a> <sub>(1.1 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/kok.zip">kok-en</a> <sub>(16.6 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mai.zip">mai-en</a> <sub>(6.74 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mal.zip">ml-en</a> <sub>(125 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mni.zip">mni-en</a> <sub>(0.313 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mar.zip">mr-en</a> <sub>(39.9 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/nep.zip">ne-en</a> <sub>(67 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/ori.zip">or-en</a> <sub>(9.09 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/pan.zip">pa-en</a> <sub>(12.1 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/san.zip">sa-en</a> <sub>(56 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/sid.zip">sd-en</a> <sub>(1.37 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/tam.zip">ta-en</a> <sub>(92.7 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/tel.zip">te-en</a> <sub>(69.1 MB)</sub></th>
+<th style="text-align:center"><a href="https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/urd.zip">ur-en</a> <sub>(17 MB)</sub></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Training</td>
+<td style="text-align:center">179K</td>
+<td style="text-align:center">1231K</td>
+<td style="text-align:center">36K</td>
+<td style="text-align:center">1143K</td>
+<td style="text-align:center">1299K</td>
+<td style="text-align:center">2907K</td>
+<td style="text-align:center">47K</td>
+<td style="text-align:center">613K</td>
+<td style="text-align:center">283K</td>
+<td style="text-align:center">4101K</td>
+<td style="text-align:center">10K</td>
+<td style="text-align:center">1453K</td>
+<td style="text-align:center">2397K</td>
+<td style="text-align:center">346K</td>
+<td style="text-align:center">515K</td>
+<td style="text-align:center">1813K</td>
+<td style="text-align:center">60K</td>
+<td style="text-align:center">3231K</td>
+<td style="text-align:center">2430K</td>
+<td style="text-align:center">699K</td>
+</tr>
+<tr>
+<td style="text-align:center">Validation</td>
+<td style="text-align:center">4K</td>
+<td style="text-align:center">11K</td>
+<td style="text-align:center">3K</td>
+<td style="text-align:center">12K</td>
+<td style="text-align:center">6K</td>
+<td style="text-align:center">7K</td>
+<td style="text-align:center">4K</td>
+<td style="text-align:center">4K</td>
+<td style="text-align:center">4K</td>
+<td style="text-align:center">8K</td>
+<td style="text-align:center">3K</td>
+<td style="text-align:center">8K</td>
+<td style="text-align:center">3K</td>
+<td style="text-align:center">3K</td>
+<td style="text-align:center">9K</td>
+<td style="text-align:center">3K</td>
+<td style="text-align:center">8K</td>
+<td style="text-align:center">9K</td>
+<td style="text-align:center">8K</td>
+<td style="text-align:center">12K</td>
+</tr>
+<tr>
+<td style="text-align:center">Test</td>
+<td style="text-align:center">5531</td>
+<td style="text-align:center">5009</td>
+<td style="text-align:center">4136</td>
+<td style="text-align:center">7768</td>
+<td style="text-align:center">5693</td>
+<td style="text-align:center">6396</td>
+<td style="text-align:center">7707</td>
+<td style="text-align:center">5093</td>
+<td style="text-align:center">5512</td>
+<td style="text-align:center">6911</td>
+<td style="text-align:center">4925</td>
+<td style="text-align:center">6573</td>
+<td style="text-align:center">4133</td>
+<td style="text-align:center">4256</td>
+<td style="text-align:center">4316</td>
+<td style="text-align:center">5334</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">4682</td>
+<td style="text-align:center">4567</td>
+<td style="text-align:center">4463</td>
+</tr>
+</tbody>
+</table>
+<div class="gdoc-page__anchorwrap"><h3 id="change-log">Change Log<a data-clipboard-text="http://localhost/aksharantar/#change-log" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Change Log" href="#change-log"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li>07 May 2022 - The Aksharantar dataset is now available for download.</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="contributors">Contributors<a data-clipboard-text="http://localhost/aksharantar/#contributors" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Contributors" href="#contributors"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<ul>
+<li>Yash Madhani <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://www.iitm.ac.in">IITM</a>)</sub></li>
+<li>Sushane Parthan <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://www.iitm.ac.in">IITM</a>)</sub></li>
+<li>Priyanka Bedekar <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://www.iitm.ac.in">IITM</a>)</sub></li>
+<li>Ruchi Khapra <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>)</sub></li>
+<li>Anoop Kunchukuttan <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://www.microsoft.com/en-in/">Microsoft</a>)</sub></li>
+<li>Pratyush Kumar <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://www.iitm.ac.in">IITM</a>, <a href="https://www.microsoft.com/en-in/">Microsoft</a>)</sub></li>
+<li>Mitesh Shantadevi Khapra <sub>(<a href="https://ai4bharat.org">AI4Bharat</a>, <a href="https://www.iitm.ac.in">IITM</a>)</sub></li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h3 id="citing">Citing<a data-clipboard-text="http://localhost/aksharantar/#citing" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Citing" href="#citing"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>If you are using any of the resources, please cite the following article:</p>
+<pre tabindex="0"><code>@misc{madhani2022aksharantar,
+      title={Aksharantar: Towards Building Open Transliteration Tools for the Next Billion Users}, 
+      author={Yash Madhani and Sushane Parthan and Priyanka Bedekar and Ruchi Khapra and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},
+      year={2022},
+      eprint={},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+</code></pre><!-- 
+The bibtex entries for the existing data sources is available [here](https://indicnlp.ai4bharat.org/papers/samanantar-existing-data.bib) -->
+<div class="gdoc-page__anchorwrap"><h3 id="license">License<a data-clipboard-text="http://localhost/aksharantar/#license" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor License" href="#license"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<!-- <a rel="license" float="left" href="http://creativecommons.org/publicdomain/zero/1.0/">
+  <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" width="100" />
+  <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" style="border-style: none;" alt="CC-BY" width="100" href="http://creativecommons.org/publicdomain/zero/1.0/"/>
+</a>
+<br/> -->
+<p>This data is released under the following licensing scheme:</p>
+<ul>
+<li>Manually collected data: Released under CC-BY license.</li>
+<li>Mined dataset (from Samanantar and IndicCorp): Released under CC0 license.</li>
+<li>Existing sources: Released under CC0 license.</li>
+</ul>
+<p><strong>CC-BY License</strong></p>
+<a rel="license" float="left" href="https://creativecommons.org/about/cclicenses/">
+  <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" style="border-style: none;" alt="CC-BY" width="100"/>
+</a>
+<br>
+<br>
+<!-- 
+and the Aksharantar benchmark and all manually transliterated data under the [Creative Commons CC-BY license (“no rights reserved”)](https://creativecommons.org/licenses/by/4.0/). -->
+<p><strong>CC0 License Statement</strong></p>
+<a rel="license" float="left" href="https://creativecommons.org/about/cclicenses/">
+  <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" width="100"/>
+</a>
+<br>
+<br>
+<ul>
+<li>We do not own any of the text from which this data has been extracted.</li>
+<li>We license the actual packaging of the mined data under the <a href="http://creativecommons.org/publicdomain/zero/1.0">Creative Commons CC0 license (“no rights reserved”)</a>.</li>
+<li>To the extent possible under law, <a rel="dct:publisher" href="https://indicnlp.ai4bharat.org/aksharantar/"> <span property="dct:title">AI4Bharat</span></a> has waived all copyright and related or neighboring rights to <span property="dct:title">Aksharantar</span> manually collected data and existing sources.</li>
+<li>This work is published from: India.</li>
+</ul>
 
 
 
@@ -597,7 +760,16 @@ document.querySelectorAll('section[id]').forEach((section) => {
 
             <div class="col-sm-3 d-none d-lg-block" >
                 <nav class="section-nav">
-                    <nav id="TableOfContents"></nav>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#downloads">Downloads</a></li>
+    <li><a href="#data-split">Data Split</a></li>
+    <li><a href="#change-log">Change Log</a></li>
+    <li><a href="#contributors">Contributors</a></li>
+    <li><a href="#citing">Citing</a></li>
+    <li><a href="#license">License</a></li>
+  </ul>
+</nav>
                 </nav>
             </div>
 

@@ -34,8 +34,8 @@ Downloads Benchmarks The testsets used to benchmark IndicTrans can be found here
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/aksharantar/</guid>
-      <description>Aksharantar is transliteration dataset for Indic languages.
-More details, model and dataset download coming soon.</description>
+      <description>Aksharantar is the largest publicly available transliteration dataset for 21 Indic languages. The corpus has 26M Indic language-English transliteration pairs.
+Downloads  The Aksharantar dataset can be downloaded from the Aksharantar Hugging Face repository. Each language-pair corpus in the Aksharantar dataset is split into training, validation and test subsets. Each subset is a JSONL file consisting of individual data instances comprising a unique identifier, native word, English word, transliteration source and a score (if applicable).</description>
     </item>
     
     <item>
@@ -56,8 +56,10 @@ Download Model  Indic-English model can be downloaded from here English-Indic mo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/indic-xlit/</guid>
-      <description>IndicXlit is a Transformer model for romanized input to native Indic language script supporting 21 languages from the Indian subcontinent.
-More details, model and dataset download coming soon.</description>
+      <description>IndicXlit is a Transformer-based multilingual transliteration model (with ~11M parameters) for romanised to Indic script conversion, supporting 21 languages from the Indian subcontinent.
+Download Model English-Indic transliteration model can be downloaded here.
+Usage All information and instructions pertaining to using the IndicXlit model can be found on the IndicXlit GitHub repository.
+Model Details IndicXlit is trained on Aksharantar dataset which covers 21 language pairs. The volume of training, validation and test splits for each language pair is as listed below:</description>
     </item>
     
     <item>
