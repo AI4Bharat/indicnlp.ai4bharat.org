@@ -91,6 +91,7 @@ We evaluate IndicTrans model on a WAT2021, WAT2020, WMT, UFAL, PMI. Here are the
     <th class="tg-9wq8" colspan="3">WMT</th>
     <th class="tg-9wq8">UFAL</th>
     <th class="tg-9wq8">pmi</th>
+    <th class="tg-9wq8"  colspan="11">Flores</th>
   </tr>
 </thead>
 <tbody>
@@ -118,56 +119,89 @@ We evaluate IndicTrans model on a WAT2021, WAT2020, WMT, UFAL, PMI. Here are the
     <td class="tg-9wq8">ta</td>
     <td class="tg-9wq8">ta</td>
     <td class="tg-9wq8">as</td>
+    <td class="tg-9wq8">as</td>
+    <td class="tg-9wq8">bn</td>
+    <td class="tg-9wq8">gu</td>
+    <td class="tg-9wq8">hi</td>
+    <td class="tg-9wq8">kn</td>
+    <td class="tg-9wq8">ml</td>
+    <td class="tg-9wq8">mr</td>
+    <td class="tg-9wq8">or</td>
+    <td class="tg-9wq8">pa</td>
+    <td class="tg-9wq8">ta</td>
+    <td class="tg-9wq8">te</td>
   </tr>
   <tr>
     <td class="tg-9wq8">IN-EN</td>
-    <td class="tg-9wq8">28.4</td>
-    <td class="tg-9wq8">39.5</td>
+    <td class="tg-9wq8">29.6</td>
+    <td class="tg-9wq8">40.3</td>
+    <td class="tg-9wq8">43.9</td>
+    <td class="tg-9wq8">36.4</td>
+    <td class="tg-9wq8">34.6</td>
+    <td class="tg-9wq8">33.5</td>
+    <td class="tg-9wq8">34.4</td>
     <td class="tg-9wq8">43.2</td>
-    <td class="tg-9wq8">34.9</td>
-    <td class="tg-9wq8">33.4</td>
-    <td class="tg-9wq8">32.4</td>
-    <td class="tg-9wq8">33.4</td>
-    <td class="tg-9wq8">42.</td>
-    <td class="tg-9wq8">32.</td>
-    <td class="tg-9wq8">35.1</td>
-    <td class="tg-9wq8">19.2</td>
-    <td class="tg-9wq8">23.</td>
-    <td class="tg-9wq8">23.5</td>
-    <td class="tg-9wq8">19.6</td>
-    <td class="tg-9wq8">19.6</td>
-    <td class="tg-9wq8">17.9</td>
-    <td class="tg-9wq8">17.8</td>
-    <td class="tg-9wq8">29.4</td>
-    <td class="tg-9wq8">23.4</td>
-    <td class="tg-9wq8">24.3</td>
+    <td class="tg-9wq8">33.2</td>
+    <td class="tg-9wq8">36.2</td>
+    <td class="tg-9wq8">20.0</td>
+    <td class="tg-9wq8">24.1</td>
+    <td class="tg-9wq8">23.6</td>
+    <td class="tg-9wq8">20.4</td>
+    <td class="tg-9wq8">20.4</td>
+    <td class="tg-9wq8">18.3</td>
+    <td class="tg-9wq8">18.5</td>
+    <td class="tg-9wq8">29.7</td>
+    <td class="tg-9wq8">25.1</td>
+    <td class="tg-9wq8">24.1</td>
+    <td class="tg-9wq8">30.2</td>
+    <td class="tg-9wq8">29.9</td>
+    <td class="tg-9wq8">23.3</td>
+    <td class="tg-9wq8">32.2</td>
+    <td class="tg-9wq8">34.3</td>
+    <td class="tg-9wq8">37.9</td>
+    <td class="tg-9wq8">28.8</td>
+    <td class="tg-9wq8">31.7</td>
+    <td class="tg-9wq8">30.8</td>
     <td class="tg-9wq8">30.1</td>
-    <td class="tg-9wq8">28.7</td>
+    <td class="tg-9wq8">35.8</td>
+    <td class="tg-9wq8">28.6</td>
+    <td class="tg-9wq8">33.5</td>
   </tr>
   <tr>
     <td class="tg-9wq8">EN-IN</td>
+    <td class="tg-9wq8">15.3</td>
+    <td class="tg-9wq8">25.6</td>
+    <td class="tg-9wq8">38.6</td>
+    <td class="tg-9wq8">19.1</td>
     <td class="tg-9wq8">14.7</td>
-    <td class="tg-9wq8">24.8</td>
-    <td class="tg-9wq8">37.9</td>
-    <td class="tg-9wq8">18.2</td>
-    <td class="tg-9wq8">14.4</td>
-    <td class="tg-9wq8">19.2</td>
-    <td class="tg-9wq8">18.5</td>
-    <td class="tg-9wq8">31.4</td>
-    <td class="tg-9wq8">13.3</td>
-    <td class="tg-9wq8">13.2</td>
-    <td class="tg-9wq8">10.2</td>
-    <td class="tg-9wq8">14.6</td>
-    <td class="tg-9wq8">19.4</td>
-    <td class="tg-9wq8">6.9</td>
-    <td class="tg-9wq8">12.5</td>
-    <td class="tg-9wq8">5.8</td>
+    <td class="tg-9wq8">20.1</td>
+    <td class="tg-9wq8">18.9</td>
+    <td class="tg-9wq8">33.1</td>
+    <td class="tg-9wq8">13.5</td>
+    <td class="tg-9wq8">14.1</td>
+    <td class="tg-9wq8">11.4</td>
+    <td class="tg-9wq8">15.3</td>
+    <td class="tg-9wq8">20.0</td>
     <td class="tg-9wq8">7.2</td>
-    <td class="tg-9wq8">25.</td>
-    <td class="tg-9wq8">16.2</td>
-    <td class="tg-9wq8">8.8</td>
+    <td class="tg-9wq8">12.7</td>
+    <td class="tg-9wq8">6.2</td>
+    <td class="tg-9wq8">7.6</td>
+    <td class="tg-9wq8">25.5</td>
+    <td class="tg-9wq8">17.2</td>
+    <td class="tg-9wq8">9.9</td>
+    <td class="tg-9wq8">10.9</td>
     <td class="tg-9wq8">11.6</td>
-    <td class="tg-9wq8">12</td>
+    <td class="tg-9wq8">6.9</td>
+    <td class="tg-9wq8">20.3</td>
+    <td class="tg-9wq8">22.6</td>
+    <td class="tg-9wq8">34.5</td>
+    <td class="tg-9wq8">18.9</td>
+    <td class="tg-9wq8">16.3</td>
+    <td class="tg-9wq8">16.1</td>
+    <td class="tg-9wq8">13.9</td>
+    <td class="tg-9wq8">26.9</td>
+    <td class="tg-9wq8">16.3</td>
+    <td class="tg-9wq8">22.0</td>
   </tr>
 </tbody>
 </table>
