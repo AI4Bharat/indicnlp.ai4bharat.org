@@ -39,7 +39,7 @@ The folder has 2 directories
 ### Mirror Links
 
 - Please use this mirror [gdrive](https://drive.google.com/file/d/1xrD9bL78mbxpp-DdOw1EHhz1nzin_6dX/view?usp=sharing) link to download the v0.3 data 
-
+- Please use this mirror [gdrive](https://drive.google.com/drive/folders/1hR-8Mc7qQWsZAC-cw-nUqG8_OCqCdq-b?usp=sharing) link to download the benchmarks
 
 The language wise splits for **Samanantar v0.2** can be found in the table below.  Each link contains the number of sentence pairs in millions.
 
