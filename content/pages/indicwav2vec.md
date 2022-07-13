@@ -47,8 +47,8 @@ The pipeline for data processing can be found [here](https://github.com/AI4Bhara
 
 #### Pretrained Models
 
-- IndicWav2Vec BASE can be downloaded from [here](https://storage.googleapis.com/indicwav2vec-public/pretraining-ckpts/indicwav2vec-base.pt)
-- IndicWav2Vec LARGE can be downloaded from [here](https://storage.googleapis.com/indicwav2vec-public/pretraining-ckpts/indicwav2vec-large.pt)
+- IndicWav2Vec BASE can be downloaded from [here](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/pretraining/indicwav2vec-base.pt)
+- IndicWav2Vec LARGE can be downloaded from [here](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/pretraining/indicwav2vec-large.pt)
 
 #### Fine-tuned Models
 
