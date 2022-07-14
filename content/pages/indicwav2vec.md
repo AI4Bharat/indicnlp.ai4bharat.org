@@ -56,15 +56,15 @@ Language-wise fine-tuned models can be found in the table
 
 | Language  |      Url     |
 |-----------|:------------:|
-| bengali   | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/bengali_large.pt) |
-| gujarati  | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/gujarati_large.pt) |
-| hindi     | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/hindi_large.pt) |
-| marathi   | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/marathi_large.pt) |
-| nepali    | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/nepali_large.pt) |
-| odia      | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/odia_large.pt) |
-| sinhala   | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/sinhala_large.pt) |
-| tamil     | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/tamil_large.pt) |
-| telugu    | [download](https://storage.googleapis.com/indicwav2vec-public/fine-tuning-ckpts/telugu_large.pt) |
+| bengali   | [download](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/finetuning/large/bengali_large.pt) |
+| gujarati  | [download](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/finetuning/large/gujarati_large.pt) |
+| hindi     | [download](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/finetuning/large/hindi_large.pt) |
+| marathi   | [download](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/finetuning/large/marathi_large.pt) |
+| nepali    | [download](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/finetuning/large/nepali_large.pt) |
+| odia      | [download](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/finetuning/large/odia_large.pt) |
+| sinhala   | [download](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/finetuning/large/sinhala_large.pt) |
+| tamil     | [download](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/finetuning/large/tamil_large.pt) |
+| telugu    | [download](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/finetuning/large/telugu_large.pt) |
 
 #### Language Models
 
