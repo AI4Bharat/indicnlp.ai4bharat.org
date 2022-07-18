@@ -19,7 +19,7 @@ The corpus is a single large text file containing one sentence per line. The [pu
 | -------- | ----------------- | ------------- | ------------- | -------- |
 | as       | 0.60M             | 1.39M   |  32.6M  | [link](https://ai4b-my.sharepoint.com/:u:/g/personal/sumanthdoddapaneni_ai4bharat_org/ETfz3fB3uKdCrfYY5h0K4QwBwuqeSQ17w6nMc1dlOda_eg?e=6nDbkl) |
 | bn       | 3.83M             | 39.9M | 836M  | [link](https://ai4b-my.sharepoint.com/:u:/g/personal/sumanthdoddapaneni_ai4bharat_org/EXlcZP77M2BLrVsFcpebcVEBDldXgCKh334weoWRbLRh4A?e=uGNaaF) |
-| en       | 3.49M             | 54.3M | 1.22B | [link](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/indiccorp/en.tar.xz) |
+| en       | 3.49M             | 54.3M | 1.22B | [link](https://ai4b-my.sharepoint.com/:u:/g/personal/sumanthdoddapaneni_ai4bharat_org/EVtm9TAd_KNLue_107jFpwoBeY2Rml_pP-vNQtf-CgaIYA?e=ErTcU0) |
 | gu       | 2.63M             | 41.1M | 719M  | [link](https://ai4b-my.sharepoint.com/:u:/g/personal/sumanthdoddapaneni_ai4bharat_org/EawfDxTNnYZFvmH_Gzcc-PsB1EhVUrj-yPfdFSvc8zrOaA?e=wpe4iS) |
 | hi       | 4.95M             | 63.1M |  1.86B | [link](https://ai4b-my.sharepoint.com/:u:/g/personal/sumanthdoddapaneni_ai4bharat_org/EQ-iFqR25dpBsTvM5gtiq4gBKJEUjdOL7UaR7Qyq4BppXg?e=cM85WM) |
 | kn       | 3.76M             | 53.3M | 713M  | [link](https://ai4b-my.sharepoint.com/:u:/g/personal/sumanthdoddapaneni_ai4bharat_org/EZGVhzgIYi1EhOLAGFzWoI0BqnHi8Iz8TlLmOGMcJK93Ww?e=vfoCme) |
