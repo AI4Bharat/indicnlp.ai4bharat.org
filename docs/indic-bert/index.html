@@ -18,6 +18,10 @@
 
 <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
 
+<script>
+    window.location = "//ai4bharat.iitm.ac.in/" + window.location.pathname;
+</script>
+
 
     <script>
         window.addEventListener('DOMContentLoaded', () => {
@@ -592,11 +596,11 @@ document.querySelectorAll('section[id]').forEach((section) => {
 <p>The model can be downloaded <a href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/models/indic-bert-v1.tar.gz">here</a>. Both tf checkpoints and pytorch binaries are included in the archive. Alternatively, you can also download it from <a href="https://huggingface.co/ai4bharat/indic-bert">Huggingface</a>.</p>
 <div class="gdoc-page__anchorwrap"><h3 id="usage">Usage<a data-clipboard-text="http://localhost/indic-bert/#usage" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Usage" href="#usage"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>The easiest way to use Indic BERT is through the Huggingface transformers library. It can be simply loaded like this:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">AutoModel</span><span class="p">,</span> <span class="n">AutoTokenizer</span>
-
-<span class="n">tokenizer</span> <span class="o">=</span> <span class="n">AutoTokenizer</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s1">&#39;ai4bharat/indic-bert&#39;</span><span class="p">)</span>
-<span class="n">model</span> <span class="o">=</span> <span class="n">AutoModel</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s1">&#39;ai4bharat/indic-bert&#39;</span><span class="p">)</span>
-</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="tutorials">Tutorials<a data-clipboard-text="http://localhost/indic-bert/#tutorials" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Tutorials" href="#tutorials"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">AutoModel</span><span class="p">,</span> <span class="n">AutoTokenizer</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">tokenizer</span> <span class="o">=</span> <span class="n">AutoTokenizer</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s1">&#39;ai4bharat/indic-bert&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">model</span> <span class="o">=</span> <span class="n">AutoModel</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s1">&#39;ai4bharat/indic-bert&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="tutorials">Tutorials<a data-clipboard-text="http://localhost/indic-bert/#tutorials" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Tutorials" href="#tutorials"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>If you want to quickly try experimenting with IndicBERT, we suggest checking out our tutorials and other fine-tuning notebooks that run on Google Colab:</p>
 <ul>
 <li>General Finetuning <a href="https://colab.research.google.com/github/ai4bharat/indic-bert/blob/master/notebooks/finetuning.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></li>

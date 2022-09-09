@@ -35,7 +35,7 @@ Downloads Benchmarks The testsets used to benchmark IndicTrans can be found here
       
       <guid>http://localhost/aksharantar/</guid>
       <description>Aksharantar is the largest publicly available transliteration dataset for 21 Indic languages. The corpus has 26M Indic language-English transliteration pairs.
-Downloads  The Aksharantar dataset can be downloaded from the Aksharantar Hugging Face repository. Each language-pair corpus in the Aksharantar dataset is split into training, validation and test subsets. Each subset is a JSONL file consisting of individual data instances comprising a unique identifier, native word, English word, transliteration source and a score (if applicable).</description>
+Downloads The Aksharantar dataset can be downloaded from the Aksharantar Hugging Face repository. Each language-pair corpus in the Aksharantar dataset is split into training, validation and test subsets. Each subset is a JSONL file consisting of individual data instances comprising a unique identifier, native word, English word, transliteration source and a score (if applicable).</description>
     </item>
     
     <item>
@@ -44,10 +44,10 @@ Downloads  The Aksharantar dataset can be downloaded from the Aksharantar Huggin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/indic-trans/</guid>
-      <description>-- IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
+      <description>IndicTrans is a Transformer-4X model trained on samanantar dataset. Two models are available which can translate from Indic to English and English to Indic. The model can perform translations for 11 lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.
 Update 05-06-2021 The Indic-Indic model is now available for download
 Update 30-04-2021 The models are now available for download
-Download Model  Indic-English model can be downloaded from here English-Indic model can be downloaded from here Indic-Indic can be downloaded from here  Mirror Links  Please use this mirror gdrive link to download the models  Usage The instructions for running inference can be found at IndicTrans GitHub repository</description>
+Download Model Indic-English model can be downloaded from here English-Indic model can be downloaded from here Indic-Indic can be downloaded from here Mirror Links Please use this mirror gdrive link to download the models Usage The instructions for running inference can be found at IndicTrans GitHub repository</description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@ Download Model The model can be downloaded here. Both tf checkpoints and pytorch
       
       <guid>http://localhost/indic-bart/</guid>
       <description>IndicBART is a multilingual, sequence-to-sequence pre-trained model focusing on Indic languages and English. It currently supports 11 Indian languages and is based on the mBART architecture. You can use IndicBART model to build natural language generation applications for Indian languages by finetuning the model with supervised training data for tasks like machine translation, summarization, question generation, etc. Some salient features of the IndicBART are:
- Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English.</description>
+Supported languages: Assamese, Bengali, Gujarati, Hindi, Marathi, Odiya, Punjabi, Kannada, Malayalam, Tamil, Telugu and English.</description>
     </item>
     
     <item>
@@ -100,7 +100,7 @@ Download Model The model can be downloaded here. Both tf checkpoints and pytorch
       <guid>http://localhost/indic-glue/</guid>
       <description>To thoroughly evaluate language models on Indian languages, we need a robust NLU benchmark consisting of a wide variety of tasks and covering all the Indian languages. IndicGLUE is a natural language understanding benchmark that we propose. It consists of 6 tasks which we describe in the next section.
 In addition, we also compile a list of additional evaluations which comprises of tasks based on publicly-available datasets.
-Downloads    Dataset Download Link     Soham News Article Classification link   iNLTK Headline Classification link   BBC News Article Classification link   AI4Bharat Wikipedia Section Titles link   AI4Bharat Cloze-style Question Answering link   AI4Bharat Winnograd Natural Language Inference link   AI4Bharat Choice of Plausible Alternatives link   WikiAnnNER link   CVIT-MKB Cross-lingual Sentence Retrieval link   IITP Movie Reviews Sentiment link   IITP Product Reviews link   ACTSA Sentiment Classifcation link   MIDAS Discourse link   Amrita Paraphrase link (need to request)    The code to run evaluations on the above dataset is provided in the IndicBERT repo.</description>
+Downloads Dataset Download Link Soham News Article Classification link iNLTK Headline Classification link BBC News Article Classification link AI4Bharat Wikipedia Section Titles link AI4Bharat Cloze-style Question Answering link AI4Bharat Winnograd Natural Language Inference link AI4Bharat Choice of Plausible Alternatives link WikiAnnNER link CVIT-MKB Cross-lingual Sentence Retrieval link IITP Movie Reviews Sentiment link IITP Product Reviews link ACTSA Sentiment Classifcation link MIDAS Discourse link Amrita Paraphrase link (need to request) The code to run evaluations on the above dataset is provided in the IndicBERT repo.</description>
     </item>
     
     <item>
@@ -139,9 +139,8 @@ Usage To use our fastText models, first download them. Next, install the fastTex
       
       <guid>http://localhost/aboutus/</guid>
       <description>Our group focuses on building NLP ecosystem for Indian languages and seeking new models and techniques better suited for Indian languages. Our project has volunteers from IIT Madras, One Fourth Labs, Microsoft Search Technology Center India.
-Members       
-Contact Us For any queries, feel free to reach us at:
- Anoop Kunchukuttan (anoop.kunchukuttan@gmail.com) Mitesh Khapra (miteshk@cse.iitm.ac.in) Pratyush Kumar (pratyush@cse.iitm.ac.in) Divyanshu Kakwani (divkakwani@gmail.com)  </description>
+Members Contact Us For any queries, feel free to reach us at:
+Anoop Kunchukuttan (anoop.kunchukuttan@gmail.com) Mitesh Khapra (miteshk@cse.iitm.ac.in) Pratyush Kumar (pratyush@cse.iitm.ac.in) Divyanshu Kakwani (divkakwani@gmail.com) </description>
     </item>
     
     <item>
@@ -162,7 +161,7 @@ Full-time Roles We are recruiting a team of skilled translators who can translat
       <guid>http://localhost/explorer/</guid>
       <description>IndicNLP Catalog To get comprehensive information about Indic NLP resources, check out the detailed IndicNLP Catalog on GitHub.
 IndicNLP: The Current State Explore, search and add datasets.
- Search Datasets     table.dataTable.no-footer { border-bottom: 0 !important; } tfoot { display: table-row-group; } input[type=&#34;text&#34;] { width: 100%; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }   let dataURL = &#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQGyB-QInM69IoR2nP6pJ_Uc0tA0fRxb1NvDe1F1GvBd7UT9lYW06-DuTjaKTYzmuHbAEPaQR5nhhCb/pub?gid=0&amp;single=true&amp;output=csv&#34;; let encodedURL = encodeURIComponent(dataURL) let proxyURL = `https://api.allorigins.win/raw?url=${encodedURL}`; result = Papa.</description>
+Search Datasets </description>
     </item>
     
     <item>
@@ -172,7 +171,7 @@ IndicNLP: The Current State Explore, search and add datasets.
       
       <guid>http://localhost/adddataset/</guid>
       <description>If you have an Indian language NLP resource that you would want the community to know more about, please help us expand the IndicNLP Data Explorer and Catalog. You can add information about the resources either using the simple form below or head over to the underlying Github catalog and raise a pull request/issue.
-Form Loading… </description>
+Form Loading…</description>
     </item>
     
     <item>
@@ -182,7 +181,7 @@ Form Loading… </description>
       
       <guid>http://localhost/home/</guid>
       <description>We are working towards building a better ecosystem for Indian languages. To this end, we are building various resources and models for Indian languages:
- IndicCorp: A lot of NLP models require a large amount of training data, which most of the Indian languages lack. In this project, we develop a large-scale Indic corpora by intesively crawling the web. The corpora that we build has a total of 8.9 billion tokens and covers 12 major Indian languages - making it the largest public corpus for most of the Indian languages.</description>
+IndicCorp: A lot of NLP models require a large amount of training data, which most of the Indian languages lack. In this project, we develop a large-scale Indic corpora by intesively crawling the web. The corpora that we build has a total of 8.9 billion tokens and covers 12 major Indian languages - making it the largest public corpus for most of the Indian languages.</description>
     </item>
     
     <item>
@@ -191,7 +190,7 @@ Form Loading… </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/resources/</guid>
-      <description>Edit on Github  Please suggest any other resources you may be aware of. Raise a pull request or an issue to add more resources to the catalog. Put the proposed entry in the following format:
+      <description>Edit on GithubPlease suggest any other resources you may be aware of. Raise a pull request or an issue to add more resources to the catalog. Put the proposed entry in the following format:
 [Wikipedia Dumps](https://dumps.wikimedia.org/)
 Add a small, informative description of the dataset and provide links to any paper/article/site documenting the resource. Mention your name too. We would like to acknowlege your contribution to building this catalog in the CONTRIBUTORS list.</description>
     </item>
